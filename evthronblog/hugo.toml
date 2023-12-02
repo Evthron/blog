@@ -1,4 +1,34 @@
 baseURL = 'https://evthron.github.io/'
 languageCode = 'en-us'
 title = "Evthron's blog"
-theme = "hugo-tranquilpeak-theme"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "📝Posts"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "gallery"
+    name = "🖼️Gallery"
+    url = "/gallery"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "test"
+    name = "🛝Test"
+    url = "/test"
+    weight = 30
+
+  [[menu.social]]
+    identifier = "github"
+    name = "🐱Github"
+    url = "https://github.com/Evthron/"
+    weight = 40
+
+  [[menu.social]]
+    identifier = "rss"
+    name = "📡RSS"
+    url = "/index.xml"
+    weight = 50

@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+
+<section>
+<div>
+	<h1>{{ .Title }}</h1>
+	{{ .Description | markdownify }}
+</div>
+</section>
+
+<section class="home">
+	<figure>
+		<img class="icon" src="/images/labcoat.png" />
+		<figcaption>A hollow flying labcoat</figcaption>	
+	</figure>
+		{{ .Content }}
+</section>
+{{ partial "footer.html" . }}
