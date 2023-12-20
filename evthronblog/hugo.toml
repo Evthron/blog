@@ -1,5 +1,5 @@
 baseURL = 'https://evthron.github.io/'
-languageCode = 'en-us'
+languageCode = 'en'
 title = "Evthron's blog"
 
 [menu]
@@ -21,6 +21,12 @@ title = "Evthron's blog"
     url = "/test"
     weight = 30
 
+  [[menu.main]]
+  identifier = "english"
+  name = "Eng"
+  url = "/english"
+  weight = 35
+
   [[menu.social]]
     identifier = "github"
     name = "🐱Github"
@@ -32,3 +38,20 @@ title = "Evthron's blog"
     name = "📡RSS"
     url = "/index.xml"
     weight = 50
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  language = "languages"
+
+
+[[languages]]
+  [languages.zh]
+    languageName = "Chinese"
+    baseURL = "/zh/"
+    weight = 1
+
+  [languages.en]
+    languageName = "English"
+    baseURL = "/en/"
+    weight = 2
