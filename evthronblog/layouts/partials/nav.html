@@ -1,7 +1,7 @@
 <header class="site-header">
   <nav class="site-nav">
     
-    <a class="logo" href="{{ .Site.BaseURL }}">
+    <a class="logo" href="{{ relLangURL .Site.BaseURL }}">
       🏠Home
     </a>
 
@@ -9,7 +9,7 @@
 
       {{ range.Site.Menus.main }}
       <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
+        <a href="{{ relLangURL .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
@@ -17,7 +17,7 @@
     <ul class="main-social">
       {{ range.Site.Menus.social }}
       <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
+        <a href="{{ relLangURL .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
