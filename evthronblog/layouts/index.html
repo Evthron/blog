@@ -1,8 +1,5 @@
 {{ partial "header.html" . }}
 
-{{ $Data := (index $.Site.Data .Lang) }}
-{{ $Text := $Data.about }}
-<h1> { $Text.Title } </h1>
 <section>
 	<h1>{{ .Title }}</h1>
 	{{ .Description | markdownify }}

@@ -1,6 +1,8 @@
 baseURL = 'https://evthron.github.io/'
 languageCode = 'en'
+defaultContentLanguage = 'en'
 title = "Evthron's blog"
+description = "Everything you need to know about the three languages."
 
 [menu]
   [[menu.main]]
@@ -21,12 +23,6 @@ title = "Evthron's blog"
     url = "/test"
     weight = 30
 
-  [[menu.main]]
-  identifier = "english"
-  name = "Eng"
-  url = "/english"
-  weight = 35
-
   [[menu.social]]
     identifier = "github"
     name = "🐱Github"
@@ -45,13 +41,13 @@ title = "Evthron's blog"
   language = "languages"
 
 
-[[languages]]
-  [languages.zh]
-    languageName = "Chinese"
-    baseURL = "/zh/"
-    weight = 1
+[languages]
 
   [languages.en]
     languageName = "English"
-    baseURL = "/en/"
+    weight = 1
+
+    [languages.zh]
+    title = "中文網站"
+    languageName = "Chinese"
     weight = 2
