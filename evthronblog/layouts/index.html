@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 
-
+{{ $Data := (index $.Site.Data .Lang) }}
+{{ $Text := $Data.about }}
+<h1> { $Text.Title } </h1>
 <section>
-<div>
 	<h1>{{ .Title }}</h1>
 	{{ .Description | markdownify }}
-</div>
 </section>
 
 <section class="home">
@@ -15,4 +15,16 @@
 	</figure>
 		{{ .Content }}
 </section>
+
+<h2> Latest posts </h2>
+<ul class="home-posts">
+	{{ range ( .Site.RegularPages | first 5) }} 
+	<li class="home-posts-item">
+		<time class ="post-date"> {{ .PublishDate.Format "2006-01-02" }} </time>
+		<a href="{{ .Permalink }}">{{ .Title }}</a>		
+	</li>
+	{{end}}
+</ul>
+
+
 {{ partial "footer.html" . }}
