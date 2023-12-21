@@ -4,7 +4,7 @@ defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = true
 title = "Evthron's blog"
 description = "Everything you need to know about the three languages."
-theme = "mytheme"
+theme = "stack"
 [taxonomies]
   tag = "tags"
   category = "categories"
@@ -114,3 +114,87 @@ theme = "mytheme"
         name = "📡ilo RSS"
         url = "/index.xml"
         weight = 50
+
+[module.hugoVersion]
+extended = true
+min = "0.87.0"
+
+[params]
+mainSections = [ "posts", "gallery", "toolbox" ]
+featuredImageField = "image"
+rssFullContent = true
+
+  [params.footer]
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  compact = false
+
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = false
+  toc = true
+  readingTime = true
+
+    [params.article.license]
+    enabled = false
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = false
+  provider = "disqus"
+
+    [params.comments.disqusjs]
+
+    [params.comments.utterances]
+    issueTerm = "pathname"
+
+    [params.comments.remark42]
+
+    [params.comments.vssue]
+    autoCreateIssue = false
+
+    [params.comments.waline]
+    emoji = [ "https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo" ]
+    requiredMeta = [ "nick", "mail" ]
+
+      [params.comments.waline.locale]
+      admin = "Admin"
+
+    [params.comments.twikoo]
+
+    [params.comments.giscus]
+    reactionsEnabled = 1
+    emitMetadata = 0
+
+    [params.comments.gitalk]
+
+    [params.comments.cusdis]
+
+  [params.widgets]
+  homepage = [ ]
+  page = [ ]
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
