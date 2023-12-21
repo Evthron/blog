@@ -1,0 +1,8 @@
+<ul class="latest-posts">
+	{{ range ( site.RegularPages | first 5) }} 
+	<li class="latest-posts-item">
+		<time class ="post-date"> {{ .PublishDate.Format "2006-01-02" }} </time>
+		<a href="{{ .Permalink }}">{{ .Title }}</a>		
+	</li>
+	{{end}}
+</ul>

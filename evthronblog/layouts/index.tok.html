@@ -14,14 +14,7 @@
 </section>
 
 <h2> sitelen sin </h2>
-<ul class="home-posts">
-	{{ range ( .Site.RegularPages | first 5) }} 
-	<li class="home-posts-item">
-		<time class ="post-date"> {{ .PublishDate.Format "2006-01-02" }} </time>
-		<a href="{{ .Permalink }}">{{ .Title }}</a>		
-	</li>
-	{{end}}
-</ul>
 
+{{ partial "latest-posts.html" . }}
 
 {{ partial "footer.html" . }}
