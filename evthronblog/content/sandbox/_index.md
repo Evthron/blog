@@ -1,4 +1,4 @@
 +++
-title = "Test page"
+title = "測試頁"
 +++
-Just testing things.
+測試用

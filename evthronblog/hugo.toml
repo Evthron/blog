@@ -1,6 +1,6 @@
 baseURL = 'https://evthron.github.io/'
-languageCode = 'en'
-defaultContentLanguage = 'en'
+languageCode = 'zh'
+defaultContentLanguage = 'zh'
 title = "Evthron's blog"
 description = "Everything you need to know about the three languages."
 
@@ -23,41 +23,10 @@ description = "Everything you need to know about the three languages."
   language = "languages"
 
 [languages]
-  [languages.en]
-    languageCode = 'en'
-    languageName = 'English'
-    weight = 1
-    [languages.en.menus]
-      [[languages.en.menus.main]]
-        identifier = "posts"
-        name = "📝Posts"
-        pageRef = "/posts"
-        weight = 10
-      [[languages.en.menus.main]]
-        identifier = "gallery"
-        name = "🖼️Gallery"
-        pageRef = "/gallery"
-        weight = 20
-      [[languages.en.menus.main]]
-        identifier = "sandbox"
-        name = "🛝Sandbox"
-        url = "/sandbox"
-        weight = 30
-      [[languages.en.menus.social]]
-        identifier = "github"
-        name = "🐱Github"
-        url = "https://github.com/Evthron/"
-        weight = 40
-     [[languages.en.menus.social]]
-        identifier = "rss"
-        name = "📡RSS"
-        url = "/index.xml"
-        weight = 50
-
   [languages.zh]
     languageCode = 'zh'
     languageName = '中文'
-    weight = 2
+    weight = 1
     [languages.zh.menus]
       [[languages.zh.menus.main]]
         identifier = "文章"
@@ -86,3 +55,33 @@ description = "Everything you need to know about the three languages."
         url = "/index.xml"
         weight = 50
 
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 2
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "posts"
+        name = "📝Posts"
+        pageRef = "/posts"
+        weight = 10
+      [[languages.en.menus.main]]
+        identifier = "gallery"
+        name = "🖼️Gallery"
+        pageRef = "/gallery"
+        weight = 20
+      [[languages.en.menus.main]]
+        identifier = "sandbox"
+        name = "🛝Sandbox"
+        url = "/sandbox"
+        weight = 30
+      [[languages.en.menus.social]]
+        identifier = "github"
+        name = "🐱Github"
+        url = "https://github.com/Evthron/"
+        weight = 40
+     [[languages.en.menus.social]]
+        identifier = "rss"
+        name = "📡RSS"
+        url = "/index.xml"
+        weight = 50
