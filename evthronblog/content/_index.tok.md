@@ -1,5 +1,8 @@
 +++
 title = "tomo mi"
-description = "mi pali e ni. ni lukin pona."
+description = "toki! mi jan Evthron. mi pali e lipu ni."
+caption = "len walo"
 +++
-toki! mi jan Evthron. mi pali e lipu ni. 
+mi pali e ni. ni lukin pona.»
+
+# sitelen sin

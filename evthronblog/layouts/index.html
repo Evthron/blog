@@ -1,19 +1,15 @@
 {{ partial "header.html" . }}
 
-<section>
-	<h1>{{ .Title }}</h1>
-	{{ .Description | markdownify }}
-</section>
-
+<h1>{{ .Title }}</h1>
 <section class="home">
+	{{ .Description | markdownify }}
 	<figure>
 		<img class="icon" src="/images/labcoat.png" />
-		<figcaption>真空球形白衣</figcaption>	
+		<figcaption>{{ .Params.caption }}</figcaption>	
 	</figure>
-		{{ .Content }}
 </section>
 
-<h2> 新的文章 </h2>
+{{ .Content }}
 
 {{ partial "latest-posts.html" . }}
 
