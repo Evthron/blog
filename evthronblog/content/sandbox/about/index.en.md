@@ -15,4 +15,4 @@ Dictionary
 1. See my [first-real-blog](/posts/first-real-blog)
 2. World [autobio](/test/autobiography)
 
-![my Image](/images/win.png)
+![my Image](win.png)

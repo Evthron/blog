@@ -15,4 +15,4 @@ lipu
 1. lukin mi [sitenlen nanpa wan](/posts/first-real-blog)
 2. ale [lipu mi](/test/autobiography)
 
-![my Image](/images/win.png)
+![my Image](win.png)
