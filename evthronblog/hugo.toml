@@ -4,7 +4,7 @@ defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = true
 title = "Evthron's blog"
 description = "Everything you need to know about the three languages."
-
+theme = "mytheme"
 [taxonomies]
   tag = "tags"
   category = "categories"
