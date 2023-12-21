@@ -2,7 +2,7 @@
 title = 'AutoHotKey'
 date = 2023-12-21T12:14:23+08:00
 +++
-我用 AutoHotKey 把鍵盤上幾乎能用的每一個鍵都重新定義了一遍。
+我的 AutoHotKey 自定義按鍵： 
 # Fn 鍵
 - F1 啟動番茄鐘     
 - F3: Saladict      

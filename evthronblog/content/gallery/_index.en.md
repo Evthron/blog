@@ -1,4 +1,3 @@
 +++
-title = "Art"
+title = "Artwork"
 +++
-Art
