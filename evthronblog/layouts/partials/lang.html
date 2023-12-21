@@ -1,6 +1,6 @@
 {{ if .IsTranslated }}
 	<nav class="langnav">
-	{{ range .Translations }}
+	{{ range .AllTranslations }}
 	<a href="{{ .Permalink }}"><button>{{ .Language.LanguageName }}</button></a>
 	{{ end}}
 	</nav>
