@@ -26,6 +26,11 @@ description = "Everything you need to know about the three languages."
         pageRef = "/gallery"
         weight = 20
       [[languages.zh.menus.main]]
+        identifier = "工具集"
+        name = "🛠️工具集"
+        pageRef = "/toolbox"
+        weight = 25
+      [[languages.zh.menus.main]]
         identifier = "沙盒"
         name = "🛝沙盒"
         url = "/sandbox"
@@ -58,6 +63,11 @@ description = "Everything you need to know about the three languages."
         pageRef = "/gallery"
         weight = 20
       [[languages.en.menus.main]]
+        identifier = "toolbox"
+        name = "🛠Toobox"
+        pageRef = "/toolbox"
+        weight = 25
+      [[languages.en.menus.main]]
         identifier = "sandbox"
         name = "🛝Sandbox"
         url = "/sandbox"
@@ -75,8 +85,8 @@ description = "Everything you need to know about the three languages."
 
   [languages.tok]
     languageCode = 'tok'
-    languageName = 'Toki Pona'
-    weight = 2
+    languageName = 'toki pona'
+    weight = 3
     [languages.tok.menus]
       [[languages.tok.menus.main]]
         identifier = "lipu"
