@@ -1,0 +1,73 @@
+toggleMenu:
+    other: open lipu
+
+darkMode:
+    other: kama e pimeja
+
+list:
+    page:
+        one: "nanpa {{ .Count }}"
+        other: "nanpa {{ .Count }}"
+
+    section:
+        other: poki nimi
+
+    subsection:
+        one: poki nimi lili
+        other: poki nimi lili
+
+article:
+    back:
+        other: monsi
+
+    tableOfContents:
+        other: lipu lawa
+
+    relatedContent:
+        other: lipu sama
+
+    lastUpdatedOn:
+        other: tenpo ante
+
+    readingTime:
+        one: "tenpo lukin: {{ .Count }}"
+        other: "tenpo lukin: {{ .Count }}"
+
+notFound:
+    title:
+        other: 404 ike
+
+    subtitle:
+        other: ala
+
+widget:
+    archives:
+        title:
+            other: lipu pini
+
+        more:
+            other: mute
+
+    tagCloud:
+        title:
+            other: nimi mute
+    categoriesCloud:
+        title:
+            other: nimi suli mute
+
+search:
+    title:
+        other: lukin jo
+
+    placeholder:
+        other: sitelen e nimi...
+
+    resultTitle:
+        other: "ijo #PAGES_COUNT （tenpo #TIME_SECONDS）"
+
+footer:
+    builtWith:
+        other: mi pali e ni kepeken {{ .Generator }}
+
+    designedBy:
+        other: jan {{ .DesignedBy }} pali e {{ .Theme }}
