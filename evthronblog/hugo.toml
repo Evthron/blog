@@ -5,6 +5,7 @@ defaultContentLanguageInSubdir = true
 title = "Evthron's blog"
 description = "Everything you need to know about the three languages."
 theme = "stack"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
@@ -134,6 +135,7 @@ min = "0.87.0"
 mainSections = [ "posts", "gallery", "toolbox" ]
 featuredImageField = "image"
 rssFullContent = true
+favicon = "/favicon.ico"
 
   [params.footer]
   since = 2023
