@@ -6,14 +6,8 @@ darkMode:
 
 list:
     page:
-        one: "{{ .Count }} 篇文章"
-        other: "{{ .Count }} 篇文章"
-    section:
-        other: 段落
-
-    subsection:
-        one: 小節
-        other: 小節
+        one: "{{ .Count }} 篇"
+        other: "{{ .Count }} 篇"
 
 article:
     back:
@@ -56,17 +50,17 @@ widget:
 
 search:
     title:
-        other: 搜尋
+        other: 找文章
 
     placeholder:
-        other: 輸入關鍵字...
+        other: 輸入...... 
 
     resultTitle:
-        other: "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"
+        other: "#PAGES_COUNT 個結果" 
 
 footer:
     builtWith:
         other: 網站使用 {{ .Generator }} 製作
 
     designedBy:
-        other: 主題 {{ .Theme }} 由 {{ .DesignedBy }} 設計
+        other: 模板 {{ .Theme }} 由 {{ .DesignedBy }} 設計
