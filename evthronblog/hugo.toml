@@ -41,12 +41,15 @@ theme = "stack"
         name = "🐱Github"
         url = "https://github.com/Evthron/"
         weight = 40
-
-     [[languages.zh.menus.social]]
+        [[languages.zh.menus.social.params]]
+          icon = "brand-github"
+      [[languages.zh.menus.social]]
         identifier = "rss"
         name = "📡RSS"
-        url = "/index.xml"
+        url = "/zh/index.xml"
         weight = 50
+        [[languages.zh.menus.social.params]]
+          icon = "rss"
 
   [languages.en]
     languageCode = 'en'
@@ -78,11 +81,15 @@ theme = "stack"
         name = "🐱Github"
         url = "https://github.com/Evthron/"
         weight = 40
+        [[languages.en.menus.social.params]]
+          icon = "brand-github"
      [[languages.en.menus.social]]
         identifier = "rss"
         name = "📡RSS"
-        url = "/index.xml"
+        url = "/en/index.xml"
         weight = 50
+        [[languages.en.menus.social.params]]
+          icon = "rss"
 
   [languages.tok]
     languageCode = 'tok'
@@ -109,11 +116,15 @@ theme = "stack"
         name = "🐱ma Github"
         url = "https://github.com/Evthron/"
         weight = 40
+        [[languages.tok.menus.social.params]]
+          icon = "brand-github"
      [[languages.tok.menus.social]]
         identifier = "ilo RSS"
         name = "📡ilo RSS"
-        url = "/index.xml"
+        url = "/tok/index.xml"
         weight = 50
+        [[languages.tok.menus.social.params]]
+          icon = "rss"
 
 [module.hugoVersion]
 extended = true
@@ -125,6 +136,7 @@ featuredImageField = "image"
 rssFullContent = true
 
   [params.footer]
+  since = 2023
 
   [params.dateFormat]
   published = "Jan 02, 2006"
@@ -132,6 +144,7 @@ rssFullContent = true
 
   [params.sidebar]
   compact = false
+  emoji = "🔬"
 
     [params.sidebar.avatar]
     enabled = true
@@ -179,8 +192,27 @@ rssFullContent = true
     [params.comments.cusdis]
 
   [params.widgets]
-  homepage = [ ]
-  page = [ ]
+  [[params.widgets.homepage]]
+      type = "search"
+
+  [[params.widgets.homepage]]
+      type = "archives"
+    [params.widgets.homepage.params]
+      limit = 5
+
+  [[params.widgets.homepage]]
+      type = "categories"
+    [params.widgets.homepage.params]
+      limit = 10
+
+  [[params.widgets.homepage]]
+      type = "tag-cloud"
+    [params.widgets.homepage.params]
+      limit = 10
+
+  [[params.widgets.page]]
+      type = "toc"
+
 
 [params.opengraph.twitter]
 card = "summary_large_image"
