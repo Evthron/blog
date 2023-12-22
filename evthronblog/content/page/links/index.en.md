@@ -1,37 +1,17 @@
----
-title: Links
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-menu:
-    main: 
-        weight: -50
-        params:
-            icon: link
++++
+title = "Links"
+comments = false
 
-comments: false
----
+[[links]]
+title = "Kiri Kiri Basara"
+description = "Kiri Kiri Basara is a an information hub for the Science Adventure series. We provide news, reviews and other SciADV information."
+website = "https://www.kirikiribasara.com"
+image = "https://www.kirikiribasara.com/wp-content/uploads/2021/04/cropped-favicon-270x270.jpg"
 
-To use this feature, add `links` section to frontmatter.
+[menu.main]
+weight = -50
 
-This page's frontmatter:
+  [menu.main.params]
+  icon = "link"
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
++++
