@@ -77,7 +77,7 @@
 
         <div class="menu-bottom-section">
             {{- $currentLanguageCode := .Language.Lang -}}
-            {{ with .Site.Home.AllTranslations }}
+            {{ with .AllTranslations }}
                 <li id="i18n-switch">  
                     {{ partial "helper/icon" "language" }}
                     <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
