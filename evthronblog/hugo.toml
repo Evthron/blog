@@ -30,12 +30,12 @@ theme = "stack"
         identifier = "工具集"
         name = "🛠️工具集"
         pageRef = "/toolbox"
-        weight = 25
+        weight = 30
       [[languages.zh.menus.main]]
         identifier = "沙盒"
         name = "🛝沙盒"
-        url = "/sandbox"
-        weight = 30
+        pageRef = "/sandbox"
+        weight = 25
       [[languages.zh.menus.social]]
         identifier = "github"
         name = "🐱Github"
@@ -71,7 +71,7 @@ theme = "stack"
       [[languages.en.menus.main]]
         identifier = "sandbox"
         name = "🛝Sandbox"
-        url = "/sandbox"
+        pageRef = "/sandbox"
         weight = 30
       [[languages.en.menus.social]]
         identifier = "github"
@@ -102,7 +102,7 @@ theme = "stack"
       [[languages.tok.menus.main]]
         identifier = "ma weka"
         name = "🛝ma pali"
-        url = "/sandbox"
+        pageRef = "/sandbox"
         weight = 30
       [[languages.tok.menus.social]]
         identifier = "ma Github"
