@@ -1,8 +1,9 @@
 +++
 title = 'AutoHotKey'
 date = 2023-12-21T12:14:23+08:00
+description = '充分利用鍵盤'
 +++
-我的 AutoHotKey 自定義按鍵： 
+我的 AutoHotKey 設定： 
 # Fn 鍵
 - F1 啟動番茄鐘     
 - F3: Saladict      

@@ -2,6 +2,7 @@
 title = 'Autobiography'
 date = 2023-12-02T01:12:17+08:00
 tags = ['personal']
+description = "No content"
 [[links]]
 title = "GitHub"
 description = "GitHub is the world's largest software development platform."

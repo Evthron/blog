@@ -147,13 +147,14 @@ extended = true
 min = "0.87.0"
 
 [params]
-mainSections = [ "posts", "gallery", "toolbox" ]
+mainSections = [ "posts", "gallery", "tweet", "toolbox" ]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.ico"
 
   [params.footer]
   since = 2023
+  customText = "🌐Check out other language versions!"
 
   [params.dateFormat]
   published = "Jan 02, 2006"
