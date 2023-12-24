@@ -50,6 +50,13 @@ theme = "stack"
         [[languages.zh.menus.social.params]]
           icon = "brand-github"
       [[languages.zh.menus.social]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/Evthron"
+        weight = 45
+        [[languages.zh.menus.social.params]]
+          icon = "brand-twitter"
+      [[languages.zh.menus.social]]
         identifier = "rss"
         name = "📡RSS"
         url = "/zh/index.xml"
@@ -94,6 +101,13 @@ theme = "stack"
         weight = 40
         [[languages.en.menus.social.params]]
           icon = "brand-github"
+      [[languages.en.menus.social]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/Evthron"
+        weight = 45
+        [[languages.en.menus.social.params]]
+          icon = "brand-twitter"
      [[languages.en.menus.social]]
         identifier = "rss"
         name = "📡RSS"
@@ -134,6 +148,13 @@ theme = "stack"
         weight = 40
         [[languages.tok.menus.social.params]]
           icon = "brand-github"
+      [[languages.tok.menus.social]]
+        identifier = "ma Twitter"
+        name = "Twitter"
+        url = "https://twitter.com/Evthron"
+        weight = 45
+        [[languages.tok.menus.social.params]]
+          icon = "brand-twitter"
      [[languages.tok.menus.social]]
         identifier = "ilo RSS"
         name = "📡ilo RSS"
