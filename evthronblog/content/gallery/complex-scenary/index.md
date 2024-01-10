@@ -5,6 +5,6 @@ image = "nightview.jpg"
 categories = "artwork"
 +++
 
-![complex-sketch](20230524.jpg)
+![complex-sketch](nightview.jpg)
 
-素描就是把能看見的事物統統轉移到紙上，盯死到眼角膜變乾為止。
+素描就是死死盯着要畫的事物，再怎麽複雜也要想辦法把影像搬到紙上。

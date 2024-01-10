@@ -5,6 +5,6 @@ image = "nightview.jpg"
 categories = "artwork"
 +++
 
-![complex-sketch](20230524.jpg)
+![complex-sketch](nightview.jpg)
 
 Sketching means capturing everything you see on paper. Look as closely as you can!
