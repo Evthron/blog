@@ -18,12 +18,12 @@ theme = "stack"
     weight = 1
     [languages.zh.menus]
       [[languages.zh.menus.main]]
-        identifier = "文章"
+        identifier = "posts"
         name = "📝文章"
         pageRef = "/posts"
         weight = 10
       [[languages.zh.menus.main]]
-        identifier = "畫"
+        identifier = "gallery"
         name = "🖼️畫"
         pageRef = "/gallery"
         weight = 20
@@ -33,12 +33,12 @@ theme = "stack"
         pageRef = "/tweet"
         weight = 25
       [[languages.zh.menus.main]]
-        identifier = "工具集"
+        identifier = "toolbox"
         name = "🛠️工具集"
         pageRef = "/toolbox"
         weight = 30
       [[languages.zh.menus.main]]
-        identifier = "沙盒"
+        identifier = "sandbox"
         name = "🛝沙盒"
         pageRef = "/sandbox"
         weight = 35
@@ -122,27 +122,27 @@ theme = "stack"
     weight = 3
     [languages.tok.menus]
       [[languages.tok.menus.main]]
-        identifier = "lipu"
+        identifier = "posts"
         name = "📝sitelen"
         pageRef = "/posts"
         weight = 10
       [[languages.tok.menus.main]]
-        identifier = "sitelen"
+        identifier = "gallery"
         name = "🖼️sitelen"
         pageRef = "/gallery"
         weight = 20
       [[languages.tok.menus.main]]
-        identifier = "sitelen lili"
+        identifier = "tweet"
         name = "🐦sitelen lili"
         pageRef = "/tweet"
         weight = 25
       [[languages.tok.menus.main]]
-        identifier = "ma weka"
+        identifier = "sandbox"
         name = "🛝ma pali"
         pageRef = "/sandbox"
         weight = 30
       [[languages.tok.menus.social]]
-        identifier = "ma Github"
+        identifier = "github"
         name = "🐱ma Github"
         url = "https://github.com/Evthron/"
         weight = 40
