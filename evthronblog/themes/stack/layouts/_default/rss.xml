@@ -7,6 +7,8 @@
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
 {{- $pages := where $pages "Params.hidden" "!=" true -}}
+{{ $hidden := slice "sandbox"}}
+{{- $pages := where $pages "Section" "not in" $hidden -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
