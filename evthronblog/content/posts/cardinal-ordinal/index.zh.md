@@ -2,7 +2,7 @@
 title: "量數和序數"
 description: 
 date: 2024-01-20T22:43:24+08:00
-image: 
+image: apple-clock.jpg
 math: 
 license: 
 hidden: false
