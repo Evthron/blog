@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: artwork
 ---
 See something draw something.

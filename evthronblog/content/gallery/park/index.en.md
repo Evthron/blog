@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: artwork
 ---
 A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.

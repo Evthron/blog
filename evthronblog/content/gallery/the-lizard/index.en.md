@@ -7,6 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
+categories: artwork
 ---
 I picked the colour from my newly made colour chart and the result is unexpectedly good. I bought this Spider-Man series blind box full of hope but ended up getting the worst one out of eight. But there's no fun drawing Spider-Man right?
 
