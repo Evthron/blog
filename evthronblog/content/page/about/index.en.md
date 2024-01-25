@@ -9,5 +9,8 @@ menu:
         params:
             icon: user
 ---
-Hello there! This is my personal website. I will use it as a blog to post my writings."
+Hello there! Reading a person's work is a good way to get a gist of his personality and hobbies. Maybe I can use this for ice breaking?
 
+I mainly posts my writings and artworks.
+
+This blog is originally written in Chinese. I hope anyone can read it naturally without a translator so I rewrite the posts in multiple languages. It's for my own practice too. Feel free to compare the slight differences between languages if you know them.
