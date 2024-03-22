@@ -7,6 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 ilo alasa Kuko li ike. mi wile weka e ilo alasa Kuko. ilo alasa [Marginalia.nu](https://search.marginalia.nu) li pona. ni li ken alasa e lipu lili. lipu lili li pona. sina pona e lipu pi tenpo pini la, sina ken kepeken ilo alasa [Wiby](https://wiby.org): ni li ken alasa lipu lili nasa.
 

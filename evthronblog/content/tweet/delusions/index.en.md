@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There's no way that my personal imagination can't beat the socially constructed one. I am a writer after all.

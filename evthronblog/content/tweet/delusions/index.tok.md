@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 lawa mi li toki ike anu toki pona. toki lawa li lon ala la, mi wile ni: toki lawa pona mi ken utala e toki lawa ike kulupu. mi ken sitelen e jan pi lon ala la, mi ken pali e jan lawa.
