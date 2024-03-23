@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-03-23T15:04:19+08:00
+lastmod: 2024-03-24T02:42:27+08:00
 image: 
 math: 
 license: 
@@ -31,39 +31,39 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
 ## Skills 
 
-           Lines:   8 --- Lv1
+           Lines:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
 
-          Colour:  19 --- Lv2
+          Colour:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-     Perspective:   7 --- Lv1
+     Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-         Figures:  67 --- Lv3
+         Figures:  67 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
-           Hands:   7 --- Lv1
+           Hands:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-           Heads:  42 --- Lv3
+           Heads:  42 --- Lv3 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Sketchbook 
 
        Book used:   7
 
-      Page count: 219 --- Lv6
+      Page count: 219 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
 
-           Sight:  55 --- Lv3
+           Sight:  55 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
-         Doodles:  37 --- Lv3
+         Doodles:  37 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-            Home:  14 --- Lv2
+            Home:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-        Outdoors:  55 --- Lv3
+        Outdoors:  55 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
-       Completed:  14 --- Lv2
+       Completed:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Digital Drawing 
 
-           Files:  20 --- Lv2
+           Files:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-       Completed:   3 --- Lv1
+       Completed:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ### Tools
 Digital:
