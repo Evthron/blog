@@ -7,6 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 mi wile pilin seli lili, taso lete mute li lon. mi wile ala tawa. mi wile lon supa lape. tenpo lete la telo suli li ike. tomo tawa telo li ike tawa mi. 
 

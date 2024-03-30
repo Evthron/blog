@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 mi sona ni: lipu Joplin li jo e ilo Vim. mi ala sitelen e lipu Vimrc. mi ala awen e sitelen mi kepeken luka.

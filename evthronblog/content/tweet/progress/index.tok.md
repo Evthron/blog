@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 lupu li ala pini la, mi pilin pakala. mi wile sona e nanpa pali.

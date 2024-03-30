@@ -7,5 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
+categories: tweet
 ---
 How could I not find out that there's Vim mode in Joplin? I could've saved my time configuring _vimrc and pressing :w over and over again.
