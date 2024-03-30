@@ -7,7 +7,8 @@ math:
 license: 
 hidden: false
 comments: true
-categories: gallery
+categories: posts
+tags : ["sketch"]
 ---
 從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數[^1]和序數的關係，並不是一目了然的。
 
