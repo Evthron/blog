@@ -4,6 +4,6 @@ description: "posts"
 slug: "posts"
 image: "hutomo-abrianto.jpg"
 style:
-    background: "#1da1f2"
+    background: "#e4484d"
     color: "#fff"
 ---
