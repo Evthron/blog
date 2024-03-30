@@ -7,7 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
-categories: artwork
+categories: gallery
 ---
 How many hours have passed from one o'clock to three o'clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.
 

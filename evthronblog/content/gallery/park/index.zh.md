@@ -7,6 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
-categories: artwork
+categories: gallery
 ---
 取景框很有用，最好和畫紙一樣大。

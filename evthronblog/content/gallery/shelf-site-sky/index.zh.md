@@ -7,6 +7,6 @@ math:
 license: 
 hidden: false
 comments: true
-categories: artwork
+categories: gallery
 ---
 看到什麽就畫什麽，真的就只是這樣。

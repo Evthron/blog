@@ -2,7 +2,7 @@
 title = '什麽都畫得出來'
 date = 2023-12-02T07:28:35+08:00
 image = "nightview.jpg"
-categories = "artwork"
+categories = "gallery"
 +++
 
 ![complex-sketch](nightview.jpg)

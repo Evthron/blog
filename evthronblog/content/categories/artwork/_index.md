@@ -1,9 +1,9 @@
 ---
-title: "Artwork"
-description: "Pages that contains my artworks"
-slug: "artwork"
+title: "gallery"
+description: "gallery"
+slug: "gallery"
 image: "hutomo-abrianto.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#f7be55"
     color: "#fff"
 ---

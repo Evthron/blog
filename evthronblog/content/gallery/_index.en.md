@@ -1,3 +1,3 @@
 +++
-title = "Artwork"
+title = "gallery"
 +++
