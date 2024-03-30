@@ -1,3 +1,4 @@
+git status
 set /p MESSAGE="Commit Message: "
 hugo
 git add .
