@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2024-04-02T19:34:28+08:00
+lastmod: 2024-04-03T06:01:56+08:00
 image: 
 categories: 
 tags: 
@@ -13,9 +13,34 @@ comments: true
 ---
 ## Skill
 
-        Function:  25 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
+          Function:  25 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
 
-    
-		Read Code: Lv0
-		Algorithm: Lv0
-		Data Structure: Lv0
+         Code read:   0 --- Lv0
+
+         Algorithm:   0 --- Lv0
+
+    Data structure:   0 --- Lv0
+
+## Software
+- GVIM
+- git
+- Thonny
+
+## Achievements
+Reinvent the wheel:
+- [x] Matrix operations (numpy-like)
+
+Daily work:
+- [x] Automate blog publishing
+- [x] Automate blog statistics counting
+
+Operating system:
+- [ ] Install Arch Linux
+- [ ] What is Emacs?
+
+Web:
+- [ ] Create own blog template
+
+Software Development:
+- [ ] Write an application that randomly shows motivational quotes
+- [ ] Write a Joplin plug-in for incremental writing

@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-04-02T04:44:37+08:00
+lastmod: 2024-04-03T06:18:52+08:00
 image: 
 categories: 
 tags: 
@@ -33,39 +33,39 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
 ## Skills 
 
-           Lines:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+             Lines:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
 
-          Colour:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+            Colour:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-     Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+       Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-         Figures:  67 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
+           Figures:  67 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
-           Hands:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+             Hands:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-           Heads:  42 --- Lv3 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Heads:  42 --- Lv3 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Sketchbook 
 
-       Book used:   7
+         Book used:   7
 
-      Page count: 223 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+        Page count: 223 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-           Sight:  57 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+             Sight:  57 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-         Doodles:  39 --- Lv3 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Doodles:  39 --- Lv3 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-            Home:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+              Home:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-        Outdoors:  59 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱
+          Outdoors:  59 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱
 
-       Completed:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+         Completed:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Digital Drawing 
 
-           Files:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Files:  21 --- Lv2 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-       Completed:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+         Completed:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ### Tools
 Digital:
@@ -79,6 +79,42 @@ Physical:
 - MONO Plastic Eraser
 - NDK Cutter S-800
 - Colleen Colour Pencil
+- [x] Cardboard viewfinder
+- [ ] Cardboard colour wheel
+
+### Achievements
+Finish a drawing at:
+- [x] Home
+- [x] Park
+- [x] Mall
+- [x] Minibus
+- [x] Restaurant
+- [x] Beach
+- [x] Hospital
+- [ ] Street
+- [ ] Lecture Room
+- [ ] Sports Centre
+- [ ] Railway
+- [ ] Library
+- [ ] Art Museum
+
+Finish a drawing using:
+- [x] Pencil
+- [ ] Fineliner
+- [ ] Willow charcoal
+- [ ] Acrylic
+- [ ] Coloured pencil
+- [ ] Oil Pastel
+- [ ] Ballpoint pen
+- [ ] Rubber on charcoal
+- [ ] Sand and stick
+- [ ] Window and water vapour
+- [ ] Printout images
+
+Subject matter:
+- [x] Self-Portrait
+- [ ] Portrait for others
+- [x] Avatar Icon
 
 
 ### Collection
