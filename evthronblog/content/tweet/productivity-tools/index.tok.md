@@ -1,14 +1,19 @@
 ---
 title: "ilo pali"
 description: 
-date: 2024-03-02T04:47:14+08:00
+date: 2024-03-19T20:20:35+08:00
+lastmod: 2024-03-30T23:38:56+08:00
 image: 
+categories: tweet
+tags: []
 math: 
 license: 
 hidden: false
 comments: true
-categories: tweet
 ---
+
 mi pali ala. mi wile jo e ilo pali sin. mi pali ala la, mi kama ike. mi lukin ilo pali sin la, mi weka e tenpo mi. taso mi ken ala ante. mi sona ni: ilo Super Productivity en ilo ActivityWatch
 li ken ala awen e mi. 
+
+
 

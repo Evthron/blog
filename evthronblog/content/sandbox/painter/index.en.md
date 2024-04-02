@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-04-01T23:34:36+08:00
+lastmod: 2024-04-02T04:44:37+08:00
 image: 
 categories: 
 tags: 
@@ -82,7 +82,7 @@ Physical:
 
 
 ### Collection
-Count: 12 --- Lv2
+    Books: 12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Andrew Loomis - Drawing the Head and Hands
 
