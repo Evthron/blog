@@ -2,7 +2,7 @@
 title: "AutoHotKey"
 description: 
 date: 2023-12-22T03:46:57+08:00
-lastmod: 2024-03-30T23:57:29+08:00
+lastmod: 2024-04-10T04:33:00+08:00
 image: 
 categories: toolbox
 tags: []
@@ -37,6 +37,8 @@ F5-F8 are taskbar softwares
 - Delete: Ctrl + w (Close tabs)
 - Insert: Ctrl + t (Insert new tab)
 - Page Up: Ctrl + Shift + Tab (Switch tab: up)
-- Page Down: Ctrl + Tab（Switch tab: down）
+- Page Down: Ctrl + Tab (Switch tab: down)
 
+## Vim
+- Escape: Left Alt
 
