@@ -1,4 +1,5 @@
 +++
-title = "Test page"
+title = "Gamification Statistics"
+description = "Experience Points needed for each level = 6 × level × (level - 1)"
 +++
-Just testing things.
+Experience Points needed for each level = 6 × level × (level - 1)

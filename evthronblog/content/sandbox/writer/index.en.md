@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2024-04-11T22:12:25+08:00
+lastmod: 2024-04-29T16:56:32+08:00
 image: 
 categories: 
 tags: 
@@ -13,11 +13,21 @@ comments: true
 ---
 ## Skill
 
-         Character: 464317 --- Lv278 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+         Character:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-              Word: 139829 --- Lv153 ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Event:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-          Analysis:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Scenery:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-    Basic concepts:   0 --- Lv1 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Summary:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+           Concept:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+## Practice
+
+         Imitation: 2035
+
+## Daily
+
+           Journal:  23 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
 

@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2024-04-17T10:14:36+08:00
+lastmod: 2024-04-29T16:02:40+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Skill
 
-          Function:  25 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
+          Function:  27 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱
 
          Code read:   0 --- Lv0
 
@@ -37,6 +37,12 @@ Daily work:
 
 Operating system:
 - [x] Install Arch Linux
+	- [ ] Set up Chinese input method (fcitx5)
+	- [ ] Alternative to Dexpot (Tiling Window Manager)
+	- [ ] Alternative to foobar2000 (Music Player)
+	- [ ] Alternative to AutoHotKey (Keyboard Remap)
+	- [ ] Alternative to Supermemo (Incremental Reading)
+	- [ ] Alternative to Cold Turkey Blocker (Website blocker)
 - [ ] What is Emacs?
 
 Web:
