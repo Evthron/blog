@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-09T09:34:48+08:00
+lastmod: 2024-05-09T17:47:03+08:00
 image: 
 categories: 
 tags: 
@@ -35,7 +35,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
              Lines:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-            Colour:  23 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
+            Colour:  24 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
        Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
@@ -49,19 +49,19 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
          Book used:   7
 
-        Page count: 240 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
+        Page count: 241 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
-             Sight:  86 --- Lv4 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Sight:  87 --- Lv4 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
             Copies: 122 --- Lv5 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
            Doodles:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-              Home: 170 --- Lv5 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
+              Home: 171 --- Lv5 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
           Outdoors:  70 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
 
-         Completed:  16 --- Lv2 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+         Completed:  17 --- Lv2 ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Digital Drawing 
 
@@ -76,6 +76,7 @@ Digital:
 
 Physical:
 - Lyra Rembrandt Art Design pencils
+- Sakura Cray-Pas Oil Pastels
 - uni Nano Dia 0.5, 2B & 4B Leads
 - Zebra DelGuard 0.5 Mechanical pencil
 - MONO Plastic Eraser
@@ -106,7 +107,7 @@ Finish a drawing using:
 - [ ] Willow charcoal
 - [ ] Acrylic
 - [ ] Coloured pencil
-- [ ] Oil Pastel
+- [x] Oil Pastel
 - [ ] Ballpoint pen
 - [ ] Rubber on charcoal
 - [ ] Sand and stick
