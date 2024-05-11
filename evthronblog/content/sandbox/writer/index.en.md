@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2024-05-10T00:29:08+08:00
+lastmod: 2024-05-11T15:51:11+08:00
 image: 
 categories: 
 tags: 
@@ -29,5 +29,5 @@ comments: true
 
 ## Daily
 
-           Journal:  23 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Journal:  24 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
