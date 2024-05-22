@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2024-05-14T19:02:02+08:00
+lastmod: 2024-05-23T05:10:20+08:00
 image: 
 categories: 
 tags: 
