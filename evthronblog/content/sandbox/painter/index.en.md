@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-22T00:22:14+08:00
+lastmod: 2024-05-23T03:56:55+08:00
 image: 
 categories: 
 tags: 
@@ -35,7 +35,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
              Lines:  14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-            Colour:  24 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+            Colour:  28 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
 
        Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
@@ -47,25 +47,25 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
 ## Sketchbook 
 
-         Book used:   7
+         Book used:   8
 
-        Page count: 246 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
+        Page count: 250 --- Lv6 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
 
-             Sight:  91 --- Lv4 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Sight:  92 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
             Copies: 123 --- Lv5 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
            Doodles:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-              Home: 173 --- Lv5 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱
+              Home: 177 --- Lv5 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
 
           Outdoors:  73 --- Lv4 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-         Completed:  17 --- Lv2 ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+         Completed:  18 --- Lv2 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Digital Drawing 
 
-             Files:  21 --- Lv2 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Files:  22 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
          Completed:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
