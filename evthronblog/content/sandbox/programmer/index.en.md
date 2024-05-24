@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2024-04-29T16:02:40+08:00
+lastmod: 2024-05-24T22:13:41+08:00
 image: 
 categories: 
 tags: 
@@ -11,15 +11,19 @@ license:
 hidden: false
 comments: true
 ---
-## Skill
+## Read Code
 
-          Function:  27 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱
+       Script read:   1
 
-         Code read:   0 --- Lv0
+    Function count:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
-         Algorithm:   0 --- Lv0
+    Data-structure:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-    Data structure:   0 --- Lv0
+       File-system:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+## Write Code
+
+    Function count:  30 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
 
 ## Software
 - GVIM
@@ -53,3 +57,4 @@ Software Development:
 - [ ] Write an application that randomly shows motivational quotes
 - [ ] Write a Joplin plug-in for incremental writing
 - [ ] Write a oklch colour picker plug-in for Krita
+- [ ] Write a task scheduler that automatically picks daily tasks. 
