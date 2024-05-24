@@ -2,7 +2,7 @@
 title: "nasin pali sin li pona"
 description: 
 date: 2024-03-30T21:23:35+08:00
-lastmod: 2024-03-30T23:20:25+08:00
+lastmod: 2024-05-24T21:44:04+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']

@@ -2,7 +2,7 @@
 title: "tenpo lete"
 description: 
 date: 2023-12-22T18:20:01+08:00
-lastmod: 2024-03-30T23:39:16+08:00
+lastmod: 2024-05-24T21:44:05+08:00
 image: 
 categories: tweet
 tags: ['grumble']

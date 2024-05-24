@@ -2,7 +2,7 @@
 title: "更好的搜尋引擎"
 description: 
 date: 2024-03-23T01:04:38+08:00
-lastmod: 2024-04-02T18:57:15+08:00
+lastmod: 2024-05-24T21:44:05+08:00
 image: 
 categories: tweet
 tags: ['internet']

@@ -2,7 +2,7 @@
 title: "Joplin Vim Mode"
 description: 
 date: 2024-03-19T20:20:35+08:00
-lastmod: 2024-03-30T23:38:52+08:00
+lastmod: 2024-05-24T21:44:04+08:00
 image: 
 categories: tweet
 tags: ['software']
