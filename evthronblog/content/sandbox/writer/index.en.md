@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2024-05-24T22:48:21+08:00
+lastmod: 2024-05-26T06:41:32+08:00
 image: 
 categories: 
 tags: 
@@ -19,7 +19,7 @@ comments: true
 
            Scenery:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-           Summary:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Summary:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
            Concept:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 

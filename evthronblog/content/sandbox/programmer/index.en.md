@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2024-05-24T22:13:41+08:00
+lastmod: 2024-05-27T05:16:46+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Read Code
 
-       Script read:   1
+       Script read:   3
 
     Function count:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
@@ -23,7 +23,9 @@ comments: true
 
 ## Write Code
 
-    Function count:  30 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
+            Module:   9 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
+
+            Script:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Software
 - GVIM
