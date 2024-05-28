@@ -2,7 +2,7 @@
 title: "Improved publishing workflow "
 description: 
 date: 2024-03-30T21:19:00+08:00
-lastmod: 2024-05-24T21:44:04+08:00
+lastmod: 2024-05-28T12:29:00+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']
@@ -19,4 +19,7 @@ Now I can generate blog post directly from joplin thanks to [joppy](https://gith
 2024/03/30 23:06
 
 If I could simply use Obsidian or VS Code to edit the files, why should I configure this mess? For the sake of open source? I'm tired...
+
+2024/05/28 12:22
+I dived in to the source code of joppy, which is not complicated at all. It's just making requests to joplin's native API. Scrutinising other's work is really the best way to improve.
 
