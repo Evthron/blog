@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-29T01:19:24+08:00
+lastmod: 2024-05-29T08:57:44+08:00
 image: 
 categories: 
 tags: 
@@ -124,25 +124,53 @@ Subject matter:
     Books: 12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Andrew Loomis - Drawing the Head and Hands
-
 Andrew Loomis - Figure drawing for all it's worth
-
-Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors
+- Both are the classic books that often gets recommends until this day. They
+  presents more examples than explanation so I still need to copy a lot more
+  drawings of to get the most out of them.
 
 Betty Edwards - The new drawing on the right side of the brain
+- A very important book for beginners. It explains the reason why people draw
+  badly is that they only draw symbols instead of what they actually see.
+  Anyone could draw well once they know the knack.
+
+Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors
+- Introduces the important concepts about colours: colour wheels, components
+  of colour (hue, saturation and value), and how to actually mix them.
 
 Charles Williams - Basic drawing : how to draw what you see
+- Drawing doesn't have to be masterpieces, it can be a dirty doodle drawn on
+  boring lectures. In fact, the book said you don't have to draw what you
+  see. Most example shown are rough sketches, which makes it
+  beginner-friendly.
 
 Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way 
+- Introduces a lot of advanced techniques around many traditional media. It's
+  examples are all masterpieces so it's not very useful to me yet.
 
 Gilles Ronin - Le dessin en perspective a main levee 
+- Introduces the mathematical knowledge behind the construction of accurate
+  shapes, shadows and perspective. It's very interesting to learn the
+  principles but not very useful to me for now since I don't need this kind of precision.
 
 James Hobbs - Sketch Your World
-
-Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less
+- Giving me the idea of outdoor sketching, which is much more interesting
+  than drawing indoors. To me, drawing is the best way to spend outdoor time.
 
 Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less 
+- A true beginner's book. It's first lesson is to teach you how to draw a
+  ball, then a cube, then a cylinder, then all the basic techniques in
+  drawing. To me, the most brilliant technique introduced is smudging. Although
+  any art teacher will tell you this is bad, this is much more
+  beginner-friendly than cross-hatching, while the effect created is still stunning.
+
+Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less
+- The next book in the series, nothing special but still quite fun.
 
 Rudy de Reyna - How to draw what you see
+- Every object is a combination of spheres, cubes, cylinders and cones,
+  really?
 
 Sam Piyasena, Beverly Philp - Just draw it!
+- It gives out lot of interesting ideas on creative art making, not bounded by
+  traditional media.
