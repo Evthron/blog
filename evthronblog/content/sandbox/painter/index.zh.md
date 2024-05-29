@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-29T09:14:12+08:00
+lastmod: 2024-05-29T17:28:02+08:00
 image: 
 categories: 
 tags: 
@@ -39,7 +39,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
        Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-           Figures:  75 --- Lv4 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Figures:  85 --- Lv4 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
              Hands:  10 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
@@ -49,17 +49,17 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
          Book used:   9
 
-        Page count: 260 --- Lv7 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+        Page count: 274 --- Lv7 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-             Sight:  99 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
+             Sight: 112 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
             Copies: 123 --- Lv5 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
            Doodles:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-              Home: 184 --- Lv6 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+              Home: 185 --- Lv6 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-          Outdoors:  76 --- Lv4 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+          Outdoors:  89 --- Lv4 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
          Completed:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
