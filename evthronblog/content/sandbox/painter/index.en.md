@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-29T08:57:44+08:00
+lastmod: 2024-05-29T09:14:12+08:00
 image: 
 categories: 
 tags: 
@@ -121,7 +121,7 @@ Subject matter:
 
 
 ### Collection
-    Books: 12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+    Books: 13 --- Lv2 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Andrew Loomis - Drawing the Head and Hands
 Andrew Loomis - Figure drawing for all it's worth
@@ -171,6 +171,13 @@ Rudy de Reyna - How to draw what you see
 - Every object is a combination of spheres, cubes, cylinders and cones,
   really?
 
+R. O. Dunlop, R.A - Painting for pleasure
+- It recommends pastels as a good outdoor medium, although I later found
+  out that it meant the powdery ones. Powdery pastels are more expensive
+  and create a powdery mess. So I'm satisfied with the oily ones. It is another book that encourages beginners to do outdoor painting.
+
 Sam Piyasena, Beverly Philp - Just draw it!
 - It gives out lot of interesting ideas on creative art making, not bounded by
   traditional media.
+
+
