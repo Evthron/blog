@@ -38,9 +38,9 @@ theme = "stack"
         pageRef = "/toolbox"
         weight = 30
       [[languages.zh.menus.main]]
-        identifier = "sandbox"
+        identifier = "skill"
         name = "🎮技能"
-        pageRef = "/sandbox"
+        pageRef = "/skill"
         weight = 35
       [[languages.zh.menus.social]]
         identifier = "github"
@@ -90,9 +90,9 @@ theme = "stack"
         pageRef = "/toolbox"
         weight = 25
       [[languages.en.menus.main]]
-        identifier = "sandbox"
+        identifier = "skill"
         name = "🎮Skill"
-        pageRef = "/sandbox"
+        pageRef = "/skill"
         weight = 30
       [[languages.en.menus.social]]
         identifier = "github"

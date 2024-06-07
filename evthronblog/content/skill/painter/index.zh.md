@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-05-29T17:28:02+08:00
+lastmod: 2024-06-07T12:38:35+08:00
 image: 
 categories: 
 tags: 
