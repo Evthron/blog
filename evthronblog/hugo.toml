@@ -42,6 +42,11 @@ theme = "stack"
         name = "🎮技能"
         pageRef = "/skill"
         weight = 35
+      [[languages.zh.menus.main]]
+        identifier = "sandbox"
+        name = "🪣沙盒"
+        pageRef = "/sandbox"
+        weight = 37
       [[languages.zh.menus.social]]
         identifier = "github"
         name = "🐱Github"
@@ -94,6 +99,11 @@ theme = "stack"
         name = "🎮Skill"
         pageRef = "/skill"
         weight = 30
+      [[languages.en.menus.main]]
+        identifier = "sandbox"
+        name = "🪣Sandbox"
+        pageRef = "/sandbox"
+        weight = 37
       [[languages.en.menus.social]]
         identifier = "github"
         name = "🐱Github"
@@ -138,7 +148,7 @@ theme = "stack"
         weight = 25
       [[languages.tok.menus.main]]
         identifier = "sandbox"
-        name = "🛝ma pali"
+        name = "🪣ma pali"
         pageRef = "/sandbox"
         weight = 30
       [[languages.tok.menus.social]]
