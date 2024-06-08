@@ -2,7 +2,7 @@
 title: "搜尋次數"
 description: 
 date: 2024-03-19T20:20:35+08:00
-lastmod: 2024-05-24T21:44:05+08:00
+lastmod: 2024-06-07T14:06:07+08:00
 image: 
 categories: tweet
 tags: ['software']
@@ -17,4 +17,5 @@ comments: true
 2024/04/07 03:36
 
 可惜我沒有貫徹這種規則的工具。本來是個好主意的。
+
 

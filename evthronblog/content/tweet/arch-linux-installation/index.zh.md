@@ -2,7 +2,7 @@
 title: " 安裝 Arch Linux"
 description: 
 date: 2024-04-18T09:26:05+08:00
-lastmod: 2024-05-24T21:44:05+08:00
+lastmod: 2024-06-07T14:06:06+08:00
 image: 
 categories: tweet
 tags: []
