@@ -2,7 +2,7 @@
 title: "Say Goodbye to Internet"
 description: 
 date: 2024-01-29T04:14:14+08:00
-lastmod: 2024-06-07T14:06:05+08:00
+lastmod: 2024-06-18T22:24:09+08:00
 image: 
 categories: toolbox
 tags: []
@@ -21,6 +21,9 @@ A must-have blocker. If you hesitate to block the whole website, study its URL c
 
 ### Unhook
 Empty your homepage and recommended videos. You should only search by keywords on Youtube.
+
+### BlockTube
+Let the channels you don't like out of your sight.
 
 ### uBlock Origin
 It's not just an ad blocker. You can block all distracting items on any websites using its element picker.
