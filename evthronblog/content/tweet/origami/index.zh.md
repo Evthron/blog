@@ -2,10 +2,10 @@
 title: "折紙"
 description: 
 date: 2024-06-04T21:14:54+08:00
-lastmod: 2024-06-08T20:24:36+08:00
+lastmod: 2024-06-25T02:08:51+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['maths']
 math: 
 license: 
 hidden: false

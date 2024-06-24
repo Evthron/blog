@@ -2,7 +2,7 @@
 title: "寫作和繪畫"
 description: 
 date: 2024-06-21T19:16:06+08:00
-lastmod: 2024-06-23T02:35:28+08:00
+lastmod: 2024-06-25T02:08:51+08:00
 image: 
 categories: posts
 tags: []

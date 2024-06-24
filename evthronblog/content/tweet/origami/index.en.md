@@ -2,10 +2,10 @@
 title: "origami"
 description: 
 date: 2024-06-18T01:10:39+08:00
-lastmod: 2024-06-18T02:14:20+08:00
+lastmod: 2024-06-25T02:08:51+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['maths']
 math: 
 license: 
 hidden: false

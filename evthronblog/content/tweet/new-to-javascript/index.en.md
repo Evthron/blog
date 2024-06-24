@@ -2,10 +2,10 @@
 title: "New to JavaScript"
 description: 
 date: 2024-06-19T23:37:40+08:00
-lastmod: 2024-06-19T23:50:34+08:00
+lastmod: 2024-06-25T02:08:51+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['software']
 math: 
 license: 
 hidden: false

@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-06-07T14:06:07+08:00
+lastmod: 2024-06-25T02:08:51+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']

@@ -2,7 +2,7 @@
 title: "Arch Linux Installation"
 description: 
 date: 2024-04-18T09:19:50+08:00
-lastmod: 2024-06-07T14:06:06+08:00
+lastmod: 2024-06-25T02:08:50+08:00
 image: 
 categories: tweet
 tags: ['software']
