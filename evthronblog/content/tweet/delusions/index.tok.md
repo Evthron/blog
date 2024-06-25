@@ -2,7 +2,7 @@
 title: "toki lawa pi lon ala"
 description: 
 date: 2024-03-19T20:20:35+08:00
-lastmod: 2024-06-25T02:08:47+08:00
+lastmod: 2024-06-26T02:39:46+08:00
 image: 
 categories: tweet
 tags: ['grumble']
