@@ -1,3 +1,6 @@
+header{
+    display: flex;
+}
 .section-card {
     border-radius: var(--card-border-radius);
     background-color: var(--card-background);
@@ -6,6 +9,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    width : 100%;
 
     --separation: 15px;
 
