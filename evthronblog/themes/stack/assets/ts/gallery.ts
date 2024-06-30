@@ -75,16 +75,22 @@ class StackGallery {
                 paragraph.classList.add('no-text');
             }
 
-            let isNewLineImage = paragraph.classList.contains('no-text');
-            if (!isNewLineImage) continue;
+            // let isNewLineImage = paragraph.classList.contains('no-text');
+            // if (!isNewLineImage) continue;
 
             const hasLink = img.parentElement.tagName == 'A';
 
             let el: HTMLElement = img;
             /// Wrap image with figure tag, with flex-grow and flex-basis values extracted from img's data attributes
             const figure = document.createElement('figure');
-            figure.style.setProperty('flex-grow', img.getAttribute('data-flex-grow') || '1');
-            figure.style.setProperty('flex-basis', img.getAttribute('data-flex-basis') || '0');
+            figure.style.setProperty("width", "75%");
+            figure.style.setProperty("display", "flex");
+            figure.style.setProperty("justify-content", "space-around");
+            figure.style.setProperty("margin", "1.5em");
+
+
+            // figure.style.setProperty('flex-grow', img.getAttribute('data-flex-grow') || '1');
+            // figure.style.setProperty('flex-basis', img.getAttribute('data-flex-basis') || '0');
             if (hasLink) {
                 /// Wrap <a> if it exists
                 el = img.parentElement;
