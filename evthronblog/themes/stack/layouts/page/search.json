@@ -11,7 +11,7 @@
     {{- if $image.exists -}}
         {{- $imagePermalink := "" -}}
         {{- if and $image.resource (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-            {{- $thumbnail := $image.resource.Fill "120x120" -}}
+            {{- $thumbnail := $image.resource.Fill "120x120 Center" -}}
             {{- $imagePermalink = (absURL $thumbnail.Permalink) -}}
         {{- else -}}
             {{- $imagePermalink = $image.permalink -}}
