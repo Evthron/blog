@@ -240,23 +240,23 @@ favicon = "/favicon.ico"
 
     [params.comments.cusdis]
 
-  [params.widgets]
+  # [params.widgets]
 
-  [[params.widgets.homepage]]
-      type = "categories"
-    [params.widgets.homepage.params]
-      limit = 10
-  [[params.widgets.homepage]]
-      type = "tag-cloud"
-      [params.widgets.homepage.params]
-      limit = 20
+  # [[params.widgets.homepage]]
+  #     type = "categories"
+  #   [params.widgets.homepage.params]
+  #     limit = 10
+  # [[params.widgets.homepage]]
+  #     type = "tag-cloud"
+  #     [params.widgets.homepage.params]
+  #     limit = 20
 
-  [[params.widgets.page]]
-      type = "toc"
-  [[params.widgets.page]]
-      type = "categories"
-      [params.widgets.page.params]
-      limit = 10
+  # [[params.widgets.page]]
+  #     type = "toc"
+  # [[params.widgets.page]]
+  #     type = "categories"
+  #     [params.widgets.page.params]
+  #     limit = 10
       
 
 [params.opengraph.twitter]
