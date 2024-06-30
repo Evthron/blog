@@ -1,0 +1,23 @@
+<a class="gallery-box" href="{{ .RelPermalink }}">
+    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
+    {{ if $image.exists }}
+            {{ if $image.resource }}
+                {{- $Permalink := $image.resource.RelPermalink -}}
+                {{- $Width := $image.resource.Width -}}
+                {{- $Height := $image.resource.Height -}}
+
+                {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                    {{- $thumbnail := $image.resource.Fill "120x120" -}}
+                    {{- $Permalink = $thumbnail.RelPermalink -}}
+                    {{- $Width = $thumbnail.Width -}}
+                    {{- $Height = $thumbnail.Height -}}
+                {{- end -}}
+                
+                <img class="gallery-image" src="{{ $Permalink }}" 
+                    alt="{{ .Title }}"
+                    loading="lazy">
+            {{ else }}
+                <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+            {{ end }}
+    {{ end }}
+</a>
