@@ -9,10 +9,10 @@ menu:
         params:
             icon: user
 ---
-Hello there! Reading a person's work is a good way to get a gist of his personality and hobbies. Maybe I can use this for ice breaking?
+Hello there! I hope you can know more about me through reading this blog. 
 
-I mainly posts my writings and gallerys.
+I mainly posts my writings and drawings.
 
-This blog is originally written in Chinese. I hope anyone can read it naturally without a translator so I rewrite the posts in multiple languages. It's for my own practice too. Feel free to compare the slight differences between languages if you know them.
+Originally, I write in Chinese but I hope anyone can read it without a translator so I often rewrite my posts in English. Feel free to compare the slight differences between the Chinese and English (and one more?) versions.
 
-You can subscribe to this blog even though this is just a website! This is made possible by using RSS, an "ancient" internet technology. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader. For phone you can use the open source Feeder and for browser you can use Feedbro.
+Even though this not a Youtube channel, using the mystic ancient internet technology "RSS", you can still subscribe to this blog. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader, like Feeder on phone and Feedbro on browser.
