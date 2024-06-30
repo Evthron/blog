@@ -68,7 +68,7 @@
     
     {{/* List only pages that are not a subsection */}}
     {{ $paginator := .Paginate $pages 18}}
-    <section class="gallery">
+    <section class="gallery-grid">
         {{ range $paginator.Pages }}
             {{ partial "gallery/default" . }}
         {{ end }}
