@@ -227,6 +227,8 @@
 
     figure {
         text-align: center;
+        display: flex;
+        flex-direction: column;
 
         figcaption {
             font-size: 1.4rem;
