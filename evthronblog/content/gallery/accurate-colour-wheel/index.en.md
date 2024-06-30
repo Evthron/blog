@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+lastmod: 2024-06-30T23:14:43+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -20,6 +20,7 @@ I made this visually accurate colour wheel using the [OKLCH colour picker](https
 
 This drawing doesn't have contrast. There's no difference in luminance and saturation so it looks weird and uncomfortable.
 ![no-contrast](no-contrast.png)
+
 
 Now let me repaint it using the saturated colors. This looks like it was draw using the preset colours of MS Paint. So how come it looks more pleasant than the above one?
 ![naive-contrast](naive-contrast.png)

@@ -16,3 +16,5 @@ categories = "gallery"
 - Size: 768x512
 - Model hash: cc6cb27103
 - Model: v1-5-pruned-emaonly 
+
+![london-cat](london-cat.png)
