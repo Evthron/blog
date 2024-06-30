@@ -8,6 +8,16 @@
             margin-top : 3rem;
             margin-bottom: 3rem;
         }
+        @include respond(xl) {
+            position: sticky;
+            margin-top : 4rem;
+            margin-bottom: 4rem;
+        }
+        @include respond(2xl) {
+            position: sticky;
+            margin-top : 5rem;
+            margin-bottom: 5rem;
+        }
     }
 }
 
@@ -31,7 +41,7 @@
         width: auto;
         padding-top: var(--main-top-padding);
         padding-bottom: var(--main-top-padding);
-        max-height: calc(100vh - 6rem);
+        max-height: calc(100vh - var(--main-top-padding) * 2);
     }
 
     @include respond(2xl) {
@@ -41,8 +51,8 @@
     }
 
     &.sticky {
-        top: 3rem;
-        bottom: 3rem;
+        top: var(--main-top-padding);
+        bottom: var(--main-top-padding);
     }
 
     &.compact {
