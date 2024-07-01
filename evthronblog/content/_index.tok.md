@@ -1,8 +1,13 @@
-+++
-title = "tomo mi"
-description = "toki! mi jan Evthron. mi pali e lipu ni."
-caption = "len walo"
-+++
-mi pali e ni. ni lukin pona.»
+---
+title: tomo mi
+description: len walo 
+date: '2023-12-22'
+lastmod: '2024-07-01T01:36:32+08:00'
+---
+toki! mi jan Evthron. mi pali e lipu ni. sina lukin e sitelen mi la, sina kama sona e pilin mi. mi toki e jan sin la, mi pana e lipu ni tawa ona.
 
-# sitelen sin
+mi pali e sitelen lon lipu ni.
+
+mi toki kepeken toki Sonko. taso mi sitelen kepeken toki mute. mi wile ni: sina ken sona pona e lipu ni.
+
+sina ken jo e lipu mi sin kepeken ilo RSS. ilo Feeder li pona tawa mi. ilo Feedbro li pona tawa mi.

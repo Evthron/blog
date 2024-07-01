@@ -1,8 +1,13 @@
-+++
-title = "My homepage"
-description = "Hello there! This is my personal website. I will use it as a blog to post my writings."
-caption = "A hollow floating labcoat"
-+++
-Under construction, coming s∞n
+---
+title: About
+description: A hollow floating labcoat
+date: '2023-12-22'
+lastmod: '2024-07-01T01:36:32+08:00'
+---
+Hello there! I hope you can know more about me through reading this blog. 
 
-# Latest Pages
+I mainly posts my writings and drawings.
+
+Originally, I write in Chinese but I hope anyone can read it without a translator so I often rewrite my posts in English. Feel free to compare the slight differences between the Chinese and English (and one more?) versions.
+
+Even though this not a Youtube channel, using the mystic ancient internet technology "RSS", you can still subscribe to this blog. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader, like Feeder on phone and Feedbro on browser.

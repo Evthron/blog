@@ -3,7 +3,7 @@ languageCode = 'zh'
 defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = true
 title = "Evthron's blog"
-description = "Everything you need to know about the three languages."
+# description = "Everything you need to know about the three languages."
 theme = "stack"
 
 [taxonomies]
