@@ -5,7 +5,7 @@ layout: "timeline"
 type: "timeline"
 menu:
     main:
-        weight: -60
+        weight: -70
         params: 
-            icon: clock
+            icon: date
 ---
