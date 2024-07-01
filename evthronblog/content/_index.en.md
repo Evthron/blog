@@ -7,7 +7,7 @@ lastmod: '2024-07-01T01:36:32+08:00'
 Hello there! I hope you can know more about me through reading this blog. 
 
 - [📝 Posts](/en/posts) stores my writings.
-    - [The limitations of instant messaging](/en/posts/instant-messaging) talks about my thoughts towards the flaws of online messaging)
+    - [The limitations of instant messaging](/en/posts/instant-messaging) talks about my thoughts towards the flaws of online messaging.
 
 - [🖼️ Gallery](/en/gallery) showcases my drawings.
     - [Accurate colour wheel](/en/gallery/accurate-colour-wheel) explains some facts about colour.
