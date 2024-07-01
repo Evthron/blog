@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
+{{ define "head" }}
     <title>My Clock</title>
     <style>
       #clock {
         font-size: 3em;
         text-align: center;
         margin-top: 50px;
+        background-color: aliceblue;
       }
     </style>
-  </head>
-  <body>
+{{ end }}
+{{ define "main" }}
     <div id="clock"></div>
     <script>
       function displayTime() {
@@ -20,5 +19,4 @@
       }
       setInterval(displayTime, 1000);
     </script>
-  </body>
-</html>
+{{ end }}
