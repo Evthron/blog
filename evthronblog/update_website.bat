@@ -1,12 +1,11 @@
+hugo
 git status
 set /p MESSAGE="Commit Message: "
-hugo
+git add .
+git commit -m "%MESSAGE%"
+git push
 cd D:\Blog\blog\evthronblog\public
 git add .
 git commit -m "%MESSAGE%"
-git push --force
-cd D:\Blog\blog\evthronblog
-git add .
-git commit -m "%MESSAGE%"
-git push --force
+git push
 pause
