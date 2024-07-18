@@ -175,7 +175,7 @@ theme = "stack"
 
 [module.hugoVersion]
 extended = true
-min = "0.87.0"
+min = "0.129.0"
 
 [params]
 mainSections = [ "posts", "gallery", "tweet", "toolbox" ]
