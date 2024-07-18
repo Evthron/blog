@@ -1,4 +1,4 @@
 [submodule "evthronblog/public"]
 	path = evthronblog/public
-	url = https://github.com/Evthron/evthron.github.io.git
+	url = git@github.com:Evthron/evthron.github.io
 	branch = main
