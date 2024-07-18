@@ -13,6 +13,7 @@
 
     {{- $subsections := .Sections -}}
     {{- $pages := .Pages | complement $subsections -}}
+    {{- $pages = $pages.ByLastmod.Reverse -}}
     
     {{- if eq (len $pages) 0 -}}
         {{/* If there are no normal pages, display subsections in list style, with pagination */}}
