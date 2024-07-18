@@ -12,6 +12,6 @@ hidden: false
 comments: true
 ---
 
-If I don't post anything, I can't feel my progress. If I can't feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can't predict when and how the project is going to be completed?
+If I don't post anything, I can't feel my progress. If I can't feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can't predict when and how the project is going to be completed?
 
 

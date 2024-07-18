@@ -2,7 +2,7 @@
 title: " 安裝 Arch Linux"
 description: 
 date: 2024-04-18T09:26:05+08:00
-lastmod: 2024-06-26T02:39:49+08:00
+lastmod: 2024-07-19T02:12:19+08:00
 image: 
 categories: tweet
 tags: []
@@ -12,5 +12,8 @@ hidden: false
 comments: true
 ---
 
-不算太難。只是在網絡和啓動引導設定出了問題，因爲指引不是很清晰。只讀 Wiki 也夠用了。現在五分鐘就能裝好。
+Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。
+
+19/07/2024
+現在看來 Arch Wiki 寫得不好的地方就只有安裝指南。無論遇到什麼問題，Arch Wiki 都能解決。
 
