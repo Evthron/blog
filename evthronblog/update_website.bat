@@ -4,9 +4,9 @@ hugo
 cd D:\Blog\blog\evthronblog\public
 git add .
 git commit -m "%MESSAGE%"
-git push
+git push --force
 cd D:\Blog\blog\evthronblog
 git add .
 git commit -m "%MESSAGE%"
-git push
+git push --force
 pause
