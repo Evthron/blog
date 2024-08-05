@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-08-05T20:03:08+08:00
+lastmod: 2024-08-05T20:08:33+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -12,7 +12,7 @@ hidden: false
 comments: true
 ---
 
-Colour wheel help us understand colour mixing and choose appealing colour palates, but most colour wheels doesn't isolate hue from lightness and chroma, causing us to perceive colour in a wrong way. The OKLCH colour space seperates the three elements of colours beautifully so I made use of it and created this this visually accurate colour wheel using the [OKLCH colour picker](https://oklch.com). 
+Colour wheel help us understand colour mixing and choose appealing colour palates, but most colour wheels doesn't isolate hue from lightness and chroma, causing us to perceive colour in a wrong way. The OKLCH colour space separates the three elements of colours beautifully so I made use of it and created this this visually accurate colour wheel using the [OKLCH colour picker](https://oklch.com). 
 
 - The 12 hues are evenly distributed, meaning they all looked distinct.
 - Chroma = 0.12 is the highest chorma value that doesn't cause gaps in hues in the sRGB colour gamut. 
