@@ -1,8 +1,8 @@
 ---
-title: "AutoHotKey"
+title: "Remap keyboard"
 description: 
 date: 2023-12-22T03:46:57+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+lastmod: 2024-08-04T08:11:30+08:00
 image: 
 categories: toolbox
 tags: []
@@ -12,7 +12,22 @@ hidden: false
 comments: true
 ---
 
+
+Ergonomics is never a concern of the keyboard design.
+- It wasted the most powerful fingers, the thumbs, on pressing the big fat spacebar.
+- It abused the right little finger on pressing both enter and the distant backspace.
+- It wasted a spot by placing the useless CapsLock at a easy-to-reach location.
+- Not everyone complains about this: Esc is a common key in the text editor Vim but it is hard to reach.
+
+I can imporve the layout by changing:
+- Capslock -> Backspace
+- Left Alt -> Esc
+- Right Alt -> Enter
+
+There are obsolete keys on the keyboard too.
+
 My AutoHotKey configurations： 
+
 ## Fn Keys
 - F1: Pomodoro
 - F3: Saladict

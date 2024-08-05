@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-06-30T23:14:43+08:00
+lastmod: 2024-08-05T20:03:08+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -12,7 +12,11 @@ hidden: false
 comments: true
 ---
 
-I made this visually accurate colour wheel using the [OKLCH colour picker](https://oklch.com). All colour are of the same lightness and chroma and their hues are evenly distributed. Since traditional colour wheels are made using pure paint, which has the highest saturation, I want to use the highest chroma possible. Chroma = 0.12 is the value that doesn't have gaps in hues in the sRGB colour gamut. The lightness has to be between 71-76. I chose lightness = 75.
+Colour wheel help us understand colour mixing and choose appealing colour palates, but most colour wheels doesn't isolate hue from lightness and chroma, causing us to perceive colour in a wrong way. The OKLCH colour space seperates the three elements of colours beautifully so I made use of it and created this this visually accurate colour wheel using the [OKLCH colour picker](https://oklch.com). 
+
+- The 12 hues are evenly distributed, meaning they all looked distinct.
+- Chroma = 0.12 is the highest chorma value that doesn't cause gaps in hues in the sRGB colour gamut. 
+- The lightness range is limited by the chroma, which has to be between 71-76. I chose lightness = 75.
 ![oklch-colour-wheel](accurate-colour-wheel.png)
 
 
@@ -22,10 +26,10 @@ This drawing doesn't have contrast. There's no difference in luminance and satur
 ![no-contrast](no-contrast.png)
 
 
-Now let me repaint it using the saturated colors. This looks like it was draw using the preset colours of MS Paint. So how come it looks more pleasant than the above one?
+Now let me repaint it with the preset colour palate from MS Paint. This surely looked childish, but somehow it still looks more pleasant than the above one.
 ![naive-contrast](naive-contrast.png)
 
-Even thought the preset colours all have 100 as values, they varies in luminance and saturation. Actually, the values are relative and cannot be used for comparsion among colours. This misleads artists.
+From the numbers, the values of the preset colours are all 100, however, they actually varies in luminance. the values are relative and cannot be used for comparison among colours. This misleads artists.
 
 Oklch colour space does a great job dealing with this problem. I think using it as the base of a traditional colour wheel would be helpful so I made one myself. I also made a discrete version of the colour space. This is one of the six charts.
 
