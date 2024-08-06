@@ -275,3 +275,6 @@ enabled = true
 
 [params.imageProcessing.content]
 enabled = true
+
+[markup.goldmark.parser.attribute]
+block = true # default is false

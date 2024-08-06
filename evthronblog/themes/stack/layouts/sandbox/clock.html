@@ -5,12 +5,13 @@
         font-size: 3em;
         text-align: center;
         margin-top: 50px;
-        background-color: aliceblue;
+        background-color: rgb(71, 169, 255);
       }
     </style>
 {{ end }}
 {{ define "main" }}
     <div id="clock"></div>
+    {{ .Content }}
     <script>
       function displayTime() {
         var date = new Date();
