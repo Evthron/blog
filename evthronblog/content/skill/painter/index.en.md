@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-07-08T04:53:49+08:00
+lastmod: 2024-08-07T02:25:04+08:00
 image: 
 categories: 
 tags: 
@@ -39,7 +39,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
        Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
-           Figures:  98 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
+           Figures:  97 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
              Hands:  10 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
@@ -65,7 +65,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
 ## Digital Drawing 
 
-             Files:  22 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+             Files:  21 --- Lv2 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
          Completed:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
@@ -86,7 +86,7 @@ Physical:
 - [x] Cardboard colour wheel
 
 ### Achievements
-Finish a drawing at:
+Drawing at:
 - [x] Home
 - [x] Park
 - [x] Mall
@@ -94,10 +94,10 @@ Finish a drawing at:
 - [x] Restaurant
 - [x] Beach
 - [x] Hospital
-- [ ] Street
+- [x] Street
 - [ ] Lecture Room
 - [ ] Sports Centre
-- [ ] Railway
+- [x] Railway
 - [ ] Library
 - [ ] Art Museum
 
@@ -105,7 +105,7 @@ Finish a drawing using:
 - [x] Pencil
 - [ ] Fineliner
 - [ ] Willow charcoal
-- [ ] Acrylic
+- [x] Acrylic
 - [ ] Coloured pencil
 - [x] Oil Pastel
 - [ ] Ballpoint pen
@@ -121,7 +121,7 @@ Subject matter:
 
 
 ### Collection
-    Books: 13 --- Lv2 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+    Books: 14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Andrew Loomis - Drawing the Head and Hands
 Andrew Loomis - Figure drawing for all it's worth
@@ -180,4 +180,5 @@ Sam Piyasena, Beverly Philp - Just draw it!
 - It gives out lot of interesting ideas on creative art making, not bounded by
   traditional media.
 
-
+趙巍岩, 陽佳, 楊萌 - 物我之間 : 寫生的一種方法 (Between object and subject : painting as a way to perceive and express) 
+- It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.
