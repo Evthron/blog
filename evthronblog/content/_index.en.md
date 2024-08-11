@@ -22,4 +22,4 @@ Hello there! I hope you can know more about me through reading this blog.
 
 Originally, I write in Chinese but I hope anyone can read it without a translator so I often rewrite my posts in English. Feel free to compare the slight differences between the Chinese and English (and one more?) versions.
 
-Even though this not a Youtube channel, using the mystic ancient internet technology "RSS", you can still subscribe to this blog. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader, like Feeder on phone and Feedbro on browser.
+Even though this not a Youtube channel, using the mystic ancient internet technology "RSS", you can still subscribe to this blog. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader, like [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/) on phone or Feedbro [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/) [(Chrome)](https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa) on browser.

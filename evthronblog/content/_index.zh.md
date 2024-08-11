@@ -22,6 +22,6 @@ lastmod: '2024-07-01T01:36:32+08:00'
 
 我用主要用中文寫作，不過也同時也會用英文重寫一次自己的文章。如果你很閒的話，歡迎你把不同的版本都讀一次。
 
-雖然這只是個網站，不是社交平台，但你也是可以訂閲的。使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 Feeder，瀏覽器可以用 Feedbro 插件。
+雖然這只是個網站，不是社交平台，但你也是可以訂閲的。使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)，瀏覽器可以用 Feedbro [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/) [(Chrome)](https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)插件。
 
 
