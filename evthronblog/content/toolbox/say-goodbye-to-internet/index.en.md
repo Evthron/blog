@@ -2,7 +2,7 @@
 title: "Say Goodbye to Internet"
 description: 
 date: 2024-01-29T04:14:14+08:00
-lastmod: 2024-08-14T02:36:56+08:00
+lastmod: 2024-08-14T02:40:52+08:00
 image: 
 categories: toolbox
 tags: []
@@ -40,7 +40,7 @@ Only read posts on one single page. It can replace the Youtube subscribe page.
 
 ## Youtube: blocking
 ### BlockTube
-Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This cannot be done out of the box and require some Javascipt. Put the following code into the advanced setting.
+Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.
 
 ```javascript
 (video, objectType) => {
