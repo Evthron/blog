@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2024-07-08T04:16:31+08:00
+lastmod: 2024-08-14T03:37:43+08:00
 image: 
 categories: 
 tags: 
@@ -29,34 +29,45 @@ comments: true
 
             Script:  21 --- Lv2 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
+## Skills
+- dvoark
+- double pinyin (flypy) 
+- Vim
+
 ## Software
-- GVIM
-- git
-- Thonny
+- Terminal: Konsole
+- Shell: zsh
+- Code Editor: VS Codium
+- Version Control: git
+- Python interpreter: Thonny
+- Site builder: hugo
+- Tagging: filetags
+- Password Management: Keepass
 
 ## Achievements
 Reinvent the wheel:
 - [x] Matrix operations (numpy-like)
 
-Daily work:
+Scripts:
 - [x] Automate blog publishing
 - [x] Automate blog statistics counting
-- [ ] Generate oklch intensity charts with different brightness level
 
 Operating system:
 - [x] Install Arch Linux
-	- [ ] Set up Chinese input method (fcitx5)
-	- [ ] Alternative to Dexpot (Tiling Window Manager)
-	- [ ] Alternative to foobar2000 (Music Player)
-	- [ ] Alternative to AutoHotKey (Keyboard Remap)
-	- [ ] Alternative to Supermemo (Incremental Reading)
-	- [ ] Alternative to Cold Turkey Blocker (Website blocker)
-- [ ] What is Emacs?
+    - [x] Set up Chinese input method (fcitx5)
+    - [x] Alternative to Dexpot (qtile)
+    - [x] Alternative to foobar2000 (Audiotube)
+    - [x] Alternative to AutoHotKey (keyd)
+    - [x] Alternative to Supermemo (Obsidian Incremental Writing Plugin)
+    - [x] Alternative to Cold Turkey Blocker (DNS blocking using dnsmasq)
+- [x] What is Emacs? A highly programmable text editor using lisp.
+- List of shell commands I grasp
 
 Web:
 - [ ] Create own blog template
-	- [x] Tweet Layout
-	- [x] Gallery Layout
+    - [x] Tweet Layout
+    - [x] Gallery Layout
+    - [ ] Statistic page
 - [ ] Web crawler
 
 Software Development:
@@ -64,3 +75,4 @@ Software Development:
 - [ ] Write a Joplin plug-in for incremental writing
 - [ ] Write a oklch colour picker plug-in for Krita
 - [ ] Write a task scheduler that automatically picks daily tasks. 
+- [ ] Generate oklch intensity charts with different brightness level
