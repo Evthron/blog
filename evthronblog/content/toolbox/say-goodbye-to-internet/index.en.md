@@ -2,7 +2,7 @@
 title: "Say Goodbye to Internet"
 description: 
 date: 2024-01-29T04:14:14+08:00
-lastmod: 2024-08-14T02:40:52+08:00
+lastmod: 2024-08-14T02:45:21+08:00
 image: 
 categories: toolbox
 tags: []
@@ -11,9 +11,6 @@ license:
 hidden: false
 comments: true
 ---
-
-# The three domains of netblocking
-Blocking, hiding, changing habit 
 
 ## PC: blocking
 ### Leechblock NG
