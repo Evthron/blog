@@ -2,7 +2,7 @@
 title: "Migrating to Linux"
 description: 
 date: 2024-08-15T02:59:49+08:00
-lastmod: 2024-08-15T03:00:10+08:00
+lastmod: 2024-08-15T03:01:00+08:00
 image: 
 categories: tweet
 tags: ['software']
