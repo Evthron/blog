@@ -2,7 +2,7 @@
 title: "Say Goodbye to Internet"
 description: 
 date: 2024-01-29T04:14:14+08:00
-lastmod: 2024-08-14T02:45:21+08:00
+lastmod: 2024-08-14T03:40:31+08:00
 image: 
 categories: toolbox
 tags: []
@@ -17,6 +17,7 @@ comments: true
 A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.
 
 [chrome](https://chromewebstore.google.com/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok) [firefox](https://addons.mozilla.org/en-US/firefox/addon/leechblock-ng)
+
 ## PC: hiding
 ### uBlock Origin
 It's not just an ad blocker, but a *wide-spectrum content blocker*, which means you can hide all distracting UI elements, like panels, buttons, and empty spaces on any websites using its element picker.
