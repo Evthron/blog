@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-08-15T02:31:45+08:00
+lastmod: 2024-08-15T02:38:15+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -18,6 +18,7 @@ Parameters of the colours:
 - The 12 hues are evenly distributed, meaning they all looked distinct.
 - Chroma = 0.12, which is the highest chroma value that doesn't cause gaps in the hue spectrum under the sRGB colour gamut. 
 - Limited by the chroma choice, The lightness range has to be between 71-76. I chose lightness = 75.
+
 ![oklch-colour-wheel](accurate-colour-wheel.png)
 
 ## Hue
