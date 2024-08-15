@@ -5,3 +5,4 @@ layout: "clock"
 ---
 
 {{< progress-bar percentage=50% >}}
+{{< number-field >}}
