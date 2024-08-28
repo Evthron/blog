@@ -1,7 +1,12 @@
 // Modified from https://www.w3schools.com/howto/howto_js_filter_elements.asp
 
+filterSelection("all");
+let btnContainer = document.getElementById("vocab-button-container");
+let btns = btnContainer.getElementsByClassName("vocab-button");
+btns[0].className = btns[0].className + " active";// "all" button, set to active initially
+
 function filterSelection(c) {
-  var x, i;
+  let x, i;
   x = document.getElementsByClassName("vocab-item");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
@@ -13,7 +18,7 @@ function filterSelection(c) {
 
 // Show filtered elements
 function w3AddClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -25,7 +30,7 @@ function w3AddClass(element, name) {
 
 // Hide elements that are not selected
 function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -36,13 +41,10 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-filterSelection("all");
 // Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("vocab-button-container");
-var btns = btnContainer.getElementsByClassName("vocab-button");
-for (var i = 0; i < btns.length; i++) {
+for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+    let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     filterSelection(this.className.replace("vocab-button ", "").replace(" active", ""));
     this.className += " active";
