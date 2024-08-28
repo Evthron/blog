@@ -37,7 +37,7 @@
 }
 
 /* Add a dark background to the active button */
-.vocab-button:active {
+.vocab-button.active{
   background-color: #141D56;
   color: white;
 }
