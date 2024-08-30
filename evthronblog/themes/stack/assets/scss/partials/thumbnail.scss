@@ -1,6 +1,6 @@
 .thumbnail-experience{
     display: flex;
-    background-color: lavender;
+    background-color: var(--bar-background);
     width: 48rem;
     overflow: hidden;
     border-radius: 0.5rem;
@@ -20,12 +20,14 @@
     height: 100%;
 }
 
+
 .status-bar-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: left;
     width : 100rem;
     gap: 6rem;
+    margin: 1rem;
 }
 
 .level-badge{
@@ -41,6 +43,14 @@
     align-self: left;
     justify-content: center;
     width: 10rem;
-    background-color: silver;
+    background-color: var(--title);
     border-radius: 0.5rem;
+}
+
+.experience{
+    display: flex;
+    justify-content: center;
+    --background-color: bisque;
+    background-color: var(--experience);
+    width: 8rem;
 }

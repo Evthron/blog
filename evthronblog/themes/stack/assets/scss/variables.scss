@@ -29,6 +29,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     --background-image: url(../img/dayview.png);
+    --experience: bisque;
+    --title: gainsboro;
+    --bar-background: aliceblue;
     &[data-scheme="dark"] {
         --body-background: #303030;
         --accent-color: #ecf0f1;
@@ -38,6 +41,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
         --background-image: url(../img/nightview.png);
+        --experience: goldenrod;
+        --title: dimgray;
+        --bar-background: black;
+
     }
 }
 
