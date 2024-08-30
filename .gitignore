@@ -1,3 +1,4 @@
 evthronblog/resources/
 .gitmodules
 evthronblog/assets/jsconfig.json
+evthronblog/static/thumbnails

@@ -1,1 +1,8 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+// custom scss below
+@import "partials/gallery.scss";
+@import "partials/clock.scss";
+@import "partials/number-field.scss";
+@import "partials/vocab.scss";
+@import "partials/progress-bar.scss";
+@import "partials/thumbnail.scss"
