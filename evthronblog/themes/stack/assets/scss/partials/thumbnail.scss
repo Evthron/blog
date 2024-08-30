@@ -5,6 +5,12 @@
     overflow: hidden;
     border-radius: 0.5rem;
     height: 2rem;
+    background-image:repeating-linear-gradient(
+        135deg,
+        rgba(197, 197, 219, 0.2) 0 ,
+        rgba(197, 197, 219, 0.2) 1rem ,
+        transparent 2.5rem
+    );
 }
 .thumbnail-wrapper{
     display: flex;
@@ -28,6 +34,7 @@
     width : 100rem;
     gap: 6rem;
     margin: 1rem;
+    align-items: center;
 }
 
 .level-badge{
