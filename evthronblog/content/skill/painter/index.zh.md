@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2024-08-23T14:00:22+08:00
+lastmod: 2024-08-30T05:31:02+08:00
 image: 
 categories: 
 tags: 
@@ -35,7 +35,7 @@ Experience Points needed for each level = 6 × level × (level - 1)
 
                        Lines:  15 --- Lv2 ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-                      Colour:  42 --- Lv3 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                      Colour:  43 --- Lv3 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
                  Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
