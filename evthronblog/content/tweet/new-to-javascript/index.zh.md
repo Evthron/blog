@@ -1,8 +1,8 @@
 ---
 title: "JavaScript 新手"
 description: 
-date: 2024-06-19T19:48:42+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+date: 2024-06-19T11:48:42+08:00
+lastmod: 2024-06-25T18:39:50+08:00
 image: 
 categories: tweet
 tags: ['software']

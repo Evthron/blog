@@ -1,8 +1,8 @@
 ---
 title: "Improved publishing workflow "
 description: 
-date: 2024-03-30T21:19:00+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+date: 2024-03-30T13:19:00+08:00
+lastmod: 2024-06-25T18:39:50+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']

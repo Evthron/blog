@@ -1,8 +1,8 @@
 ---
 title: "ilo alasa pona"
 description: 
-date: 2024-03-23T01:04:38+08:00
-lastmod: 2024-07-29T04:39:27+08:00
+date: 2024-03-22T17:04:38+08:00
+lastmod: 2024-07-28T20:39:27+08:00
 image: 
 categories: tweet
 tags: ['internet']

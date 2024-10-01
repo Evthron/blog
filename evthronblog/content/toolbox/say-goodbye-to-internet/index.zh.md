@@ -1,8 +1,8 @@
 ---
 title: "如何告別互聯網"
 description: 
-date: 2024-01-29T04:13:29+08:00
-lastmod: 2024-09-18T05:44:14+08:00
+date: 2024-01-28T20:13:29+08:00
+lastmod: 2024-09-17T21:44:14+08:00
 image: 
 categories: toolbox
 tags: []

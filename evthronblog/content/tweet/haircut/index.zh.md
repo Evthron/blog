@@ -1,8 +1,8 @@
 ---
 title: "理髮"
 description: 
-date: 2024-09-18T23:57:07+08:00
-lastmod: 2024-09-19T00:44:33+08:00
+date: 2024-09-18T15:57:07+08:00
+lastmod: 2024-09-18T16:45:52+08:00
 image: 
 categories: tweet
 tags: ['grumble']

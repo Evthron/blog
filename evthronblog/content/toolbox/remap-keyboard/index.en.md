@@ -1,8 +1,8 @@
 ---
 title: "Remap keyboard"
 description: 
-date: 2023-12-22T03:46:57+08:00
-lastmod: 2024-09-15T23:44:12+08:00
+date: 2023-12-21T19:46:57+08:00
+lastmod: 2024-09-15T15:44:12+08:00
 image: 
 categories: toolbox
 tags: []

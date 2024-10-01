@@ -1,8 +1,8 @@
 ---
 title: "折紙"
 description: 
-date: 2024-06-04T21:14:54+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+date: 2024-06-04T13:14:54+08:00
+lastmod: 2024-06-25T18:39:50+08:00
 image: 
 categories: tweet
 tags: ['maths']

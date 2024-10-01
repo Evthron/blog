@@ -1,8 +1,8 @@
 ---
 title: "井字棋入門"
 description: 
-date: 2024-09-15T23:39:01+08:00
-lastmod: 2024-09-15T23:51:40+08:00
+date: 2024-09-15T15:39:01+08:00
+lastmod: 2024-09-15T15:51:40+08:00
 image: 
 categories: posts
 tags: []

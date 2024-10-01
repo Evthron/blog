@@ -1,8 +1,8 @@
 ---
 title: "Haircut"
 description: 
-date: 2024-09-18T23:57:32+08:00
-lastmod: 2024-09-19T00:45:30+08:00
+date: 2024-09-18T15:57:32+08:00
+lastmod: 2024-09-18T16:45:52+08:00
 image: 
 categories: tweet
 tags: ['grumble']

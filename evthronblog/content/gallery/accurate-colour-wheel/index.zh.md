@@ -1,8 +1,8 @@
 ---
 title: "準確的色環"
 description: 
-date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-07-29T02:58:39+08:00
+date: 2024-01-28T21:05:42+08:00
+lastmod: 2024-07-28T18:58:39+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']

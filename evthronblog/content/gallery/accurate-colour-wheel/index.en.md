@@ -1,8 +1,8 @@
 ---
 title: "Accurate Colour Wheel"
 description: 
-date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-08-15T02:38:15+08:00
+date: 2024-01-28T21:05:42+08:00
+lastmod: 2024-08-14T18:38:15+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
