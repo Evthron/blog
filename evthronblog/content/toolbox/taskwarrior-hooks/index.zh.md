@@ -2,7 +2,7 @@
 title: "定製 Taskwarrior"
 description: 
 date: 2024-11-24T17:51:20+08:00
-lastmod: 2024-11-24T18:00:35+08:00
+lastmod: 2024-11-24T18:16:53+08:00
 image: 
 categories: toolbox
 tags: ['coding', 'software']
@@ -64,8 +64,6 @@ echo "$TASK" | python "$HOME/.config/task/hooks/priority.py" $@
 ```python
 import sys
 import json
-
-task = json.loads(sys.stdin.readline())
 
 try:
     task = json.loads(sys.stdin.readline())
