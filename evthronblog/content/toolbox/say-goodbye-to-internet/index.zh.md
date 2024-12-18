@@ -2,7 +2,7 @@
 title: "如何告別互聯網"
 description: 
 date: 2024-01-28T20:13:29+08:00
-lastmod: 2024-12-18T22:46:13+08:00
+lastmod: 2024-12-18T23:13:15+08:00
 image: 
 categories: toolbox
 tags: []
@@ -125,7 +125,7 @@ delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel
 2. 手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定
 3. 不要在 sudoers 裏給自己 root 權限，而是把自己加進 wheel group，再給 wheel group root 權限。
 
-### 其他問題（su 和 kdesu）
+## 其他問題（su 和 kdesu）
 要防止自己用 su 獲得 root 權限，需要在/etc/pam.d/su and /etc/pam.d/su-l 加上一句：
 
 https://wiki.archlinux.org/title/Su#su_and_wheel
@@ -135,19 +135,18 @@ auth required pam_wheel.so use_uid
 
 在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。
 
-我不是很清楚什麼是 Polkit，設定是根據 https://bbs.archlinux.org/viewtopic.php?id=183902 和 https://forums.gentoo.org/viewtopic-p-8236824.html?sid=938779e00c67db46c1d2a96fa465e718 改的。
-
-要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入：
-
+要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
 https://wiki.archlinux.org/title/Sudo#kdesu
 ```
 [super-user-command]
 super-user-command=sudo
 ```
 
-接着是修改 polkit，在 /etc/polkit-1/rules.d/10-admin.rules 裏：
-```
-// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼
+接着是修改 polkit，設定是根據 [Bypass KDEsu Authentication Dialog (archlinux bbs)](https://bbs.archlinux.org/viewtopic.php?id=183902) 和 [How do I "graphical-sudo" under KDE (not "su")? (gentoo forum)](https://forums.gentoo.org/viewtopic-p-8236824.html) 改的。
+
+在 /etc/polkit-1/rules.d/10-admin.rules 裏：
+```javascript
+// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
 polkit.addAdminRule(function(action, subject) {
     return ["unix-group:wheel"];
 });
