@@ -2,7 +2,7 @@
 title: "如何告別互聯網"
 description: 
 date: 2024-01-28T20:13:29+08:00
-lastmod: 2024-09-17T21:44:14+08:00
+lastmod: 2024-12-18T22:46:13+08:00
 image: 
 categories: toolbox
 tags: []
@@ -95,4 +95,68 @@ address=/example1.com/
 etc 文件夾裏的文件是系統設定，需要 root 權限才能修改。先限制好自己的 sudo 權限讓自己沒有辦法修改文件，然後把 root 密碼藏起來。這樣就沒有辦法修改 dnsmasq 的設定了。不過我還沒有這樣做。只要解除封鎖的過程足夠複雜，我就不會自找麻煩了。要知道，拆掉自己建好的東西是多麼痛苦啊。
 
 網上也有一些別人辛苦整理好的封鎖列表，像是 [dns-blocklists (github)](https://github.com/hagezi/dns-blocklists)。你也可以拿來用。
+
+## Delayed-admin
+dnsmasq 只是在域名層面的一道基礎防禦，沒有辦法像 Leechblock 一樣靈活地控制開放時間和針對 URL 禁止網站。我只要下載另一個瀏覽器，就能繞開這些插件的限制，所以我還需要防止自己安裝瀏覽器。
+
+在 Linux 系統裏，只要放棄 root 權限就安裝不了軟件，不過我既是用家，也是系統管理員，需要升級系統、更改系統設定，以後也需要安裝新的軟件，所以我不能這樣做。怎樣防止自己監守自盜的問題一直讓我很頭痛。用到 root 權限的頻率很高，所以我像不能把密碼放在家裏的硬盤裏，等到需要的時候才拿出來。
+
+[delayed-admin (github)](https://github.com/miheerdew/delayed-admin) 用很簡單的想法解決了我的煩惱：讓自己先等待一段時間，才能執行操作，就能抵住一時的鬼迷心竅，不會剛看完電影，急着上網看影評，發現影評網站被自己擋掉了就下載另一個瀏覽器，然後沉溺在沒有插件限制的網絡裏了。
+
+詳細的原理是這樣的：在 Linux 裏，可以指定用户屬於什麼羣組，然後根據不同的羣組，分發不同的權限。具體會用到 sudo 這個程序分發權限。前面説到用户需要 root 權限來執行和修改系統設定有關的操作，但如果一直持有 root 權限的話，會有安全問題，所以一般都只會在需要的時候，用 sudo 指令臨時賦予自己 root 權限。在 sudoers 設定檔裏，可以細緻地設定什麼人，什麼羣組，可以在什麼樣的指令上使用 sudo。
+
+而 delayed-admin 這個程序會新增一個 delayed-admin 羣組，這個羣組沒有常規的 root 權限，羣組裏的用户只能用 delayed 指令執行需要 root 權限的操作，等待一段時間後才會執行。做法是在 sudoers 文件裏加上一行：
+
+```
+%delayed-admin ALL = /usr/local/bin/delayed
+```
+
+這個 delayed 程序也很簡單，主體邏輯只有三行。
+```bash
+CMD=${@}
+sleep "$delay"
+$CMD
+```
+雖然很簡單，不過這就是我一直想要的工具。
+
+delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。
+
+1. 安裝 at，排程工具
+2. 手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定
+3. 不要在 sudoers 裏給自己 root 權限，而是把自己加進 wheel group，再給 wheel group root 權限。
+
+### 其他問題（su 和 kdesu）
+要防止自己用 su 獲得 root 權限，需要在/etc/pam.d/su and /etc/pam.d/su-l 加上一句：
+
+https://wiki.archlinux.org/title/Su#su_and_wheel
+```
+auth required pam_wheel.so use_uid
+```
+
+在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。
+
+我不是很清楚什麼是 Polkit，設定是根據 https://bbs.archlinux.org/viewtopic.php?id=183902 和 https://forums.gentoo.org/viewtopic-p-8236824.html?sid=938779e00c67db46c1d2a96fa465e718 改的。
+
+要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入：
+
+https://wiki.archlinux.org/title/Sudo#kdesu
+```
+[super-user-command]
+super-user-command=sudo
+```
+
+接着是修改 polkit，在 /etc/polkit-1/rules.d/10-admin.rules 裏：
+```
+// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼
+polkit.addAdminRule(function(action, subject) {
+    return ["unix-group:wheel"];
+});
+
+// 如果用户想在 Dolphin 裏面提升權限，直接否決
+polkit.addRule(function(action, subject) {
+    if (!subject.isInGroup("admin") && action.id == "org.kde.kio.admin.commands") {
+        return polkit.Result.NO;
+    }
+});
+```
 
