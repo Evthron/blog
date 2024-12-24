@@ -2,10 +2,10 @@
 title: "交朋友的理由"
 description: 
 date: 2024-11-19T20:18:31+08:00
-lastmod: 2024-11-19T20:37:28+08:00
+lastmod: 2024-12-24T23:40:31+08:00
 image: 
 categories: posts
-tags: ['stories']
+tags: ['relationship', 'stories']
 math: 
 license: 
 hidden: false

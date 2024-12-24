@@ -5,7 +5,7 @@ date: 2024-06-29T13:43:57+08:00
 lastmod: 2024-06-30T19:55:24+08:00
 image: 
 categories: posts
-tags: ['gamification']
+tags: ['relationship', 'gamification']
 math: 
 license: 
 hidden: false
