@@ -2,10 +2,10 @@
 title: "重設鍵盤佈局"
 description: 
 date: 2023-12-21T14:44:00+08:00
-lastmod: 2024-09-16T05:48:18+08:00
+lastmod: 2024-12-26T22:37:04+08:00
 image: 
 categories: toolbox
-tags: []
+tags: ['software']
 math: 
 license: 
 hidden: false

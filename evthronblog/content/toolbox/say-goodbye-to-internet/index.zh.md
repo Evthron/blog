@@ -2,10 +2,10 @@
 title: "如何告別互聯網"
 description: 
 date: 2024-01-28T20:13:29+08:00
-lastmod: 2024-12-18T23:41:23+08:00
+lastmod: 2024-12-26T22:37:04+08:00
 image: 
 categories: toolbox
-tags: []
+tags: ['software']
 math: 
 license: 
 hidden: false
