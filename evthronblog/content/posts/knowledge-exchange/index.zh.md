@@ -2,7 +2,7 @@
 title: "交換知識的聊天挑戰"
 description: 
 date: 2024-06-29T13:43:57+08:00
-lastmod: 2024-06-30T19:55:24+08:00
+lastmod: 2024-12-24T23:48:47+08:00
 image: 
 categories: posts
 tags: ['relationship', 'gamification']
