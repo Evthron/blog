@@ -2,7 +2,7 @@
 title: "Upload workflow"
 description: 
 date: 2024-12-27T07:38:36+08:00
-lastmod: 2024-12-27T08:13:14+08:00
+lastmod: 2024-12-27T08:38:57+08:00
 image: 
 categories: toolbox
 tags: ['coding']
@@ -14,7 +14,7 @@ comments: true
 
 My workflow for uploading posts is a bit complicatated, let me explain that here.
 
-I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+I use [hugo (official site)](https://gohugo.io) to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
 
 Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
 
@@ -39,7 +39,7 @@ When an note is ready to pubilsh, I add a language code tag on it. In this way, 
 
 Then I use python to generate the files and shell script to upload the website.
 
-Now for the actual code to execute the procedure. Joppy is the tool for me to output the files from Joplin. It implements the Joplin API in python.
+Now for the actual code to execute the procedure. [Joppy (github)](https://github.com/marph91/joppy) is the tool for me to output the files from Joplin. It implements the Joplin API in python.
 
 Due to its database nature, the way how Joplin stores folders is not intuitive. The 'nested' notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of 'posts', I have to search through all the notebooks to check whether its parent is 'post'. It seems that this is the 'parent list' data structure, where each child is pointing to its parent.
 
