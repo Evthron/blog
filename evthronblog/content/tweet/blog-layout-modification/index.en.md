@@ -2,7 +2,7 @@
 title: "Website redesign"
 description: 
 date: 2024-07-01T18:21:29+08:00
-lastmod: 2024-12-28T04:12:19+08:00
+lastmod: 2024-12-28T04:58:46+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -16,4 +16,6 @@ I finally finished rearranging this site! Now the gallery section shows my drawi
 
 ***
 The code was very cryptic... how did I finished this thing? Maybe I rearranged the code from the original template?
+
+It's quite limiting to using this template. The way how the CSS files organised is very confusing.
 
