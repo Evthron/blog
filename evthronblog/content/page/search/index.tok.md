@@ -1,6 +1,6 @@
 ---
 title: "lukin jo"
-slug: "search"
+url: "search"
 layout: "search"
 outputs:
     - html

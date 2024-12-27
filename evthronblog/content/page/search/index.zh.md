@@ -1,6 +1,6 @@
 ---
 title: "找文章"
-slug: "search"
+url: "search"
 layout: "search"
 outputs:
     - html
