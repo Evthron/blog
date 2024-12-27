@@ -1,11 +1,57 @@
 <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+
     {{ partial "article/components/header" . }}
 
-    {{ partial "article/components/content" . }}
+    {{/* Content  */}}
+    <section class="article-content">
+        <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
+        {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+        {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
+    </section>
 
-    {{ partial "article/components/footer" . }}
+    {{/*  Footer  */}}
+    <footer class="article-footer">
 
+        {{/*  tags  */}}
+        {{ if .Params.Tags }}
+        <section class="article-tags">
+            {{ range (.GetTerms "tags") }}
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+        </section>
+        {{ end }} 
+
+        {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
+        <section class="article-copyright">
+            {{ partial "helper/icon" "copyright" }}
+            <span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>
+        </section>
+        {{ end }}
+    
+        {{- if ne .Lastmod .Date -}}
+        <section class="article-lastmod">
+            {{ partial "helper/icon" "clock" }}
+            <span>
+                {{ T "article.lastUpdatedOn" }} {{ .Lastmod.Format "2006-01-02 15:04 -07:00" }}
+            </span>
+        </section>
+        {{- end -}}
+    </footer>
+    
+    {{/*  Math  */}}
     {{ if or .Params.math .Site.Params.article.math }}
-        {{ partialCached "article/components/math.html" . }}
+    {{- partial "helper/external" (dict "Context" . "Namespace" "KaTeX") -}}
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            renderMathInElement(document.querySelector(`.article-content`), {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                ignoredClasses: ["gist"]
+            });})
+    </script>
     {{ end }}
 </article>

@@ -26,9 +26,6 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
-    {{ if .Params.links }}
-        {{ partial "article/components/links" . }}
-    {{ end }}
     {{ partialCached "footer/footer" . }}
 
 {{ end }}

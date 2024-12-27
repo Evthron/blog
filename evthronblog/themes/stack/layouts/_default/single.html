@@ -26,12 +26,51 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
+    {{/*  Links  */}}
     {{ if .Params.links }}
-        {{ partial "article/components/links" . }}
+    <div class="article-list--compact links">
+        {{ range $i, $link := .Params.links }}
+            <article>
+                <a href="{{ $link.website }}" target="_blank" rel="noopener">
+                    <div class="article-details">
+                        <h2 class="article-title">
+                            {{- $link.title -}}
+                        </h2>
+                        <footer class="article-time">
+                            {{ with $link.description }}
+                                {{ . }}
+                            {{ else }}
+                                {{ $link.website }}
+                            {{ end }}
+                        </footer>
+                    </div>
+            
+                    {{ with $link.image }}
+                        <div class="article-image">
+                            <img src="{{ . }}" loading="lazy">
+                        </div>
+                    {{ end }}
+                </a>
+            </article>
+        {{ end }}
+    </div>
     {{ end }}
 
-    {{ partial "article/components/related-content" . }}
-     
+    {{/*  Related Content  */}}
+    {{ $related := (where (.Site.RegularPages.Related .) "Params.hidden" "!=" true) | first 5 }}
+    {{ with $related }}
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
+                {{ range . }}
+                    {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
+                {{ end }}
+            </div>
+        </div>
+    </aside>
+    {{ end }} 
+
     {{ partialCached "footer/footer" . }}
 
     {{ partialCached "article/components/photoswipe" . }}
