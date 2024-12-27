@@ -1,8 +1,8 @@
 ---
 title: "test on linux"
 description: 
-date: 2024-07-18T12:45:28+08:00
-lastmod: 2024-07-18T12:54:05+08:00
+date: 2024-07-18T20:45:28+08:00
+lastmod: 2024-07-18T20:54:05+08:00
 image: 
 categories: sandbox
 tags: []

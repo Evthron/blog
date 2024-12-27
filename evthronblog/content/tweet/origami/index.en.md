@@ -1,8 +1,8 @@
 ---
 title: "origami"
 description: 
-date: 2024-06-17T17:10:39+08:00
-lastmod: 2024-08-14T18:46:58+08:00
+date: 2024-06-18T01:10:39+08:00
+lastmod: 2024-08-15T02:46:58+08:00
 image: 
 categories: tweet
 tags: ['maths']

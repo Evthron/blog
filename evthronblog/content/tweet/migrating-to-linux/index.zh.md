@@ -1,8 +1,8 @@
 ---
 title: "遷移到 Linux"
 description: 
-date: 2024-07-11T23:54:30+08:00
-lastmod: 2024-08-05T19:19:00+08:00
+date: 2024-07-12T07:54:30+08:00
+lastmod: 2024-08-06T03:19:00+08:00
 image: 
 categories: tweet
 tags: ['software']

@@ -1,8 +1,8 @@
 ---
 title: "重設鍵盤佈局"
 description: 
-date: 2023-12-21T14:44:00+08:00
-lastmod: 2024-12-26T22:37:04+08:00
+date: 2023-12-21T22:44:00+08:00
+lastmod: 2024-12-27T06:37:04+08:00
 image: 
 categories: toolbox
 tags: ['software']

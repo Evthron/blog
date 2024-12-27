@@ -1,8 +1,8 @@
 ---
 title: "和朋友保持聯絡"
 description: 
-date: 2024-12-24T23:36:05+08:00
-lastmod: 2024-12-24T23:40:31+08:00
+date: 2024-12-25T07:36:05+08:00
+lastmod: 2024-12-25T07:40:31+08:00
 image: 
 categories: posts
 tags: ['relationship', 'grumble', 'stories']

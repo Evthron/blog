@@ -1,8 +1,8 @@
 ---
 title: "Gamify my life"
 description: 
-date: 2024-08-27T04:25:35+08:00
-lastmod: 2024-09-11T19:47:15+08:00
+date: 2024-08-27T12:25:35+08:00
+lastmod: 2024-09-12T03:47:15+08:00
 image: 
 categories: posts
 tags: []

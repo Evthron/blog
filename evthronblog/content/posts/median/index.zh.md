@@ -1,8 +1,8 @@
 ---
 title: "中位數公式"
 description: 
-date: 2024-09-11T19:35:28+08:00
-lastmod: 2024-09-11T19:59:26+08:00
+date: 2024-09-12T03:35:28+08:00
+lastmod: 2024-09-12T03:59:26+08:00
 image: 
 categories: posts
 tags: ['maths']

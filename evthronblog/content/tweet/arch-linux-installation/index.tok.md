@@ -1,8 +1,8 @@
 ---
 title: "pali pi nasin Arch"
 description: 
-date: 2024-04-18T01:29:36+08:00
-lastmod: 2024-06-25T18:39:49+08:00
+date: 2024-04-18T09:29:36+08:00
+lastmod: 2024-06-26T02:39:49+08:00
 image: 
 categories: tweet
 tags: []

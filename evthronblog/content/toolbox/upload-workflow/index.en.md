@@ -1,8 +1,8 @@
 ---
 title: "Upload workflow"
 description: 
-date: 2024-12-26T23:38:36+08:00
-lastmod: 2024-12-26T23:40:37+08:00
+date: 2024-12-27T07:38:36+08:00
+lastmod: 2024-12-27T07:52:11+08:00
 image: 
 categories: toolbox
 tags: ['coding']

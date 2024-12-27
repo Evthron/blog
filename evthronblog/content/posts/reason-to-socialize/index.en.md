@@ -1,8 +1,8 @@
 ---
 title: "Why care about people? Reason to socialize"
 description: 
-date: 2024-11-19T20:18:13+08:00
-lastmod: 2024-11-19T20:37:00+08:00
+date: 2024-11-20T04:18:13+08:00
+lastmod: 2024-11-20T04:37:00+08:00
 image: 
 categories: posts
 tags: ['stories']
