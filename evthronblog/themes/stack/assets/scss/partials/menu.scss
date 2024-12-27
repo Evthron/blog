@@ -147,7 +147,7 @@
 
     &,
     .menu-bottom-section {
-        gap: 30px;
+        gap: 20px;
         @include respond(xl) {
             gap: 25px;
         }

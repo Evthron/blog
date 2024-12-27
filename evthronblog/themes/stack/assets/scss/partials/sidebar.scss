@@ -32,9 +32,9 @@
     position: relative;
     margin-bottom: 3rem;
 
-    --sidebar-avatar-size: 100px;
+    --sidebar-avatar-size: 70px;
     --sidebar-element-separation: 20px;
-    --emoji-size: 40px;
+    --emoji-size: 0px;
     --emoji-font-size: 20px;
 
     @include respond(md) {
@@ -107,10 +107,6 @@
     display: flex;
     flex-direction: column;
     gap: var(--sidebar-element-separation);
-
-    @include respond(md) {
-        padding: 0;
-    }
 
     .site-avatar {
         position: relative;
