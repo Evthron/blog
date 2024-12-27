@@ -2,7 +2,7 @@
 title: "Upload workflow"
 description: 
 date: 2024-12-27T07:38:36+08:00
-lastmod: 2024-12-27T07:52:11+08:00
+lastmod: 2024-12-27T08:13:14+08:00
 image: 
 categories: toolbox
 tags: ['coding']
@@ -51,7 +51,7 @@ Now I know how to filter the notebooks, all that's left is the hassle of generat
 import os
 from joppy.client_api import ClientApi as Api
 
-# 調用 Joppy 的 API
+# Use Joppy API
 api = Api(token="YOUR_API_TOKEN")
 
 def output_posts_in_certain_notebook_id(all_notebooks, notebook_id):
