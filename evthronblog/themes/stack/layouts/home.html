@@ -24,12 +24,12 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ partial "article/article.html" . }}
+    {{ partial "article.html" . }}
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer" . }}
 
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
+    {{ if .Scratch.Get "hasWidget" }}{{ partial "right-sidebar.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}

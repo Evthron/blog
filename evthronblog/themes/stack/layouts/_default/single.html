@@ -24,7 +24,7 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ partial "article/article.html" . }}
+    {{ partial "article.html" . }}
 
     {{/*  Links  */}}
     {{ if .Params.links }}
@@ -64,18 +64,18 @@
         <div class="related-content">
             <div class="flex article-list--tile">
                 {{ range . }}
-                    {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
+                    {{ partial "article-list-tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
                 {{ end }}
             </div>
         </div>
     </aside>
     {{ end }} 
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer" . }}
 
-    {{ partialCached "article/components/photoswipe" . }}
+    {{ partialCached "photoswipe" . }}
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
+    {{ if .Scratch.Get "hasWidget" }}{{ partial "right-sidebar.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}

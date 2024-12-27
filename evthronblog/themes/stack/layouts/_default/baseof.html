@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
     <head>
-        {{- partial "head/head.html" . -}}
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        
+        {{- $description := partialCached "data/description" . .RelPermalink -}}
+        <meta name='description' content='{{ $description }}'>
+        {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+        
+        {{- $title := partialCached "data/title" . .RelPermalink -}}
+        <title>{{ if not .IsHome }}{{ $title }} | {{ end }}{{ .Site.Title }}</title>
+        
+        <link rel='canonical' href='{{ .Permalink }}'>
+        
+        {{/*  Style  */}}
+        {{ $sass := resources.Get "scss/style.scss" }}
+        {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+        
+        {{- partial "opengraph/include.html" . -}}
+        
+        {{- range .AlternativeOutputFormats -}}
+            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+        {{- end -}}
+        
+        {{ with .Site.Params.favicon }}
+            <link rel="shortcut icon" href="{{ . }}" />
+        {{ end }}
+        
+        {{- template "_internal/google_analytics.html" . -}}
+        
         {{- block "head" . -}}{{ end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }}">
-        {{- partial "head/colorScheme" . -}}
+
+
+    {{/*  ColorScheme  */}}
+        {{- $defaultColorScheme := default "auto" .Site.Params.colorScheme.default -}}
+        {{- if not (default false .Site.Params.colorScheme.toggle) -}}
+            {{/* If toggle is disabled, force default scheme */}}
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    localStorage.setItem(colorSchemeKey, "{{ $defaultColorScheme }}");
+                })();
+            </script>
+        {{- else -}}
+            {{/* Otherwise set to default scheme only if no preference is set by user */}}
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "{{ $defaultColorScheme }}");
+                    }
+                })();
+            </script>
+        {{- end -}}
+        <script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    /**
+                    * Enable dark mode if:
+                    * 1. If dark mode is set already (in local storage)
+                    * 2. Auto mode & prefere color scheme is dark
+                    */
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    {{/*  ColorScheme end  */}}
 
         {{/* The container is wider when there's any activated widget */}}
         {{- $hasWidget := false -}}
@@ -16,13 +85,40 @@
         {{- end -}}
         <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
             {{- block "left-sidebar" . -}}
-                {{ partial "sidebar/left.html" . }}
+                {{ partial "left-sidebar.html" . }}
             {{- end -}}
             {{- block "right-sidebar" . -}}{{ end }}
             <main class="main full-width">
                 {{- block "main" . }}{{- end }}
             </main>
         </div>
-        {{ partial "footer/include.html" . }}
+    
+        {{/*  include  */}}
+        {{/*  script  */}}
+        {{- partial "helper/external" (dict "Context" . "Namespace" "Vibrant") -}}
+        
+        {{- $opts := dict "minify" hugo.IsProduction -}}
+        {{- $script := resources.Get "ts/main.ts" | js.Build $opts -}}
+        
+        <script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+        
+        {{- with resources.Get "ts/custom.ts" -}}
+            {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}
+            {{- $customScript := . | js.Build $opts -}}
+            <script type="text/javascript" src="{{ $customScript.RelPermalink }}" defer></script>
+        {{- end -}}
+        
+        {{/*  custom-font  */}}
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
     </body>
 </html>

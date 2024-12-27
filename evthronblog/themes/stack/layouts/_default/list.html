@@ -60,7 +60,7 @@
             <div class="subsection-list">
                 <div class="article-list--tile">
                     {{ range . }}
-                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
+                        {{ partial "article-list-tile" (dict "context" . "size" "250x150" "Type" "section") }}
                     {{ end }}
                 </div>
             </div>
@@ -71,15 +71,15 @@
     {{ $paginator := .Paginate $pages }}
     <section class="article-list--compact">
         {{ range $paginator.Pages }}
-            {{ partial "article-list/compact" . }}
+            {{ partial "article-list-compact" . }}
         {{ end }}
     </section>
 
     {{- partial "pagination.html" . -}}
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer" . }}
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+    {{ partial "right-sidebar.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
