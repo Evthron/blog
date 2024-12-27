@@ -28,8 +28,6 @@
             <link rel="shortcut icon" href="{{ . }}" />
         {{ end }}
         
-        {{- template "_internal/google_analytics.html" . -}}
-        
         {{- block "head" . -}}{{ end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }}">
