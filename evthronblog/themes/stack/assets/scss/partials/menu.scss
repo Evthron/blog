@@ -140,7 +140,15 @@
     display: none;
     margin: 0 calc(var(--container-padding) * -1);
 
-    padding: 30px 30px;
+    @include respond(sm){
+        padding: var(--container-padding);
+    }
+
+    @include respond(md){
+        padding: 30px 30px;
+    }
+    
+
     @include respond(xl) {
         padding: 15px 0;
     }
@@ -183,15 +191,30 @@
         }
 
         a {
-            height: 100%;
-            display: inline-flex;
-            align-items: center;
-            color: var(--body-text-color);
-            gap: var(--menu-icon-separation);
+
+            @include respond(sm){
+                height: 100%;
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                color: var(--body-text-color);
+                gap: 10px; //var(--menu-icon-separation);
+            }
+            @include respond(md){
+                flex-direction: row;
+                gap: var(--menu-icon-separation);
+            }
+
         }
 
         span {
-            flex: 1;
+            @include respond(sm){
+                width: 4rem;
+                flex: 1;
+            }
+            @include respond(md){
+                width: auto;
+            }
         }
 
         &.current {
@@ -203,10 +226,17 @@
     }
 
     .menu-bottom-section {
+
         margin-top: auto;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        @include respond(sm){
+            width: auto;
+        }
+        @include respond(md){
+            width: 100%;
+        }
+
     }
 }
 
