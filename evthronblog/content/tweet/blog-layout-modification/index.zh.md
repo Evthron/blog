@@ -2,7 +2,7 @@
 title: "網站設計"
 description: 
 date: 2024-07-01T18:11:52+08:00
-lastmod: 2024-12-28T04:57:45+08:00
+lastmod: 2024-12-30T21:09:52+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -19,4 +19,9 @@ comments: true
 現在重新看一次代碼，我完全不知道自己是怎麼做到的。完全不像是我自己寫的啊…… 應該是從原本的代碼裏找到適合的部分，複製黏貼再重組的吧。
 
 感覺用這個模板很受限制，CSS 雖然好像很有條理，但內容四散，不知道是按着什麼結構組織的。
+
+***
+Tailwind CSS 的理念是有道理的，不深思熟慮就胡亂添加一大堆 CSS class 只會讓代碼變得散亂，還不如直接把樣式寫進 HTML。不過總感覺網頁應該要事先設計好才開始動工，所以我有點懷疑。
+
+https://scriptraccoon.dev/blog/tailwind-disadvantages
 

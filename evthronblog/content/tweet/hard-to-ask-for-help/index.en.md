@@ -2,7 +2,7 @@
 title: "Hard to ask for help"
 description: 
 date: 2024-12-28T05:02:20+08:00
-lastmod: 2024-12-29T00:13:51+08:00
+lastmod: 2024-12-29T00:15:21+08:00
 image: 
 categories: tweet
 tags: ['relationship']
