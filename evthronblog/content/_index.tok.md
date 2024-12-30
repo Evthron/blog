@@ -1,6 +1,5 @@
 ---
 title: tomo mi
-description: len walo 
 date: '2023-12-22'
 lastmod: '2024-07-01T01:36:32+08:00'
 ---
