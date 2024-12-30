@@ -2,7 +2,7 @@
 title: "Website redesign"
 description: 
 date: 2024-07-01T18:21:29+08:00
-lastmod: 2024-12-30T21:09:11+08:00
+lastmod: 2024-12-31T04:01:20+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -17,8 +17,9 @@ I finally finished rearranging this site! Now the gallery section shows my drawi
 ***
 The code was very cryptic... how did I finished this thing? Maybe I rearranged the code from the original template?
 
-It's quite limiting to using this template. The way how the CSS files organised is very confusing.
+It's quite limiting to using this template. The way how the CSS files organised is very confusing. 
 
+Actually, It's not that hard to understand after I read through them.
 ***
 Tailwind css looks tempting because it reveals the problem of overly structured and scattered CSS classes. Don't predict which classes can be reused, only reuse it if you saw it repeated many times. But it might not be a good thing to make edits without understanding the structure of the site, so I'm doubtful.
 

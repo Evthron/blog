@@ -2,10 +2,10 @@
 title: "CSS note"
 description: 
 date: 2024-12-30T23:55:28+08:00
-lastmod: 2024-12-31T03:09:53+08:00
+lastmod: 2024-12-31T03:10:09+08:00
 image: 
 categories: sandbox
-tags: ['en']
+tags: []
 math: 
 license: 
 hidden: false

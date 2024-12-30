@@ -12,8 +12,8 @@
         <title>{{ if not .IsHome }}{{ $title }} | {{ end }}{{ .Site.Title }}</title>
         
         <link rel='canonical' href='{{ .Permalink }}'>
-        
-        {{/*  Style  */}}
+
+        {{/*  Compiles the sass file */}}
         {{ $sass := resources.Get "scss/style.scss" }}
         {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
