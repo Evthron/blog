@@ -8,7 +8,7 @@ let slideUp = (target: HTMLElement, duration = 500) => {
     target.classList.add('transiting');
     target.style.transitionProperty = 'height, margin, padding';
     target.style.transitionDuration = duration + 'ms';
-    ///target.style.boxSizing = 'border-box';
+    // target.style.boxSizing = 'border-box';
     target.style.height = target.offsetHeight + 'px';
     target.offsetHeight;
     target.style.overflow = 'hidden';

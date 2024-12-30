@@ -2,6 +2,7 @@
     background-color: var(--card-background);
     padding: 1rem 2rem 1rem 2rem;
     border-radius: var(--card-border-radius);
+    display: flex;
     &.sticky {
         @include respond(md) {
             position: sticky;
@@ -36,6 +37,7 @@
     --sidebar-element-separation: 20px;
     --emoji-size: 0px;
     --emoji-font-size: 20px;
+    padding-top: var(--main-top-padding);
 
     @include respond(md) {
         width: auto;
@@ -101,12 +103,17 @@
     }
 }
 
+/* selector specificity! this gets applied*/
 .sidebar header {
     z-index: 1;
     transition: box-shadow 0.5s ease;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: var(--sidebar-element-separation);
+
+    @include respond(md) {
+        flex-direction: column;
+    }
 
     .site-avatar {
         position: relative;
@@ -139,9 +146,9 @@
 
     .site-meta {
         display: flex;
-        flex-direction: column;
         gap: 10px;
         justify-content: center;
+        align-items: center;
     }
 
     .site-name {
@@ -187,8 +194,11 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    gap: var(--menu-icon-separation);
-
+    gap: 5px;
+    
+    @include respond(md) {
+        gap: var(--menu-icon-separation);
+    }
     .icon-tabler-toggle-right {
         display: none;
     }
@@ -198,7 +208,11 @@
     color: var(--body-text-color);
     display: inline-flex;
     align-content: center;
-    gap: var(--menu-icon-separation);
+    gap: 5px;
+    
+    @include respond(md) {
+        gap: var(--menu-icon-separation);
+    }
 
     select {
         border: 0;

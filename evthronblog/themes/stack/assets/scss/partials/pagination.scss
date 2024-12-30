@@ -1,21 +1,23 @@
+/* The page navigation bar*/
 .pagination {
     display: flex;
     background-color: var(--card-background);
     box-shadow: var(--shadow-l1);
     border-radius: var(--card-border-radius);
     overflow: hidden;
-    flex-wrap: wrap;
+    flex-wrap: wrap; // What is flex-warp?
 
+    /* The page button*/
     .page-link {
         padding: 16px 32px;
         display: inline-flex;
+        color: var(--card-text-color-secondary);
 
+        /* The page number text of the current page*/
         &.current {
             font-weight: bold;
             background-color: var(--card-background-selected);
             color: var(--card-text-color-main);
         }
-
-        color: var(--card-text-color-secondary);
     }
 }

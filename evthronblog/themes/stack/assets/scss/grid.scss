@@ -1,17 +1,24 @@
 .container {
-    margin-left: auto;
+    //Keeps the elements in the middle
+    margin-left: auto; 
     margin-right: auto;
 
     .left-sidebar {
+        // Control the arrangement of "left-sidebar/article/right-sidebar",
+        // -3 means at the leftmost of the page
         order: -3;
+
         max-width: var(--left-sidebar-max-width);
     }
 
     .right-sidebar {
+        // Control the arrangement of "left-sidebar/article/right-sidebar",
+        // -1 means at the rightmost of the page
         order: -1;
+
         max-width: var(--right-sidebar-max-width);
 
-        /// Display right sidebar when min-width: lg
+        /// Display right sidebar only when min-width of the device is at least lg
         @include respond(lg) {
             display: flex;
         }
@@ -54,9 +61,10 @@
     }
 }
 
+// For the overall layout flex
 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; // Why specify row?
 
     &.column {
         flex-direction: column;
@@ -65,7 +73,7 @@
     &.on-phone--column {
         flex-direction: column;
         @include respond(md) {
-            flex-direction: unset;
+            flex-direction: unset; // What is unset?
         }
     }
 
@@ -74,11 +82,15 @@
     }
 }
 
+/* middle content panel */
 main.main {
+    // Control the arrangement of "left-sidebar/article/right-sidebar",
+    // -2 means at the middle of the page
     order: -2;
+
     min-width: 0;
     max-width: 100%;
-    flex-grow: 1;
+    flex-grow: 1; // What is flex-grow? not useful
     display: flex;
     flex-direction: column;
     gap: var(--section-separation);
@@ -88,12 +100,12 @@ main.main {
     }
 }
 
+/* The left-sidbar + main panel + right-sidebar*/
 .main-container {
-    min-height: 100vh;
+    min-height: 50vh; // Not 100vh to shorten the sidebar when zoomed out
     align-items: flex-start;
-    padding: 0 15px;
+    padding: 0px 15px; // padding left-right
     gap: var(--section-separation);
-    padding-top: var(--main-top-padding);
     
     @include respond(md) {
         padding: 0 20px;

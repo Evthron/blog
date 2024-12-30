@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    overflow-y: scroll;
+    overflow-y: scroll; // What is overflow-y
 }
 
 * {
@@ -9,7 +9,7 @@ html {
 
 body {
     background-image: var(--background-image);
-    background-color: #220e00;
+    background-color: var(--pre-background-color);
     background-attachment: fixed;
     background-size: cover;
     margin: 0;

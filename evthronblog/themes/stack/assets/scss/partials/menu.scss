@@ -130,21 +130,20 @@
 .menu {
     padding-left: 0;
     list-style: none;
-    flex-direction: column;
     overflow-y: auto;
     flex-grow: 1;
     font-size: 1.4rem;
     background-color: var(--card-background);
+    display: flex;
 
     box-shadow: var(--shadow-l1);
-    display: none;
     margin: 0 calc(var(--container-padding) * -1);
 
-    @include respond(sm){
         padding: var(--container-padding);
-    }
+    flex-direction: row;
 
     @include respond(md){
+        flex-direction: column;
         padding: 30px 30px;
     }
     
@@ -161,9 +160,6 @@
         }
     }
 
-    &.show {
-        display: flex;
-    }
 
     @include respond(md) {
         align-items: flex-end;

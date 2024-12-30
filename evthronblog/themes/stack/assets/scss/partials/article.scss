@@ -1,28 +1,32 @@
 /* Default article style */
+
+/* For the timeline and tweet page*/
 .article-list {
     display: flex;
     flex-direction: column;
     gap: var(--section-separation);
 
+    /* the article stack cards in timeline and tweet page*/
     article {
         display: flex;
         flex-direction: column;
         background-color: var(--card-background);
         box-shadow: var(--shadow-l1);
         border-radius: var(--card-border-radius);
-        overflow: hidden; // 令圖片不溢出的關鍵
+        overflow: hidden; // To prevent the article image from overflowing
 
         transition: box-shadow 0.3s ease;
 
-        &:hover {
-            box-shadow: var(--shadow-l2);
-        }
+        // Don't need this hover effect
+        // &:hover {
+        //     box-shadow: var(--shadow-l4);
+        // }
 
         .article-image {
             img {
                 width: 100%;
                 height: 150px;
-                object-fit: cover;
+                object-fit: cover; // crop feature image
 
                 @include respond(md) {
                     height: 200px;
@@ -34,17 +38,21 @@
             }
         }
 
-        @for $i from 1 through length($defaultTagBackgrounds) {
-            &:nth-child(#{length($defaultTagBackgrounds)}n + #{$i}) {
-                .article-category a {
-                    background: nth($defaultTagBackgrounds, $i);
-                    color: nth($defaultTagColors, $i);
-                }
-            }
-        }
+        // The colour of the category tag, I seemed to defined that elsewhere
+
+        // @for $i from 1 through length($defaultTagBackgrounds) {
+        //     &:nth-child(#{length($defaultTagBackgrounds)}n + #{$i}) {
+        //         .article-category a {
+        //             background: nth($defaultTagBackgrounds, $i);
+        //             color: nth($defaultTagColors, $i);
+        //         }
+        //     }
+        // }
     }
 }
 
+/* The description part of all article stack card */
+/* applies to both compact and full card styles */
 .article-details {
     display: flex;
     flex-direction: column;
@@ -53,6 +61,7 @@
     gap: 15px;
 }
 
+/* title of the card for the full card style*/
 .article-title {
     font-family: var(--article-font-family);
     font-weight: 600;
@@ -68,7 +77,8 @@
         color: var(--card-text-color-main);
 
         &:hover {
-            color: var(--card-text-color-main);
+            color: var(--card-text-color-secondary);
+            //color: var(--card-text-color-main); //typo?
         }
     }
 }
@@ -84,23 +94,24 @@
     }
 }
 
-.article-title-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+// Not useful?
+// .article-title-wrapper {
+//     display: flex;
+//     flex-direction: column;
+// }
 
+/* article detail */
 .article-time,
 .article-translations {
     display: flex;
-    color: var(--card-text-color-tertiary);
     gap: 15px;
 
     svg {
+        color: var(--card-text-color-tertiary);
         vertical-align: middle;
         width: 20px;
         height: 20px;
-        stroke-width: 1.33;
+        stroke-width: 1.33; // define the line thickness of svg 
         flex-shrink: 0;
     }
 
@@ -118,12 +129,12 @@
 }
 
 .article-time {
-    flex-wrap: wrap;
+    flex-wrap: wrap; // What is flex-wrap?
 }
 
 .article-translations {
     & > div {
-        flex-wrap: wrap;
+        flex-wrap: wrap; // What is flex-wrap?
     }
 }
 
@@ -132,6 +143,8 @@
     display: flex;
     gap: 10px;
 
+    // The category button above title
+    // I defined the colour elsewhere...
     a {
         color: var(--accent-color-text);
         background-color: var(--accent-color);
@@ -141,6 +154,7 @@
         font-size: 1.4rem;
         transition: background-color 0.5s ease;
 
+        // No effect...
         &:hover {
             color: var(--accent-color-text);
             background-color: var(--accent-color-darker);
@@ -167,6 +181,7 @@
             gap: 15px;
         }
 
+        // seperation line beteewn stack cards
         &:not(:last-of-type) {
             border-bottom: 1.5px solid var(--card-separator-color);
         }
@@ -209,6 +224,7 @@
 }
 
 /* Tile style article list */
+/* Not used anywhere */
 .article-list--tile {
     article {
         border-radius: var(--card-border-radius);
