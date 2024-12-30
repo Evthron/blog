@@ -64,6 +64,10 @@
         }
 
         a {
+            // hover effect: underline the link
+            &:hover {
+                box-shadow: 0px calc(-0.1rem) 0px rgba(var(--link-background-color), var(--link-background-opacity-hover)) inset;
+            }
 
             @include respond(sm){
                 height: 100%;
