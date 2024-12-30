@@ -1,32 +1,203 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
-    <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        
-        {{- $description := partialCached "data/description" . .RelPermalink -}}
-        <meta name='description' content='{{ $description }}'>
-        {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
-        
-        {{- $title := partialCached "data/title" . .RelPermalink -}}
-        <title>{{ if not .IsHome }}{{ $title }} | {{ end }}{{ .Site.Title }}</title>
-        
-        <link rel='canonical' href='{{ .Permalink }}'>
-        
-        {{/*  Style  */}}
-        {{ $sass := resources.Get "scss/style.scss" }}
-        {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
-        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-        
-        {{- partial "opengraph/include.html" . -}}
-        
-        {{- range .AlternativeOutputFormats -}}
-            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-        {{- end -}}
-        
-        {{/*  Favicon  */}}
-        {{ with .Site.Params.favicon }}
-            <link rel="shortcut icon" href="{{ . }}" />
-        {{ end }}
-    </head>
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tadi lab</title>
+<link rel="shortcut icon" href="/favicon.png" />
+<meta property="og:image" content="https://todepond.com/lab/og.png" />
+<meta property="og:title" content="Tadi lab" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tadi lab" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://todepond.com/lab/og.png" />
+
+{{/*  <link rel="stylesheet" href="/style.css" />  */}}
+
+<canvas></canvas>
+
+<style>
+  * {
+    box-sizing: border-box;
+    touch-action: none;
+    overscroll-behavior: none;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* image-rendering: pixelated; */
+    /* background-color: red; */
+  }
+</style>
+
+<script>
+  const canvas = document.querySelector("canvas");
+  const ctx = canvas.getContext("2d");
+
+  const WORLD_HEIGHT = 100;
+  const WORLD_WIDTH = 100;
+
+  let CELL_HEIGHT = 1;
+  let CELL_WIDTH = 1;
+
+  function handleResize() {
+    canvas.width = window.innerWidth * devicePixelRatio;
+    canvas.height = window.innerHeight * devicePixelRatio;
+    CELL_HEIGHT = canvas.height / WORLD_HEIGHT;
+    CELL_WIDTH = canvas.width / WORLD_WIDTH;
+  }
+
+  window.addEventListener("resize", handleResize);
+  handleResize();
+
+  const cells = [];
+  for (let y = 0; y < WORLD_HEIGHT; y++) {
+    for (let x = 0; x < WORLD_WIDTH; x++) {
+      cells.push({
+        x,
+        y,
+        element: "air", // Math.random() > 0.5 ? "sand" : "air",
+      });
+    }
+  }
+
+  // its slow and i dont care
+  for (let y = 0; y < WORLD_HEIGHT; y++) {
+    for (let x = 0; x < WORLD_WIDTH; x++) {
+      const below = cells.find((cell) => cell.x === x && cell.y === y + 1);
+      const leftBelow = cells.find(
+        (cell) => cell.x === x - 1 && cell.y === y + 1
+      );
+      const rightBelow = cells.find(
+        (cell) => cell.x === x + 1 && cell.y === y + 1
+      );
+      const cell = cells.find((cell) => cell.x === x && cell.y === y);
+      cell.below = below;
+      cell.leftBelow = leftBelow;
+      cell.rightBelow = rightBelow;
+    }
+  }
+
+  function drawCell(cell) {
+    if (cell.element === "air") {
+      return;
+    }
+
+    let colour = "white";
+    switch (cell.element) {
+      case "sand": {
+        colour = "rgb(255, 255, 70)";
+        break;
+      }
+    }
+    ctx.fillStyle = colour;
+    ctx.fillRect(
+      cell.x * CELL_WIDTH,
+      cell.y * CELL_HEIGHT,
+      CELL_WIDTH,
+      CELL_HEIGHT
+    );
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (const cell of cells) {
+      drawCell(cell);
+    }
+  }
+
+  function update() {
+    // its a bad shuffle but i dont care
+    const shuffledCells = cells.sort(() => Math.random() - 0.5);
+    for (const cell of shuffledCells) {
+      switch (cell.element) {
+        case "sand": {
+          updateSand(cell);
+          break;
+        }
+      }
+    }
+  }
+
+  function updateSand(cell) {
+    if (!cell.below) {
+      return;
+    }
+
+    if (cell.below.element === "air") {
+      cell.below.element = "sand";
+      cell.element = "air";
+      return;
+    }
+
+    const direction = Math.random() > 0.5 ? "left" : "right";
+
+    if (
+      direction === "left" &&
+      cell.leftBelow &&
+      cell.leftBelow.element === "air"
+    ) {
+      cell.leftBelow.element = "sand";
+      cell.element = "air";
+    } else if (
+      direction === "right" &&
+      cell.rightBelow &&
+      cell.rightBelow.element === "air"
+    ) {
+      cell.rightBelow.element = "sand";
+      cell.element = "air";
+    }
+  }
+
+  const pointer = {
+    position: [0, 0],
+    down: false,
+  };
+
+  window.addEventListener("pointerdown", (event) => {
+    pointer.down = true;
+    pointer.position = [event.clientX, event.clientY];
+
+    maybeTriggerPaint();
+  });
+
+  window.addEventListener("pointermove", (event) => {
+    pointer.position = [event.clientX, event.clientY];
+    maybeTriggerPaint();
+  });
+
+  window.addEventListener("pointerup", () => {
+    pointer.down = false;
+    pointer.position = [0, 0];
+  });
+
+  function maybeTriggerPaint() {
+    if (!pointer.down) {
+      return;
+    }
+
+    const x = Math.floor((pointer.position[0] * devicePixelRatio) / CELL_WIDTH);
+    const y = Math.floor(
+      (pointer.position[1] * devicePixelRatio) / CELL_HEIGHT
+    );
+
+    const cell = cells.find((cell) => cell.x === x && cell.y === y);
+    if (cell) {
+      cell.element = "sand";
+    }
+  }
+
+  function tick() {
+    maybeTriggerPaint();
+    update();
+    draw();
+    requestAnimationFrame(tick);
+  }
+  tick();
+</script>

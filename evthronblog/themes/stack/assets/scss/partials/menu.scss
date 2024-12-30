@@ -2,8 +2,8 @@
 .menu {
     padding-left: 0;
     list-style: none;
-    overflow-y: auto;
     flex-grow: 1;
+    flex-wrap: wrap; // For mobile view menu to warp instead of scrolling
     font-size: 1.4rem;
     background-color: var(--card-background);
     display: flex;
@@ -17,6 +17,11 @@
     @include respond(md){
         flex-direction: column;
         padding: 30px 30px;
+
+        /* recover to normal menu scrolling*/
+        overflow-y: auto;
+        flex-wrap: nowrap; 
+        /**/
     }
     
 
@@ -97,12 +102,13 @@
 
         margin-top: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         @include respond(sm){
             width: auto;
         }
         @include respond(md){
             width: 100%;
+        flex-direction: column;
         }
 
     }
