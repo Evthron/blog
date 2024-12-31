@@ -1,5 +1,5 @@
 ---
-title: "時鐘"
+title: "CSS 組件"
 slug: "clock"
 layout: "clock"
 ---

@@ -33,9 +33,11 @@
 
     {{/*  details  */}}
     <div class="article-details">
+        {{/*  The category tag on article card  */}}
         {{ if .Params.categories }}
         <header class="article-category">
             {{ range (.GetTerms "categories") }}
+                {{/*  Use the colour defined in content/categories */}}
                 <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
                     {{ .LinkTitle }}
                 </a>
