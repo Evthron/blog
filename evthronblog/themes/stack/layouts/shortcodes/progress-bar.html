@@ -1,12 +1,13 @@
-<div class="status">
+<div class="progress-bar-status">
     <div class="status-labels">
-        <span>Code:</span>
-        <span>12/100</span>
+        <span>Component count:</span>
+        <span id="component-count">12/100</span>
         <span>---</span>
-        <span class="level-tag">Lv5</span>
+        <span class="progress-bar-level">Lv5</span>
     </div>
    <div class="progress-bar">
-        <div class="progress-experience" style="width: {{ .Get `percentage`}}" role="progressbar">
+        {{/*  <div class="progress-experience" style="width: {{ .Get `percentage`}}" role="progressbar">  */}}
+        <div class="progress-bar-experience" style="width: 0%" role="progressbar">
         </div>
     </div>
 </div>

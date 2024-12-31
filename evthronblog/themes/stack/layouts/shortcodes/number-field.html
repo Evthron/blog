@@ -9,8 +9,19 @@
     />
     <!-- increase arrow -->
     <!-- what is tab index? -->
-    <button class="field_control is-increase"></button>
+    <button class="field_control is-increase" onclick="changeNumber(1)"></button>
     <!-- decrease arrow -->
-    <button class="field_control is-decrease"></button>
+    <button class="field_control is-decrease" onclick="changeNumber(-1)"></button>
   </div>
 </div>
+<script>
+  function changeNumber(delta) {
+    let input = document.querySelector('.field_input');
+    let currentValue = parseInt(input.value) || 0;
+    currentValue += delta;
+    if (currentValue < 0) {
+        currentValue = 0;
+    }
+    input.value = currentValue;
+}
+</script>

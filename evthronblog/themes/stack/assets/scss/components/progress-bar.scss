@@ -11,7 +11,7 @@
     width: 50%;
 
 }
-.progress-experience {
+.progress-bar-experience {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -38,3 +38,20 @@
     );
     background-size: 1rem 1rem;
   }
+
+.progress-bar-status{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    // align-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.status-labels{
+    font-family: var(--code-font-family);
+}
+.progress-bar-level{
+    background-color: aquamarine;
+    border-radius: 0.25rem;
+}

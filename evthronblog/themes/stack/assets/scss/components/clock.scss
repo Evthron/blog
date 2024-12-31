@@ -1,16 +1,7 @@
-.status{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    // align-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.status-labels{
-    font-family: var(--code-font-family);
-}
-.level-tag{
-    background-color: aquamarine;
-    border-radius: 0.25rem;
+.clock {
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+//   padding: 0.5rem 2rem;
+  background-color: rgb(201, 230, 255);
 }

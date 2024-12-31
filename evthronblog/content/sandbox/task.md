@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31
-lastmod: 2024-12-31T18:04:17+08:00
+lastmod: 2024-12-31T19:27:25+08:00
 image: 
 categories: 
 tags: 
@@ -16,7 +16,7 @@ comments: true
 
 Age   Description
 ----- --------------------------------------------------------------------------
-12d   make resume
+13d   make resume
  8w   watch job brief
  2d   draw new blog background
  2d   redraw ai-generated-image
@@ -46,14 +46,14 @@ Age   Description
  3w   code make app to keep tarck of social interactions
  8d   change input method word order cheng du
  3d   write reason to draw
-21h   write my first programming languag
-21h   write meaning of sending presents
-21h   write failed cooking plan
-21h   write hate change clothes outside
-18h   write meaning of my own website
-16h   write I hate dreams
-14h   code copy post to multiple language when more than one language tag
-14h   code copy notion library layout
+22h   write my first programming languag
+22h   write meaning of sending presents
+22h   write failed cooking plan
+22h   write hate change clothes outside
+19h   write meaning of my own website
+18h   write I hate dreams
+16h   code copy post to multiple language when more than one language tag
+15h   code copy notion library layout
 
 
 ```
