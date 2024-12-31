@@ -1,8 +1,8 @@
 ---
-title: "task"
+title: "taskwarrior"
 description: 
 date: 2024-12-31
-lastmod: 2024-12-31T08:15:25+08:00
+lastmod: 2024-12-31T18:04:17+08:00
 image: 
 categories: 
 tags: 
@@ -26,7 +26,7 @@ Age   Description
  2d   code task warrior hook for motivational quote
  2d   code to show completed coding task to website
  2d   buy a domain
- 1d   write categorization and filetags
+ 2d   write categorization and filetags
  1d   write math reinvention and my story of factorization
  4w   writing university problem of common space and study group, what should
       friends do together
@@ -35,7 +35,7 @@ Age   Description
  2w   make foreign function using anki-connect
  4d   add tag search feature to blog
  2d   write how a make the painter progress bar
- 3d   code tic-tac-toe on blog
+ 4d   code tic-tac-toe on blog
  2d   write fake creation and real idea
 12w   incremental video in obsidian
  2d   code step count chart
@@ -46,14 +46,14 @@ Age   Description
  3w   code make app to keep tarck of social interactions
  8d   change input method word order cheng du
  3d   write reason to draw
-11h   write my first programming languag
-11h   write meaning of sending presents
-11h   write failed cooking plan
-11h   write hate change clothes outside
- 8h   write meaning of my own website
- 7h   write I hate dreams
- 4h   code copy post to multiple language when more than one language tag
- 4h   code copy notion library layout
+21h   write my first programming languag
+21h   write meaning of sending presents
+21h   write failed cooking plan
+21h   write hate change clothes outside
+18h   write meaning of my own website
+16h   write I hate dreams
+14h   code copy post to multiple language when more than one language tag
+14h   code copy notion library layout
 
 
 ```
