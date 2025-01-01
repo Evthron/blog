@@ -56,3 +56,12 @@ layout: "arsenal"
     {{< thumbnail img="20240813_054255 -- home sight.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
+### sitelen pona
+{{< sitelen-pona toki-pona="sijelo mi li ilo utala" >}}
+{{< sitelen-pona toki-pona="telo loje insa mi li kiwen. pilin mi li kule ala" >}}
+{{< sitelen-pona toki-pona="mi tawa e ma utala mute taso mi anpa ala" >}}
+{{< sitelen-pona toki-pona="mi anpa ala e jan ike" >}}
+{{< sitelen-pona toki-pona="mi sewi ala e jan ike" >}}
+{{< sitelen-pona toki-pona="poka mi li lon ala jan. mi ante e kiwen lon nena pi ilo utala" >}}
+{{< sitelen-pona toki-pona="ni la mi wile ala nasin pona" >}}
+{{< sitelen-pona toki-pona="sijelo mi li ilo utala mute" >}}
