@@ -105,11 +105,6 @@ theme = "stack"
         pageRef = "/skill"
         weight = 30
       [[languages.en.menus.main]]
-        identifier = "code"
-        name = "⚔️ Code Notes"
-        pageRef = "/code"
-        weight = 35
-      [[languages.en.menus.main]]
         identifier = "sandbox"
         name = "🪣Sandbox"
         pageRef = "/sandbox"
