@@ -179,6 +179,7 @@ min = "0.129.0"
 
 [params]
 mainSections = [ "posts", "gallery", "tweet", "toolbox" ]
+searchSections = [ "posts", "gallery", "tweet", "toolbox", "skill", "sandbox", "code"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.ico"
