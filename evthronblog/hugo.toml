@@ -43,6 +43,11 @@ theme = "stack"
         pageRef = "/skill"
         weight = 35
       [[languages.zh.menus.main]]
+        identifier = "code"
+        name = "⚔️ 代碼筆記"
+        pageRef = "/code"
+        weight = 36
+      [[languages.zh.menus.main]]
         identifier = "sandbox"
         name = "🪣沙盒"
         pageRef = "/sandbox"
@@ -99,6 +104,11 @@ theme = "stack"
         name = "🎮Skill"
         pageRef = "/skill"
         weight = 30
+      [[languages.en.menus.main]]
+        identifier = "code"
+        name = "⚔️ Code Notes"
+        pageRef = "/code"
+        weight = 35
       [[languages.en.menus.main]]
         identifier = "sandbox"
         name = "🪣Sandbox"
