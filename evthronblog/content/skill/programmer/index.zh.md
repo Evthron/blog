@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-01-02T04:16:53+08:00
+lastmod: 2025-01-03T06:06:41+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Read Code
 
-                 Script read:  10
+                 Script read:   9
 
               Function count:  16 --- Lv2 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
@@ -25,12 +25,15 @@ comments: true
 
 ## Write Code
 
-    Python function (script):  53 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
+    Python function (script):  54 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
     Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 
                 Shell script:  17 --- Lv2 ▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
+Here are my notes on the code I read.
+
+[code notes](/zh/code)
 ## Software
 - Terminal: Konsole
 - Shell: zsh

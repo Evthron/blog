@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2025-01-02T04:16:54+08:00
+lastmod: 2025-01-03T05:42:14+08:00
 image: 
 categories: 
 tags: 
@@ -13,15 +13,15 @@ comments: true
 ---
 ## Writing Statistics
 
-                  File count:  54 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+                  File count:  56 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱
 
-               Frame-of-mind:   9 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
+               Frame-of-mind:  10 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱
 
                    Imaginary:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
                      Reviews:  11 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
 
-                     Stories:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                     Stories:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
                      Toolbox:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
