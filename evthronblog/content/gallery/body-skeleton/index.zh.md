@@ -1,0 +1,25 @@
+---
+title: "人體動態"
+description: 
+date: 2025-01-03T11:41:48+08:00
+lastmod: 2025-01-03T12:06:17+08:00
+image: body-skeleton.png
+categories: gallery
+tags: []
+math: 
+license: 
+hidden: false
+comments: true
+---
+
+![body-skeleton](body-skeleton.png)
+
+![5-sides](5-sides.png)
+
+![body-skeleton-2](body-skeleton-2.png)
+![body-skeleton-3](body-skeleton-3.png)
+![body-skeleton-4](body-skeleton-4.png)
+
+![body-sketch-overlap](body-sketch-overlap.png)
+
+
