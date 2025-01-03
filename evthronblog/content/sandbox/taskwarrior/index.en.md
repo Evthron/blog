@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-03T14:34:23+08:00
+lastmod: 2025-01-03T15:04:19+08:00
 image: 
 categories: 
 tags: 
@@ -64,11 +64,13 @@ Age   Description
  1d   write passion to music
  1d   write update post overnight, tired of it
  7h   write tweet terminal to gui gap
- 5h   anki api to auto output vocab list with tags
-10min write ultimate learning method
- 6min sample out of tune piano
- 5min code show knowledge exchange on blog
- 4min write translate say-goodbye-to-internet
+ 6h   anki api to auto output vocab list with tags
+40min write ultimate learning method
+36min sample out of tune piano
+35min code show knowledge exchange on blog
+34min write translate say-goodbye-to-internet
+27min change site font
+ 4s   write home is prison, prison is home
 
 
 ```
