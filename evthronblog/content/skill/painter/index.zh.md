@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-03T05:42:14+08:00
+lastmod: 2025-01-03T10:27:35+08:00
 image: 
 categories: 
 tags: 
@@ -12,10 +12,10 @@ hidden: false
 comments: true
 ---
 
-## Skills
+## Overall
 {{< status-bar-wrapper >}}
 {{< badges-wrapper >}}
-{{< skill-title title=file_count >}}
+{{< skill-title title=Total_count >}}
 {{< level-badge level="Lv8">}}
 {{< experience exp="82 remain">}}
 {{< /badges-wrapper >}}
@@ -26,13 +26,15 @@ comments: true
     {{< thumbnail img="20250102_040723 -- sight outdoors.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
+## Skills
 {{< status-bar-wrapper >}}
 {{< badges-wrapper >}}
 {{< skill-title title=lines >}}
 {{< level-badge level="Lv2">}}
-{{< experience exp="19 remain">}}
+{{< experience exp="18 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
+    {{< thumbnail img="20240311_030341 -- lines home.jpg">}}
     {{< thumbnail img="20240311_030649 -- lines home.jpg">}}
     {{< thumbnail img="20240403_203011 -- lines outdoors.jpg">}}
     {{< thumbnail img="20240404_000011 -- outdoors lines.jpg">}}
@@ -285,9 +287,71 @@ comments: true
 {{< experience exp="21 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
-    {{< thumbnail img="2024-08-30T17.14.40 body skeleton -- figures 3.png">}}
-    {{< thumbnail img="2024-08-30T17.14.41 body skeleton -- figures.png">}}
-    {{< thumbnail img="2024-08-30T17.15.24 balance -- figures.png">}}
+    {{< thumbnail img="2024-08-30T17.14.40 body skeleton -- figures 3 photo.png">}}
+    {{< thumbnail img="2024-08-30T17.14.41 body skeleton -- figures photo.png">}}
+    {{< thumbnail img="2024-08-30T17.15.24 balance -- figures photo.png">}}
+{{< /thumbnail-container >}}
+{{< /status-bar-wrapper >}}
+{{< status-bar-wrapper >}}
+{{< badges-wrapper >}}
+{{< skill-title title=lines >}}
+{{< level-badge level="Lv1">}}
+{{< experience exp="10 remain">}}
+{{< /badges-wrapper >}}
+{{< thumbnail-container length=24 >}}
+    {{< thumbnail img="2023-01-09T16.34.13 sketch01 -- lines.png">}}
+    {{< thumbnail img="2024-01-08T23.00.54 5-sides -- figures lines.png">}}
+{{< /thumbnail-container >}}
+{{< /status-bar-wrapper >}}
+{{< status-bar-wrapper >}}
+{{< badges-wrapper >}}
+{{< skill-title title=colour >}}
+{{< level-badge level="Lv1">}}
+{{< experience exp="5 remain">}}
+{{< /badges-wrapper >}}
+{{< thumbnail-container length=24 >}}
+    {{< thumbnail img="2024-08-30T17.07.28 Betty Edwards colour wheel -- colour references.png">}}
+    {{< thumbnail img="2024-08-30T17.08.14 single-value-colour-combo -- colour.png">}}
+    {{< thumbnail img="2024-08-30T17.08.42 nightview -- sight colour home completed.png">}}
+    {{< thumbnail img="2024-08-30T17.09.07 christmas-house -- completed colour scanned.png">}}
+    {{< thumbnail img="2024-08-30T17.09.34 colour-four-season -- colour.png">}}
+    {{< thumbnail img="2024-08-30T17.09.51 lazard-man -- colour completed sight.png">}}
+    {{< thumbnail img="2024-08-30T17.10.53 flower-repaint -- colour.png">}}
+{{< /thumbnail-container >}}
+{{< /status-bar-wrapper >}}
+{{< status-bar-wrapper >}}
+{{< badges-wrapper >}}
+{{< skill-title title=scanned >}}
+{{< level-badge level="Lv1">}}
+{{< experience exp="11 remain">}}
+{{< /badges-wrapper >}}
+{{< thumbnail-container length=24 >}}
+    {{< thumbnail img="2024-08-30T17.09.07 christmas-house -- completed colour scanned.png">}}
+{{< /thumbnail-container >}}
+{{< /status-bar-wrapper >}}
+{{< status-bar-wrapper >}}
+{{< badges-wrapper >}}
+{{< skill-title title=photo >}}
+{{< level-badge level="Lv1">}}
+{{< experience exp="7 remain">}}
+{{< /badges-wrapper >}}
+{{< thumbnail-container length=24 >}}
+    {{< thumbnail img="2024-08-30T17.11.55 body-sketch -- figures photo.png">}}
+    {{< thumbnail img="2024-08-30T17.13.22 body skeleton 2 -- figures photo.png">}}
+    {{< thumbnail img="2024-08-30T17.14.40 body skeleton -- figures 3 photo.png">}}
+    {{< thumbnail img="2024-08-30T17.14.41 body skeleton -- figures photo.png">}}
+    {{< thumbnail img="2024-08-30T17.15.24 balance -- figures photo.png">}}
+{{< /thumbnail-container >}}
+{{< /status-bar-wrapper >}}
+{{< status-bar-wrapper >}}
+{{< badges-wrapper >}}
+{{< skill-title title=sight >}}
+{{< level-badge level="Lv1">}}
+{{< experience exp="10 remain">}}
+{{< /badges-wrapper >}}
+{{< thumbnail-container length=24 >}}
+    {{< thumbnail img="2024-08-30T17.08.42 nightview -- sight colour home completed.png">}}
+    {{< thumbnail img="2024-08-30T17.09.51 lazard-man -- colour completed sight.png">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
 {{< status-bar-wrapper >}}
@@ -298,8 +362,8 @@ comments: true
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
     {{< thumbnail img="2024-08-30T17.08.42 nightview -- sight colour home completed.png">}}
-    {{< thumbnail img="2024-08-30T17.09.07 christmas-house -- completed colour.png">}}
-    {{< thumbnail img="2024-08-30T17.09.51 lazard-man -- colour completed.png">}}
+    {{< thumbnail img="2024-08-30T17.09.07 christmas-house -- completed colour scanned.png">}}
+    {{< thumbnail img="2024-08-30T17.09.51 lazard-man -- colour completed sight.png">}}
     {{< thumbnail img="2024-08-30T17.11.12 Labcoat -- completed.png">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
