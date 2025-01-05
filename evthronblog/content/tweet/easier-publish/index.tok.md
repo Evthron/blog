@@ -2,7 +2,7 @@
 title: "nasin pali sin li pona"
 description: 
 date: 2024-03-30T21:23:35+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+lastmod: 2025-01-05T11:29:26+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']
@@ -22,4 +22,7 @@ mi ken kepeken ilo Obsidian anu ilo VS Code la mi ken ala pali e pakala ni. mi p
 
 2024/05/28 12:22
 mi lukin e sitelen mama Joppy. ni li ike ala. mi ken sona pona e ni. mi lukin sitelen ona la, mi ken sitelen pona.
+
+05/01/2025 11:24
+mi wile pana sitlelen suli e lipu Joplin tan lipu Vimwiki. taso sitelen lili la, mi wile sitelen lon lipu Joplin. mi wile pana la, mi ken ala ante e sitelen kepeken tenpo lili.
 

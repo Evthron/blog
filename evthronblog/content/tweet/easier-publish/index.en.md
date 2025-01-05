@@ -2,7 +2,7 @@
 title: "Improved publishing workflow "
 description: 
 date: 2024-03-30T21:19:00+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+lastmod: 2025-01-05T11:24:26+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']
@@ -22,4 +22,8 @@ If I could simply use Obsidian or VS Code to edit the files, why should I config
 
 2024/05/28 12:22
 I dived in to the source code of joppy, which is not complicated at all. It's just making requests to joplin's native API. Scrutinising other's work is really the best way to improve.
+
+05/01/2025 11:23
+It's fine to make a copy for long posts, but it's clumsy to copy quick thoughts like tweet. Maybe I should improve this.
+
 
