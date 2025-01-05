@@ -2,7 +2,7 @@
 title: "ilo pali"
 description: 
 date: 2024-03-19T20:20:35+08:00
-lastmod: 2025-01-05T11:10:02+08:00
+lastmod: 2025-01-05T11:13:41+08:00
 image: 
 categories: tweet
 tags: ['software']
@@ -16,5 +16,5 @@ mi pali ala. mi wile jo e ilo pali sin. mi pali ala la, mi kama ike. mi lukin il
 
 ***
 
-mi pali e ilo Emacs tan ni: nasin sitelen Orgdown li pona lukin. taso sitelen kepeken ilo Emacs li pana e pona liil tawa mi. mi ken kama pona e sitelen pi palisa luka. mi ken kama pona a ale ante ala. mi sona e ilo Vim la, mi pilin pona. tenpo open la, jan li wile pali kepeken tenpo lili. taso ni li ike tawa ale. jan mute li sona ala e sitlen pi palisa luka. taso ona li sitelen pona e lipu nasin ilo.
+mi pali e ilo Emacs tan ni: nasin sitelen Orgdown li pona lukin. taso sitelen kepeken ilo Emacs li pana e pona liil tawa mi. mi ken kama pona e sitelen pi palisa luka. mi ken kama pona a ale ante ala. mi sona e ilo Vim la, mi pilin pona. tenpo open la, jan li wile pali kepeken tenpo lili. taso ni li ike tawa ale. jan mute li sona ala e sitlen pi palisa luka kepeken ala lukin. taso ona li sitelen pona e lipu nasin ilo.
 
