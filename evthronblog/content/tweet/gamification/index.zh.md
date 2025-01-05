@@ -1,8 +1,8 @@
 ---
-title: "Habitica 的設計"
+title: "遊戲化想法"
 description: 
 date: 2025-01-05T11:19:47+08:00
-lastmod: 2025-01-05T11:51:37+08:00
+lastmod: 2025-01-05T21:27:23+08:00
 image: 
 categories: tweet
 tags: []
@@ -12,6 +12,7 @@ hidden: false
 comments: true
 ---
 
+## Habitica
 - 習慣、每日任務、待辦清單的三分法很好。
 - 特別是習慣
 	- 做完也不會消失，沒做也不會有懲罰的任務。
