@@ -1,8 +1,8 @@
 ---
 title: "oklch.com"
 description: 
-date: 2024-12-23T09:27:45+08:00
-lastmod: 2025-01-03T10:27:35+08:00
+date: 2025-01-06T04:45:44+08:00
+lastmod: 2025-01-06T04:45:44+08:00
 image: 
 categories: 
 tags: 
@@ -43,10 +43,7 @@ button{
     inset-inline-end: 32px;
     width: 110px;
     border-radius: 5px;
-    overflow: hidden;
-    top: 20px;
-}
-
+    overflow: hidden; top: 20px; }
 .field{
     position: relative;
 }

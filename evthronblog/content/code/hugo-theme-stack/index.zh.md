@@ -1,8 +1,8 @@
 ---
 title: "hugo-theme-stack"
 description: 
-date: 2024-12-23T09:27:45+08:00
-lastmod: 2025-01-03T10:27:35+08:00
+date: 2024-11-25T00:26:35+08:00
+lastmod: 2024-11-25T00:26:35+08:00
 image: 
 categories: 
 tags: 
@@ -106,6 +106,7 @@ header{
     width: 4rem;
 }
 ```
+
  
 ```javascript
 /**
