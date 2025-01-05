@@ -12,15 +12,45 @@ hidden: false
 comments: true
 ---
 
-# Special use of conditional
-    progress_width = 60 if title else 90
-
-
 ``` python
 app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
 app.run(host="127.0.0.1", port=port)
 ```
+# Special use of conditional
+    progress_width = 60 if title else 90
+
+
+ 
+```python
+@app.route("/<int:progress>/")
+def get_progress_svg(progress):
+    template_fields = get_template_fields(progress)
+    return render_template("progress.svg", **template_fields)
+
+
+@app.route("/")
+def redirect_to_github():
+    return redirect("http://127.0.0.1:5000/50")
+```
+@app.route("這裏是 relative link")
+def 這裏放要執行的 function
+<int:progress> 可以接受 input
+
+
+#### Flask 讀取 Url query -- flashcards
+
+Flask 讀取 Url query
+@app.route("/<int:variable_name>")
+
+
+
+Flask 設定每個 URL 對應的 function -- flashcards
+@app.route("")
+def test():
+
+
+
 ## Get Url arguments
 try:
 	request.args.get("query")
@@ -59,32 +89,3 @@ def get_template_fields(progress):
     }
 
 ```
- 
-```python
-@app.route("/<int:progress>/")
-def get_progress_svg(progress):
-    template_fields = get_template_fields(progress)
-    return render_template("progress.svg", **template_fields)
-
-
-@app.route("/")
-def redirect_to_github():
-    return redirect("http://127.0.0.1:5000/50")
-```
-@app.route("這裏是 relative link")
-def 這裏放要執行的 function
-<int:progress> 可以接受 input
-
-
-#### Flask 讀取 Url query -- flashcards
-
-Flask 讀取 Url query
-@app.route("/<int:variable_name>")
-
-
-
-Flask 設定每個 URL 對應的 function -- flashcards
-@app.route("")
-def test():
-
-

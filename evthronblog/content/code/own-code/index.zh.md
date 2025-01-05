@@ -12,6 +12,60 @@ hidden: false
 comments: true
 ---
 
+### Count the number of function in python file
+```python
+import ast
+with open(file_path, 'r', encoding='utf-8') as fin:
+    tree = ast.parse(fin.read())
+    function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree))
+    python_function_count += function_count
+```
+
+### Generate front matter
+Generate front matter for all my markdown files
+```python
+import os
+from time import localtime, strftime
+
+
+def generate(title, date, description = '', lastmod = '', image = '', categories = '', tags = '', slug = '', layout = '') -> str:
+    if lastmod == '':
+        lastmod = strftime("%Y-%m-%dT%H:%M:%S+08:00", localtime())
+    front_matter = '---\n'
+    front_matter += 'title: "' + title + '"\n'
+    front_matter += 'description: ' + description + '\n'
+    front_matter += 'date: ' + date + '\n'
+    front_matter += 'lastmod: ' + lastmod + '\n'
+    front_matter += 'image: ' + image + '\n'
+    front_matter += 'categories: ' + categories + '\n'
+    front_matter += 'tags: ' + tags + '\n'
+    front_matter += 'math: \nlicense: \nhidden: false\ncomments: true\n'
+    if slug:
+        front_matter += 'slug: "' + slug + '"\n'
+    if layout:
+        front_matter += 'layout: "' + layout + '"\n'
+    front_matter += '---\n'
+```
+
+### os.walk()
+excludes folders and files that are not needed.
+```python
+import os
+def os_walk_sample(folder_path : Path,
+                   ignored_dirs : Optional[List[str]] = None,
+                   ignored_files : Optional[List[str]] = None) -> int:
+    for root, dirs, files in os.walk(folder_path):
+        if ignored_dirs:
+            for ignored_dir in ignored_dirs:
+                if ignored_dir in dirs:
+                    dirs.remove(ignored_dir)
+        if ignored_files:
+            for ignored_file in ignored_files:
+                if ignored_file in files:
+                    files.remove(ignored_file)
+        for file in files:
+```          
+
 ### Progress bar module
 
 ```python
@@ -76,6 +130,15 @@ def generate_statistics_row(key, value, is_show_level = True):
     return statistics_row
 ```
 
+### random.sample()
+Use: Read and randomly order the word list from a file
+Note: Although 'sample' sounds like random sampling, picks from random.sample() do not repeat.
+```python
+with open(filename, 'r') as file:
+    words = file.read().split()
+random_list = random.sample(words, len(words)) # Picks from random.sample() do not repeat
+```
+
 ### Count the number of possible scales 
 Can be improved to cover general cases.
 ```python
@@ -124,60 +187,6 @@ with open("numbers.txt", "r", encoding='utf-8') as scale, open("output_numbers.t
 ```
 
 
-### Generate front matter
-Generate front matter for all my markdown files
-```python
-import os
-from time import localtime, strftime
-
-
-def generate(title, date, description = '', lastmod = '', image = '', categories = '', tags = '', slug = '', layout = '') -> str:
-    if lastmod == '':
-        lastmod = strftime("%Y-%m-%dT%H:%M:%S+08:00", localtime())
-    front_matter = '---\n'
-    front_matter += 'title: "' + title + '"\n'
-    front_matter += 'description: ' + description + '\n'
-    front_matter += 'date: ' + date + '\n'
-    front_matter += 'lastmod: ' + lastmod + '\n'
-    front_matter += 'image: ' + image + '\n'
-    front_matter += 'categories: ' + categories + '\n'
-    front_matter += 'tags: ' + tags + '\n'
-    front_matter += 'math: \nlicense: \nhidden: false\ncomments: true\n'
-    if slug:
-        front_matter += 'slug: "' + slug + '"\n'
-    if layout:
-        front_matter += 'layout: "' + layout + '"\n'
-    front_matter += '---\n'
-```
-
-### Count the number of function in python file
-```python
-import ast
-with open(file_path, 'r', encoding='utf-8') as fin:
-    tree = ast.parse(fin.read())
-    function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree))
-    python_function_count += function_count
-```
-
-### os.walk()
-excludes folders and files that are not needed.
-```python
-import os
-def os_walk_sample(folder_path : Path,
-                   ignored_dirs : Optional[List[str]] = None,
-                   ignored_files : Optional[List[str]] = None) -> int:
-    for root, dirs, files in os.walk(folder_path):
-        if ignored_dirs:
-            for ignored_dir in ignored_dirs:
-                if ignored_dir in dirs:
-                    dirs.remove(ignored_dir)
-        if ignored_files:
-            for ignored_file in ignored_files:
-                if ignored_file in files:
-                    files.remove(ignored_file)
-        for file in files:
-```          
-
 ### Generate thumbnail
 Generate thumbnail from image using pillow, if the image has colour tag, enhance the colour, else, convert to greyscale
 
@@ -207,12 +216,3 @@ def generate_thumbnail(image_path : Path, output_folder_name = Path("thumbnails"
         im.thumbnail((12, 12))
         im.save(output_folder_name/image_path.name)
 ``` 
-
-### random.sample()
-Use: Read and randomly order the word list from a file
-Note: Although 'sample' sounds like random sampling, picks from random.sample() do not repeat.
-```python
-with open(filename, 'r') as file:
-    words = file.read().split()
-random_list = random.sample(words, len(words)) # Picks from random.sample() do not repeat
-```

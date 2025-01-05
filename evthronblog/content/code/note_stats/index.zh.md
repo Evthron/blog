@@ -12,37 +12,43 @@ hidden: false
 comments: true
 ---
 
+```python
 def analyze_text(text: str):
-``` python
-tokens = word_tokenize(text)
+    tokens = word_tokenize(text)
+
+	# tokens are all the words
+	# reset tokens using list generator
     tokens = [
         # normalize to lower case
         word.lower()
         for word in tokens
-        # exclude md syntax
+        # exculde punctuation
         if word not in ("...", "''", "``", "--", "++") and
-        # exclude punctuation
         word not in string.punctuation and
         # exclude single character words
         len(word) > 1 and
-        # exclude words containing digit
-        not any(character.isdigit() for character in word) #generator is allowed to be used in any()
+        # exclude words containing less than one digit
+        not any(character.isdigit() for character in word) # generator is allowed to be used in any()
     ]
+
+	# show how many words are there
     print("Words:", len(tokens))
 
-# filter most common words
+    # filter most common words
     tokens = [
         word
         for word in tokens
         if word not in set(stopwords.words("english") + stopwords.words("german"))
     ]
 
+	# generate frequecy dictionary using FreqDist
     fdist = FreqDist(tokens)
     # fdist.plot(50)
     print("Most common words:")
     for word, count in fdist.most_common(10):
         print(f"- {word}: {count}")
 ```
+
  exclude words that contains numbers -- flashcards 
 ```
 def check_word_contain_digit:
@@ -80,36 +86,31 @@ tokens = word_tokenize(text)
 ```
 
 
-```python
 def analyze_text(text: str):
-    tokens = word_tokenize(text)
-
-	# tokens are all the words
-	# reset tokens using list generator
+``` python
+tokens = word_tokenize(text)
     tokens = [
         # normalize to lower case
         word.lower()
         for word in tokens
-        # exculde punctuation
+        # exclude md syntax
         if word not in ("...", "''", "``", "--", "++") and
+        # exclude punctuation
         word not in string.punctuation and
         # exclude single character words
         len(word) > 1 and
-        # exclude words containing less than one digit
-        not any(character.isdigit() for character in word) # generator is allowed to be used in any()
+        # exclude words containing digit
+        not any(character.isdigit() for character in word) #generator is allowed to be used in any()
     ]
-
-	# show how many words are there
     print("Words:", len(tokens))
 
-    # filter most common words
+# filter most common words
     tokens = [
         word
         for word in tokens
         if word not in set(stopwords.words("english") + stopwords.words("german"))
     ]
 
-	# generate frequecy dictionary using FreqDist
     fdist = FreqDist(tokens)
     # fdist.plot(50)
     print("Most common words:")

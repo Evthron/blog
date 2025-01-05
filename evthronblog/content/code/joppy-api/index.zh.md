@@ -12,22 +12,35 @@ hidden: false
 comments: true
 ---
 
-- Base API 
-- Base Methods Classes based on Base API
-- User friendly methods
+# joppy Delete, get, post, put
 
-python debug
-{{LOGGER.debug}} prints debug message
+```python
+    def delete(self, path: str) -> requests.models.Response:
+        """Convenience method to issue a delete request."""
+        return self._request("delete", path)
 
+    def get(
+        self, path: str, query: Optional[dt.JoplinKwargs] = None
+    ) -> requests.models.Response:
+        """Convenience method to issue a get request."""
+        return self._request("get", path, query=query) #get 需要 query
 
+    def post(
+        self,
+        path: str,
+        data: Optional[dt.JoplinKwargs] = None,
+        files: Optional[Dict[str, Any]] = None,
+    ) -> requests.models.Response:
+        """Convenience method to issue a post request."""
+        return self._request("post", path, data=data, files=files) # post 需要 files 和 data
 
-- Logging
-- @static method
-- double bracket (when the function returns a callable object)
-- Type objects (Optional, Union)
-- Requests (localhost)
-- ``** kwargs``, use dictionary as keyword argument
-- {dict}.get() as 'if exist, else'
+    def put(
+        self, path: str, data: Optional[dt.JoplinKwargs] = None
+    ) -> requests.models.Response:
+        """Convenience method to issue a put request."""
+        return self._request("put", path, data=data) # put 是什麼？
+```
+
 
 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
 
@@ -81,32 +94,19 @@ class ApiBase:
         return response
 
 
-# joppy Delete, get, post, put
+- Base API 
+- Base Methods Classes based on Base API
+- User friendly methods
 
-```python
-    def delete(self, path: str) -> requests.models.Response:
-        """Convenience method to issue a delete request."""
-        return self._request("delete", path)
+python debug
+{{LOGGER.debug}} prints debug message
 
-    def get(
-        self, path: str, query: Optional[dt.JoplinKwargs] = None
-    ) -> requests.models.Response:
-        """Convenience method to issue a get request."""
-        return self._request("get", path, query=query) #get 需要 query
 
-    def post(
-        self,
-        path: str,
-        data: Optional[dt.JoplinKwargs] = None,
-        files: Optional[Dict[str, Any]] = None,
-    ) -> requests.models.Response:
-        """Convenience method to issue a post request."""
-        return self._request("post", path, data=data, files=files) # post 需要 files 和 data
 
-    def put(
-        self, path: str, data: Optional[dt.JoplinKwargs] = None
-    ) -> requests.models.Response:
-        """Convenience method to issue a put request."""
-        return self._request("put", path, data=data) # put 是什麼？
-```
-
+- Logging
+- @static method
+- double bracket (when the function returns a callable object)
+- Type objects (Optional, Union)
+- Requests (localhost)
+- ``** kwargs``, use dictionary as keyword argument
+- {dict}.get() as 'if exist, else'
