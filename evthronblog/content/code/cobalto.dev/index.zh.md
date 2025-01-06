@@ -12,12 +12,7 @@ hidden: false
 comments: true
 ---
 
--webkit-box
-
-box-orient = flex-direction (row, column)
-box-pack = align right center left 
-box-direction = rtl ltr ttb btt
-
+CSS from https://cobalto.dev/
 
 
  # Link 
@@ -117,7 +112,14 @@ link stylesheet
   ```
 ## Unknown
 aria
-#### -webkit-box -- web references
+#### webkit-box -- web references
 
 
 -ms-flexbox;
+-webkit-box
+
+box-orient = flex-direction (row, column)
+box-pack = align right center left 
+box-direction = rtl ltr ttb btt
+
+

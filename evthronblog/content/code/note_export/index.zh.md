@@ -12,6 +12,9 @@ hidden: false
 comments: true
 ---
 
+https://github.com/marph91/joppy/blob/master/examples/note_export.py
+
+
  
 extend a list generator
 Finding notes with certain title.

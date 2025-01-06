@@ -12,6 +12,9 @@ hidden: false
 comments: true
 ---
 
+https://github.com/marph91/joppy/blob/master/examples/custom_export.py
+
+
 # Example Tree mapping conversion
 
 ```python

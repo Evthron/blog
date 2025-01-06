@@ -12,6 +12,9 @@ hidden: false
 comments: true
 ---
 
+https://github.com/marph91/joppy/blob/master/examples/reddit_clipper.py
+
+
 beautiful soup 只是用來 parse 收回來的 respones
 ``` python
 def parse_reddit_page(url):
