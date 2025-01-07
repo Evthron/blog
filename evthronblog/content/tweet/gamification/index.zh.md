@@ -2,7 +2,7 @@
 title: "遊戲化想法"
 description: 
 date: 2025-01-05T11:19:47+08:00
-lastmod: 2025-01-05T21:27:23+08:00
+lastmod: 2025-01-06T14:01:07+08:00
 image: 
 categories: tweet
 tags: ['gamification']
