@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-09T03:38:28+08:00
+lastmod: 2025-01-09T05:01:05+08:00
 image: 
 categories: 
 tags: 
@@ -52,7 +52,7 @@ Age   Description
  9d   write meaning of my own website
  9d   write I hate dreams
  9d   code copy post to multiple language when more than one language tag
- 8d   code copy notion library layout
+ 9d   code copy notion library layout
  8d   write why I dont like travel
  7d   write about how story pattern works
  7d   write localhost blog bug
@@ -77,6 +77,7 @@ Age   Description
  4d   code taskwarrior layout on blog
  3d   search for deadline alternatives
  1d   configure vscode to run python
+48min copy habitica css
 
 
 ```
