@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-06T07:04:05+08:00
+lastmod: 2025-01-09T03:22:50+08:00
 image: 
 categories: 
 tags: 
@@ -17,6 +17,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=Total_count >}}
 {{< level-badge level="Lv8">}}
+{{< level-badge level="350p">}}
 {{< experience exp="82 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -31,6 +32,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=lines >}}
 {{< level-badge level="Lv2">}}
+{{< level-badge level="18p">}}
 {{< experience exp="18 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -46,6 +48,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=colour >}}
 {{< level-badge level="Lv3">}}
+{{< level-badge level="42p">}}
 {{< experience exp="30 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -59,6 +62,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=perspective >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="7p">}}
 {{< experience exp="5 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -75,6 +79,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=figures >}}
 {{< level-badge level="Lv4">}}
+{{< level-badge level="106p">}}
 {{< experience exp="14 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -101,6 +106,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=hands >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="11p">}}
 {{< experience exp="1 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -121,6 +127,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=heads >}}
 {{< level-badge level="Lv3">}}
+{{< level-badge level="51p">}}
 {{< experience exp="21 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -147,6 +154,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=file_count >}}
 {{< level-badge level="Lv7">}}
+{{< level-badge level="335p">}}
 {{< experience exp="1 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -180,6 +188,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=sight >}}
 {{< level-badge level="Lv5">}}
+{{< level-badge level="170p">}}
 {{< experience exp="10 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -209,6 +218,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=copies >}}
 {{< level-badge level="Lv5">}}
+{{< level-badge level="124p">}}
 {{< experience exp="56 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -220,6 +230,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=doodles >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="5p">}}
 {{< experience exp="7 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -234,6 +245,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=home >}}
 {{< level-badge level="Lv6">}}
+{{< level-badge level="195p">}}
 {{< experience exp="57 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -248,6 +260,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=outdoors >}}
 {{< level-badge level="Lv5">}}
+{{< level-badge level="138p">}}
 {{< experience exp="42 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -264,6 +277,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=completed >}}
 {{< level-badge level="Lv2">}}
+{{< level-badge level="22p">}}
 {{< experience exp="14 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -284,6 +298,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=file_count >}}
 {{< level-badge level="Lv2">}}
+{{< level-badge level="15p">}}
 {{< experience exp="21 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -296,6 +311,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=lines >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="2p">}}
 {{< experience exp="10 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -307,6 +323,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=colour >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="7p">}}
 {{< experience exp="5 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -323,6 +340,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=scanned >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="1p">}}
 {{< experience exp="11 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -333,6 +351,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=photo >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="5p">}}
 {{< experience exp="7 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -347,6 +366,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=sight >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="2p">}}
 {{< experience exp="10 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -358,6 +378,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=completed >}}
 {{< level-badge level="Lv1">}}
+{{< level-badge level="4p">}}
 {{< experience exp="8 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
