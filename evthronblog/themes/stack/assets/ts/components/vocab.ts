@@ -1,18 +1,32 @@
 // Modified from https://www.w3schools.com/howto/howto_js_filter_elements.asp
 
-filterSelection("all");
+// filterSelection("all");
 let btnContainer = document.getElementById("vocab-button-container");
 let btns = btnContainer.getElementsByClassName("vocab-button");
-btns[0].className = btns[0].className + " active";// "all" button, set to active initially
+// btns[0].className = btns[0].className + " active";// "all" button, set to active initially
+let selectedTags = []
 
-function filterSelection(c) {
+function filterSelection(selectedTags) {
   let x, i;
-  x = document.getElementsByClassName("vocab-item");
-  if (c == "all") c = "";
+  x = document.getElementsByClassName("vocab-item-container");
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    let show = true
+    for (let selectedTag of selectedTags){
+      if (!x[i].getAttribute('tags').split(' ').includes(selectedTag)){
+        show = false
+      } 
+    }
+    if (selectedTags.length == 0){
+      show = false
+    }
+    if (show == true){
+      w3AddClass(x[i], "show");
+    }
+    if (selectedTags.includes('all')){
+      w3AddClass(x[i], "show");
+    }
   }
 }
 
@@ -44,9 +58,16 @@ function w3RemoveClass(element, name) {
 // Add active class to the current control button (highlight it)
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    let current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    filterSelection(this.className.replace("vocab-button ", "").replace(" active", ""));
-    this.className += " active";
+    let filter = this.getAttribute('tag')
+    if (this.className.includes('active')){
+        selectedTags.splice(selectedTags.indexOf(filter), 1) // Remove the tag from the selectedTags list
+        this.className = this.className.replace(" active", "")
+    }
+    else{
+      selectedTags[selectedTags.length] = filter // Remove the tag from the selectedTags list
+      this.className += " active";
+    }
+    console.log(selectedTags)
+    filterSelection(selectedTags);
   });
 }

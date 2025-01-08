@@ -1,1 +1,1 @@
-<button class="vocab-button {{ .Get `tag` }}" > {{ .Get `tag` }} </button>
+<button class="vocab-button" type="button" tag="{{ lower (.Get `tag`) }}" > {{ .Get `tag` }} </button>

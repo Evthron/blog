@@ -2,46 +2,71 @@
 /* Modified from https://www.w3schools.com/howto/howto_js_filter_elements.asp */
 
 .vocab-item-container {
-  display: flex;
   overflow: hidden;
-  flex-wrap: wrap;
+  border: #141D56;
+  display: none;
+  border-style: solid;
+  margin: 1rem;
+  div{
+    display: flex;
+    padding: 10px 10px;
+    margin: 2px;
+  }
 }
 
 .vocab-item {
-  background-color: #490448;
-  color: #ffffff;
+  display: flex;
+  // background-color: #7B7B7B;
+  // color: #ffffff;
+	font-size: 2.6rem;
   text-align: center;
-  padding: 20px 30px;
+  padding: 10px 10px;
   margin: 2px;
-  display: none; /* Hidden by default */
+  // display: none; /* Hidden by default */
+
+  div{
+    font-size: 1.6rem;
+    font-style: italic;
+  }
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
-  display: inline-flex;
-  align-items: center;
-  width: 15rem;
-  height: 6rem;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // width: 15rem;
+  // height: 6rem;
+  // justify-content: center;
 }
 
-/* Style the buttons */
+/* Style the tag buttons */
+/* inspired by https://marcjenkins.co.uk/bookshelf/*/
 .vocab-button {
   display: inline-block;
+	font-size: 1.5rem;
   // align-items: center;
-  width: 17rem;
-  height: 5rem;
+  // width: 17rem;
+  // height: 5rem;
   justify-content: center;
-  // border: none;
-  // outline: none;
+  border: none;
+  outline: none;
   background-color: #f1f1f1;
   cursor: pointer;
+	border-radius: 30px;
+	text-decoration: none;
+	background: var(--card-background-selected);
+	padding: 0.2rem 0.5rem;
+  color: var(--card-text-color-main);
+	&:hover {
+		text-decoration: none;
+    background-color: #ddd;
+		color: var(--card-text-color-main);
+		box-shadow: none;
+	}
 }
 
-/* Add a light grey background on mouse-over */
-.vocab-button:hover {
-  background-color: #ddd;
-}
+
 
 /* Add a dark background to the active button */
 .vocab-button.active{
