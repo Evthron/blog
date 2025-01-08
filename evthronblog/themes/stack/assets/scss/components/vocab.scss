@@ -3,7 +3,7 @@
 
 .vocab-item-container {
   overflow: hidden;
-  border: #141D56;
+  border: var(--accent-color-darker);
   display: none;
   border-style: solid;
   margin: 1rem;
