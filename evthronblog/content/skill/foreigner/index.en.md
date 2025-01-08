@@ -2,7 +2,7 @@
 title: "class Foreigner"
 description: 
 date: 2024-03-28T02:39:05+08:00
-lastmod: 2025-01-09T01:56:51+08:00
+lastmod: 2025-01-09T03:38:28+08:00
 image: 
 categories: 
 tags: 
@@ -15,5 +15,5 @@ comments: true
 
          English vocab (web): 923 --- Lv12 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
 
-              Japanese vocab: 427 --- Lv8 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
+              Japanese vocab: 429 --- Lv8 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
 
