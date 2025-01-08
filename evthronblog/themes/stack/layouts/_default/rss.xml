@@ -8,7 +8,7 @@
 {{- end -}}
 {{- $pages := where $pages "Params.hidden" "!=" true -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
-{{ $hidden := slice "sandbox" "skill"}}
+{{ $hidden := slice "sandbox" "skill" "code"}}
 {{- $pages := where $pages "Section" "not in" $hidden -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
