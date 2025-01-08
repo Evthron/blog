@@ -27,17 +27,37 @@ layout: "arsenal"
     {{< vocab-button tag="pos-v">}}
     {{< vocab-button tag="pos-n">}}
 {{< /vocab-button-container >}}
-{{< vocab-item-container >}}
+{{< vocab-item-container tags="pos-adj property-similar type-people"  >}}
     {{< vocab-item tags="pos-adj property-similar type-people" word="fellow">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-adj type-bad"  >}}
     {{< vocab-item tags="pos-adj type-bad" word="out of luck">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-adj property-personality theme-fashion type-bad type-good"  >}}
     {{< vocab-item tags="pos-adj property-personality theme-fashion type-bad type-good" word="sleek">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container  tags="pos-n theme-work" word="livelihood" >}}
     {{< vocab-item tags="pos-n theme-work" word="livelihood">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-n type-good type-object type-people"  >}}
     {{< vocab-item tags="pos-n type-good type-object type-people" word="gem">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-n type-object"  >}}
     {{< vocab-item tags="pos-n type-object" word="phoenix">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-n type-people"  >}}
     {{< vocab-item tags="pos-n type-people" word="attorney">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-n property-difficult type-bad"  >}}
     {{< vocab-item tags="pos-n property-difficult type-bad" word="peril">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-v time-future"  >}}
     {{< vocab-item tags="pos-v time-future" word="foresee">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-v theme-info"  >}}
     {{< vocab-item tags="pos-v theme-info" word="keep you posted">}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="pos-v time-result type-good"  >}}
     {{< vocab-item tags="pos-v time-result type-good" word="pay off">}}
 {{< /vocab-item-container >}}
 

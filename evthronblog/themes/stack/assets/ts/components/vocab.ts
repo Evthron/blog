@@ -67,7 +67,6 @@ for (let i = 0; i < btns.length; i++) {
       selectedTags[selectedTags.length] = filter // Remove the tag from the selectedTags list
       this.className += " active";
     }
-    console.log(selectedTags)
     filterSelection(selectedTags);
   });
 }
