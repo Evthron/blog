@@ -2,7 +2,7 @@
 title: "Anki SQLite"
 description: 
 date: 2025-01-06T14:00:46+08:00
-lastmod: 2025-01-08T11:44:25+08:00
+lastmod: 2025-01-08T11:56:45+08:00
 image: 
 categories: tweet
 tags: ['coding']
@@ -33,6 +33,6 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
 https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/
 https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
 
-界面設計的靈感
+界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
 https://marcjenkins.co.uk/bookshelf/
 
