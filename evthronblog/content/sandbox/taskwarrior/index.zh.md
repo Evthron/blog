@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-16T13:02:53+08:00
+lastmod: 2025-01-16T13:24:45+08:00
 image: 
 categories: 
 tags: 
@@ -32,7 +32,6 @@ Age   Description
  2w   write how a make the painter progress bar
  2w   code tic-tac-toe on blog
  3mo  incremental video in obsidian
- 2w   code step count chart
  7w   code a youtube download credit system
  4w   code recreate pluckeye
  4w   code recreate habitica search token
