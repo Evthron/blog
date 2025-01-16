@@ -785,6 +785,12 @@ Matsubara&#39;s job as a producer is to think about how to incorporate  Shikura 
 This Tweet’s image depicts a divergence number in the Alpha Attractor Field.<br><br>
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="upbringing" tags="" >}}
+<div>
+Maybe below 0.1% if you believe that most of the time, upbringing is what contributes the most rather than being born that way.<br><br>
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj v different">}}
 {{< vocab-item word="misalign" tags="adj v different" >}}
 <div>
@@ -3597,6 +3603,12 @@ Honestly, I think the work being done to get the word out about Omnia, far eclip
 {{< vocab-item word="polish up" tags="improve v" >}}
 <div>
 We are in the process of polishing up the story and improving its overall quality.<br><br>FIGURATIVE  <br>brush up
+</div>
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="racked up" tags="" >}}
+<div>
+He’s racked up a laundry list of offenses since he was 4.<br><br>
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="interest n v">}}

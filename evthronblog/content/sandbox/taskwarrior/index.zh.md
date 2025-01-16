@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-09T07:59:22+08:00
+lastmod: 2025-01-16T13:02:53+08:00
 image: 
 categories: 
 tags: 
@@ -17,67 +17,42 @@ comments: true
 
 Age   Description
 ----- --------------------------------------------------------------------------
- 3w   make resume
- 9w   watch job brief
-11d   draw new blog background from postcard
-11d   redraw ai-generated-image
-11d   write about privacy anonymity
- 3mo  write language compare code article
-11w   add a link page to my blog
-11d   code task warrior hook for motivational quote
-11d   buy a domain
-10d   write categorization and filetags
-10d   write math reinvention and my story of factorization
- 5w   writing university problem of common space and study group, what should
+ 4w   make resume
+10w   watch job brief
+ 2w   draw new blog background from postcard
+ 2w   redraw ai-generated-image
+12w   add a link page to my blog
+ 2w   code task warrior hook for motivational quote
+ 2w   buy a domain
+ 6w   writing university problem of common space and study group, what should
       friends do together
  3mo  ask for emacs and org-mode
-11w   set up local habitica server
-13d   add tag search feature to blog
-11d   write how a make the painter progress bar
-12d   code tic-tac-toe on blog
-11d   write fake creation and real idea
+12w   set up local habitica server
+ 2w   add tag search feature to blog
+ 2w   write how a make the painter progress bar
+ 2w   code tic-tac-toe on blog
  3mo  incremental video in obsidian
-11d   code step count chart
-11w   write about why obsidian plugin not attractive enough
- 6w   code a youtube download credit system
- 3w   code recreate pluckeye
- 3w   code recreate habitica search token
- 4w   code track social life, random pick
- 2w   change input method word order cheng du
-12d   write reason to draw
- 9d   write my first programming languag
- 9d   write meaning of sending presents
- 9d   write failed cooking plan
- 9d   write hate change clothes outside
- 9d   write meaning of my own website
- 9d   write I hate dreams
- 9d   code copy post to multiple language when more than one language tag
- 9d   code copy notion library layout
- 8d   write why I dont like travel
- 7d   write about how story pattern works
- 7d   write localhost blog bug
- 7d   write complete mountain story
- 7d   write introduction to toki pona
- 7d   write update docker nftables
- 7d   watch krita tutorial
- 6d   write passion to music
- 6d   write update post overnight, tired of it
- 6d   write tweet terminal to gui gap
- 5d   write ultimate learning method
- 5d   sample out of tune piano
- 5d   code show knowledge exchange on blog
- 5d   write translate say-goodbye-to-internet
- 5d   change site font
- 5d   write home is prison, prison is home
- 5d   write accustom to loneliness is very bad
- 5d   read source code of clocktower
- 5d   write update blog home page
- 5d   add books to right-sider
- 4d   write regex notes
- 4d   code taskwarrior layout on blog
- 3d   search for deadline alternatives
- 1d   configure vscode to run python
- 3h   copy habitica css
+ 2w   code step count chart
+ 7w   code a youtube download credit system
+ 4w   code recreate pluckeye
+ 4w   code recreate habitica search token
+ 5w   code track social life, random pick
+ 3w   change input method word order cheng du
+ 2w   code copy post to multiple language when more than one language tag
+ 2w   code copy notion library layout
+ 2w   write complete mountain story
+ 2w   watch krita tutorial
+12d   sample out of tune piano
+12d   code show knowledge exchange on blog
+12d   change site font
+12d   read source code of clocktower
+12d   write update blog home page
+12d   add books to right-sider
+12d   code taskwarrior layout on blog
+10d   search for deadline alternatives
+ 8d   configure vscode to run python
+ 7d   copy habitica css
+ 4d   rime dictionary change chuang tradition chinese
 
 
 ```
