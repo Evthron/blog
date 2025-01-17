@@ -1,9 +1,9 @@
 ---
 title: About
 date: '2023-12-22'
-lastmod: '2024-07-01T01:36:32+08:00'
+lastmod: '2025-01-18T03:56:30+08:00'
 ---
-Hello there! I hope you can know more about me through reading this blog. 
+Hello there! I hope you can know more about me through reading this blog, so I don't need to have a social media account. I go all-out and write every thoughts I've got down here. 
 
 - [📝 Posts](/en/posts) stores my writings.
     - [The limitations of instant messaging](/en/posts/instant-messaging) talks about my thoughts towards the flaws of online messaging.
