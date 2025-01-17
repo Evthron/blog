@@ -2,7 +2,7 @@
 title: "docker 連不上網的解決辦法和折騰的悲哀"
 description: 
 date: 2024-10-17T19:37:47+08:00
-lastmod: 2024-10-17T20:09:13+08:00
+lastmod: 2025-01-18T01:58:38+08:00
 image: 
 categories: posts
 tags: ['grumble']
@@ -105,4 +105,7 @@ sudo reboot
 我明明已經解除安裝 nftables 了，是沒有重啓，還是因為再下載了要用到 nftables 的 firewalld 呢？總之現在再試 `docker run busybox ping google.com` 成功了！PHP 程式也順利拿到了網站的 JSON 檔案。真的高興得要拍手慶祝。
 
 搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。
+
+***
+nftables 和 iptables 指的是一套規則，負責處理訊息在各種 IP 上的接收和發送，設置好了可以充當防火牆。docker 能讓多個網站運行在相同的端口號上，原理説不定也是什麼端口轉發。
 

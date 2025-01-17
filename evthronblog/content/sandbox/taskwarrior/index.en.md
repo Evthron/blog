@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-18T01:39:21+08:00
+lastmod: 2025-01-18T02:36:10+08:00
 image: 
 categories: 
 tags: 
@@ -51,7 +51,6 @@ Age   Description
 10d   configure vscode to run python
  8d   copy habitica css
  6d   rime dictionary change chuang tradition chinese
- 2h   publish all written posts
 
 
 ```

@@ -2,10 +2,10 @@
 title: "音階"
 description: 
 date: 2024-06-10T12:52:49+08:00
-lastmod: 2024-06-26T02:39:50+08:00
+lastmod: 2025-01-18T02:22:29+08:00
 image: 
 categories: posts
-tags: ['maths']
+tags: ['maths', 'music']
 math: 
 license: 
 hidden: false
