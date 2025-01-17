@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-16T20:21:08+08:00
+lastmod: 2025-01-18T00:42:02+08:00
 image: 
 categories: 
 tags: 
@@ -388,12 +388,8 @@ comments: true
     {{< thumbnail img="2024-08-30T17.11.12 Labcoat -- completed.png">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
-### Tools
-Digital:
-- Krita
-- One by Wacom Medium CTL-672
-
-Physical:
+### 裝備
+實體:
 - Lyra Rembrandt Art Design pencils
 - Sakura Cray-Pas Oil Pastels
 - uni Nano Dia 0.5, 2B & 4B Leads
@@ -401,45 +397,49 @@ Physical:
 - MONO Plastic Eraser
 - NDK Cutter S-800
 - Colleen Colour Pencil
-- [x] Cardboard viewfinder
-- [x] Cardboard colour wheel
+- [x] 紙板取景框
+- [x] 紙板色環
 
-### Achievements
-Drawing at:
-- [x] Home
-- [x] Park
-- [x] Mall
-- [x] Minibus
-- [x] Restaurant
-- [x] Beach
-- [x] Hospital
-- [x] Street
-- [ ] Lecture Room
-- [ ] Sports Centre
-- [x] Railway
-- [ ] Library
-- [ ] Art Museum
+電子:
+- Krita
+- One by Wacom Medium CTL-672
 
-Finish a drawing using:
-- [x] Pencil
-- [ ] Fineliner
-- [ ] Willow charcoal
-- [x] Acrylic
-- [ ] Coloured pencil
-- [x] Oil Pastel
-- [ ] Ballpoint pen
-- [ ] Rubber on charcoal
-- [ ] Sand and stick
-- [ ] Window and water vapour
-- [ ] Printout images
+### 成就
+作畫地點:
+- [x] 家
+- [x] 公園
+- [x] 商場
+- [x] 車
+- [x] 餐廳
+- [x] 海灘
+- [x] 醫院
+- [x] 街道
+- [ ] 演講廳
+- [ ] 體育館
+- [x] 地鐵
+- [ ] 圖書館
+- [ ] 藝術館
 
-Subject matter:
-- [x] Self-Portrait
-- [ ] Portrait for others
-- [x] Avatar Icon
+能完成作品的媒介:
+- [x] 鉛筆
+- [ ] 針筆
+- [ ] 碳條
+- [x] 塑膠彩
+- [ ] 色鉛筆
+- [x] 油粉彩
+- [ ] 原子筆
+- [ ] 碳粉和橡皮擦
+- [ ] 沙和樹枝
+- [ ] 窗和水蒸氣
+- [ ] 拼貼
+
+主題:
+- [x] 自畫像
+- [ ] 幫別人畫自畫像
+- [x] 頭像
 
 
-### Collection
+### 書
     Books: 14 --- Lv2 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Andrew Loomis - Drawing the Head and Hands
@@ -499,5 +499,5 @@ Sam Piyasena, Beverly Philp - Just draw it!
 - It gives out lot of interesting ideas on creative art making, not bounded by
   traditional media.
 
-趙巍岩, 陽佳, 楊萌 - 物我之間 : 寫生的一種方法 (Between object and subject : painting as a way to perceive and express) 
+趙巍岩, 陽佳, 楊萌 - 物我之間 : 寫生的一種方法 
 - It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.

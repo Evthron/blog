@@ -1286,6 +1286,9 @@ title = 'test vocab jp'
 {{< vocab-item word="どれ" tags="" >}}
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="">}}
+{{< vocab-item word="手遅れ" tags="" >}}
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
 {{< vocab-item word="けが" tags="" >}}
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="">}}

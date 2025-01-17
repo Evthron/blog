@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-01-16T20:21:08+08:00
+lastmod: 2025-01-18T00:42:02+08:00
 image: 
 categories: 
 tags: 
@@ -80,3 +80,4 @@ Software Development:
 - [ ] Write a oklch colour picker plug-in for Krita
 - [ ] Write a task scheduler that automatically picks daily tasks. 
 - [ ] Generate oklch intensity charts with different brightness level
+- [ ] 

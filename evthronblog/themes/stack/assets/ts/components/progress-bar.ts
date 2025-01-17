@@ -1,5 +1,6 @@
 let element_count = document.getElementsByTagName('h3').length
-let experience = document.getElementById('component-count')
+console.log(element_count)
+let experience = document.querySelector('.progress-bar-count')
 experience.innerHTML = element_count + '/' + levelCap(element_count)
 
 let level = document.querySelector('.progress-bar-level')

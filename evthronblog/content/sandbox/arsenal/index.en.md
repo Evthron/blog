@@ -14,7 +14,7 @@ slug: "arsenal"
 layout: "arsenal"
 ---
 ### Progress bar
-{{< progress-bar percentage=50% >}}
+{{< progress-bar percentage=50% title="Component count">}}
 
 ### Clock
 {{< clock >}}
