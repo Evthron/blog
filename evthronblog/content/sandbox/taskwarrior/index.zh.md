@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-18T02:36:10+08:00
+lastmod: 2025-01-18T03:51:58+08:00
 image: 
 categories: 
 tags: 
@@ -44,7 +44,6 @@ Age   Description
  2w   code show knowledge exchange on blog
  2w   change site font
  2w   read source code of clocktower
- 2w   write update blog home page
  2w   add books to right-sider
 13d   code taskwarrior layout on blog
 12d   search for deadline alternatives
