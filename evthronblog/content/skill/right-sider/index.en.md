@@ -2,7 +2,7 @@
 title: "class Right-sider"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-01-18T00:42:03+08:00
+lastmod: 2025-01-18T01:23:00+08:00
 image: 
 categories: 
 tags: 
@@ -20,7 +20,7 @@ comments: true
 Right-sider, the opposite of 'wrong-sider'. I altered the meaning a bit for my own use.
 
 ## Collection
-{{< progress-bar percentage=0% title="Bok count">}}
+{{< progress-bar percentage=0% title="Book count">}}
 ### How to talk to anyone
 - A very practical conversation guide that helped me find the joy of small talk. Even if you were an alien from another universe, you can blend in with normal human by following those guildlines, starting from 'look into other's eyes'
 

@@ -1,3 +1,5 @@
+// I don't know why this code won't work in other pages.
+// only works for one progress bar
 let element_count = document.getElementsByTagName('h3').length
 console.log(element_count)
 let experience = document.querySelector('.progress-bar-count')

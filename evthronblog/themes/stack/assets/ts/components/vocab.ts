@@ -1,10 +1,29 @@
 // Modified from https://www.w3schools.com/howto/howto_js_filter_elements.asp
 
 // filterSelection("all");
-let btnContainer = document.getElementById("vocab-button-container");
-let btns = btnContainer.getElementsByClassName("vocab-button");
+// prevent other scripts from not loading when this script broke
+if (document.querySelector(".vocab-button-container")){
+  let btnContainer = document.getElementById("vocab-button-container");
+  let btns = btnContainer.getElementsByClassName("vocab-button");
+  let selectedTags = []
+
+  // Add active class to the current control button (highlight it)
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      let filter = this.getAttribute('tag')
+      if (this.className.includes('active')){
+          selectedTags.splice(selectedTags.indexOf(filter), 1) // Remove the tag from the selectedTags list
+          this.className = this.className.replace(" active", "")
+      }
+      else{
+        selectedTags[selectedTags.length] = filter // Remove the tag from the selectedTags list
+        this.className += " active";
+      }
+      filterSelection(selectedTags);
+    });
+  }
+}
 // btns[0].className = btns[0].className + " active";// "all" button, set to active initially
-let selectedTags = []
 
 function filterSelection(selectedTags) {
   let x, i;
@@ -55,18 +74,3 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current control button (highlight it)
-for (let i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    let filter = this.getAttribute('tag')
-    if (this.className.includes('active')){
-        selectedTags.splice(selectedTags.indexOf(filter), 1) // Remove the tag from the selectedTags list
-        this.className = this.className.replace(" active", "")
-    }
-    else{
-      selectedTags[selectedTags.length] = filter // Remove the tag from the selectedTags list
-      this.className += " active";
-    }
-    filterSelection(selectedTags);
-  });
-}
