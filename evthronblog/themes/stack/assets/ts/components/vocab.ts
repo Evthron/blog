@@ -2,7 +2,7 @@
 
 // filterSelection("all");
 // prevent other scripts from not loading when this script broke
-if (document.querySelector(".vocab-button-container")){
+if (document.getElementById("vocab-button-container")){
   let btnContainer = document.getElementById("vocab-button-container");
   let btns = btnContainer.getElementsByClassName("vocab-button");
   let selectedTags = []
@@ -40,10 +40,7 @@ function filterSelection(selectedTags) {
     if (selectedTags.length == 0){
       show = false
     }
-    if (show == true){
-      w3AddClass(x[i], "show");
-    }
-    if (selectedTags.includes('all')){
+    if (show == true || selectedTags.includes('all') ){
       w3AddClass(x[i], "show");
     }
   }
