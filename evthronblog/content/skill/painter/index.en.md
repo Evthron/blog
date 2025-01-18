@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-19T02:02:44+08:00
+lastmod: 2025-01-19T02:34:38+08:00
 image: 
 categories: 
 tags: 
@@ -443,7 +443,7 @@ Subject matter:
 {{< progress-bar percentage=0% title="Books">}}
 
 {{< book title="Andrew Loomis - Drawing the Head and Hands" olid="OL26841938M" >}}
-{{< book title="Andrew Loomis - Figure drawing for all it's worth" olid="OL20845900M" >}}
+{{< book title="Andrew Loomis - Figure drawing for all it's worth" olid="OL47084536M" >}}
 {{< book title="Betty Edwards - The new drawing on the right side of the brain" olid="OL24346158M" >}}
 {{< book title="Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors" olid="OL8816408M" >}}
 {{< book title="Charles Williams - Basic drawing : how to draw what you see" olid="OL46088793M" >}}
