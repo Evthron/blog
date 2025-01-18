@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-18T03:51:58+08:00
+lastmod: 2025-01-18T21:44:15+08:00
 image: 
 categories: 
 tags: 
@@ -45,10 +45,10 @@ Age   Description
  2w   change site font
  2w   read source code of clocktower
  2w   add books to right-sider
-13d   code taskwarrior layout on blog
-12d   search for deadline alternatives
+ 2w   code taskwarrior layout on blog
+13d   search for deadline alternatives
 10d   configure vscode to run python
- 8d   copy habitica css
+ 9d   copy habitica css
  6d   rime dictionary change chuang tradition chinese
 
 
