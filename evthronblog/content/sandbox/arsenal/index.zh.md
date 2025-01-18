@@ -84,3 +84,6 @@ layout: "arsenal"
 {{< sitelen-pona toki-pona="poka mi li lon ala jan. mi ante e kiwen lon nena pi ilo utala" >}}
 {{< sitelen-pona toki-pona="ni la mi wile ala nasin pona" >}}
 {{< sitelen-pona toki-pona="sijelo mi li ilo utala mute" >}}
+
+### Book card
+{{< book title="sample book" olid="OL7440033M" >}}

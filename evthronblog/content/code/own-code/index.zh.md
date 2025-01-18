@@ -12,6 +12,19 @@ hidden: false
 comments: true
 ---
 
+### Book card
+CSS specificity of nested selectors cause me trouble
+
+- From template
+    - .article-page .main-article .article-content img
+    - (0, 3, 1) Wins
+
+- What I want to do
+    - .book-card-cover
+    - (0, 1, 0) loses
+
+use `!important` although bad code
+
 ### Count the number of function in python file
 ```python
 import ast

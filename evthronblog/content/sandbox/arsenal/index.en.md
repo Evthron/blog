@@ -91,3 +91,6 @@ layout: "arsenal"
     {{< thumbnail img="20240813_054255 -- home sight.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
+
+### Book card
+{{< book title="sample book" olid="OL7440033M" >}}

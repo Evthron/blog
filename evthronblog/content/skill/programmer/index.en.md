@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-01-18T21:44:15+08:00
+lastmod: 2025-01-19T02:02:44+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Read Code
 
-                 Script read:  11
+                 Script read:  12
 
               Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 

@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-18T21:44:15+08:00
+lastmod: 2025-01-19T02:02:44+08:00
 image: 
 categories: 
 tags: 
@@ -24,7 +24,7 @@ Age   Description
 12w   add a link page to my blog
  2w   code task warrior hook for motivational quote
  2w   buy a domain
- 6w   write university problem of common space and study group, what should
+ 7w   write university problem of common space and study group, what should
       friends do together
  3mo  ask for emacs and org-mode
 12w   set up local habitica server
@@ -38,18 +38,17 @@ Age   Description
  6w   code track social life, random pick
  3w   change input method word order cheng du
  2w   code copy post to multiple language when more than one language tag
- 2w   code copy notion library layout
  2w   watch krita tutorial
  2w   sample out of tune piano
  2w   code show knowledge exchange on blog
  2w   change site font
  2w   read source code of clocktower
- 2w   add books to right-sider
  2w   code taskwarrior layout on blog
 13d   search for deadline alternatives
-10d   configure vscode to run python
+11d   configure vscode to run python
  9d   copy habitica css
- 6d   rime dictionary change chuang tradition chinese
+ 7d   rime dictionary change chuang tradition chinese
+ 3h   register mobile library
 
 
 ```
