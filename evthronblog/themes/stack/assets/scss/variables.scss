@@ -18,7 +18,7 @@
 
     --accent-color: #34495e;
     --accent-color-darker: #2c3e50;
-    --accent-color-text: #fff;
+    --accent-color-text: #FCFCFC; // for book card
     --body-text-color: #202020;
 
     --tag-border-radius: 4px;
@@ -36,7 +36,7 @@
         --body-background: #303030;
         --accent-color: #ecf0f1;
         --accent-color-darker: #bdc3c7;
-        --accent-color-text: #000;
+        --accent-color-text: #4B4B4B; // for book card
         --body-text-color: rgba(255 255 255 / 0.93);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
