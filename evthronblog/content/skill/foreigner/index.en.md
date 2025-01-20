@@ -2,7 +2,7 @@
 title: "class Foreigner"
 description: 
 date: 2024-03-28T02:39:05+08:00
-lastmod: 2025-01-20T23:12:12+08:00
+lastmod: 2025-01-21T00:08:32+08:00
 image: 
 categories: 
 tags: 

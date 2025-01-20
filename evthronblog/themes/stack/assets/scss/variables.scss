@@ -28,7 +28,7 @@
     --scrollbar-thumb: hsl(0, 0%, 85%);
     --scrollbar-track: var(--body-background);
 
-    --background-image: url(../img/dayview.png);
+    --background-image: url(/dayview.png);
     --title: bisque;
     --experience: gainsboro;
     --bar-background: aliceblue;
@@ -40,7 +40,7 @@
         --body-text-color: rgba(255 255 255 / 0.93);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
-        --background-image: url(../img/nightview.png);
+        --background-image: url(/nightview.png);
         --title: goldenrod;
         --experience: dimgray;
         --bar-background: black;
