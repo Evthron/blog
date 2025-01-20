@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-20T12:21:25+08:00
+lastmod: 2025-01-20T12:24:01+08:00
 image: 
 categories: 
 tags: 
@@ -17,13 +17,14 @@ comments: true
 
 Age   Description
 ----- --------------------------------------------------------------------------
- 6min register course
  4w   make resume
-10min make timetable to calendar
+ 9min register course
 10w   watch job brief
+12min make timetable to calendar
+ 6w   code track social life, random pick
  3w   draw new blog background from postcard
  3w   redraw ai-generated-image
-51min change screenshot filename
+54min change screenshot filename
  3mo  add a link page to my blog
  3w   code task warrior hook for motivational quote
  3w   buy a domain
@@ -46,7 +47,6 @@ Age   Description
  2w   change site font
  1d   register mobile library
  8d   rime dictionary change chuang tradition chinese
- 6w   code track social life, random pick
  2w   code taskwarrior layout on blog
  4w   change input method word order cheng du
  2w   code copy post to multiple language when more than one language tag
