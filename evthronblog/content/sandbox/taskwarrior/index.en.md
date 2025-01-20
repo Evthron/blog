@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-21T00:19:01+08:00
+lastmod: 2025-01-21T01:18:37+08:00
 image: 
 categories: 
 tags: 
@@ -19,11 +19,11 @@ Age   Description
 ----- --------------------------------------------------------------------------
  4w   make resume
 11w   watch job brief
-12h   make timetable to calendar
+13h   make timetable to calendar
  6w   code track social life, random pick
  3w   draw new blog background from postcard
  3w   redraw ai-generated-image
-12h   change screenshot filename
+13h   change screenshot filename
  3mo  add a link page to my blog
  3w   code task warrior hook for motivational quote
  3w   buy a domain
@@ -36,8 +36,8 @@ Age   Description
 11d   copy habitica css
  3w   code tic-tac-toe on blog
  3mo  incremental video in obsidian
-11h   create course page bookmark
- 4h   code stock market emulator
+12h   create course page bookmark
+ 5h   code stock market emulator
  8w   code a youtube download credit system
  3w   write how a make the painter progress bar
  2w   watch krita tutorial
@@ -53,8 +53,8 @@ Age   Description
  2w   code copy post to multiple language when more than one language tag
  2w   sample out of tune piano
  2w   search for deadline alternatives
- 7h   check wednesday
- 7h   search fear to find job
+ 8h   check wednesday
+ 8h   search fear to find job
 
 37 tasks
 
