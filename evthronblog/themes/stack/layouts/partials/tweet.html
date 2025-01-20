@@ -41,7 +41,8 @@
             </footer>
         {{ end }}
         <div class="article-content">
-            {{ .Content | truncate 800 }}
+            {{/*  {{ .Content | truncate 700 "......"}}  */}}
+            {{ .Content }}
         </div>
     </div>
 
