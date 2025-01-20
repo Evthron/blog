@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-21T01:18:37+08:00
+lastmod: 2025-01-21T01:22:21+08:00
 image: 
 categories: 
 tags: 
@@ -455,7 +455,6 @@ Subject matter:
 {{< book title="Rudy de Reyna - How to draw what you see" olid="OL5317479M" >}}
 {{< book title="R. O. Dunlop, R.A - Painting for pleasure" olid="" >}}
 {{< book title="Sam Piyasena, Beverly Philp - Just draw it!" olid="OL25973254M" >}}
-
 {{< book title="趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express" olid="" >}}
 
 ### Andrew Loomis - Drawing the Head and Hands
