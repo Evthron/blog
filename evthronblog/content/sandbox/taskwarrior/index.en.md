@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-20T02:03:31+08:00
+lastmod: 2025-01-20T12:12:11+08:00
 image: 
 categories: 
 tags: 
@@ -36,7 +36,7 @@ Age   Description
  4w   code recreate pluckeye
  4w   code recreate habitica search token
  6w   code track social life, random pick
- 3w   change input method word order cheng du
+ 4w   change input method word order cheng du
  2w   code copy post to multiple language when more than one language tag
  2w   watch krita tutorial
  2w   sample out of tune piano
@@ -46,9 +46,11 @@ Age   Description
  2w   code taskwarrior layout on blog
  2w   search for deadline alternatives
 12d   configure vscode to run python
-10d   copy habitica css
+11d   copy habitica css
  8d   rime dictionary change chuang tradition chinese
  1d   register mobile library
+42min change screenshot filename
+ 1min make timetable to calendar
 
 
 ```
