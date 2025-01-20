@@ -2,7 +2,7 @@
 title: "class Sprinter"
 description: 
 date: 2025-01-16
-lastmod: 2025-01-20T19:37:54+08:00
+lastmod: 2025-01-20T21:16:00+08:00
 image: 
 categories: 
 tags: 
