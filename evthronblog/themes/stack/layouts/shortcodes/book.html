@@ -1,4 +1,4 @@
-{{ $title := replace (lower (.Get `title`)) " " '-'}}
+{{ $title := replace (lower (.Get `title`)) " " '+'}}
 <a href='#{{ $title }}' >
 <div class="book-card">
   <div class="book-card-background">
