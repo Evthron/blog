@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-01-21T00:08:32+08:00
+lastmod: 2025-01-21T00:19:01+08:00
 image: 
 categories: 
 tags: 
@@ -447,15 +447,15 @@ Subject matter:
 {{< book title="Betty Edwards - The new drawing on the right side of the brain" olid="OL24346158M" >}}
 {{< book title="Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors" olid="OL8816408M" >}}
 {{< book title="Charles Williams - Basic drawing : how to draw what you see" olid="OL46088793M" >}}
-{{< book title="Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way " olid="OL25173760M" >}}
-{{< book title="Gilles Ronin - Le dessin en perspective a main levee " olid="" >}}
+{{< book title="Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way" olid="OL25173760M" >}}
+{{< book title="Gilles Ronin - Le dessin en perspective a main levee" olid="OL48624860M" >}}
 {{< book title="James Hobbs - Sketch Your World" olid="OL26122953M" >}}
-{{< book title="Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less " olid="OL26010041M" >}}
+{{< book title="Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less" olid="OL26010041M" >}}
 {{< book title="Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less" olid="OL27404161M" >}}
 {{< book title="Rudy de Reyna - How to draw what you see" olid="OL5317479M" >}}
 {{< book title="R. O. Dunlop, R.A - Painting for pleasure" olid="OL6090516M" >}}
 {{< book title="Sam Piyasena, Beverly Philp - Just draw it!" olid="OL25973254M" >}}
-{{< book title="趙巍岩, 陽佳, 楊萌 - 物我之間 : 寫生的一種方法 (Between object and subject : painting as a way to perceive and express) " olid="" >}}
+{{< book title="趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express" olid="" >}}
 
 ### Andrew Loomis - Drawing the Head and Hands
 ### Andrew Loomis - Figure drawing for all it's worth
@@ -515,5 +515,5 @@ Subject matter:
 - It gives out lot of interesting ideas on creative art making, not bounded by
   traditional media.
 
-### 趙巍岩, 陽佳, 楊萌 - 物我之間 : 寫生的一種方法 (Between object and subject : painting as a way to perceive and express) 
+### 趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express
 - It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.

@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-01-21T00:08:32+08:00
+lastmod: 2025-01-21T00:19:01+08:00
 image: 
 categories: 
 tags: 
@@ -19,7 +19,7 @@ Age   Description
 ----- --------------------------------------------------------------------------
  4w   make resume
 11w   watch job brief
-11h   make timetable to calendar
+12h   make timetable to calendar
  6w   code track social life, random pick
  3w   draw new blog background from postcard
  3w   redraw ai-generated-image
