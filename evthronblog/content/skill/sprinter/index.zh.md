@@ -2,7 +2,7 @@
 title: "class Sprinter"
 description: 
 date: 2025-01-16
-lastmod: 2025-01-20T12:24:01+08:00
+lastmod: 2025-01-20T19:37:54+08:00
 image: 
 categories: 
 tags: 
@@ -22,7 +22,7 @@ comments: true
     <div class="bar" style="--bar-value:68%;" data-name="6645" title="01-17"></div>
     <div class="bar" style="--bar-value:100%;" data-name="9745" title="01-18"></div>
     <div class="bar" style="--bar-value:9%;" data-name="867" title="01-19"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-20"></div>
+    <div class="bar" style="--bar-value:84%;" data-name="8232" title="01-20"></div>
 <div class="top"> 9745 steps </div>
   </div>
 </div>

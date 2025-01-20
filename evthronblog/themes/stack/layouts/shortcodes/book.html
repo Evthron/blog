@@ -1,3 +1,5 @@
+{{ $title := replace (lower (.Get `title`)) " " '-'}}
+<a href='#{{ $title }}' >
 <div class="book-card">
   <div class="book-card-background">
     <img
@@ -9,3 +11,4 @@
    {{ .Get `title`}} 
   </div>
 </div>
+</a>
