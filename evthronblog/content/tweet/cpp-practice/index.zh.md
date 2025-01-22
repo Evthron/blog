@@ -2,7 +2,7 @@
 title: "練習 C++"
 description: 
 date: 2025-01-23T00:39:43+08:00
-lastmod: 2025-01-23T00:39:50+08:00
+lastmod: 2025-01-23T01:01:33+08:00
 image: 
 categories: tweet
 tags: ['coding']
@@ -16,4 +16,5 @@ comments: true
 
 沒先學 C 反而更好嗎……
 
+[Stop Teaching C (youtube)](https://www.youtube.com/watch?v=YnWhqhNdYyk)
 
