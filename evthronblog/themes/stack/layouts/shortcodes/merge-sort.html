@@ -1,0 +1,23 @@
+
+
+<div class="sort-item">
+    1
+</div>
+<div class="sort-item">
+    2
+</div>
+<div class="sort-item">
+    3
+</div>
+<script>
+    let articleContent = document.querySelector(".article-content")
+    for (let i = 0; i <= 10; i = i + 1){
+        let sortItem = document.createElement("div")
+        sortItem.classList.add("sortItem")
+        sortItem.style = "display: inline-block; border: solid black 2px; padding: 1rem"
+        sortItem.innerHTML = Math.floor(Math.random() * 20)
+        articleContent.prepend(sortItem)
+    }
+    let sortItems = document.querySelectorAll(".sortItem")
+    console.log(sortItems[0])
+</script>
