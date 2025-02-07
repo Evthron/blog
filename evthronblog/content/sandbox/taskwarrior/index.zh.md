@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-02-06T16:03:26+08:00
+lastmod: 2025-02-07T12:41:07+08:00
 image: 
 categories: 
 tags: 
@@ -19,7 +19,7 @@ Age   Description
 ----- --------------------------------------------------------------------------
  7w   make resume
  2w   make timetable to calendar
- 8w   code track social life, random pick
+ 9w   code track social life, random pick
  5w   draw new blog background from postcard
  5w   redraw ai-generated-image
  2w   change screenshot filename
@@ -29,14 +29,13 @@ Age   Description
  9w   write university problem of common space and study group, what should
       friends do together
  2w   find resume template
- 4w   configure vscode to run python
  4mo  ask for emacs and org-mode
  3mo  set up local habitica server
- 5w   add tag search feature to blog
+ 6w   add tag search feature to blog
  4w   copy habitica css
  2w   configure vim latex workflow
  2w   wipe computer monitor
- 5w   code tic-tac-toe on blog
+ 6w   code tic-tac-toe on blog
  4mo  incremental video in obsidian
  2w   code stock market emulator
 10w   code a youtube download credit system
@@ -45,6 +44,8 @@ Age   Description
  4w   write show knowledge exchange on blog
  4w   read source code of clocktower
  2w   code taskwarrior blog show completed tasks
+20h   code write color wheel blog website
+20h   code merge sort on website blog
  7w   code recreate pluckeye
  7w   code recreate habitica search token
  4w   change site font
@@ -56,7 +57,6 @@ Age   Description
  4w   sample out of tune piano
  4w   search for deadline alternatives
  2w   search cs career path
-12d   code fix sprint zero date count
  9d   write science mind limit
 
 40 tasks
