@@ -1,8 +1,8 @@
 ---
 title: "custom_export"
 description: 
-date: 2024-09-02T11:05:04+08:00
-lastmod: 2024-09-02T11:05:04+08:00
+date: 2024-09-05T15:44:19+08:00
+lastmod: 2024-09-05T15:44:19+08:00
 image: 
 categories: 
 tags: 
@@ -15,7 +15,40 @@ comments: true
 https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 
 
-# Example Tree mapping conversion
+Parent Graph 和 edge List 的區別
+edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
+
+
+
+
+```python
+graph = {[]}
+has_parent = {node : False for node in node_list}
+for start, end in edge_graph:
+	graph[start] = graph.get(start, []}.append(end)
+	has_parent[end] = True
+```
+```python
+import argparse
+	'''
+	make argument parser
+	'''
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--output-folder", default="joplin_note_export")
+    parser.add_argument("--api-token", default=os.getenv("API_TOKEN"))
+	args = parser.parse_args()
+	# What is the data in args?
+```
+the dash in flag will be converted to underscore
+--output-folder -> args.output_folder
+Replace bad characters in filenames
+https://stackoverflow.com/a/27647173/7410886
+```python
+def replacements(value: str) -> str:
+    """Replace bad characters in filenames."""
+    return re.sub(r'[\\/*?:"<>|\s]', "_", value)
+```
+## Tree element mapping replace
 
 ```python
 tree = {"servant" : {"saber" : {"excalibur" : {}},
@@ -30,51 +63,17 @@ mapping = {"saber" : "shirou",
            "Caladabolg" : "Broken Phantasm",
            "gae_bolg" : "lucky E"}
 
-def get_new_tree(tree):
-    new_tree = {}
-    for servant, subtree in tree.items():
+def get_new_tree(tree, mapping):
+    new_tree = {} # base case
+    for servant, subtree in tree.items(): # current element, child hierarchy
         master = mapping[servant]
-        new_tree[master] = get_new_tree(subtree)
+        new_tree[master] = get_new_tree(subtree) # leap of faith
     return new_tree
 
-print(get_new_tree(tree))
+print(get_new_tree(tree, mapping))
 ```
 
 
-``` python
-import argparse
-from pathlib import Path
-from joppy.api import Api
-```
-```python
-def main():
-    args = parse_args()
-    api = Api(token=args.api_token)
-	
-    # Tree 是 notebook tree，以 list 的形式儲存。
-    tree = create_hierarchy(api)
-    create_files(api, tree, Path(args.output_folder))
-```
-Parent Graph 和 edge List 的區別
-edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
-
-
-
-
-```python
-graph = {[]}
-has_parent = {node : False for node in node_list}
-for start, end in edge_graph:
-	graph[start] = graph.get(start, []}.append(end)
-	has_parent[end] = True
-```
-Replace bad characters in filenames
-https://stackoverflow.com/a/27647173/7410886
-```python
-def replacements(value: str) -> str:
-    """Replace bad characters in filenames."""
-    return re.sub(r'[\\/*?:"<>|\s]', "_", value)
-```
 ```python
 # 建立資料結構的方法
 @dataclass
@@ -251,7 +250,7 @@ def replace_ids_by_items(id_tree):
 - value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree
 - 底層：value 是空的 dict，傳回空的 list
 		
-Example Tree mapping conversion
+Tree element mapping replace
 
 
 

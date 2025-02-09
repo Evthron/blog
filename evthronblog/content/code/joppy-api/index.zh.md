@@ -15,6 +15,9 @@ comments: true
 https://github.com/marph91/joppy/tree/master/joppy
 
 
+
+
+
 # joppy Delete, get, post, put
 
 ```python
@@ -43,6 +46,14 @@ https://github.com/marph91/joppy/tree/master/joppy
         """Convenience method to issue a put request."""
         return self._request("put", path, data=data) # put 是什麼？
 ```
+
+
+
+requests.model.Response
+
+
+
+dt.JoplinKwargs
 
 
 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
