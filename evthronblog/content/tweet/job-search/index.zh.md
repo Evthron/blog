@@ -2,7 +2,7 @@
 title: "找工作"
 description: 
 date: 2025-02-09T22:10:41+08:00
-lastmod: 2025-02-10T02:29:26+08:00
+lastmod: 2025-02-10T02:45:20+08:00
 image: 
 categories: tweet
 tags: ['stories']
@@ -41,11 +41,16 @@ comments: true
 
 DevOps 是什麼？不明所以的縮寫。
 
+
+## Project
+得整理一下以前的課堂作業。真正是我自己自發做的，目前就只有這個網站了。不過做個網站誰都會，花了很多心血也看不出來。內容也和專業不沾邊。
+
+***
 用學校的簡歷工具過了一遍，很明顯不及格。
 
 暫時先這樣。
 
-### 參考
+## 參考
 [Intro to LaTeX : Learn to write beautiful math equations || Part 1 (Youtube)](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
 
 [How do I write CV for the first time (reddit)](https://old.reddit.com/r/resumes/comments/utv9uw/how_do_i_write_a_cv_for_the_first_time/)
