@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-02-13T14:46:23+08:00
+lastmod: 2025-02-14T00:58:46+08:00
 image: 
 categories: 
 tags: 
@@ -32,9 +32,9 @@ Age   Description
  6w   code tic-tac-toe on blog
  3mo  add a link page to my blog
  6d   check haskell tutorial
- 5d   make contact list
+ 6d   make contact list
  2d   code a clock on blog
-12h   code quantum calculator
+22h   code quantum calculator
  4mo  incremental video in obsidian
  3w   code stock market emulator
 11w   code a youtube download credit system
@@ -45,14 +45,14 @@ Age   Description
  5w   read source code of clocktower
  3w   code taskwarrior blog show completed tasks
  2w   write science mind limit
- 6d   code color wheel on blog
+ 7d   code color wheel on blog
  6d   search task system how to deal with recurring daily task
- 2d   awesome wm touchpad
- 6d   code merge sort on website blog
+ 3d   awesome wm touchpad
+ 7d   code merge sort on website blog
  8w   code recreate pluckeye
  8w   code recreate habitica search token
  5w   change site font
- 1d   code fix programmer_analysis empty folder bug
+ 2d   code fix programmer_analysis empty folder bug
  3mo  set up local habitica server
  4w   rime dictionary change chuang tradition chinese
  5w   code taskwarrior layout on blog
