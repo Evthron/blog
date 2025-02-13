@@ -2,7 +2,7 @@
 title: "class Right-sider"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-02-11T09:49:33+08:00
+lastmod: 2025-02-13T14:46:23+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Skill
 
-                     Collect: 106 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+                     Collect: 107 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
 
                        Share:  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 

@@ -1,8 +1,8 @@
 ---
 title: "hugo-theme-stack"
 description: 
-date: 2024-11-25T00:26:35+08:00
-lastmod: 2024-11-25T00:26:35+08:00
+date: 2025-02-12T14:37:42+08:00
+lastmod: 2025-02-12T14:37:42+08:00
 image: 
 categories: 
 tags: 
@@ -15,7 +15,9 @@ comments: true
 https://github.com/CaiJimmy/hugo-theme-stack
 
 
- 
+
+# 能摺疊的目錄
+## Javascript
 ```javascript
 /**
  * Slide up/down
@@ -28,20 +30,23 @@ let slideUp = (target: HTMLElement, duration = 500) => {
     duration = 2000
     // 在過渡的時候，為 target 多加一個 transiting element，表示正在過渡
     target.classList.add('transiting');
-    /// 設定哪些元素有過渡動畫
+    /// TransitionProperty 設定哪些元素有過渡動畫
     //target.style.transitionProperty = 'height, margin, padding';
     target.style.transitionProperty = 'height';
     target.style.transitionDuration = duration + 'ms';
-    // 在 2 秒內把全部變成 0
-    target.style.boxSizing = 'border-box';
-    target.style.height = target.offsetHeight + 'px';
-    target.offsetHeight;
-    target.style.overflow = 'hidden';
+    // 把數值變成 0，有過渡動畫
     target.style.height = "0";
     target.style.paddingTop = "0";
     target.style.paddingBottom = "0";
     target.style.marginTop = "0";
     target.style.marginBottom = "0";
+
+    // 額外調整？
+    target.style.boxSizing = 'border-box';
+    target.style.height = target.offsetHeight + 'px';
+    target.offsetHeight;
+    target.style.overflow = 'hidden';
+
     // 完成過渡之後就去除特性
     window.setTimeout(() => {
         target.classList.remove('show')
@@ -110,6 +115,20 @@ export default function () {
 }
 ```
 
+
+### 最簡單的摺疊動畫
+```javascript
+target = document.querySelector('.target')
+/// TransitionProperty 設定哪些 Property 有過渡動畫
+target.style.transtionProperty = 'height, width, padding'
+// 過渡時間
+target.style.transitionDuration = '1000ms'
+// 摺起來
+target.style.height = "0"
+```
+
+
+## HTML
 ``` html
 <!DOCTYPE html>
 <html lang="en">
@@ -141,6 +160,8 @@ export default function () {
 </body>
 </html>
 ```
+
+### CSS
 ```css
 body{
     margin: 0 0 0 0;
