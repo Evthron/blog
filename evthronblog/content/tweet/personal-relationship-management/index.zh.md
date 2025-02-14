@@ -2,7 +2,7 @@
 title: "社交管理軟件"
 description: 
 date: 2025-02-14T12:44:23+08:00
-lastmod: 2025-02-14T13:43:52+08:00
+lastmod: 2025-02-14T13:47:23+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'software']
