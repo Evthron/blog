@@ -116,7 +116,7 @@ export default function () {
 ```
 
 
-### 最簡單的摺疊動畫
+### 摺疊動畫
 ```javascript
 target = document.querySelector('.target')
 /// TransitionProperty 設定哪些 Property 有過渡動畫
@@ -127,6 +127,92 @@ target.style.transitionDuration = '1000ms'
 target.style.height = "0"
 ```
 
+在改變值之前必須先有一個值，如果沒有設置好初始值，第一次的數值會突然出現，不會有動畫。
+
+
+## 例子
+
+{{< pure-html >}}
+<div class="demo" style="display: none; border: solid 1px black; width: 10rem; background-color: orange; font-size : 24px">
+    test box
+</div>
+<button class="toggle-button">toggle</button>
+
+<script>
+    let slideUp = (target, duration = 500) => {
+        target.classList.add('transiting');
+        //target.style.transitionProperty = 'height, margin, padding';
+        target.style.boxSizing = 'border-box';
+        target.style.transitionDuration = duration + 'ms';
+        target.style.height = target.offsetHeight + 'px'; // Set height to current value for animation
+        //target.offsetHeight; // Trigger reflow
+        target.style.overflow = 'hidden';
+        target.style.height = "0";
+        target.style.paddingTop = "0";
+        target.style.paddingBottom = "0";
+        target.style.marginTop = "0";
+        target.style.marginBottom = "0";
+        window.setTimeout(() => {
+            target.style.display = 'none';
+            target.style.removeProperty('height');
+            target.style.removeProperty('padding-top');
+            target.style.removeProperty('padding-bottom');
+            target.style.removeProperty('margin-top');
+            target.style.removeProperty('margin-bottom');
+            target.style.removeProperty('overflow');
+            target.style.removeProperty('transition-duration');
+            target.style.removeProperty('transition-property');
+            target.classList.remove('transiting');
+        }, duration);
+    }
+
+    let slideDown = (target, duration = 500) => {
+        target.classList.add('transiting');
+        target.style.removeProperty('display');
+        target.classList.add('show');
+        let height = target.offsetHeight; // Get height for animation
+        target.style.overflow = 'hidden';
+        target.style.height = "0";
+        target.style.paddingTop = "0";
+        target.style.paddingBottom = "0";
+        target.style.marginTop = "0";
+        target.style.marginBottom = "0";
+        target.offsetHeight; // Trigger reflow
+        target.style.transitionProperty = "height, margin, padding";
+        target.style.transitionDuration = duration + 'ms';
+        target.style.height = height + 'px'; // Animate to full height
+        target.style.removeProperty('padding-top');
+        target.style.removeProperty('padding-bottom');
+        target.style.removeProperty('margin-top');
+        target.style.removeProperty('margin-bottom');
+
+        window.setTimeout(() => {
+            target.style.removeProperty('height');
+            target.style.removeProperty('overflow');
+            target.style.removeProperty('transition-duration');
+            target.style.removeProperty('transition-property');
+            target.classList.remove('transiting');
+        }, duration);
+    }
+
+    let toggle_button = document.querySelector(".toggle-button");
+    let demo_box = document.querySelector(".demo");
+
+    let slideToggle = (target, duration = 500) => {
+        if (window.getComputedStyle(target).display === 'none') {
+            return slideDown(target, duration);
+        } else {
+            return slideUp(target, duration);
+        }
+    }
+
+    toggle_button.addEventListener("click", () => {
+        if (demo_box.classList.contains('transiting')) return; // Prevent multiple clicks
+        slideToggle(demo_box, 500);
+    });
+</script>
+
+{{< /pure-html >}}
 
 ## HTML
 ``` html

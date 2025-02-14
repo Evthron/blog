@@ -3893,6 +3893,12 @@ The match-ups between characters seem thought-out, with each having different st
 She boasts a wide singing range that can fit many tones or moods.<br><br>possess  <br>wield
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="ludicrous" tags="" >}}
+<div>
+However, we know this is a bit ludicrous because we know the next word is highly contingent upon the previous sequence of words.<br><br>
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="decide v">}}
 {{< vocab-item word="decide on" tags="decide v" >}}
 <div>
