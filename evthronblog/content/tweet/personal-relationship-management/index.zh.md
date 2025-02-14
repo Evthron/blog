@@ -2,7 +2,7 @@
 title: "社交管理軟件"
 description: 
 date: 2025-02-14T12:44:23+08:00
-lastmod: 2025-02-14T13:47:23+08:00
+lastmod: 2025-02-14T14:48:01+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'software']
@@ -14,7 +14,7 @@ comments: true
 
 [Never Eat Alone](/zh/skill/right-sider/#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time) 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。
 
-[Monica（官網）](https://www.monicahq.com/) 自稱 PRM 軟件，Persoal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。[^1] 
+[Monica（官網）](https://www.monicahq.com/) 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。[^1] 
 
 ![example](https://www.monicahq.com/img/dashboard.png)
 
