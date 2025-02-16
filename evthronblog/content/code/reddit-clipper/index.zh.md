@@ -1,5 +1,5 @@
 ---
-title: "reddit-clipper"
+title: "Reddit Clipper"
 description: 
 date: 2025-01-03T04:49:30+08:00
 lastmod: 2025-01-03T04:49:30+08:00

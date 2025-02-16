@@ -1,5 +1,5 @@
 ---
-title: "progress-bar"
+title: "flask"
 description: 
 date: 2024-10-06T18:16:08+08:00
 lastmod: 2024-10-06T18:16:08+08:00
@@ -12,16 +12,11 @@ hidden: false
 comments: true
 ---
 
-https://github.com/fredericojordan/progress-bar
 ``` python
 app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
 app.run(host="127.0.0.1", port=port)
 ```
-# Special use of conditional
-    progress_width = 60 if title else 90
-
-
  
 ```python
 @app.route("/<int:progress>/")
@@ -90,3 +85,6 @@ def get_template_fields(progress):
     }
 
 ```
+# Special use of conditional
+    progress_width = 60 if title else 90
+

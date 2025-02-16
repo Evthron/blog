@@ -1,5 +1,5 @@
 ---
-title: "note_stats"
+title: "筆記分析"
 description: 
 date: 2024-09-09T13:02:35+08:00
 lastmod: 2024-09-09T13:02:35+08:00

@@ -1,5 +1,5 @@
 ---
-title: "open-library-api"
+title: "Open Library Api"
 description: 
 date: 2025-01-18T23:15:55+08:00
 lastmod: 2025-01-18T23:15:55+08:00

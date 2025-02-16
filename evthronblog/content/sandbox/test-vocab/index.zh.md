@@ -3431,6 +3431,12 @@ It was well received by its Japanese audience, and helped pave the way for futur
 players attempted to reason out answers to overarching mysteries presented through the given story script.<br><br>FORMAL
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="run-of-the-mill" tags="" >}}
+<div>
+The standard run-of-the-mill piano you find everywhere.<br><br>
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="move v strong">}}
 {{< vocab-item word="hurtle" tags="move v strong" >}}
 <div>
