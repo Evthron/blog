@@ -2,7 +2,7 @@
 title: "網站設計"
 description: 
 date: 2024-07-01T18:11:52+08:00
-lastmod: 2024-12-31T04:01:33+08:00
+lastmod: 2025-02-17T02:55:21+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -25,4 +25,7 @@ comments: true
 Tailwind CSS 的理念是有道理的，不深思熟慮就胡亂添加一大堆 CSS class 只會讓代碼變得散亂，還不如直接把樣式寫進 HTML。不過總感覺網頁應該要事先設計好才開始動工，所以我有點懷疑。
 
 https://scriptraccoon.dev/blog/tailwind-disadvantages
+
+***
+不行啊……這個網站還是不夠有趣。
 

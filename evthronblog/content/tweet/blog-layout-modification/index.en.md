@@ -2,7 +2,7 @@
 title: "Website redesign"
 description: 
 date: 2024-07-01T18:21:29+08:00
-lastmod: 2024-12-31T04:01:20+08:00
+lastmod: 2025-02-17T02:55:06+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -24,5 +24,8 @@ Actually, It's not that hard to understand after I read through them.
 Tailwind css looks tempting because it reveals the problem of overly structured and scattered CSS classes. Don't predict which classes can be reused, only reuse it if you saw it repeated many times. But it might not be a good thing to make edits without understanding the structure of the site, so I'm doubtful.
 
 https://scriptraccoon.dev/blog/tailwind-disadvantages
+
+***
+Not enough... this site is not interesting enough.
 
 

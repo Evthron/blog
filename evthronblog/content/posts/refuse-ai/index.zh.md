@@ -2,7 +2,7 @@
 title: "抗拒人工智能"
 description: 
 date: 2025-02-16T15:43:55+08:00
-lastmod: 2025-02-16T19:40:23+08:00
+lastmod: 2025-02-16T20:14:10+08:00
 image: 
 categories: posts
 tags: ['art', 'coding']
