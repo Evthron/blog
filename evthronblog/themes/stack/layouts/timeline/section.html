@@ -5,7 +5,7 @@
     {{ $pag := .Paginate ($filtered) }}
 
     <section class="article-list">
-        {{ range $index, $element := $pag.Pages }}
+        {{ range $index, $element := $pag.Pages.ByLastmod.Reverse }}
             {{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
             <article class="{{ if $image.exists }}has-image{{ end }}">
                 {{ partial "article-header" . }}
