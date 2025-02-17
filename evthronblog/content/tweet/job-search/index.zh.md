@@ -2,7 +2,7 @@
 title: "找工作"
 description: 
 date: 2025-02-09T22:10:41+08:00
-lastmod: 2025-02-10T02:45:20+08:00
+lastmod: 2025-02-18T03:42:17+08:00
 image: 
 categories: tweet
 tags: ['stories']
@@ -61,5 +61,18 @@ DevOps 是什麼？不明所以的縮寫。
 
 [What exactly is "DevOps" ?? (reddit)](https://old.reddit.com/r/devops/comments/vfxmxv/what_exactly_is_devops/)
 
+***
+2025/02/18
 
+用 AI 修改了一下之後，現在 CV 至少看得過去了。同學説 CV 是沒人看的，只要有就行。
+
+{{< pdf src="/evthron-cv.pdf" >}} 
+
+接下來是做什麼工作。雖然是什麼工作都好，但應該要有個目標才對。
+
+去哪裏工作？小公司、政府、銀行、量化投資公司、知名科技公司。
+
+做什麼？網頁開發、數據分析、系統維護。
+
+我只是聽了個大概，對現在的行情不是很瞭解。要繼續搜索。
 
