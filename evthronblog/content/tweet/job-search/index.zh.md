@@ -2,7 +2,7 @@
 title: "找工作"
 description: 
 date: 2025-02-09T22:10:41+08:00
-lastmod: 2025-02-18T03:42:17+08:00
+lastmod: 2025-02-20T03:30:21+08:00
 image: 
 categories: tweet
 tags: ['stories']
@@ -68,11 +68,16 @@ DevOps 是什麼？不明所以的縮寫。
 
 {{< pdf src="/evthron-cv.pdf" >}} 
 
-接下來是做什麼工作。雖然是什麼工作都好，但應該要有個目標才對。
+接下來是工作類型。雖然是什麼工作都好，但應該要有個目標才對。我對現在的行情可不怎麼很瞭解。
 
-去哪裏工作？小公司、政府、銀行、量化投資公司、知名科技公司。
+先看看有什麼需求，我收集了一些會在工作要求中出現的軟件。
 
-做什麼？網頁開發、數據分析、系統維護。
+- Version control: Git, CI/CD pipelines
+- Web: JavaScript, TypeScript, REST APIs, Responsive design, Redux/Context, RESTful APIs, React.js, React Native, MongoDB
+– Cloud: Google Cloud Platform (GCP), Amazon Web Services (AWS), Firebase
+- Data: Excel VBA, Python, Matlab, SQL, Tableau, R, S+, SAS, PowerBI
+- Backend: Django, Spring Boot, Express.js 
+- Unit test: JUnit, Pytest, Mocha
+- 3D: SolidWorks, Fusion 360, AutoCAD
 
-我只是聽了個大概，對現在的行情不是很瞭解。要繼續搜索。
 
