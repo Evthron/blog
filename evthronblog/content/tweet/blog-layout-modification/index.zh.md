@@ -2,7 +2,7 @@
 title: "網站設計"
 description: 
 date: 2024-07-01T18:11:52+08:00
-lastmod: 2025-02-17T02:55:21+08:00
+lastmod: 2025-02-20T00:38:27+08:00
 image: 
 categories: tweet
 tags: ['web']
@@ -27,5 +27,10 @@ Tailwind CSS 的理念是有道理的，不深思熟慮就胡亂添加一大堆 
 https://scriptraccoon.dev/blog/tailwind-disadvantages
 
 ***
-不行啊……這個網站還是不夠有趣。
+2025-02-20
+不行啊……這個網站還是不夠有趣。網站設計不是最重要的，內容和更新頻率才是。
+
+我寫的東西太正經嚴肅了，就自我表達的角度來看我非常滿意，但這可吸引不了人。得更有趣，更新得更快才行。
+
+用 AI 來大批量生產
 

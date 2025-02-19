@@ -2,7 +2,7 @@
 title: "抗拒人工智能"
 description: 
 date: 2025-02-16T15:43:55+08:00
-lastmod: 2025-02-17T12:33:24+08:00
+lastmod: 2025-02-20T00:55:38+08:00
 image: 
 categories: posts
 tags: ['art', 'coding']
@@ -87,6 +87,12 @@ DeepSeek:
 不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。<span style="color:#01ad34;"> </span>人類探索了地球上的每一個角落<del style="color:#96767f; text-decoration:line-through;">之</del>後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。<del style="color:#96767f; text-decoration:line-through;">我會用</del><span style="color:#01ad34;">我會</span><span style="color:#01ad34;">使用</span><span style="color:#01ad34;">AI</span>的。<span style="color:#01ad34;"> </span>無論是寫文章、寫程序<del style="color:#96767f; text-decoration:line-through;">、</del>還是畫畫，只要放棄那一部分微不足道<del style="color:#96767f; text-decoration:line-through;">又</del><span style="color:#01ad34;">卻</span>無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注<del style="color:#96767f; text-decoration:line-through;">在</del><del style="color:#96767f; text-decoration:line-through;">更加</del><span style="color:#01ad34;">於</span><span style="color:#01ad34;">更</span>高層次的創作<del style="color:#96767f; text-decoration:line-through;">上</del>。我應該是能做到的才對。
 </p>{{< /pure-html >}}
 
+***
+修改了什麼：
+詞語：背後的原因 -> 根源，人工智能 -> AI，而言-> 來説
+增加連接詞，但、畢竟、其實、甚至、這是、然而、確實、讓
+語法錯誤：只要……任何人~~也~~都能，反映~~到~~在
+錯字：每一~~副~~幅
 ***
 寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。
 
