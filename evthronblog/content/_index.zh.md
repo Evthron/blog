@@ -32,4 +32,6 @@ lastmod: '2025-01-18T03:26:20+08:00'
 
 雖然這只是個網站，不是社交平台，但也是可以訂閲的。使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/)，瀏覽器可以用 Feedbro [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/) [(Chrome)](https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa)插件。
 
+如果你懶得弄，就算把你的手機搶過來強行推銷，我也不會覺得太過火。説笑而已。至少，要是你對這個網站有任何想法，像是文章和網站設計，請一定要告訴我。
+
 

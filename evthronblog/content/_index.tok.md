@@ -14,3 +14,4 @@ toki ni li toki pona. toki mama mi li toki Sonko. mi ken sitelen kepeken toki In
 
 sina ken jo e lipu mi sin kepeken ilo RSS. ilo Feeder li pona tawa mi. ilo Feedbro li pona tawa mi.
 
+sina ala lipu la, mi jo utala e poki lukin tan sina. mi toki musi. sina pilin pona ala pona? sina toki pi lipu mi tawa mi la, mi pona.
