@@ -3965,6 +3965,12 @@ The biggest sufferers of this incredibly expedient pacing are the emotional scen
 I loved seeing that the futuristic graphic design from the in-game UI extended seamlessly to the design of each component in this limited edition.<br><br>
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="verbatim" tags="" >}}
+<div>
+Depth-first search of a directed graph can be run verbatim on directed graphs, taking care to traverse edges only in their prescribed directions.<br><br>
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="v result good">}}
 {{< vocab-item word="come to fruition" tags="v result good" >}}
 <div>
