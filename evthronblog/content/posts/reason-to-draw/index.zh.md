@@ -6,7 +6,7 @@ lastmod: 2025-01-18T03:12:08+08:00
 image: 
 categories: posts
 tags: ['stories', 'art']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

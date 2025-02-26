@@ -6,7 +6,7 @@ lastmod: 2025-02-07T14:59:19+08:00
 image: new-year-holiday.jpg
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

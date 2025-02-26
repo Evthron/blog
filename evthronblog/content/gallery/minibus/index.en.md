@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:50:37+08:00
 image: minibus.jpg
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

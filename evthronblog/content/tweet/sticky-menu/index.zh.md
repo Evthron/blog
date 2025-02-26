@@ -6,7 +6,7 @@ lastmod: 2024-07-01T05:24:50+08:00
 image: 
 categories: tweet
 tags: ['grumble']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

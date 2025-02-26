@@ -6,7 +6,7 @@ lastmod: 2025-01-06T14:01:07+08:00
 image: 
 categories: tweet
 tags: ['gamification']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

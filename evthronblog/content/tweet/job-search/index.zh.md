@@ -6,7 +6,7 @@ lastmod: 2025-02-23T01:33:11+08:00
 image: 
 categories: tweet
 tags: ['stories']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

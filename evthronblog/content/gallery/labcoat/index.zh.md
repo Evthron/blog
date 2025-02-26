@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:14:01+08:00
 image: labcoat.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

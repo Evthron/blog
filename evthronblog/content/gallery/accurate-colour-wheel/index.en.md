@@ -6,7 +6,7 @@ lastmod: 2024-08-15T02:38:15+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

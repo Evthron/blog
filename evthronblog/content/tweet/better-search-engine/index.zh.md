@@ -6,7 +6,7 @@ lastmod: 2024-07-01T04:57:24+08:00
 image: 
 categories: tweet
 tags: ['internet']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

@@ -6,7 +6,7 @@ lastmod: 2024-06-26T02:39:50+08:00
 image: flower-pot.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

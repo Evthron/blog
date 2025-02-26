@@ -6,7 +6,7 @@ lastmod: 2025-02-07T14:54:28+08:00
 image: watermelon.jpg
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

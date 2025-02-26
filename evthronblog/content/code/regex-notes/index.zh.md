@@ -6,7 +6,7 @@ lastmod: 2025-01-18T02:07:02+08:00
 image: 
 categories: 
 tags: 
-math: 
+math: true
 license: 
 hidden: false
 comments: true

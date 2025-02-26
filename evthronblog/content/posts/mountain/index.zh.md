@@ -6,7 +6,7 @@ lastmod: 2025-01-18T02:29:06+08:00
 image: 
 categories: posts
 tags: ['fiction']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

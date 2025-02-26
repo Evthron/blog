@@ -6,7 +6,7 @@ lastmod: 2024-09-18T15:58:00+08:00
 image: 
 categories: tweet
 tags: ['software']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

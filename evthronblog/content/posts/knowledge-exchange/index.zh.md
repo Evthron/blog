@@ -6,7 +6,7 @@ lastmod: 2024-12-25T07:48:47+08:00
 image: 
 categories: posts
 tags: ['relationship', 'gamification']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

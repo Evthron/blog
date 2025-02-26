@@ -6,7 +6,7 @@ lastmod: 2025-01-23T01:01:38+08:00
 image: 
 categories: tweet
 tags: ['coding']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

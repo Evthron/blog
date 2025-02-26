@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:02:38+08:00
 image: christmas-house.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

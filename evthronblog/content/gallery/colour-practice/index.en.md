@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:27:50+08:00
 image: colour-practice.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

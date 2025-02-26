@@ -6,7 +6,7 @@ lastmod: 2025-02-07T14:30:17+08:00
 image: drawing-on-train.jpg
 categories: posts
 tags: ['stories', 'art']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

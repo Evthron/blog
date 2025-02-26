@@ -6,7 +6,7 @@ lastmod: 2025-02-14T14:19:19+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'software']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

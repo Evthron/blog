@@ -6,7 +6,7 @@ lastmod: 2025-01-18T02:08:29+08:00
 image: 
 categories: toolbox
 tags: ['software']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

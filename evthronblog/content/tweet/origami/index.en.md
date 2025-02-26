@@ -6,7 +6,7 @@ lastmod: 2024-08-15T02:46:58+08:00
 image: 
 categories: tweet
 tags: ['maths']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

@@ -2,11 +2,11 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-02-24T17:57:05+08:00
+lastmod: 2025-02-26T20:14:54+08:00
 image: 
 categories: 
 tags: 
-math: 
+math: true
 license: 
 hidden: false
 comments: true

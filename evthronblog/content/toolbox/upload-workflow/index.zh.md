@@ -6,7 +6,7 @@ lastmod: 2024-12-27T08:41:39+08:00
 image: 
 categories: toolbox
 tags: ['coding']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

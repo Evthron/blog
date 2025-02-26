@@ -6,7 +6,7 @@ lastmod: 2024-06-30T23:05:52+08:00
 image: nightview.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

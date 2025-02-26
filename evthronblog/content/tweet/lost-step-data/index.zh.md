@@ -5,8 +5,8 @@ date: 2025-02-23T01:34:13+08:00
 lastmod: 2025-02-23T01:48:50+08:00
 image: 
 categories: tweet
-tags: ['gamification']
-math: 
+tags: ['grumble', 'gamification', 'software']
+math: true
 license: 
 hidden: false
 comments: true

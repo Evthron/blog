@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:06:17+08:00
 image: body-skeleton.png
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

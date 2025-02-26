@@ -6,7 +6,7 @@ lastmod: 2025-01-03T12:36:46+08:00
 image: beach.jpg
 categories: gallery
 tags: []
-math: 
+math: true
 license: 
 hidden: false
 comments: true

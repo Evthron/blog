@@ -6,7 +6,7 @@ lastmod: 2024-12-29T00:15:21+08:00
 image: 
 categories: tweet
 tags: ['relationship']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

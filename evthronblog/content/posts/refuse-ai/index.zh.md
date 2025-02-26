@@ -6,7 +6,7 @@ lastmod: 2025-02-20T01:15:50+08:00
 image: 
 categories: posts
 tags: ['art', 'coding']
-math: 
+math: true
 license: 
 hidden: false
 comments: true

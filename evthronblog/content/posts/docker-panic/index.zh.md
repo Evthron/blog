@@ -6,7 +6,7 @@ lastmod: 2025-01-18T01:58:38+08:00
 image: 
 categories: posts
 tags: ['grumble']
-math: 
+math: true
 license: 
 hidden: false
 comments: true
