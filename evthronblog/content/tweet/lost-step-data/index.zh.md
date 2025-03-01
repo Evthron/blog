@@ -2,7 +2,7 @@
 title: "步數清零"
 description: 
 date: 2025-02-23T01:34:13+08:00
-lastmod: 2025-02-23T01:48:50+08:00
+lastmod: 2025-02-26T20:03:12+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'gamification', 'software']
