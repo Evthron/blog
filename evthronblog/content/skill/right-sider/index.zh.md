@@ -2,7 +2,7 @@
 title: "class Right-sider"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-03-03T14:39:55+08:00
+lastmod: 2025-03-07T15:43:25+08:00
 image: 
 categories: 
 tags: 
@@ -13,9 +13,9 @@ comments: true
 ---
 ## Skill
 
-                     Collect: 107 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
+                     Collect: 124 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-                       Share:  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+                       Share:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## 書
 {{< progress-bar percentage=0% title="Book count">}}

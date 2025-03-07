@@ -5105,6 +5105,12 @@ It&#39;s time to purge this timeline once and for all!<br><br>
 Similarly, you can ask the person displaying this bias to think of environment-based reasons why the person in question might be engaging in the behavior that’s being judged.<br><br>
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="paramount" tags="" >}}
+<div>
+Redundancy is paramount in life as a whole.<br><br>
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="try adj good">}}
 {{< vocab-item word="tried and tested" tags="try adj good" >}}
 <div>

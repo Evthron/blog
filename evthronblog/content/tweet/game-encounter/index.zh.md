@@ -2,7 +2,7 @@
 title: "週末的遊戲陷阱"
 description: 
 date: 2025-03-02T06:45:53+08:00
-lastmod: 2025-03-02T08:45:38+08:00
+lastmod: 2025-03-07T15:38:51+08:00
 image: 
 categories: tweet
 tags: ['grumble']
@@ -20,6 +20,7 @@ comments: true
 
 不過無論再怎麼好玩，都和我寫這篇感想一樣，不過是騙自己時間沒有白花而已。
 
-- Dragonsweeper，在掃雷的基礎上加入血量和等級，讓玩家能符合邏輯地試錯。成品相當精巧，幾乎是另一個遊戲。
-- Die in the dungeon，把收集骰子變得像組建卡組一樣有趣。
+- [Dragonsweeper (itch.io)](https://danielben.itch.io/dragonsweeper)，在掃雷的基礎上加入血量和等級，讓玩家能符合邏輯地試錯。不再是想不通碰運氣，也不用像掃雷一樣背什麼定式，玩起來很刺激，幾乎是另一個遊戲。
+
+- [Die in the dungeon (itch.io)](https://alarts.itch.io/die-in-the-dungeon)，用收集回來的骰子進行攻擊、防禦和回復。雖然規則很簡單，但巧妙地利用了卡牌遊戲中「手牌太多就會抽不到自己想要的牌」的特點，讓收集和丟棄骰子變得像組建卡組一樣有趣。
 
