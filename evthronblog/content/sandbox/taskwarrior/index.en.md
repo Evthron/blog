@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-03-10T03:46:17+08:00
+lastmod: 2025-03-10T04:25:44+08:00
 image: 
 categories: 
 tags: 
@@ -18,7 +18,7 @@ My task list, I add everything I can think of in it.
 Active Age   Description
 ------ ----- -------------------------------------------------------------------
   3h    3h   job-search
-        3h   register chandeler
+        4h   register chandeler
        10w   buy a domain
         5mo  ask for emacs and org-mode
        10w   add tag search feature to blog
