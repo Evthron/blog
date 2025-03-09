@@ -212,7 +212,7 @@ For a week no Googling the flotsam and jetsam of daily trivia.<br><br>human flot
 {{< vocab-item-container tags="food object">}}
 {{< vocab-item word="sorbet" tags="food object" >}}
 <div>
-Sorbet is a mushy mix of ice and juice that's eaten as a dessert. Sorbet is especially delicious in summer.<br><br>
+Sorbet is a mushy mix of ice and juice that's eaten as a dessert. Sorbet is especially delicious in summer.<br><br>/ˈsɔː.beɪ/
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="prevent n v strong">}}
@@ -5583,6 +5583,12 @@ Murphy’s law, which is the adage that “anything that can go wrong will go wr
 {{< vocab-item word="Simply put" tags="writing modifier" >}}
 <div>
 Simply put, the ongoing global pandemic has generated a number of financial difficulties for us that are making it difficult to pay the quarterly hosting fees for this website.<br><br>To put it (adverb)  <br>put something (adverb)  <br>put = say
+</div>
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="">}}
+{{< vocab-item word="fallible" tags="" >}}
+<div>
+It’s 2025 so I should probably make peace with the fact that I’m a fallible human, just like everybody else.<br><br>
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj weak">}}

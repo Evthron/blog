@@ -2,7 +2,7 @@
 title: "class Right-sider"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-03-07T15:43:25+08:00
+lastmod: 2025-03-10T03:46:17+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,9 @@ comments: true
 
                        Share:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-## 書
+我從其他人身上收集了很多零零散散的知識，不過要拿出來再分享是挺困難的。
+
+## 書庫
 {{< progress-bar percentage=0% title="Book count">}}
 
 
