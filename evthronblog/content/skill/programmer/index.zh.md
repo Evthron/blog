@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-03-11T16:20:59+08:00
+lastmod: 2025-03-14T03:28:11+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Read Code
 
-                  Code notes:  17
+                  Code notes:  18
 
               Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
@@ -33,7 +33,7 @@ comments: true
 
     Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 
-                Shell script:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                Shell script:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Here are my notes on the code I read.
 

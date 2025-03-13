@@ -1607,6 +1607,12 @@ The folks over at Gaming Hell have an excellent write-up chronicling the debacle
 We have laid out these discounts and features by platform below for buyer convenience.<br><br>ALT: 排列  <br>ALt: 花錢(lay out $500 on sth)
 </div>
 {{< /vocab-item-container >}}
+{{< vocab-item-container tags="improve idiom">}}
+{{< vocab-item word="Hitting stride" tags="improve idiom" >}}
+<div>
+Thankfully, before the pandemic began, I was really hitting a stride and was getting cast more frequently.<br><br>hit your stride
+</div>
+{{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj">}}
 {{< vocab-item word="hind" tags="adj" >}}
 <div>
@@ -2477,12 +2483,6 @@ The FDA released details of the other five cases, all of which are alleged to be
 SciADV pre-release concepts and tentative future release plan shown by Chiyomaru Shikura<br><br>
 </div>
 {{< /vocab-item-container >}}
-{{< vocab-item-container tags="improve idiom">}}
-{{< vocab-item word="get into your stride" tags="improve idiom" >}}
-<div>
-Thankfully, before the pandemic began, I was really hitting a stride and was getting cast more frequently.<br><br>hit your stride
-</div>
-{{< /vocab-item-container >}}
 {{< vocab-item-container tags="show v">}}
 {{< vocab-item word="imply" tags="show v" >}}
 <div>
@@ -3056,7 +3056,7 @@ Overall, people display the fundamental attribution error primarily because this
 {{< vocab-item-container tags="">}}
 {{< vocab-item word="Nepotism" tags="" >}}
 <div>
-Nepotism is the extreme version where connections weigh more than skills, but the general rule is that humans base a lot of our social decisions on how much we trust the other person, so total strangers play with disadvantage.<br><br>
+Nepotism is the extreme version where connections weigh more than skills<br><br>
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="n more">}}
@@ -3899,12 +3899,6 @@ The match-ups between characters seem thought-out, with each having different st
 She boasts a wide singing range that can fit many tones or moods.<br><br>possess  <br>wield
 </div>
 {{< /vocab-item-container >}}
-{{< vocab-item-container tags="">}}
-{{< vocab-item word="ludicrous" tags="" >}}
-<div>
-However, we know this is a bit ludicrous because we know the next word is highly contingent upon the previous sequence of words.<br><br>
-</div>
-{{< /vocab-item-container >}}
 {{< vocab-item-container tags="decide v">}}
 {{< vocab-item word="decide on" tags="decide v" >}}
 <div>
@@ -3968,7 +3962,7 @@ I loved seeing that the futuristic graphic design from the in-game UI extended s
 {{< vocab-item-container tags="">}}
 {{< vocab-item word="verbatim" tags="" >}}
 <div>
-Depth-first search of a directed graph can be run verbatim on directed graphs, taking care to traverse edges only in their prescribed directions.<br><br>
+Depth-first search of a directed graph can be run verbatim on directed graphs, taking care to traverse edges only in their prescribed directions.<br><br>Repeat something you've read or heard precisely word-for-word  <br>  <br>copying someone's answer
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="v result good">}}
@@ -4041,6 +4035,12 @@ Some misleading rhetorical techniques and patterns of reasoning can be described
 {{< vocab-item word="banquet" tags="n place" >}}
 <div>
 After that, they held a planning meeting at the banquet hall at the end of the first day.<br><br>
+</div>
+{{< /vocab-item-container >}}
+{{< vocab-item-container tags="surprise">}}
+{{< vocab-item word="ludicrous" tags="surprise" >}}
+<div>
+However, we know this is a bit ludicrous because we know the next word is highly contingent upon the previous sequence of words.<br><br>
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="effort adj personality good">}}
