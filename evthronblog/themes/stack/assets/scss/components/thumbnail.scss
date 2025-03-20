@@ -20,6 +20,7 @@
     border-radius: 0.5rem;
     height: 2rem;
 }
+
 .thumbnail{
     display: flex;
     line-height: 0;
@@ -27,6 +28,11 @@
     height: 100%;
 }
 
+.thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 10;
+}
 
 .status-bar-wrapper{
     display: flex;
@@ -70,10 +76,21 @@
     display: flex;
     width: 5rem;
     justify-content: center;
+    // background-color: darkorange;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 3rem;
+    align-items: center;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+
+.page-exp{
+    display: flex;
+    width: 5rem;
+    justify-content: center;
     background-color: darkorange;
     border-radius: 0.5rem;
 }
-
 .skill-title{
     display: flex;
     align-self: left;
@@ -90,4 +107,10 @@
     background-color: var(--experience);
     width: 8rem;
     border-radius: 0.5rem;
+}
+
+.badges-wrapper {
+  display: flex;
+  gap: 1rem;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
 }
