@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-03-21T01:13:31+08:00
+lastmod: 2025-03-21T03:14:43+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=Total_count >}}
 {{< level-badge level="Lv8">}}
-{{< level-badge level="376p">}}
+{{< page-exp page="376p">}}
 {{< experience exp="56 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -38,7 +38,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=lines >}}
 {{< level-badge level="Lv2">}}
-{{< level-badge level="18p">}}
+{{< page-exp page="18p">}}
 {{< experience exp="18 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -54,7 +54,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=colour >}}
 {{< level-badge level="Lv3">}}
-{{< level-badge level="46p">}}
+{{< page-exp page="46p">}}
 {{< experience exp="26 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -71,7 +71,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=perspective >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="8p">}}
+{{< page-exp page="8p">}}
 {{< experience exp="4 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -89,7 +89,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=figures >}}
 {{< level-badge level="Lv4">}}
-{{< level-badge level="112p">}}
+{{< page-exp page="112p">}}
 {{< experience exp="8 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -119,7 +119,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=hands >}}
 {{< level-badge level="Lv2">}}
-{{< level-badge level="12p">}}
+{{< page-exp page="12p">}}
 {{< experience exp="24 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -129,7 +129,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=heads >}}
 {{< level-badge level="Lv3">}}
-{{< level-badge level="54p">}}
+{{< page-exp page="54p">}}
 {{< experience exp="18 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -158,7 +158,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=file_count >}}
 {{< level-badge level="Lv8">}}
-{{< level-badge level="361p">}}
+{{< page-exp page="361p">}}
 {{< experience exp="71 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -174,7 +174,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=sight >}}
 {{< level-badge level="Lv6">}}
-{{< level-badge level="196p">}}
+{{< page-exp page="196p">}}
 {{< experience exp="56 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -189,7 +189,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=copies >}}
 {{< level-badge level="Lv5">}}
-{{< level-badge level="124p">}}
+{{< page-exp page="124p">}}
 {{< experience exp="56 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -201,7 +201,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=doodles >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="5p">}}
+{{< page-exp page="5p">}}
 {{< experience exp="7 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -216,7 +216,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=home >}}
 {{< level-badge level="Lv6">}}
-{{< level-badge level="200p">}}
+{{< page-exp page="200p">}}
 {{< experience exp="52 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -233,7 +233,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=outdoors >}}
 {{< level-badge level="Lv5">}}
-{{< level-badge level="158p">}}
+{{< page-exp page="158p">}}
 {{< experience exp="22 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -258,7 +258,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=completed >}}
 {{< level-badge level="Lv2">}}
-{{< level-badge level="22p">}}
+{{< page-exp page="22p">}}
 {{< experience exp="14 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -279,7 +279,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=file_count >}}
 {{< level-badge level="Lv2">}}
-{{< level-badge level="15p">}}
+{{< page-exp page="15p">}}
 {{< experience exp="21 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
@@ -292,7 +292,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=lines >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="2p">}}
+{{< page-exp page="2p">}}
 {{< experience exp="10 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -304,7 +304,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=colour >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="7p">}}
+{{< page-exp page="7p">}}
 {{< experience exp="5 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -321,7 +321,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=scanned >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="1p">}}
+{{< page-exp page="1p">}}
 {{< experience exp="11 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -332,7 +332,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=photo >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="5p">}}
+{{< page-exp page="5p">}}
 {{< experience exp="7 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -347,7 +347,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=sight >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="2p">}}
+{{< page-exp page="2p">}}
 {{< experience exp="10 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}
@@ -359,7 +359,7 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=completed >}}
 {{< level-badge level="Lv1">}}
-{{< level-badge level="4p">}}
+{{< page-exp page="4p">}}
 {{< experience exp="8 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=24 >}}

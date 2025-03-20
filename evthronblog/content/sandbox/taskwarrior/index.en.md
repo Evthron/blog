@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-03-21T01:13:32+08:00
+lastmod: 2025-03-21T03:14:44+08:00
 image: 
 categories: 
 tags: 
@@ -43,7 +43,7 @@ Age   Description
  4w   fix awesomewm touchpad
 10w   read source code of clocktower
  3w   buy DST
-11w   add tag search feature to blog
+12w   add tag search feature to blog
  3mo  code a youtube download credit system
  8w   code taskwarrior blog show completed tasks
  7w   write science mind limit
