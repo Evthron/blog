@@ -1,7 +1,97 @@
-<svg>
-<circle class="clock">
-    <div class="clock-face">
-
+<div id="mainContent" class="mainContent">
+    <div id="header1" class="self_align_center"></div>
+    <div class="content">
+        <div class="subcontent">
+            <div id="ClockDate"><span ></span></div>
+            <div id="ClockAnalog" style="transform: scale(1);">
+                <!-- SVG for the analog clock -->
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="300">
+                    <desc>Created with Raphaël</desc>
+                    <defs>
+                        <linearGradient id="clockFaceGradient" x1="1" y1="1" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#fffff0"></stop>
+                            <stop offset="100%" stop-color="#AA0000"></stop>
+                        </linearGradient>
+                        <linearGradient id="hourHandGradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#000000"></stop>
+                            <stop offset="50%" stop-color="#898989"></stop>
+                            <stop offset="100%" stop-color="#000000"></stop>
+                        </linearGradient>
+                        <linearGradient id="minuteHandGradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#000000"></stop>
+                            <stop offset="50%" stop-color="#898989"></stop>
+                            <stop offset="100%" stop-color="#000000"></stop>
+                        </linearGradient>
+                        <linearGradient id="secondHandGradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#800000"></stop>
+                            <stop offset="50%" stop-color="#dc143c"></stop>
+                            <stop offset="100%" stop-color="#800000"></stop>
+                        </linearGradient>
+                    </defs>
+                    <!-- Clock face -->
+                    <circle cx="150" cy="150" r="145" fill="url(#clockFaceGradient)" stroke="none"></circle>
+                    <circle cx="150" cy="150" r="131" fill="#f5f5dc" stroke="none"></circle>
+                    <!-- Clock hands -->
+                    <rect id="hourHand" x="145" y="75" width="10" height="75" fill="url(#hourHandGradient)" transform="rotate(0 150 150)"></rect>  <!-- 150 center of clock -->
+                    <rect id="minuteHand" x="147" y="50" width="6" height="100" fill="url(#minuteHandGradient)" transform="rotate(0 150 150)"></rect>
+                    <rect id="secondHand" x="149" y="30" width="2" height="120" fill="url(#secondHandGradient)" transform="rotate(0 150 150)"></rect>
+                    <!-- Clock center -->
+                    <circle cx="150" cy="150" r="5" fill="#555555"></circle>
+                </svg>
+            </div>
+            <div id="Clock_Time"><span></span></div>
+        </div>
     </div>
-</circle>
-</svg>
+</div>
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+        const formattedHours = hours % 12 || 12;
+
+        // Update the date
+        document.getElementById('ClockDate').innerHTML = `${year}-${month}-${day} <span >${getDayOfWeek(now)}</span>`;
+
+        // Update the digital time
+        document.getElementById('Clock_Time').innerHTML = `<span>${ampm}</span> ${formattedHours}:${minutes}:${seconds}`;
+
+        // Update the analog clock hands
+        updateAnalogClock(now);
+    }
+
+    function getDayOfWeek(date) {
+        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        return days[date.getDay()];
+    }
+
+    function updateAnalogClock(date) {
+        const hours = date.getHours() % 12;
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
+
+        const hourHand = document.getElementById('hourHand');
+        const minuteHand = document.getElementById('minuteHand');
+        const secondHand = document.getElementById('secondHand');
+
+        const hourDeg = (hours * 30) + (minutes * 0.5); // Each hour = 30 degrees, each minute = 0.5 degrees
+        const minuteDeg = (minutes * 6) + (seconds * 0.1); // Each minute = 6 degrees, each second = 0.1 degrees
+        const secondDeg = seconds * 6; // Each second = 6 degrees
+
+
+
+        // 150 150 = center of clock
+        hourHand.setAttribute('transform', `rotate(${hourDeg} 150 150)`);
+        minuteHand.setAttribute('transform', `rotate(${minuteDeg} 150 150)`);
+        secondHand.setAttribute('transform', `rotate(${secondDeg} 150 150)`);
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock(); // Initial call to display the clock immediately
+</script>

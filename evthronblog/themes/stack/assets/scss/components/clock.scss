@@ -1,19 +1,40 @@
-.clock {
-  display: flex;
-  align-items: center;
-  font-size: 3rem;
-  text-align: center;
-//   padding: 0.5rem 2rem;
-  background-color: rgb(201, 230, 255);
-  border-radius: 10rem;
-  height: 20rem;
-  width: 20rem;
-}
+// .clock {
+//   display: flex;
+//   align-items: center;
+//   font-size: 3rem;
+//   text-align: center;
+// //   padding: 0.5rem 2rem;
+//   background-color: rgb(201, 230, 255);
+//   border-radius: 10rem;
+//   height: 20rem;
+//   width: 20rem;
+// }
 
-.clock-face{
-  display: block;
-  background-color: red;
-  height: 3rem;
-  width: 3rem;
-  border-radius: 1.5rem;
+// .clock-face{
+//   display: block;
+//   background-color: red;
+//   height: 3rem;
+//   width: 3rem;
+//   border-radius: 1.5rem;
+// }
+
+.mainContent {
+    margin: 0;
+    padding: 0;
+    // height: auto;
+}
+.self_align_center {
+    text-align: center;
+}
+.content {
+    text-align: center;
+}
+.subcontent {
+    // max-width: 500px;
+}
+#ClockDate {
+    font-size: 24px;
+}
+#Clock_Time {
+    font-size: 24px;
 }
