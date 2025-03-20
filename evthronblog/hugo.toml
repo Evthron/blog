@@ -74,6 +74,32 @@ theme = "stack"
         [[languages.zh.menus.social.params]]
           icon = "rss"
 
+      [[languages.zh.menus.profile]]
+        identifier = "code"
+        name = "⚔️ 代碼筆記"
+        pageRef = "/profile/code"
+        weight = 10 
+      [[languages.zh.menus.profile]]
+        identifier = "posts"
+        name = "📝文章"
+        pageRef = "/profile/posts"
+        weight = 20
+      [[languages.zh.menus.profile]]
+        identifier = "toolbox"
+        name = "🛠️工具集"
+        pageRef = "/profile/toolbox"
+        weight = 30
+      [[languages.zh.menus.profile]]
+        identifier = "skill"
+        name = "🎮技能"
+        pageRef = "/profile/skill"
+        weight = 35
+      [[languages.zh.menus.profile]]
+        identifier = "sandbox"
+        name = "🪣沙盒"
+        pageRef = "/profile/sandbox"
+        weight = 37
+
   [languages.en]
     languageCode = 'en'
     languageName = 'English'
@@ -188,6 +214,17 @@ searchSections = [ "posts", "gallery", "tweet", "toolbox", "skill", "sandbox", "
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.ico"
+
+# For paper theme
+color = 'linen'                           # linen, wheat, gray, light
+# header social icons
+twitter = 'Evthron'               # twitter.com/YOUR_TWITTER_ID
+github = 'Evthron'                 # github.com/YOUR_GITHUB_ID
+
+# home page profile
+avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+name = 'Evthron'
+bio = 'Hello'
 
   [params.footer]
   since = 2023

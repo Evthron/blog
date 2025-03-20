@@ -1,0 +1,402 @@
+@import './app.css';
+@import './css/barchart.css';
+@import './css/book-card.css';
+@import './css/clock.css';
+@import './css/number-field.css';
+@import './css/progress-bar.css';
+@import './css/thumbnail.css';
+@import './css/vocab.css';
+
+.chart-wrap {
+    margin-left: 50px;
+    height: 650px;
+    width: 300px;
+}
+
+.chart-wrap .title {
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 5rem;
+    text-align: center;
+    white-space: nowrap; /* prevents text from wrapping */
+}
+
+.chart-wrap.vertical .grid {
+    transform: translateY(300px / 2 - 650px / 2) translateX(650px / 2 - 300px / 2) rotate(-90deg);
+}
+
+.chart-wrap.vertical .grid .bar::after {
+    transform: translateY(-50%) rotate(90deg);
+    display: block;
+}
+
+.chart-wrap.vertical .grid .top {
+    transform: translateX(3rem) translateY(-2rem) rotate(90deg);
+}
+
+.chart-wrap.vertical .grid .bottom {
+    transform: translateY(-2rem) rotate(90deg);
+}
+
+.chart-wrap .grid {
+    position: relative; /* necessary for positioning child elements */
+    padding: 5px 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #aaa; /* the bottom line in vertical mode */
+    /* Simulate grid lines */
+    background: repeating-linear-gradient(90deg, transparent, transparent 19.5%, rgba(170, 170, 170, 0.7) 20%); /* Approximation of fadeout */
+}
+
+.chart-wrap .grid .bottom {
+    font-size: 0.8em;
+    font-weight: bold;
+    position: absolute;
+    left: -0.5em;
+    top: -1.5em;
+}
+
+.chart-wrap .grid .top {
+    font-size: 0.8em;
+    font-weight: bold;
+    position: absolute;
+    right: -1.5em;
+    top: -1.5em;
+}
+
+.chart-wrap .bar {
+    width: var(--bar-value); /* This should be handled with a CSS variable */
+    height: 50px; /* $bar-thickness */
+    margin: 30px 0; /* $bar-spacing */
+    background-color: #F16335; /* $bar-color */
+    /* border-radius: 0 3px 3px 0; */
+
+}
+
+.chart-wrap .bar:hover {
+    opacity: 0.7;
+}
+
+.chart-wrap .bar::after {
+    content: attr(data-name);
+    margin-left: 100%;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+/* This is for my vocab tag list in my sandbox */
+/* Modified from https://www.w3schools.com/howto/howto_js_filter_elements.asp */
+
+.vocab-item-container {
+  overflow: hidden;
+  border: var(--accent-color-darker);
+  display: none;
+  border-style: solid;
+  margin: 1rem;
+  div{
+    display: flex;
+    padding: 10px 10px;
+    margin: 2px;
+  }
+}
+
+.vocab-item {
+  display: flex;
+	font-size: 2.6rem;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 2px;
+
+  div{
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the tag buttons */
+/* inspired by https://marcjenkins.co.uk/bookshelf/*/
+.vocab-button {
+  display: inline-block;
+	font-size: 1.5rem;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+	border-radius: 30px;
+	text-decoration: none;
+	background: var(--card-background-selected);
+	padding: 0.2rem 0.5rem;
+  color: var(--card-text-color-main);
+	&:hover {
+		text-decoration: none;
+    background-color: #ddd;
+		color: var(--card-text-color-main);
+		box-shadow: none;
+	}
+}
+
+
+
+/* Add a dark background to the active button */
+.vocab-button.active{
+  background-color: #141D56;
+  color: white;
+}
+
+
+.book-card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: var(--shadow-l4);
+}
+.book-card-background {
+  display: flex;
+  width: 100%;
+  height: 11rem;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  background-color: var(--accent-color-text);;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/wood.webp");
+  background-size: cover;
+}
+.book-card-cover {
+  height: 10rem !important;
+  box-shadow: 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.book-card-title {
+  display: flex;
+  padding: 8px 10px;
+  font-size: 14px;
+  background-color: var(--accent-color-text);;
+  border-radius: 0px 0px 10px 10px;
+}
+/* This copied from oklch number field. Used in sandbox*/
+button{
+  cursor: pointer;
+}
+
+.card_number{
+    inset-inline-end: 32px;
+    width: 110px;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 20px;
+}
+
+.field{
+    position: relative;
+}
+
+.field_input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+
+    background-color: whitesmoke;
+    border: none;
+    padding: 0px 12px;
+}
+
+.field_input[role="spinbutton"]{
+  padding-inline-end: 30px;
+  text-align:right;
+}
+
+.field_control{
+    position: absolute;
+    right: 0;
+
+    height: 50%;
+    width: 22px;
+
+    border: none;
+}
+
+.field_control.is-increase{
+    top: 0;
+    right: 0;
+
+    background-color: #ff95a6;
+    transform: rotate(180deg);
+}
+
+.field_control.is-decrease{
+    bottom: 0;
+    right: 0;
+
+    background-color: #58c5ff;
+}
+
+.field_control:before {
+  content: "";
+  position: absolute; 
+  top: 1px; 
+
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+
+  background: white;
+  border-radius: 0px 0 6px 6px; 
+}
+
+.field_control:after {
+  --width:  6px;
+  position: absolute;
+  top: 10%;
+  left: calc(50% - var(--width) /2);
+  right: 50%;
+  width: var(--width);
+  height: 6px;
+  content: "";
+  background: url("data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20fill='none'%20viewBox='0%200%206%206'%3e%3cpath%20fill='%23000'%20d='M.707%201.825%202.62%204.057a.5.5%200%200%200%20.76%200l1.913-2.232A.5.5%200%200%200%204.913%201H1.087a.5.5%200%200%200-.38.825Z'/%3e%3c/svg%3e");
+}
+/* This is modified from progress bar from cobalto.dev*/
+.progress-bar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: hsl(210, 16%, 93%);
+    border-radius: 0.25rem;
+    width: 50%;
+
+}
+.progress-bar-experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    transition: width 0.6s ease;
+    background-image: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-size: 1rem 1rem;
+  }
+
+.progress-bar-status{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.status-labels{
+    font-family: var(--code-font-family);
+}
+.progress-bar-level{
+    background-color: #7eadd8;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+}
+.thumbnail-experience {
+    display: flex;
+    background-color: var(--bar-background);
+    width: 48rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    height: 2rem;
+    background-image: repeating-linear-gradient(
+        135deg,
+        rgba(197, 197, 219, 0.2) 0,
+        rgba(197, 197, 219, 0.2) 1rem,
+        transparent 2.5rem
+    );
+}
+
+.thumbnail-wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 48rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+.thumbnail {
+    display: flex;
+    line-height: 0;
+    width: 2rem;
+    height: 100%;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.status-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100rem;
+    gap: 1rem;
+    margin: 3rem;
+    align-items: left;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 599px) {
+    .status-bar-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .status-bar-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .status-bar-wrapper {
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1rem;
+        justify-content: left;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .status-bar-wrapper {
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1rem;
+        justify-content: left;
+        align-items: center;
+    }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+{{- $.Scratch.Delete "bg_color" -}}<!---->
+{{- $.Scratch.Delete "social_list" -}}<!---->
+{{- $.Scratch.Delete "avatar_url" -}}<!---->
+
+<!-- bg_color -->
+{{- $color_map := dict "linen" "#faf8f1" "wheat" "#f8f5d7" "gray" "#fbfbfb"
+"light" "#fff" -}}<!---->
+{{- $.Scratch.Set "bg_color" (index $color_map (site.Params.color | default
+(print "linen"))) -}}<!---->
+{{- $bg_color := $.Scratch.Get "bg_color" -}}<!---->
+
+<!-- social_list -->
+{{- $social_params := slice "twitter" "github" "instagram" "linkedin" "mastodon"
+"threads" "bluesky" "rss" -}}<!---->
+{{- range $social_params -}}<!---->
+{{- if isset site.Params . -}}<!---->
+{{- $.Scratch.Add "social_list" (slice .) -}}<!---->
+{{- end -}}<!---->
+{{- end -}}<!---->
+
+<!-- avatar_url -->
+{{- if site.Params.avatar -}}<!---->
+{{- if in site.Params.avatar "http" -}}<!---->
+{{- $.Scratch.Set "avatar_url" site.Params.avatar -}}<!---->
+{{- else -}}<!---->
+{{- $official_cdn := "https://www.gravatar.com/avatar/" -}}<!---->
+{{- $cdn := (site.Params.gravatarCdn | default $official_cdn) -}}<!---->
+{{- $md5 := (md5 site.Params.avatar) -}}<!---->
+{{- $avatar_url := print $cdn $md5 "?s=160&d=identicon" -}}<!---->
+{{- $.Scratch.Set "avatar_url" $avatar_url -}}<!---->
+{{- end -}}<!---->
+{{- end -}}<!---->
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: {{- $bg_color -}}"
+  lang="{{- or site.LanguageCode site.Language.Lang -}}"
+  dir="{{- if site.Params.direction -}}{{- site.Params.direction -}}{{- else -}}ltr{{- end -}}"
+>
+  {{- partial "paper/head.html" . -}}
+  <body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  >
+    {{- partial "paper/header.html" . -}}
+
+    <main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+      <article>
+        <header class="mb-14">
+          <h1 class="my-0! pb-2.5">{{- .Title -}}</h1>
+
+          {{- if ne .Type "page" -}}
+          <div class="text-xs antialiased opacity-60">
+            {{- if .Date -}}
+            <time>{{- .Date | time.Format ":date_medium" -}}</time>
+            {{- end -}}<!---->
+            {{- $single_author := or .Params.Author site.Author.name -}}
+            <!---->
+            {{- if $single_author -}}
+            <span class="mx-1">&middot;</span>
+            <span>{{- $single_author -}}</span>
+            {{- end -}}
+          </div>
+          {{- end -}}
+        </header>
+
+        <section>{{- .Content -}}</section>
+
+        <!-- Post Tags -->
+        {{- if .Params.tags -}}
+        <footer class="mt-12 flex flex-wrap">
+          {{- range .Params.tags -}} {{- $href := print (absURL "tags/") (urlize
+          .) -}}
+          <a
+            class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+            href="{{- $href -}}"
+            >{{- . -}}</a
+          >
+          {{- end -}}
+        </footer>
+        {{- end -}}
+
+        <!-- Post Nav -->
+        {{- if not site.Params.disablePostNavigation -}}<!---->
+        {{- $pages := where site.RegularPages "Type" "in"
+        site.Params.mainSections -}}<!---->
+        {{- if and (gt (len $pages) 1) (in $pages . ) -}}
+        <nav
+          class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+        >
+          {{- with $pages.Next . -}}
+          <a class="ltr:pr-3 rtl:pl-3" href="{{- .Permalink -}}"
+            ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span
+            ><span>{{- .Name -}}</span></a
+          >
+          {{- end -}}<!---->
+          {{- with $pages.Prev . -}}
+          <a
+            class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+            href="{{- .Permalink -}}"
+            ><span>{{- .Name -}}</span
+            ><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+          >
+          {{- end -}}
+        </nav>
+        {{- end -}}<!---->
+        {{- end -}}
+
+        <!-- Disqus -->
+        {{- if and site.Config.Services.Disqus.Shortname (not (eq
+        .Params.comments false)) -}}
+        <div class="mt-24" id="disqus_thread"></div>
+        <script>
+          const disqusShortname =
+            "{{- site.Config.Services.Disqus.Shortname -}}";
+          const script = document.createElement("script");
+          script.src = "https://" + disqusShortname + ".disqus.com/embed.js";
+          script.setAttribute("data-timestamp", +new Date());
+          document.head.appendChild(script);
+        </script>
+        {{- end -}}
+
+        <!-- GraphComment -->
+        {{- if and site.Params.graphCommentId (not (eq .Params.comments false))
+        -}}
+        <div class="mt-24" id="graphcomment"></div>
+        <script type="text/javascript">
+          var __semio__params = {
+            graphcommentId: "{{- site.Params.graphCommentId  -}}",
+            behaviour: {
+              //  uid: "...",
+            },
+            // configure your variables here
+          };
+
+          function __semio__onload() {
+            __semio__gc_graphlogin(__semio__params);
+          }
+
+          (function () {
+            var gc = document.createElement("script");
+            gc.type = "text/javascript";
+            gc.async = true;
+            gc.onload = __semio__onload;
+            gc.defer = true;
+            gc.src =
+              "https://integration.graphcomment.com/gc_graphlogin.js?" +
+              Date.now();
+            (
+              document.getElementsByTagName("head")[0] ||
+              document.getElementsByTagName("body")[0]
+            ).appendChild(gc);
+          })();
+        </script>
+        {{- end -}}
+
+        <!-- mermaid -->
+        {{- partial "paper/mermaid.html" . -}}
+
+        <!-- giscus comment -->
+        {{- if and site.Params.giscus.repo (not (eq .Params.comments false)) -}}
+        <div class="giscus mt-24"></div>
+        <script
+          src="https://giscus.app/client.js"
+          data-repo="{{- site.Params.giscus.repo -}}"
+          data-repo-id="{{- site.Params.giscus.repoId -}}"
+          data-category="{{- site.Params.giscus.category -}}"
+          data-category-id="{{- site.Params.giscus.categoryId -}}"
+          data-mapping="{{- site.Params.giscus.mapping | default (print `pathname`) -}}"
+          data-strict="{{- site.Params.giscus.strict | default (print `1`) -}}"
+          data-reactions-enabled="{{- site.Params.giscus.reactionsEnabled | default (print `0`) -}}"
+          data-emit-metadata="{{- site.Params.giscus.emitMetadata | default (print `0`) -}}"
+          data-input-position="{{- site.Params.giscus.inputPosition | default (print `top`) -}}"
+          data-theme="{{- site.Params.giscus.theme | default (print `light`) -}}"
+          data-lang="{{- site.Params.giscus.lang | default (print `en`) -}}"
+          data-loading="{{- site.Params.giscus.loading | default (print `lazy`) -}}"
+          crossorigin="anonymous"
+          async
+        ></script>
+        {{- end -}}
+      </article>
+    </main>
+
+    {{- partial "paper/footer.html" . -}}
+  </body>
+</html>
