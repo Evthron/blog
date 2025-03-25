@@ -2,7 +2,7 @@
 title: "Improved publishing workflow "
 description: 
 date: 2024-03-30T21:19:00+08:00
-lastmod: 2025-03-26T06:51:56+08:00
+lastmod: 2025-03-26T07:22:11+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']
@@ -28,6 +28,6 @@ It's fine to make a copy for long posts, but it's clumsy to copy quick thoughts 
 
 2025/03/24 22:41
 
-Syncthing proved too sluggish for syncing my Joplin notes—Android’s transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.  
+Syncthing proved too sluggish for syncing my Joplin notes—Android's transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.  
 
 

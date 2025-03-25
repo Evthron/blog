@@ -339,7 +339,7 @@ button{
 
 .thumbnail-wrapper {
     display: flex;
-    overflow: hidden;
+    overflow: visible;
     width: 48rem;
     border-radius: 0.5rem;
     height: 2rem;
