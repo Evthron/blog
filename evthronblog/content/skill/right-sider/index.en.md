@@ -2,7 +2,7 @@
 title: "class Right-sider"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-03-21T03:14:44+08:00
+lastmod: 2025-03-26T06:54:58+08:00
 image: 
 categories: 
 tags: 
@@ -13,9 +13,9 @@ comments: true
 ---
 ## Skill
 
-                     Collect: 124 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                     Collect:   0 --- Lv1 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-                       Share:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                       Share:   0 --- Lv1 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Right-sider, the opposite of 'wrong-sider'. I altered the meaning a bit for my own use.
 
