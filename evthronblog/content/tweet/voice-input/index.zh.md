@@ -2,7 +2,7 @@
 title: "Speech Note"
 description: 
 date: 2025-03-26T11:01:31+08:00
-lastmod: 2025-03-29T08:19:19+08:00
+lastmod: 2025-03-29T08:19:29+08:00
 image: 
 categories: tweet
 tags: ['software']
