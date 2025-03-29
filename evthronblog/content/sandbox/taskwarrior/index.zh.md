@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-03-26T06:54:58+08:00
+lastmod: 2025-03-30T05:39:26+08:00
 image: 
 categories: 
 tags: 
@@ -13,57 +13,50 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-```
-
-Age   Description
------ --------------------------------------------------------------------------
- 2w   try google map api
-12w   code task warrior hook for motivational quote
-12w   code tic-tac-toe on blog
- 2w   code improve llm to be a better project
- 2w   try to code deepsearch
- 2w   learn .net
- 6w   code merge sort on website blog
- 3w   code make a browser that can only access the internet through qr code
- 9w   search how to do a stock market emulator
-10w   code copy habitica css
-12w   buy a domain
- 5w   code quantum calculator
- 5w   write more profile for contact list
- 5mo  ask for emacs and org-mode
- 5mo  add a link page to my blog
- 5mo  set up local habitica server
- 3mo  write university problem of common space and study group, what should
-      friends do together
- 4w   awesomewm touchpad fix
-11w   read source code of clocktower
- 4w   buy DST
-12w   add tag search feature to blog
-12w   write how a make the painter progress bar
-11w   code taskwarrior layout on blog
- 9w   code taskwarrior blog show completed tasks
- 8w   write science mind limit
- 6w   code color wheel on blog
- 5w   write useless productivity skill
- 4w   write tutorial how to build a blog using hugo
- 2w   set up joplin docker server
-12d   code financial calculator
- 3mo  code track social life, random pick
- 4w   add japanese as blog language
-12w   draw new blog background from postcard
- 6w   awesome wm touchpad
- 1d   configure cuda
- 2w   code blog to translate to simplied chinese
- 6w   check haskell tutorial
- 4mo  code a youtube download credit system
-12w   redraw ai-generated-image
- 2w   write invent culture
-10w   rime dictionary change chuang tradition chinese
-12w   code copy post to multiple language when more than one language tag
- 5mo  incremental video in obsidian
- 3mo  change input method word order cheng du
- 3mo  code recreate habitica search token
-
+{{< task title="try google map api" note="2w" >}}
+{{< task title="code task warrior hook for motivational quote" note="12w" >}}
+{{< task title="code tic-tac-toe on blog" note="12w" >}}
+{{< task title="code improve llm to be a better project" note="2w" >}}
+{{< task title="try to code deepsearch" note="2w" >}}
+{{< task title="learn .net" note="2w" >}}
+{{< task title="code merge sort on website blog" note="6w" >}}
+{{< task title="code make a browser that can only access the internet through qr code" note="3w" >}}
+{{< task title="search how to do a stock market emulator" note="9w" >}}
+{{< task title="code copy habitica css" note="10w" >}}
+{{< task title="buy a domain" note="12w" >}}
+{{< task title="code quantum calculator" note="5w" >}}
+{{< task title="write more profile for contact list" note="5w" >}}
+{{< task title="ask for emacs and org-mode" note="5mo" >}}
+{{< task title="add a link page to my blog" note="5mo" >}}
+{{< task title="set up local habitica server" note="5mo" >}}
+{{< task title="write university problem of common space and study group, what should" note="3mo" >}}
+{{< task title="do together" note="friends" >}}
+{{< task title="awesomewm touchpad fix" note="4w" >}}
+{{< task title="read source code of clocktower" note="11w" >}}
+{{< task title="buy DST" note="4w" >}}
+{{< task title="add tag search feature to blog" note="12w" >}}
+{{< task title="write how a make the painter progress bar" note="12w" >}}
+{{< task title="code taskwarrior layout on blog" note="11w" >}}
+{{< task title="code taskwarrior blog show completed tasks" note="9w" >}}
+{{< task title="write science mind limit" note="8w" >}}
+{{< task title="code color wheel on blog" note="6w" >}}
+{{< task title="write useless productivity skill" note="5w" >}}
+{{< task title="write tutorial how to build a blog using hugo" note="4w" >}}
+{{< task title="set up joplin docker server" note="2w" >}}
+{{< task title="code financial calculator" note="12d" >}}
+{{< task title="code track social life, random pick" note="3mo" >}}
+{{< task title="add japanese as blog language" note="4w" >}}
+{{< task title="draw new blog background from postcard" note="12w" >}}
+{{< task title="awesome wm touchpad" note="6w" >}}
+{{< task title="configure cuda" note="1d" >}}
+{{< task title="code blog to translate to simplied chinese" note="2w" >}}
+{{< task title="check haskell tutorial" note="6w" >}}
+{{< task title="code a youtube download credit system" note="4mo" >}}
+{{< task title="redraw ai-generated-image" note="12w" >}}
+{{< task title="write invent culture" note="2w" >}}
+{{< task title="rime dictionary change chuang tradition chinese" note="10w" >}}
+{{< task title="code copy post to multiple language when more than one language tag" note="12w" >}}
+{{< task title="incremental video in obsidian" note="5mo" >}}
+{{< task title="change input method word order cheng du" note="3mo" >}}
+{{< task title="code recreate habitica search token" note="3mo" >}}
 45 tasks
-
-```
