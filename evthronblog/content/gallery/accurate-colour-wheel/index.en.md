@@ -2,7 +2,7 @@
 title: "Accurate Colour Wheel"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-08-15T02:38:15+08:00
+lastmod: 2025-03-30T12:28:43+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -12,14 +12,17 @@ hidden: false
 comments: true
 ---
 
-Most colour wheels failed to isolate hue from lightness and chroma, so we can't rely on them to make appealing colour palates. Luckily, the oklch colour space separates the three elements of colours beautifully so I made use of the [OKLCH colour picker](https://oklch.com) and created this visually accurate colour wheel. 
+Most colour wheels failed to isolate hue from lightness and chroma, so we can't rely on them to make appealing colour palates. Luckily, the [oklch colour space (oklch.com)](https://oklch.com) separates the three elements of colours beautifully. Go play around with their colour picker. You will have a better understanding in colour.
 
-Parameters of the colours:
+Here's a [interactive color wheel](/en/oklch-color-wheel) I made. 
+
+{{< oklch-color-wheel >}}
+
+Details about colours:
 - The 12 hues are evenly distributed, meaning they all looked distinct.
-- Chroma = 0.12, which is the highest chroma value that doesn't cause gaps in the hue spectrum under the sRGB colour gamut. 
-- Limited by the chroma choice, The lightness range has to be between 71-76. I chose lightness = 75.
+- But at extreme lightness or high chroma, some colours don't exist and wheel will be forced to show the nearest colour.
+- Chroma = 0.12 and Lightness = 75 is the highest chroma value that doesn't cause gaps in the hue spectrum under the sRGB colour gamut.
 
-![oklch-colour-wheel](accurate-colour-wheel.png)
 
 ## Hue
 Contrasting colours pairs are located at the opposite sides of the wheel, which are 180 degrees away. Pink and turquoise, red and cyan, orange and sky blue, yellow and ultramarine blue, lime and purple, and finally, green and magenta. A palate will look great if the colours used are evenly seperated, like 60 degrees (triangle) or 45 degress (square) from each other. 
@@ -47,5 +50,8 @@ If we darken the computer screen, everything on the screen we see becomes darker
 I made colour charts to show colours at different chroma. I haven't find out how to use them yet but they surely looked great. It also makes me wonder what creates the bumps in this chart.
 
 ![value-intensity-chart](value-intensity-chart.png)
+
+It would be great if I can use it directly in painting software.
+
 
 

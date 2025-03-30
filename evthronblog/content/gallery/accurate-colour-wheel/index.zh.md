@@ -2,7 +2,7 @@
 title: "準確的色環"
 description: 
 date: 2024-01-29T05:05:42+08:00
-lastmod: 2024-07-29T02:58:39+08:00
+lastmod: 2025-03-30T12:24:35+08:00
 image: accurate-colour-wheel.png
 categories: gallery
 tags: ['science', 'art']
@@ -14,11 +14,12 @@ comments: true
 
 顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 [OKLCH 顏色選擇器](https://oklch.com) 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
 
-![oklch-colour-wheel](accurate-colour-wheel.png)
+傳統美術都不是會做色環嗎？這個是我做的[互動色環](/zh/oklch-color-wheel)。試着玩一下吧。
 
-顏色數據：
-- Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。
-- 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。
+{{< oklch-color-wheel >}}
+
+- 這些顏色是均勻分佈的，不過在非常亮、非常暗、和非常鮮豔的情況下，有些顏色無法顯示出來，所以就無法保持均勻了。這叫作色相斷層。
+- 不想要色相斷層的話，Chroma = 0.12，Brightness = 75 左右，是在 sRGB 空間中能達到的最高飽和度。
 
 2024/05/25
 
@@ -41,5 +42,6 @@ comments: true
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。
 ![value-intensity-chart](value-intensity-chart.png)
 
-要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
+要是能在繪畫軟件裏直接用就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
+
 
