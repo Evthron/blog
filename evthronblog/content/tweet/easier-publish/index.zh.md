@@ -2,7 +2,7 @@
 title: "改進發佈流程"
 description: 
 date: 2024-03-30T21:13:23+08:00
-lastmod: 2025-03-29T09:20:51+08:00
+lastmod: 2025-04-03T10:18:13+08:00
 image: 
 categories: tweet
 tags: ['grumble', 'software']
@@ -38,4 +38,6 @@ comments: true
 今天弄好 Joplin Server 之後，同步的速度變得很快，問題解決了。用 Docker 就能把自己的電腦當成服務器用。其實根本不用把資料放在雲端，點對點的同步已經很足夠了。
 
 我現在混用着兩套系統：一部分文章是從 Joplin 匯出的，另一部分則是直接從純文字檔匯出的，哪一種比較好我也說不清楚。問題在於 Linux 上的文件不能保留創建時間。
+
+還有，這讓我發現了電腦連接到不同的 Wi-Fi 的時候會有不同的 IP 地址。不知道 Syncthing 是怎樣讓設備無論在什麼 Wi-Fi 下都能找到對方的。
 
