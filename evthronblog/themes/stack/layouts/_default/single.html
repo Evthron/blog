@@ -71,9 +71,13 @@
     </aside>
     {{ end }} 
 
+    {{ if not (eq .Params.comments false) }}
+        {{ partial "comments/include" . }}
+    {{ end }}
     {{ partialCached "footer" . }}
 
     {{ partialCached "photoswipe" . }}
+
 {{ end }}
 
 {{ define "right-sidebar" }}
