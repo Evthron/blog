@@ -2,7 +2,7 @@
 title: "社交管理軟件"
 description: 
 date: 2025-02-14T12:44:23+08:00
-lastmod: 2025-02-14T14:48:01+08:00
+lastmod: 2025-04-06T20:59:19+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'software']
@@ -22,5 +22,12 @@ comments: true
 
 開發人員正在弄一個叫 [Chandler (monicahq.com)](https://www.monicahq.com/blog/chandler-is-in-beta) 的更新版本，不知道會怎麼樣。
 
-[^1]: docker 是個開發和運行網站的工具，在 Windows 上安裝很麻煩。如果你不懂這些的話，還是在官網註冊試用吧。
+[^1]: docker 是個開發和運行網站的工具。
+
+
+***
+
+有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。
+
+實際上，我現在真正在用的軟件是 Track & Graph。雖然不是專門做這個的，卻很方便。
 

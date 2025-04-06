@@ -1,0 +1,697 @@
+<style>
+  .article-content {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .game-container {
+    text-align: center;
+  }
+
+  .board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cell:hover {
+    background-color: #e9e9e9;
+  }
+
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    min-height: 36px;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .control-group label {
+    font-size: 14px;
+    color: #666;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 150px;
+  }
+
+  .x-symbol {
+    color: #f44336;
+  }
+
+  .o-symbol {
+    color: #2196f3;
+  }
+
+  .winning-cell {
+    background-color: #e8f5e9;
+    animation: pulse 1s infinite;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+</style>
+<body>
+  <div class="game-container">
+    <h1>井字棋 AI 對戰</h1>
+    <div class="controls">
+      <div class="control-group">
+        <label for="ai-first">先手玩家</label>
+        <select id="ai-first">
+          <option value="human">玩家先手</option>
+          <option value="ai">AI先手</option>
+        </select>
+      </div>
+      <div class="control-group" id="ai-strategy-group">
+        <label for="ai-strategy">AI開局策略</label>
+        <select id="ai-strategy">
+          <option value="corner">角開 (適合新手)</option>
+          <option value="center" selected>中開 (穩定平衡)</option>
+          <option value="edge">邊開 (高手奇策)</option>
+        </select>
+      </div>
+      <button id="reset">重新開始</button>
+    </div>
+    <div class="status" id="status">輪到 X (你) 下棋</div>
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+  </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const board = document.getElementById('board');
+        const cells = document.querySelectorAll('.cell');
+        const status = document.getElementById('status');
+        const resetButton = document.getElementById('reset');
+        const aiStrategySelect = document.getElementById('ai-strategy');
+        const aiFirstSelect = document.getElementById('ai-first');
+        const aiStrategyGroup = document.getElementById('ai-strategy-group');
+        
+        let currentPlayer = 'X'; // 玩家是 X，AI 是 O
+        let gameState = ['', '', '', '', '', '', '', '', ''];
+        let gameActive = true;
+        let aiTurn = false;
+        
+        const winningConditions = [
+            [0, 1, 2], // 第一行
+            [3, 4, 5], // 第二行
+            [6, 7, 8], // 第三行
+            [0, 3, 6], // 第一列
+            [1, 4, 7], // 第二列
+            [2, 5, 8], // 第三列
+            [0, 4, 8], // 主對角線
+            [2, 4, 6]  // 副對角線
+        ];
+        
+        // 初始化遊戲
+        function initGame() {
+            resetGame();
+            
+            // 如果選擇AI先手，讓AI先下
+            if (aiFirstSelect.value === 'ai') {
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                setTimeout(() => {
+                    const aiStrategy = aiStrategySelect.value;
+                    const aiMove = getAIMove(aiStrategy);
+                    makeMove(aiMove, 'O');
+                    status.textContent = '輪到 X (你) 下棋';
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        // 更新UI根據先手選擇
+        function updateUIForFirstPlayer() {
+            if (aiFirstSelect.value === 'ai') {
+                aiStrategyGroup.classList.remove('hidden');
+            } else {
+                aiStrategyGroup.classList.add('hidden');
+            }
+        }
+        
+        // 處理格子點擊事件
+        function handleCellClick(e) {
+            if (aiTurn || !gameActive) return;
+            
+            const clickedCell = e.target;
+            const clickedCellIndex = parseInt(clickedCell.getAttribute('data-index'));
+            
+            // 如果格子已經有值，則不處理
+            if (gameState[clickedCellIndex] !== '') {
+                return;
+            }
+            
+            // 玩家下棋
+            makeMove(clickedCellIndex, 'X');
+            
+            // 檢查遊戲是否結束
+            if (!checkResult()) {
+                // 如果遊戲繼續，AI下棋
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                // 給玩家一點時間看到自己的落子
+                setTimeout(() => {
+                    const aiMove = getAIMove();
+                    makeMove(aiMove, 'O');
+                    checkResult();
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        // 下棋
+        function makeMove(index, player) {
+            gameState[index] = player;
+            cells[index].textContent = player;
+            cells[index].classList.add(player === 'X' ? 'x-symbol' : 'o-symbol');
+        }
+        
+        // 檢查遊戲結果
+        function checkResult() {
+            // 檢查是否有人獲勝
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                
+                if (gameState[a] !== '' && gameState[a] === gameState[b] && gameState[b] === gameState[c]) {
+                    // 標記獲勝的格子
+                    cells[a].classList.add('winning-cell');
+                    cells[b].classList.add('winning-cell');
+                    cells[c].classList.add('winning-cell');
+                    
+                    gameActive = false;
+                    status.textContent = gameState[a] === 'X' ? '你贏了！' : 'AI 贏了！';
+                    return true;
+                }
+            }
+            
+            // 檢查是否平手
+            if (!gameState.includes('')) {
+                gameActive = false;
+                status.textContent = '遊戲結束，平手！';
+                return true;
+            }
+            
+            // 更新狀態
+            status.textContent = `輪到 ${currentPlayer === 'X' ? 'X (你)' : 'O (AI)'} 下棋`;
+            return false;
+        }
+        
+        // 獲取AI的移動
+        function getAIMove(strategy) {
+            // 首先檢查AI是否可以立即獲勝
+            const winningMove = findWinningMove('O');
+            if (winningMove !== -1) return winningMove;
+            
+            // 檢查玩家是否可以立即獲勝，如果有的話阻擋
+            const blockingMove = findWinningMove('X');
+            if (blockingMove !== -1) return blockingMove;
+            
+            // 如果是AI先手且有策略選擇，按照策略行動
+            if (aiFirstSelect.value === 'ai' && strategy) {
+                // 根據選擇的策略進行開局
+                switch(strategy) {
+                    case 'corner':
+                        return getCornerMove();
+                    case 'edge':
+                        return getEdgeMove();
+                    case 'center':
+                    default:
+                        return getCenterStrategyMove();
+                }
+            }
+            
+            // 如果是玩家先手，根據玩家第一步選擇回應
+            if (aiFirstSelect.value === 'human') {
+                return getResponseToPlayerFirstMove();
+            }
+            
+            // 中局策略 - 嘗試創建雙重威脅
+            const forkMove = createForkOpportunity();
+            if (forkMove !== -1) return forkMove;
+            
+            // 阻擋對手的雙重威脅
+            const blockForkMove = blockForkOpportunity();
+            if (blockForkMove !== -1) return blockForkMove;
+            
+            // 如果沒有特殊策略，選擇最佳可用位置
+            const bestMove = getBestAvailableMove();
+            return bestMove;
+        }
+        
+        // 根據玩家第一步選擇回應
+        function getResponseToPlayerFirstMove() {
+            const playerMoves = [];
+            gameState.forEach((cell, index) => {
+                if (cell === 'X') playerMoves.push(index);
+            });
+            
+            // 如果是玩家第一步
+            if (playerMoves.length === 1) {
+                const playerFirstMove = playerMoves[0];
+                let responseMove = -1;
+                
+                // 20%概率會選擇非最佳回應（但不至於直接輸掉）
+                const shouldMakeMistake = Math.random() < 0.2;
+                
+                // 玩家選擇中心
+                if (playerFirstMove === 4) {
+                    if (shouldMakeMistake) {
+                        // 錯誤回應：選擇邊而不是角落
+                        const edges = [1, 3, 5, 7];
+                        const emptyEdges = edges.filter(edge => gameState[edge] === '');
+                        if (emptyEdges.length > 0) {
+                            responseMove = emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+                        }
+                    } else {
+                        // 正確回應：選擇角落
+                        responseMove = getCornerMove();
+                    }
+                } 
+                // 玩家選擇角落
+                else if ([0, 2, 6, 8].includes(playerFirstMove)) {
+                    if (shouldMakeMistake) {
+                        // 錯誤回應：選擇不相鄰的邊
+                        const nonAdjacentEdges = {
+                            0: [5, 7], // a1 -> b3, c2
+                            2: [3, 7], // a3 -> b1, c2
+                            6: [1, 5], // c1 -> a2, b3
+                            8: [1, 3]  // c3 -> a2, b1
+                        };
+                        const edges = nonAdjacentEdges[playerFirstMove];
+                        const emptyEdges = edges.filter(edge => gameState[edge] === '');
+                        if (emptyEdges.length > 0) {
+                            responseMove = emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+                        }
+                    } else {
+                        // 正確回應：選擇中心
+                        if (gameState[4] === '') {
+                            responseMove = 4;
+                        } else {
+                            // 如果中心已被佔（不應該發生），選擇另一個角落
+                            responseMove = getCornerMove();
+                        }
+                    }
+                }
+                // 玩家選擇邊
+                else if ([1, 3, 5, 7].includes(playerFirstMove)) {
+                    if (shouldMakeMistake) {
+                        // 錯誤回應：選擇不相鄰的角落
+                        const nonAdjacentCorners = {
+                            1: [6, 8], // a2 -> c1, c3
+                            3: [2, 8], // b1 -> a3, c3
+                            5: [0, 6], // b3 -> a1, c1
+                            7: [0, 2]  // c2 -> a1, a3
+                        };
+                        const corners = nonAdjacentCorners[playerFirstMove];
+                        const emptyCorners = corners.filter(corner => gameState[corner] === '');
+                        if (emptyCorners.length > 0) {
+                            responseMove = emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+                        }
+                    } else {
+                        // 正確回應：選擇中心
+                        if (gameState[4] === '') {
+                            responseMove = 4;
+                        } else {
+                            // 如果中心已被佔（不應該發生），選擇對面的邊
+                            const oppositeEdges = {
+                                1: 7, // a2 -> c2
+                                3: 5, // b1 -> b3
+                                5: 3, // b3 -> b1
+                                7: 1  // c2 -> a2
+                            };
+                            if (gameState[oppositeEdges[playerFirstMove]] === '') {
+                                responseMove = oppositeEdges[playerFirstMove];
+                            } else {
+                                // 如果對面的邊也被佔（不應該發生），選擇角落
+                                responseMove = getCornerMove();
+                            }
+                        }
+                    }
+                }
+                
+                if (responseMove !== -1) {
+                    return responseMove;
+                }
+            }
+            
+            // 如果沒有特殊回應或不是第一步，使用常規策略
+            return getCenterStrategyMove();
+        }
+        
+        // 計算已下的棋子數量
+        function countMoves() {
+            return gameState.filter(cell => cell !== '').length;
+        }
+        
+        // 尋找可以立即獲勝的移動
+        function findWinningMove(player) {
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    // 模擬下這一步
+                    gameState[i] = player;
+                    
+                    // 檢查是否獲勝
+                    const isWin = checkImmediateWin(player);
+                    
+                    // 撤銷模擬
+                    gameState[i] = '';
+                    
+                    if (isWin) {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        }
+        
+        // 檢查當前玩家是否立即獲勝
+        function checkImmediateWin(player) {
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                if (gameState[a] === player && gameState[b] === player && gameState[c] === player) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        // 角落開局策略
+        function getCornerMove() {
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            
+            // 優先選擇能形成三角殺的位置
+            if (gameState[0] === 'O' && gameState[8] === '' && gameState[1] !== 'X' && gameState[3] !== 'X') return 8;
+            if (gameState[2] === 'O' && gameState[6] === '' && gameState[1] !== 'X' && gameState[5] !== 'X') return 6;
+            if (gameState[6] === 'O' && gameState[2] === '' && gameState[3] !== 'X' && gameState[7] !== 'X') return 2;
+            if (gameState[8] === 'O' && gameState[0] === '' && gameState[5] !== 'X' && gameState[7] !== 'X') return 0;
+            
+            // 否則隨機選擇一個空角落
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            return -1;
+        }
+        
+        // 邊開策略
+        function getEdgeMove() {
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            
+            // 選擇一個不會讓玩家形成雙重威脅的邊
+            for (let edge of emptyEdges) {
+                // 模擬下這一步
+                gameState[edge] = 'O';
+                
+                // 檢查玩家是否有雙重威脅
+                const playerForks = countPossibleForks('X');
+                
+                // 撤銷模擬
+                gameState[edge] = '';
+                
+                if (playerForks === 0) {
+                    return edge;
+                }
+            }
+            
+            // 如果所有邊都會導致玩家雙重威脅，選擇第一個可用的邊
+            if (emptyEdges.length > 0) {
+                return emptyEdges[0];
+            }
+            
+            return -1;
+        }
+        
+        // 中開策略
+        function getCenterStrategyMove() {
+            // 如果中心是空的，佔領中心
+            if (gameState[4] === '') return 4;
+            
+            // 嘗試創建雙重威脅
+            const forkMove = createForkOpportunity();
+            if (forkMove !== -1) return forkMove;
+            
+            // 佔領角落
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            
+            // 優先選擇能形成中邊角殺的位置
+            if (gameState[4] === 'O') {
+                if (gameState[0] === 'O' && gameState[8] === '') return 8;
+                if (gameState[2] === 'O' && gameState[6] === '') return 6;
+                if (gameState[6] === 'O' && gameState[2] === '') return 2;
+                if (gameState[8] === 'O' && gameState[0] === '') return 0;
+            }
+            
+            // 否則隨機選擇一個空角落
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            // 最後選擇邊
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            if (emptyEdges.length > 0) {
+                return emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+            }
+            
+            return -1;
+        }
+        
+        // 創建雙重威脅
+        function createForkOpportunity() {
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    // 模擬下這一步
+                    gameState[i] = 'O';
+                    
+                    // 檢查創建了多少個獲勝機會
+                    const forks = countPossibleForks('O');
+                    
+                    // 撤銷模擬
+                    gameState[i] = '';
+                    
+                    if (forks >= 2) {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        }
+        
+        // 計算可能的雙重威脅數量
+        function countPossibleForks(player) {
+            let forkCount = 0;
+            
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                const cells = [gameState[a], gameState[b], gameState[c]];
+                const emptyCount = cells.filter(cell => cell === '').length;
+                const playerCount = cells.filter(cell => cell === player).length;
+                
+                if (playerCount === 2 && emptyCount === 1) {
+                    forkCount++;
+                }
+            }
+            
+            return forkCount;
+        }
+        
+        // 阻擋對手的雙重威脅
+        function blockForkOpportunity() {
+            // 檢查對手是否有雙重威脅
+            let opponentForks = [];
+            
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    // 模擬玩家下這一步
+                    gameState[i] = 'X';
+                    
+                    // 檢查創建了多少個獲勝機會
+                    const forks = countPossibleForks('X');
+                    
+                    // 撤銷模擬
+                    gameState[i] = '';
+                    
+                    if (forks >= 2) {
+                        opponentForks.push(i);
+                    }
+                }
+            }
+            
+            // 如果對手有雙重威脅，嘗試阻擋
+            if (opponentForks.length > 0) {
+                // 嘗試找到一個既能阻擋又能創建自己機會的移動
+                for (let move of opponentForks) {
+                    // 模擬AI下這一步
+                    gameState[move] = 'O';
+                    
+                    // 檢查AI是否有獲勝機會
+                    const aiWin = findWinningMove('O') !== -1;
+                    
+                    // 撤銷模擬
+                    gameState[move] = '';
+                    
+                    if (aiWin) {
+                        return move;
+                    }
+                }
+                
+                // 否則返回第一個雙重威脅點
+                return opponentForks[0];
+            }
+            
+            return -1;
+        }
+        
+        // 獲取最佳可用移動
+        function getBestAvailableMove() {
+            // 優先順序: 中心 > 角落 > 邊
+            if (gameState[4] === '') return 4; // 中心
+            
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            if (emptyEdges.length > 0) {
+                return emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+            }
+            
+            return -1;
+        }
+        
+        // 重置遊戲
+        function resetGame() {
+            currentPlayer = 'X';
+            gameState = ['', '', '', '', '', '', '', '', ''];
+            gameActive = true;
+            aiTurn = false;
+            status.textContent = `輪到 ${currentPlayer} (你) 下棋`;
+            
+            cells.forEach(cell => {
+                cell.textContent = '';
+                cell.classList.remove('x-symbol', 'o-symbol', 'winning-cell');
+            });
+            
+            // 如果選擇AI先手，讓AI先下
+            if (aiFirstSelect.value === 'ai') {
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                setTimeout(() => {
+                    const aiStrategy = aiStrategySelect.value;
+                    const aiMove = getAIMove(aiStrategy);
+                    makeMove(aiMove, 'O');
+                    status.textContent = '輪到 X (你) 下棋';
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        // 添加事件監聽器
+        cells.forEach(cell => {
+            cell.addEventListener('click', handleCellClick);
+        });
+        
+        resetButton.addEventListener('click', resetGame);
+        aiFirstSelect.addEventListener('change', function() {
+            updateUIForFirstPlayer();
+            resetGame();
+        });
+        
+        // 初始化遊戲
+        updateUIForFirstPlayer();
+        initGame();
+    });
+</script>

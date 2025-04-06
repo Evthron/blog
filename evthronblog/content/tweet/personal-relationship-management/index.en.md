@@ -2,7 +2,7 @@
 title: "Relationship management software"
 description: 
 date: 2025-02-14T13:53:18+08:00
-lastmod: 2025-02-14T14:19:19+08:00
+lastmod: 2025-04-06T21:00:13+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'software']
@@ -23,4 +23,12 @@ It looks promising but after trying it, it doesn't enphasise enough on the featu
 The devs are working on a revised version called [Chandler (monicahq.com)](https://www.monicahq.com/blog/chandler-is-in-beta). See how it goes.
 
 [^1]: docker is a tool for running websites. It's a bit complicated to install that on  Windows. If you know nothing about this, it's better to try their official service.
+
+***
+
+It's not necessary to spend a lot of time maintaining relationships. You don't need to dedicate hours—all you need is to contact your friends at a stable frequency. More importantly, you have to genuinely want to reach out to them. Unfortunately, this is what I lack.
+
+No tools can incentivise me to do this. All I can do for now is to keep records.
+
+Acutually, I've been using Track & Graph to record things for me, although it's not specialised for this.
 
