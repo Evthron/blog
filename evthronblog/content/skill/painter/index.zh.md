@@ -2,7 +2,7 @@
 title: "class Painter"
 description: 
 date: 2024-03-10T06:10:52+08:00
-lastmod: 2025-03-30T12:29:32+08:00
+lastmod: 2025-04-06T22:29:09+08:00
 image: 
 categories: 
 tags: 
@@ -17,8 +17,8 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=Total_count >}}
 {{< level-badge level="Lv8">}}
-{{< page-exp page="378p">}}
-{{< experience exp="54 remain">}}
+{{< page-exp page="379p">}}
+{{< experience exp="53 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
     {{< thumbnail img="20250311_131658 -- sight home.jpg">}}
@@ -31,6 +31,7 @@ comments: true
     {{< thumbnail img="20250311_142809 -- heads sight outdoors.jpg">}}
     {{< thumbnail img="20250326_065344 -- sight home.jpg">}}
     {{< thumbnail img="20250326_065358 -- sight outdoors.jpg">}}
+    {{< thumbnail img="20250331_161623 -- sight outdoors.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
 ## Skills
@@ -158,33 +159,33 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=file_count >}}
 {{< level-badge level="Lv8">}}
-{{< page-exp page="363p">}}
-{{< experience exp="69 remain">}}
+{{< page-exp page="364p">}}
+{{< experience exp="68 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
-    {{< thumbnail img="20250311_131719 -- outdoors figures sight.jpg">}}
     {{< thumbnail img="20250311_131727 -- home colour sight.jpg">}}
     {{< thumbnail img="20250311_131731 -- heads outdoors sight.jpg">}}
     {{< thumbnail img="20250311_142803 -- figures sight outdoors.jpg">}}
     {{< thumbnail img="20250311_142809 -- heads sight outdoors.jpg">}}
     {{< thumbnail img="20250326_065344 -- sight home.jpg">}}
     {{< thumbnail img="20250326_065358 -- sight outdoors.jpg">}}
+    {{< thumbnail img="20250331_161623 -- sight outdoors.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
 {{< status-bar-wrapper >}}
 {{< badges-wrapper >}}
 {{< skill-title title=sight >}}
 {{< level-badge level="Lv6">}}
-{{< page-exp page="198p">}}
-{{< experience exp="54 remain">}}
+{{< page-exp page="199p">}}
+{{< experience exp="53 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
-    {{< thumbnail img="20250311_131727 -- home colour sight.jpg">}}
     {{< thumbnail img="20250311_131731 -- heads outdoors sight.jpg">}}
     {{< thumbnail img="20250311_142803 -- figures sight outdoors.jpg">}}
     {{< thumbnail img="20250311_142809 -- heads sight outdoors.jpg">}}
     {{< thumbnail img="20250326_065344 -- sight home.jpg">}}
     {{< thumbnail img="20250326_065358 -- sight outdoors.jpg">}}
+    {{< thumbnail img="20250331_161623 -- sight outdoors.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
 {{< status-bar-wrapper >}}
@@ -235,11 +236,10 @@ comments: true
 {{< badges-wrapper >}}
 {{< skill-title title=outdoors >}}
 {{< level-badge level="Lv5">}}
-{{< page-exp page="159p">}}
-{{< experience exp="21 remain">}}
+{{< page-exp page="160p">}}
+{{< experience exp="20 remain">}}
 {{< /badges-wrapper >}}
 {{< thumbnail-container length=48 >}}
-    {{< thumbnail img="20250207_123812 -- sight outdoors.jpg">}}
     {{< thumbnail img="20250207_123815 -- hands outdoors sight.jpg">}}
     {{< thumbnail img="20250207_123819 -- outdoors figures sight.jpg">}}
     {{< thumbnail img="20250213_160735 -- outdoors sight.jpg">}}
@@ -255,6 +255,7 @@ comments: true
     {{< thumbnail img="20250311_142803 -- figures sight outdoors.jpg">}}
     {{< thumbnail img="20250311_142809 -- heads sight outdoors.jpg">}}
     {{< thumbnail img="20250326_065358 -- sight outdoors.jpg">}}
+    {{< thumbnail img="20250331_161623 -- sight outdoors.jpg">}}
 {{< /thumbnail-container >}}
 {{< /status-bar-wrapper >}}
 {{< status-bar-wrapper >}}
