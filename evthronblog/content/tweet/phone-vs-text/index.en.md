@@ -2,7 +2,7 @@
 title: "I prefer phone over text, probably"
 description: 
 date: 2025-04-03T12:19:15+08:00
-lastmod: 2025-04-05T14:48:18+08:00
+lastmod: 2025-04-06T21:03:27+08:00
 image: 
 categories: tweet
 tags: []

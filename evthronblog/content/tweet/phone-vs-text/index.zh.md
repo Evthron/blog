@@ -2,7 +2,7 @@
 title: "比起發消息，我更喜歡打電話。大概吧"
 description: 
 date: 2025-04-03T11:56:33+08:00
-lastmod: 2025-04-06T20:24:09+08:00
+lastmod: 2025-04-06T21:03:27+08:00
 image: 
 categories: tweet
 tags: ['relationship']

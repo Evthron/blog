@@ -2,7 +2,7 @@
 title: "高階運算"
 description: 
 date: 2025-03-14T10:42:27+08:00
-lastmod: 2025-03-16T04:17:45+08:00
+lastmod: 2025-04-06T22:04:11+08:00
 image: 
 categories: posts
 tags: ['maths']
@@ -33,5 +33,5 @@ $e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的
 
 更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。
 
-[Beyond exponentiation: A tetration investigation (youtube) ]https://www.youtube.com/watch?v=qdqPTEpq5Xw&pp=ygUJdGV0cmF0aW9u)
+[Beyond exponentiation: A tetration investigation (youtube)](https://www.youtube.com/watch?v=qdqPTEpq5Xw&pp=ygUJdGV0cmF0aW9u)
 
