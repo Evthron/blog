@@ -2,9 +2,9 @@
 title: "關係經濟學"
 description: 
 date: 2025-04-07T20:08:36+08:00
-lastmod: 2025-04-07T20:09:00+08:00
+lastmod: 2025-04-07T20:21:37+08:00
 image: 
-categories: sandbox
+categories: tweet
 tags: []
 math: true
 license: 
