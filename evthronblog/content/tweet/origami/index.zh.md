@@ -2,7 +2,7 @@
 title: "折紙"
 description: 
 date: 2024-06-04T21:14:54+08:00
-lastmod: 2025-03-26T10:30:20+08:00
+lastmod: 2025-04-09T15:42:31+08:00
 image: 
 categories: tweet
 tags: ['stories', 'maths']

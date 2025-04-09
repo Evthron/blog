@@ -2,7 +2,7 @@
 title: "pona e linja lawa"
 description: 
 date: 2024-09-19T00:55:14+08:00
-lastmod: 2024-10-02T02:20:42+08:00
+lastmod: 2025-04-09T15:42:31+08:00
 image: 
 categories: tweet
 tags: ['grumble']

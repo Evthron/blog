@@ -2,7 +2,7 @@
 title: "What I learn from economics"
 description: 
 date: 2025-03-10T02:34:20+08:00
-lastmod: 2025-03-28T13:41:58+08:00
+lastmod: 2025-04-09T15:42:32+08:00
 image: 
 categories: tweet
 tags: ['society']

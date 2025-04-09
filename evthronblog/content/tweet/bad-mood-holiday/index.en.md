@@ -2,7 +2,7 @@
 title: "Bad mood holiday"
 description: 
 date: 2024-10-16T04:01:51+08:00
-lastmod: 2024-10-16T04:03:52+08:00
+lastmod: 2025-04-09T15:42:31+08:00
 image: 
 categories: tweet
 tags: ['grumble']

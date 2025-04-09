@@ -2,7 +2,7 @@
 title: "真不想承認，認可才是我想要的動力"
 description: 
 date: 2025-04-07T19:36:57+08:00
-lastmod: 2025-04-07T20:09:08+08:00
+lastmod: 2025-04-09T15:42:30+08:00
 image: 
 categories: posts
 tags: ['productivity', 'grumble']

@@ -2,7 +2,7 @@
 title: "docker 連不上網的解決辦法和折騰的悲哀"
 description: 
 date: 2024-10-17T19:37:47+08:00
-lastmod: 2025-01-18T01:58:38+08:00
+lastmod: 2025-04-09T15:42:29+08:00
 image: 
 categories: posts
 tags: ['grumble', 'stories']

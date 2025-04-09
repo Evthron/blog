@@ -5,7 +5,7 @@ date: 2025-01-18T02:14:37+08:00
 lastmod: 2025-01-18T02:30:09+08:00
 image: 
 categories: toolbox
-tags: ['software']
+tags: ['productivity', 'software']
 math: true
 license: 
 hidden: false

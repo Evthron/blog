@@ -5,7 +5,7 @@ date: 2023-12-22T03:46:57+08:00
 lastmod: 2024-09-15T23:44:12+08:00
 image: 
 categories: toolbox
-tags: []
+tags: ['productivity']
 math: true
 license: 
 hidden: false

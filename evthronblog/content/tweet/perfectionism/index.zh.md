@@ -2,7 +2,7 @@
 title: "完美主義"
 description: 
 date: 2025-04-09T15:24:56+08:00
-lastmod: 2025-04-09T15:31:29+08:00
+lastmod: 2025-04-09T15:42:32+08:00
 image: 
 categories: tweet
 tags: ['productivity']

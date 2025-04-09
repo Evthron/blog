@@ -2,7 +2,7 @@
 title: "完美學習法"
 description: 
 date: 2025-01-18T02:02:08+08:00
-lastmod: 2025-01-18T03:01:55+08:00
+lastmod: 2025-04-09T15:42:30+08:00
 image: 
 categories: posts
 tags: ['productivity']
