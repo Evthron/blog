@@ -5,7 +5,7 @@ date: 2024-03-23T01:04:38+08:00
 lastmod: 2024-06-26T02:39:49+08:00
 image: 
 categories: tweet
-tags: ['internet']
+tags: ['web']
 math: true
 license: 
 hidden: false

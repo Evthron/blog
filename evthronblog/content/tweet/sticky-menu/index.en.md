@@ -5,7 +5,7 @@ date: 2024-06-25T02:03:52+08:00
 lastmod: 2024-08-15T03:09:16+08:00
 image: 
 categories: tweet
-tags: ['grumble']
+tags: ['grumble', 'coding']
 math: true
 license: 
 hidden: false

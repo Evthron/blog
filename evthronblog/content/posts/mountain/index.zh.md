@@ -5,7 +5,7 @@ date: 2025-01-18T02:16:31+08:00
 lastmod: 2025-01-18T02:29:06+08:00
 image: 
 categories: posts
-tags: ['fiction']
+tags: ['fiction', 'stories']
 math: true
 license: 
 hidden: false

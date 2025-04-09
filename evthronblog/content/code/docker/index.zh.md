@@ -1,8 +1,8 @@
 ---
 title: "Docker"
 description: 
-date: 2025-04-06T18:55:22+08:00
-lastmod: 2025-04-06T18:55:22+08:00
+date: 2025-04-08T16:52:16+08:00
+lastmod: 2025-04-08T16:52:16+08:00
 image: 
 categories: 
 tags: 
@@ -20,7 +20,6 @@ comments: true
 `docker compose down`
 
 `-d` flag: run in background
-
 
 `docker exec -it`
 

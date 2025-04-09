@@ -5,7 +5,7 @@ date: 2024-10-19T04:53:17+08:00
 lastmod: 2024-10-19T05:12:02+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['stories', 'art']
 math: true
 license: 
 hidden: false

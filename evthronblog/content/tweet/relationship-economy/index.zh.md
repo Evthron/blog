@@ -2,10 +2,10 @@
 title: "關係經濟學"
 description: 
 date: 2025-04-07T20:08:36+08:00
-lastmod: 2025-04-07T20:21:37+08:00
+lastmod: 2025-04-08T13:36:36+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['relationship', 'society']
 math: true
 license: 
 hidden: false
@@ -23,7 +23,7 @@ comments: true
 6. Romantic，獨佔的感覺
 7. Sexual，異性相吸，外貌
 
-這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以誕生的複雜的經濟學理論。
+這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以產生了複雜的經濟現象。
 
 因為「幫忙」是用實際的行動和物件體現的，和人心無關。所以錢能夠解決 Double Coincidence of Wants 的問題，不成功的交易能找第三者做橋樑。其他雖然同樣是交易，就不能這樣了。這種「交易」必須是兩方都需要的，當場同時交換。例如我現在很高興，就要找一個同樣會感到高興的人分享情緒。因為只有兩個人，沒有市場，所以這種聯繫，或者説人情債，也不能定個準確的價錢。
 

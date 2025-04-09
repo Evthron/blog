@@ -5,7 +5,7 @@ date: 2024-06-21T19:16:06+08:00
 lastmod: 2024-06-26T02:39:50+08:00
 image: 
 categories: posts
-tags: []
+tags: ['art', 'writing']
 math: true
 license: 
 hidden: false

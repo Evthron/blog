@@ -5,7 +5,7 @@ date: 2024-06-04T21:14:54+08:00
 lastmod: 2025-03-26T10:30:20+08:00
 image: 
 categories: tweet
-tags: ['maths']
+tags: ['stories', 'maths']
 math: true
 license: 
 hidden: false

@@ -2,10 +2,10 @@
 title: "Progress"
 description: 
 date: 2024-02-26T01:46:25+08:00
-lastmod: 2024-06-26T02:39:49+08:00
+lastmod: 2025-04-09T15:39:06+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['gamification']
 math: true
 license: 
 hidden: false

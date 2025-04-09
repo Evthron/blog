@@ -5,7 +5,7 @@ date: 2024-06-19T19:48:42+08:00
 lastmod: 2024-06-26T02:39:50+08:00
 image: 
 categories: tweet
-tags: ['software']
+tags: ['coding', 'software']
 math: true
 license: 
 hidden: false

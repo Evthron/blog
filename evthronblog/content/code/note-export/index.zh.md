@@ -15,10 +15,8 @@ comments: true
 https://github.com/marph91/joppy/blob/master/examples/note_export.py
 
 
- 
-extend a list generator
-Finding notes with certain title.
-## Bad version
+## Finding Notes with Certain Titles
+### Bad version
 ``` python
 for note in notes:
 	for title in args.note_titles:
@@ -26,8 +24,8 @@ for note in notes:
 			candidates.append note
 ```
 
-## Good version
-
+extend a list generator
+### Good version
 ``` python
 for title in args.note_titles:
     candidates.extend([note for note in notes if note.title == title])

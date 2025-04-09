@@ -5,7 +5,7 @@ date: 2025-03-10T02:34:20+08:00
 lastmod: 2025-03-28T13:41:58+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['society']
 math: true
 license: 
 hidden: false

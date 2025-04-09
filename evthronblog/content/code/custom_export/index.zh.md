@@ -16,10 +16,7 @@ https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 
 
 Parent Graph 和 edge List 的區別
-edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
-
-
-
+edge graph 不能輕鬆找到沒有 Parent 的元素。
 
 ```python
 graph = {[]}
@@ -49,7 +46,6 @@ def replacements(value: str) -> str:
     return re.sub(r'[\\/*?:"<>|\s]', "_", value)
 ```
 ## Tree element mapping replace
-
 ```python
 tree = {"servant" : {"saber" : {"excalibur" : {}},
                      "archer" : {"ubw" : {"Caladabolg" : {}}},

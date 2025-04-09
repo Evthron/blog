@@ -5,7 +5,7 @@ date: 2024-10-17T19:37:47+08:00
 lastmod: 2025-01-18T01:58:38+08:00
 image: 
 categories: posts
-tags: ['grumble']
+tags: ['grumble', 'stories']
 math: true
 license: 
 hidden: false

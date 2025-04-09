@@ -5,7 +5,7 @@ date: 2025-01-18T02:02:08+08:00
 lastmod: 2025-01-18T03:01:55+08:00
 image: 
 categories: posts
-tags: []
+tags: ['productivity']
 math: true
 license: 
 hidden: false

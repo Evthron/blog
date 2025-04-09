@@ -48,14 +48,6 @@ https://github.com/marph91/joppy/tree/master/joppy
 ```
 
 
-
-requests.model.Response
-
-
-
-dt.JoplinKwargs
-
-
 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
 
 #### LOGGER.debug prints debug message
@@ -80,7 +72,7 @@ class ApiBase:
             f"files={files}"
         )
         if data is not None and "id_" in data:
-			# switch key id_ back to id?
+			# change key id_ back to id?
             # "id" is a reserved keyword in python, so don't use it.
             data["id"] = data.pop("id_")
         if query is None:
@@ -106,6 +98,8 @@ class ApiBase:
             err.args = err.args + (response.text,)
             raise
         return response
+```
+
 
 
 - Base API 
@@ -117,10 +111,111 @@ python debug
 
 
 
-- Logging
-- @static method
-- double bracket (when the function returns a callable object)
-- Type objects (Optional, Union)
-- Requests (localhost)
-- ``** kwargs``, use dictionary as keyword argument
-- {dict}.get() as 'if exist, else'
+### 1. Logging
+
+```python
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.DEBUG)
+
+# Log some messages
+logging.debug("This is a debug message.")
+logging.info("This is an info message.")
+logging.warning("This is a warning message.")
+logging.error("This is an error message.")
+logging.critical("This is a critical message.")
+```
+
+### 2. @staticmethod
+
+A static method does not require access to the instance (self) or class (cls). It's just a method that belongs to the class and can be called without an instance.
+
+```python
+class MathUtils:
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+result = MathUtils.add(5, 3)
+print(result)  # Output: 8
+```
+
+### 3. Double Bracket (When the Function Returns a Callable Object)
+
+Using double brackets can refer to a function that returns another function.
+
+```python
+def outer_function(message):
+    def inner_function():
+        print(message)
+    return inner_function
+
+func = outer_function("Hello, World!")
+func()  # Outputs: Hello, World!
+```
+
+getattr(SESSION, method)
+
+### 4. Type Objects (Optional, Union)
+
+Using type hints to specify that a function parameter may be of multiple types.
+
+```python
+from typing import Optional, Union
+
+def process_value(value: Union[int, str, None]) -> None:
+    if isinstance(value, int):
+        print(f"Integer: {value}")
+    elif isinstance(value, str):
+        print(f"String: {value}")
+    else:
+        print("No value provided.")
+
+process_value(10)       # Outputs: Integer: 10
+process_value("Hello")  # Outputs: String: Hello
+process_value(None)     # Outputs: No value provided.
+```
+
+### 5. Requests (localhost)
+
+Using the `requests` library to make an HTTP request to your local server.
+
+```python
+import requests
+
+response = requests.get('http://localhost:5000')
+print(response.text)  # Outputs the response from the localhost server.
+```
+
+### 6. `**kwargs`, Use Dictionary as Keyword Argument
+
+Using `**kwargs` allows you to pass a variable number of keyword arguments to a function.
+
+```python
+def print_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_info(name="Alice", age=30, city="New York")
+# Outputs:
+# name: Alice
+# age: 30
+# city: New York
+```
+
+### 7. `{dict}.get()` as 'if exist, else'
+
+Using the `get` method of a dictionary to return a value for a given key, with an option to specify a default value if the key does not exist.
+
+```python
+data = {"name": "Bob", "age": 25}
+
+name = data.get("name", "Unknown")
+occupation = data.get("occupation", "Not Specified")
+
+print(name)         # Outputs: Bob
+print(occupation)   # Outputs: Not Specified
+```
+
+Each of these examples illustrates the concept clearly, showcasing how each feature can be used in Python programming.
