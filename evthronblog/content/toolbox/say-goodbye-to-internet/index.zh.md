@@ -2,7 +2,7 @@
 title: "如何告別互聯網"
 description: 
 date: 2024-01-29T04:13:29+08:00
-lastmod: 2025-01-18T02:08:29+08:00
+lastmod: 2025-04-09T15:46:01+08:00
 image: 
 categories: toolbox
 tags: ['productivity', 'software']

@@ -2,7 +2,7 @@
 title: "Say Goodbye to Internet"
 description: 
 date: 2024-01-29T04:14:14+08:00
-lastmod: 2024-08-14T03:40:31+08:00
+lastmod: 2025-04-09T15:46:00+08:00
 image: 
 categories: toolbox
 tags: ['productivity']

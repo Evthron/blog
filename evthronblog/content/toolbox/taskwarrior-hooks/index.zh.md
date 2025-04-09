@@ -2,7 +2,7 @@
 title: "定製 Taskwarrior"
 description: 
 date: 2024-11-25T01:51:20+08:00
-lastmod: 2024-11-25T02:16:53+08:00
+lastmod: 2025-04-09T15:46:01+08:00
 image: 
 categories: toolbox
 tags: ['productivity', 'coding', 'software']

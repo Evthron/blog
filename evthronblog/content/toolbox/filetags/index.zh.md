@@ -2,7 +2,7 @@
 title: "filetags 文件管理法"
 description: 
 date: 2025-01-18T02:14:37+08:00
-lastmod: 2025-01-18T02:30:09+08:00
+lastmod: 2025-04-09T15:46:01+08:00
 image: 
 categories: toolbox
 tags: ['productivity', 'software']
