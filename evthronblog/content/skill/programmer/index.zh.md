@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-04-06T22:29:09+08:00
+lastmod: 2025-04-11T19:17:22+08:00
 image: 
 categories: 
 tags: 
@@ -13,15 +13,15 @@ comments: true
 ---
 ## Read Code
 
-                  Code notes:  20
+                  Code notes:  21
 
-              Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+              Function count:  13 --- Lv2 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
               Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
                  File-system:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-                         Web:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                         Web:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Notes for own code
 
@@ -29,7 +29,7 @@ comments: true
 
 ## Write Code
 
-    Python function (script): 127 --- Lv5 ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+    Python function (script): 125 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
     Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 
