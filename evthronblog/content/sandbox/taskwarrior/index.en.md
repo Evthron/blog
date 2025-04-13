@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-04-11T19:17:22+08:00
+lastmod: 2025-04-13T21:24:47+08:00
 image: 
 categories: 
 tags: 
@@ -17,9 +17,9 @@ My task list, I add everything I can think of in it.
 
 Age   Description
 ----- -------------------------------------------------------------------------
- 3mo  code task warrior hook for motivational quote
  4w   code improve llm to be a better project
  4w   try to code deepsearch
+39min search cs required abilities
  6w   code make a browser that can only access the internet through qr code
 11w   search how to do a stock market emulator
  3mo  buy a domain
@@ -30,7 +30,7 @@ Age   Description
  4mo  write university problem of common space and study group
  7w   awesomewm touchpad fix
  3mo  read source code of clocktower
- 6w   buy DST
+ 7w   buy DST
  3mo  add tag search feature to blog
  3mo  write how a make the painter progress bar
 11w   code taskwarrior blog show completed tasks
@@ -47,13 +47,14 @@ Age   Description
  4mo  code a youtube download credit system
  3mo  redraw ai-generated-image
  4w   write invent culture
- 2d   write fiction about an old tree trunk
-12w   rime dictionary change chuang tradition chinese
+ 4d   write fiction about an old tree trunk
+ 3mo  rime dictionary change chuang tradition chinese
+ 1h   fix blog snippet bug when not specify type
  3mo  code copy post to multiple language when more than one language tag
  6mo  incremental video in obsidian
  3mo  change input method word order cheng du
  3mo  code recreate habitica search token
 
-36 tasks
+37 tasks
 
 ```
