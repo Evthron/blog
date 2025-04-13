@@ -1,8 +1,8 @@
 ---
 title: ".NET"
 description: 
-date: 2025-04-11T17:10:48+08:00
-lastmod: 2025-04-11T17:10:48+08:00
+date: 2025-04-13T19:31:56+08:00
+lastmod: 2025-04-13T19:31:56+08:00
 image: 
 categories: 
 tags: 
@@ -43,3 +43,20 @@ comments: true
   - 根據方法的名稱處理頁面請求
   - 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object
   - 返回 Task，會變成 JavaScript 的 Promise
+
+## 設置 API Key
+```
+dotnet user-secrets init
+dotnet user-secrets set "GoogleApi:Key" "YOURAPIKEY"
+```
+
+在 cshtml.cs 裏面：
+```
+
+        private readonly IConfiguration _config;
+        public IndexModel(IConfiguration config)
+        {
+            _config = config;
+        }
+        var apiKey = _config["GoogleApi:Key"] ?? throw new InvalidOperationException("Google API key not found");
+```

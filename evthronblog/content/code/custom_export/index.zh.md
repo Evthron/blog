@@ -218,7 +218,7 @@ def create_notebook_tree(flat_list):
 -  從 dict 變成了 list 結構
 -  把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class
 -  這也是 Post-order traversal嗎？從最底層開始建立新的 Tree
-```
+```python
 def replace_ids_by_items(id_tree):
 	item_tree = []
 	
