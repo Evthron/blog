@@ -45,7 +45,7 @@ git push origin main
 ```
 
 - If your default local branch name is `master`, you may encounter an error like:
-```
+```bash
 error: src refspec main does not match any
 error: failed to push some refs to 'github.com...'
 ```
