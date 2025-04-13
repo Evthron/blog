@@ -2,7 +2,7 @@
 title: "高階運算"
 description: 
 date: 2025-03-14T10:42:27+08:00
-lastmod: 2025-04-06T22:04:11+08:00
+lastmod: 2025-04-13T19:25:26+08:00
 image: 
 categories: posts
 tags: ['maths']
@@ -12,9 +12,9 @@ hidden: false
 comments: true
 ---
 
-$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
+$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。
 
-增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
 
 我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
 
@@ -33,5 +33,7 @@ $e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的
 
 更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。
 
-[Beyond exponentiation: A tetration investigation (youtube)](https://www.youtube.com/watch?v=qdqPTEpq5Xw&pp=ygUJdGV0cmF0aW9u)
+[Beyond exponentiation: A tetration investigation (youtube)](https://www.youtube.com/watch?v=qdqPTEpq5Xw)
+
+[What's so special about Euler's number e? | Chapter 5, Essence of calculus (youtube)](https://www.youtube.com/watch?v=m2MIpDrF7Es)
 
