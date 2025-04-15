@@ -2,7 +2,7 @@
 title: "class Writer"
 description: 
 date: 2024-03-29T12:53:39+08:00
-lastmod: 2025-04-13T21:24:46+08:00
+lastmod: 2025-04-15T10:06:49+08:00
 image: 
 categories: 
 tags: 
@@ -41,5 +41,6 @@ comments: true
 - Incremental writing with Obsidian plugin
 
 ## Collection
-如何寫作
+如何寫作 - 葉聖陶
+
 寫作和文學並沒有本質的區別。眾多的作品當中，表達得特別好，受到大家推崇，特別有研究價值的一部分，就稱作文學。
