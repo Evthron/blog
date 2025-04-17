@@ -16,8 +16,10 @@ https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 
 
 Parent Graph 和 edge List 的區別
+
 edge graph 不能輕鬆找到沒有 Parent 的元素。
 
+在 Edge Graph 中找 Root :: 歷遍，用字典記錄 沒有 Parent 的 Start node
 ```python
 graph = {[]}
 has_parent = {node : False for node in node_list}
@@ -102,6 +104,36 @@ def create_hierarchy(api):
     notebook_tree_items = replace_ids_by_items(notebook_tree_ids)
     return notebook_tree_items
 ```
+``` python
+def create_notebook_tree(graph, roots):
+
+    def make_hierarchy(graph, names):
+		# Every node starts with a empty hierarchy, at lowest level, every node has empty hierarchy, no need to modify
+        hierarchy = {}
+		# Call the child to make their own hirarchy
+        for name in names:
+            hierarchy[name] = make_hierarchy(graph, graph[name])
+        return hierarchy
+
+    return make_hierarchy(graph, roots)
+
+
+#不夠簡單的另一個版本：
+
+    # 第二步：轉換成 Tree
+    # graph 不變，names 是每一層的端點，graph[name] 是下一層的 names
+    # 每一層把把自己一層的 hierarchy 做好，然後傳給上一層
+    # hierarchy 是 dict 裏面有 dict 的結構。
+    # 每層都從一個空 dict 開始。所以沒有必要傳下去
+    # 底層：names 是空的，hierarchy 也是空的
+    def get_hierarchy(hierarchy, graph, names):
+        for name in names:
+            hierarchy[name] = get_hierarchy({}, graph, graph[name])
+        return hierarchy
+
+    return traverse({}, graph, roots)
+```
+
 ```python
 def create_notebook_tree(flat_list):
 	  # 創建空白的 graph
@@ -121,11 +153,6 @@ def create_notebook_tree(flat_list):
 ```python
 graph = {item: set() for item in flat_list}
 ```
-
-
-
-
-#### 把 Tree 轉換成檔案結構 -- flashcards
 把 Tree 轉換成檔案結構
 
 1. Build folder for itself

@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-04-17T20:10:38+08:00
+lastmod: 2025-04-18T01:13:51+08:00
 image: 
 categories: 
 tags: 
@@ -17,13 +17,14 @@ My task list, I add everything I can think of in it.
 
 Age   Description
 ----- -------------------------------------------------------------------------
- 3d   search cs required abilities
+ 4d   search cs required abilities
  5w   code improve llm to be a better project
  5w   try to code deepsearch
  7w   code make a browser that can only access the internet through qr code
 12w   search how to do a stock market emulator
  3mo  buy a domain
  9w   code quantum calculator
+ 5h   export old twitter posts
  6mo  ask for emacs and org-mode
  5mo  add a link page to my blog
  5mo  set up local habitica server
@@ -48,7 +49,8 @@ Age   Description
  4mo  code a youtube download credit system
  3mo  redraw ai-generated-image
  5w   write invent culture
- 8d   write fiction about an old tree trunk
+ 9d   write fiction about an old tree trunk
+ 5h   code music scale
  3mo  rime dictionary change chuang tradition chinese
  4d   fix blog snippet bug when not specify type
  3mo  code copy post to multiple language when more than one language tag
@@ -56,6 +58,6 @@ Age   Description
  3mo  change input method word order cheng du
  4mo  code recreate habitica search token
 
-38 tasks
+40 tasks
 
 ```

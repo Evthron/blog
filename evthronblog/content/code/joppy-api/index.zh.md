@@ -1,8 +1,8 @@
 ---
 title: "Joppy Api"
 description: 
-date: 2024-08-13T21:57:32+08:00
-lastmod: 2024-08-13T21:57:32+08:00
+date: 2024-10-28T11:07:55+08:00
+lastmod: 2024-10-28T11:07:55+08:00
 image: 
 categories: 
 tags: 
@@ -105,6 +105,7 @@ class ApiBase:
 - Base API 
 - Base Methods Classes based on Base API
 - User friendly methods
+
 
 python debug
 {{LOGGER.debug}} prints debug message

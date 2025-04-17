@@ -1,8 +1,8 @@
 ---
 title: "Reddit Clipper"
 description: 
-date: 2025-01-03T04:49:30+08:00
-lastmod: 2025-01-03T04:49:30+08:00
+date: 2025-01-06T07:11:48+08:00
+lastmod: 2025-01-06T07:11:48+08:00
 image: 
 categories: 
 tags: 
@@ -15,7 +15,7 @@ comments: true
 https://github.com/marph91/joppy/blob/master/examples/reddit_clipper.py
 
 
-beautiful soup 只是用來 parse 收回來的 respones
+beautiful soup 只是用來 parse 收回來的 response
 ``` python
 def parse_reddit_page(url):
     headers = {

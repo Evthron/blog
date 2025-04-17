@@ -11,7 +11,6 @@ license:
 hidden: false
 comments: true
 slug: "arsenal"
-layout: "arsenal"
 ---
 ### Progress bar
 {{< progress-bar percentage=50% title="Component count">}}

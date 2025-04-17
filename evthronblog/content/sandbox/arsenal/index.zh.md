@@ -1,7 +1,6 @@
 ---
 title: "網頁組件"
 slug: "arsenal"
-layout: "arsenal"
 ---
 
 ### Progress bar

@@ -1,8 +1,8 @@
 ---
-title: "棒形圖"
+title: "bar-chart"
 description: 
-date: 2025-02-17T05:57:21+08:00
-lastmod: 2025-02-17T05:57:21+08:00
+date: 2025-02-17T05:57:06+08:00
+lastmod: 2025-02-17T05:57:06+08:00
 image: 
 categories: 
 tags: 

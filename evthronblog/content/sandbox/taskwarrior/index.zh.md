@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-04-17T20:10:38+08:00
+lastmod: 2025-04-18T01:13:51+08:00
 image: 
 categories: 
 tags: 
@@ -13,13 +13,14 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="search cs required abilities" note="3d" >}}
+{{< task title="search cs required abilities" note="4d" >}}
 {{< task title="code improve llm to be a better project" note="5w" >}}
 {{< task title="try to code deepsearch" note="5w" >}}
 {{< task title="code make a browser that can only access the internet through qr code" note="7w" >}}
 {{< task title="search how to do a stock market emulator" note="12w" >}}
 {{< task title="buy a domain" note="3mo" >}}
 {{< task title="code quantum calculator" note="9w" >}}
+{{< task title="export old twitter posts" note="5h" >}}
 {{< task title="ask for emacs and org-mode" note="6mo" >}}
 {{< task title="add a link page to my blog" note="5mo" >}}
 {{< task title="set up local habitica server" note="5mo" >}}
@@ -44,11 +45,12 @@ comments: true
 {{< task title="code a youtube download credit system" note="4mo" >}}
 {{< task title="redraw ai-generated-image" note="3mo" >}}
 {{< task title="write invent culture" note="5w" >}}
-{{< task title="write fiction about an old tree trunk" note="8d" >}}
+{{< task title="write fiction about an old tree trunk" note="9d" >}}
+{{< task title="code music scale" note="5h" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="3mo" >}}
 {{< task title="fix blog snippet bug when not specify type" note="4d" >}}
 {{< task title="code copy post to multiple language when more than one language tag" note="3mo" >}}
 {{< task title="obsidian plugin incremental reading" note="6mo" >}}
 {{< task title="change input method word order cheng du" note="3mo" >}}
 {{< task title="code recreate habitica search token" note="4mo" >}}
-38 tasks
+40 tasks
