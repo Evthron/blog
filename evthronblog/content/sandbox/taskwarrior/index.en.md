@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-04-18T01:13:51+08:00
+lastmod: 2025-04-18T02:29:23+08:00
 image: 
 categories: 
 tags: 
@@ -24,7 +24,7 @@ Age   Description
 12w   search how to do a stock market emulator
  3mo  buy a domain
  9w   code quantum calculator
- 5h   export old twitter posts
+ 6h   export old twitter posts
  6mo  ask for emacs and org-mode
  5mo  add a link page to my blog
  5mo  set up local habitica server
@@ -50,7 +50,7 @@ Age   Description
  3mo  redraw ai-generated-image
  5w   write invent culture
  9d   write fiction about an old tree trunk
- 5h   code music scale
+ 6h   code music scale
  3mo  rime dictionary change chuang tradition chinese
  4d   fix blog snippet bug when not specify type
  3mo  code copy post to multiple language when more than one language tag
