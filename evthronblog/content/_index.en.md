@@ -23,4 +23,4 @@ Originally, I write in Chinese but I hope anyone can read it without a translato
 
 Even though this not a Youtube channel, using the mystic ancient internet technology "RSS", you can still subscribe to this blog. Just copy the link of the "Wi-Fi logo" under my icon and paste it to your RSS reader, like [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/) on phone or Feedbro [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/) [(Chrome)](https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa) on browser.
 
-If you don't subscribe, I'll grab your phone and do it for you. Just kidding. I'll be grateful if you could tell me how you feel about this site. You can't comment here.
+If you don't subscribe, I'll grab your phone and do it for you. Just kidding. I'll be grateful if you could tell me how you feel about this site.
