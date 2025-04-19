@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-04-18T02:29:22+08:00
+lastmod: 2025-04-20T03:35:06+08:00
 image: 
 categories: 
 tags: 
@@ -20,6 +20,8 @@ comments: true
                       Dotnet:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
                           Ui:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+
+                     Android:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Logic
 
@@ -58,6 +60,43 @@ comments: true
 Here are my notes on the code I read.
 
 [code notes](/zh/code)
+
+## Skills Required
+
+- Coding
+    - Basic Syntax
+    - Language features
+- Logic
+    - Algorithm
+    - Data structure
+- Tools
+    - Version Control (git)
+    - IDE
+    - Dependency management
+    - Command line
+
+- Testing and debugging
+
+- Networking
+- Data storage
+    - Relational
+    - Non-relational
+- Operating system
+    - Memory Management
+    - Threading
+    - File system
+- Specific Knowledge
+    - Machine Learning
+    - Finance
+    - Game Development
+- System design
+    - MVC
+    - Design Pattern
+    - Distributed System
+- Security
+    - Cryptography
+    - 
+
 ## Software
 - Terminal: Konsole
 - Shell: zsh
@@ -67,6 +106,14 @@ Here are my notes on the code I read.
 - Site builder: hugo
 - Tagging: filetags
 - Password Management: Keepass
+
+Open Source Android App
+- Track & Graph
+- Open Camera
+- Libera FD
+- Markor
+- Better Counter
+- Pedometer
 
 ## Achievements
 Reinvent the wheel:
