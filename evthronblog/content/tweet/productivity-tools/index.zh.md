@@ -2,7 +2,7 @@
 title: "時間管理工具"
 description: 
 date: 2024-03-19T20:20:35+08:00
-lastmod: 2025-04-19T23:45:10+08:00
+lastmod: 2025-04-21T02:29:33+08:00
 image: 
 categories: tweet
 tags: ['productivity', 'software']
@@ -45,6 +45,9 @@ comments: true
 
 ***
 有很多很簡單的事情也會讓我害怕，所以需要一個行動的開關。就像番茄鐘一樣。我用 Track & Graph 的計時功能，看看自己需要多長時間才能完成。
+
+還有記錄自己拖延時會採取的行動，和耗費的時間。
+
 ***
 
 
