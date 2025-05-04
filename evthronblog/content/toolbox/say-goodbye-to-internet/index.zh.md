@@ -2,7 +2,7 @@
 title: "如何告別互聯網"
 description: 
 date: 2024-01-29T04:13:29+08:00
-lastmod: 2025-04-09T15:46:01+08:00
+lastmod: 2025-05-05T01:36:02+08:00
 image: 
 categories: toolbox
 tags: ['productivity', 'software']
@@ -142,6 +142,11 @@ sleep "$delay"
 $CMD
 ```
 雖然很簡單，不過這就是我一直想要的工具。
+
+設定好了以後還要修改 makepkg.conf，不然無法使用 makepkg 呼叫 pacman，也就無法安裝 AUR 裏的軟件。
+```
+PACMAN_AUTH=(sudo delayed %c)
+```
 
 delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。
 
