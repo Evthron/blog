@@ -2,7 +2,7 @@
 title: "Higher order operation"
 description: 
 date: 2025-05-04T03:07:53+08:00
-lastmod: 2025-05-04T03:40:46+08:00
+lastmod: 2025-05-04T17:22:05+08:00
 image: 
 categories: posts
 tags: ['maths']
@@ -29,6 +29,4 @@ Is there a special number in the realm of tetration, like *e*? Maybe the number 
 Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.  
 
 To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.  
-
-Something that exponentiate proportionally to its size—whatever that means.  
 

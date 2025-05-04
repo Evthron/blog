@@ -1,8 +1,8 @@
 ---
-title: "Speech note –– en"
+title: "Speech Note"
 description: 
 date: 2025-05-04T03:48:54+08:00
-lastmod: 2025-05-04T04:02:37+08:00
+lastmod: 2025-05-04T17:12:41+08:00
 image: 
 categories: tweet
 tags: ['software']
