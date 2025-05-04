@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-04T23:57:12+08:00
+lastmod: 2025-05-05T01:32:28+08:00
 image: 
 categories: 
 tags: 
@@ -48,9 +48,9 @@ comments: true
 {{< task title="check haskell tutorial" note="12w" >}}
 {{< task title="code a youtube download credit system" note="5mo" >}}
 {{< task title="redraw ai-generated-image" note="4mo" >}}
-{{< task title="write invent culture" note="7w" >}}
+{{< task title="write invent culture" note="8w" >}}
 {{< task title="write fiction about an old tree trunk" note="3w" >}}
-{{< task title="write physics without mathematics" note="21h" >}}
+{{< task title="write physics without mathematics" note="22h" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="3mo" >}}
 {{< task title="write update ai music" note="11d" >}}
 {{< task title="set up local habitica server" note="6mo" >}}

@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-04T23:57:12+08:00
+lastmod: 2025-05-05T01:32:28+08:00
 image: 
 categories: 
 tags: 
@@ -52,9 +52,9 @@ Age   Description
 12w   check haskell tutorial
  5mo  code a youtube download credit system
  4mo  redraw ai-generated-image
- 7w   write invent culture
+ 8w   write invent culture
  3w   write fiction about an old tree trunk
-21h   write physics without mathematics
+22h   write physics without mathematics
  3mo  rime dictionary change chuang tradition chinese
 11d   write update ai music
  6mo  set up local habitica server
