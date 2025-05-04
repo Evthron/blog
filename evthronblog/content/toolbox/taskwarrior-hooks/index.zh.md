@@ -2,7 +2,7 @@
 title: "定製 Taskwarrior"
 description: 
 date: 2024-11-25T01:51:20+08:00
-lastmod: 2025-04-09T15:46:01+08:00
+lastmod: 2025-05-03T17:02:16+08:00
 image: 
 categories: toolbox
 tags: ['productivity', 'coding', 'software']
@@ -80,4 +80,5 @@ print(json.dumps(task))
 
 第二是我用了 [task2hab (github)](https://github.com/oskapt/task2hab) 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 [taskwarrior-habitica-bridge (github)](https://github.com/robwhitaker/taskwarrior-habitica-bridge)，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。
 
+第三，我還做了個能顯示每日金句的功能，這個功能很簡單，只是調用別人的 API 而已。
 
