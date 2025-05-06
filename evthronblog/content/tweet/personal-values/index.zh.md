@@ -2,7 +2,7 @@
 title: "基礎的信念-- zh"
 description: 
 date: 2025-05-05T00:20:52+08:00
-lastmod: 2025-05-06T09:47:51+08:00
+lastmod: 2025-05-06T09:47:59+08:00
 image: 
 categories: tweet
 tags: []
