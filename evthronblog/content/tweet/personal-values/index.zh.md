@@ -1,8 +1,8 @@
 ---
-title: "基礎的信念-- zh"
+title: "基礎的信念"
 description: 
 date: 2025-05-05T00:20:52+08:00
-lastmod: 2025-05-06T09:47:59+08:00
+lastmod: 2025-05-06T10:11:57+08:00
 image: 
 categories: tweet
 tags: []
