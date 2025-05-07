@@ -12,6 +12,21 @@ hidden: false
 comments: true
 ---
 
+## enumerate(items, start=1)
+Use the `start` argument to control the start index of the enumeration
+```python
+items = ['a', 'b', 'c']
+for index, item in enumerate(items, 1):
+    print(index, item)
+```
+
+```
+1 a
+2 b
+3 c
+```
+
+
 error: externally-managed-environment
 
 ```bash
@@ -31,3 +46,7 @@ conda create --name myenv python=3.X
 conda activate myenv
 conda env list
 ```
+
+
+## zip(\*[...])
+- auto crop to the length of the shortest list
