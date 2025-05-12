@@ -174,7 +174,7 @@ def create_files(api, tree, output_dir: Path):
 例子：
 ```python
 from pathlib import Path
-desktop_path = Path("C:\\Users\\Jacky\\Desktop\\Test")
+desktop_path = Path("/home/User/Desktop/Test")
 def output_to_desktop(tree : dict, output_dir : Path):
     output_dir.mkdir(exist_ok=True)
     for parent, child in tree.items():
