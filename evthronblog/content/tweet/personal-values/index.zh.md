@@ -2,7 +2,7 @@
 title: "基礎的信念"
 description: 
 date: 2025-05-05T00:20:52+08:00
-lastmod: 2025-05-13T02:09:11+08:00
+lastmod: 2025-05-13T10:18:56+08:00
 image: 
 categories: tweet
 tags: ['philosophy']
