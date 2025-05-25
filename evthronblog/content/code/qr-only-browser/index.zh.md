@@ -1,8 +1,8 @@
 ---
 title: "qr-only-browser"
 description: 
-date: 2025-04-18T23:53:44+08:00
-lastmod: 2025-04-18T23:53:44+08:00
+date: 2025-05-25T13:15:04+08:00
+lastmod: 2025-05-25T13:15:04+08:00
 image: 
 categories: 
 tags: 
@@ -42,3 +42,7 @@ Material 3
 我的夢想只用三個半小時就完成了，LLM 真的無敵……
 
 https://github.com/Evthron/QROnlyBrowser
+
+***
+302 Redirect
+shouldOverrideUrlLoading
