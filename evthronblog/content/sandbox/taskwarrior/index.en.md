@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-26T20:06:11+08:00
+lastmod: 2025-05-27T00:12:04+08:00
 image: 
 categories: 
 tags: 
@@ -22,15 +22,17 @@ Age   Description
  5mo  find source code of habitica pomodoro
  4w   write update ai music
  4mo  code copy post to multiple language when more than one language tag
- 4d   write meaning only exist when past is visible
+ 5d   write meaning only exist when past is visible
+ 1min create a demo for social life tracker
  4mo  skim a book about vue framework
  4mo  search which stock api good
  3mo  search python quantum kit library
+ 1h   manage contact information
  4mo  write how a make the painter progress bar
  5mo  add tag search feature to blog
 13d   code learn how to store chatbot history in streamlit
  3w   find one interesting physics concept to explain without math
- 4d   write conflict of technology and romance
+ 5d   write conflict of technology and romance
  3mo  write useless productivity skill
 10w   search for current financial calculator
  4w   write how picking meals related to machine learning
@@ -39,15 +41,15 @@ Age   Description
  9d   write past paper overfitting analogy
  1d   how to deal with tailwind css
  1d   read the source code of deepsearch demo
+ 2h   write how to solve a math problem together
  5mo  write university problem of common space and study group
- 1d   code lua script for track and graph
+ 2d   code lua script for track and graph
 13d   design a layout for linear algebra game
 10d   write why dewey decimal fail vs filetags
  7mo  add a link page to my blog
  4mo  code taskwarrior blog show completed tasks
 11w   write invent culture
- 2w   code fix blog background bug
- 5mo  code track social life, random pick
+ 3w   code fix blog background bug
  5w   write why I dislike travelling
 10w   code blog to translate to simplied chinese
  6mo  code a youtube download credit system
@@ -67,6 +69,6 @@ Age   Description
  7mo  obsidian plugin incremental reading
  1d   find out why food order menu cannot load
 
-49 tasks
+51 tasks
 
 ```
