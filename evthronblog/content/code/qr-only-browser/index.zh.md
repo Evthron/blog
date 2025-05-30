@@ -1,8 +1,8 @@
 ---
 title: "qr-only-browser"
 description: 
-date: 2025-05-25T13:15:04+08:00
-lastmod: 2025-05-25T13:15:04+08:00
+date: 2025-05-29T09:04:43+08:00
+lastmod: 2025-05-29T09:04:43+08:00
 image: 
 categories: 
 tags: 
@@ -37,7 +37,8 @@ Material 3
 - Android Studio Sync Project With Gradle File 的作用是下載 Dependencies
 - Compose 能讓我們在 .kt 裏定義網站的外觀，而不是用以前的 XML
     - @Composable 定義網站的組件
-- Two build.gradle.kts files in package and project are different
+- Two build.gradle.kts files in package and project are different, no need to change in project level
+- dependencies are defined at libs.versions.toml, sync after change to download the dependencies.
 
 我的夢想只用三個半小時就完成了，LLM 真的無敵……
 
