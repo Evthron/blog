@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-30T20:50:34+08:00
+lastmod: 2025-05-30T20:58:05+08:00
 image: 
 categories: 
 tags: 

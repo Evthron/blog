@@ -1,8 +1,8 @@
 ---
 title: "qr-only-browser"
 description: 
-date: 2025-05-29T09:04:43+08:00
-lastmod: 2025-05-29T09:04:43+08:00
+date: 2025-05-30T20:57:42+08:00
+lastmod: 2025-05-30T20:57:42+08:00
 image: 
 categories: 
 tags: 
@@ -30,6 +30,7 @@ MyApp/
 ```
 Material 3
 
+## Project Structure
 - 主要的代碼在 app/src/main/java/MainActivity.kt
 - AndroidManifest.xml 設定需要的權限
 - build.gradle.kts 設定 dependencies
