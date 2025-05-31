@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-31T18:54:04+08:00
+lastmod: 2025-06-01T00:31:08+08:00
 image: 
 categories: 
 tags: 
@@ -17,18 +17,16 @@ My task list, I add everything I can think of in it.
 
 Age   Description
 ----- -----------------------------------------------------------------------
- 5mo  find source code of habitica pomodoro
  5mo  code copy post to multiple language when more than one language tag
- 4d   create a demo for social life tracker
  4mo  skim a book about vue framework
  4mo  search which stock api good
  3mo  search python quantum kit library
- 4d   manage contact information
+ 5d   manage contact information
  5mo  write how a make the painter progress bar
  5mo  add tag search feature to blog
  2w   code learn how to store chatbot history in streamlit
  3w   find one interesting physics concept to explain without math
- 9d   write conflict of technology and romance
+10d   write conflict of technology and romance
  3mo  write useless productivity skill
 11w   search for current financial calculator
  4w   write how picking meals related to machine learning
@@ -37,17 +35,17 @@ Age   Description
  2w   write past paper overfitting analogy
  6d   how to deal with tailwind css
  6d   read the source code of deepsearch demo
- 4d   write how to solve a math problem together
+ 5d   write how to solve a math problem together
  3d   write a reflection on quantum computing
  6mo  write university problem of common space and study group
- 6d   code lua script for track and graph
+ 7d   code lua script for track and graph
  2w   design a layout for linear algebra game
  2w   write why dewey decimal fail vs filetags
  7mo  add a link page to my blog
  4mo  code taskwarrior blog show completed tasks
 11w   write invent culture
  3w   code fix blog background bug
- 5w   write why I dislike travelling
+ 6w   write why I dislike travelling
 11w   code blog to translate to simplied chinese
  6mo  code a youtube download credit system
  4mo  write what cant science method do
@@ -66,6 +64,6 @@ Age   Description
  7mo  obsidian plugin incremental reading
  6d   find out why food order menu cannot load
 
-48 tasks
+46 tasks
 
 ```
