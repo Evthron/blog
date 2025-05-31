@@ -12,11 +12,14 @@ hidden: false
 comments: true
 ---
 
-該有的功能都實現了，沒怎麼學就做出來了。
+該有的功能都實現了。Grok 一步步神奇地變出我想要的功能。
 
 真的能用下去嗎？自己的數據庫好像很靠不住。
 
 https://github.com/Evthron/RelationshipTracker
+
+## Structure
+- MainActivity -> MainScreen -> MainViewModel -> AppDatabase -> Dao -> Entities
 
 ## Syntax
 - var Mode by remember {mutableStateOf("")}
@@ -27,6 +30,7 @@ https://github.com/Evthron/RelationshipTracker
 - flow
     - Flow<List<Conversation>>
     - collectLatest
+
 
 ## Compose
 - Surface
