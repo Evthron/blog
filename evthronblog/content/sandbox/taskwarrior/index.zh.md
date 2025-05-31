@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-30T20:58:05+08:00
+lastmod: 2025-05-31T18:54:04+08:00
 image: 
 categories: 
 tags: 
@@ -15,11 +15,11 @@ comments: true
 我的待辦清單，想到什麼就加進去。
 {{< task title="find source code of habitica pomodoro" note="5mo" >}}
 {{< task title="code copy post to multiple language when more than one language tag" note="5mo" >}}
-{{< task title="create a demo for social life tracker" note="3d" >}}
+{{< task title="create a demo for social life tracker" note="4d" >}}
 {{< task title="skim a book about vue framework" note="4mo" >}}
 {{< task title="search which stock api good" note="4mo" >}}
 {{< task title="search python quantum kit library" note="3mo" >}}
-{{< task title="manage contact information" note="3d" >}}
+{{< task title="manage contact information" note="4d" >}}
 {{< task title="write how a make the painter progress bar" note="5mo" >}}
 {{< task title="add tag search feature to blog" note="5mo" >}}
 {{< task title="code learn how to store chatbot history in streamlit" note="2w" >}}
@@ -30,13 +30,13 @@ comments: true
 {{< task title="write how picking meals related to machine learning" note="4w" >}}
 {{< task title="search how kde input method works" note="2w" >}}
 {{< task title="code design the layout a pvz like demo game" note="2w" >}}
-{{< task title="write past paper overfitting analogy" note="13d" >}}
-{{< task title="how to deal with tailwind css" note="5d" >}}
-{{< task title="read the source code of deepsearch demo" note="5d" >}}
-{{< task title="write how to solve a math problem together" note="3d" >}}
-{{< task title="write a reflection on quantum computing" note="2d" >}}
+{{< task title="write past paper overfitting analogy" note="2w" >}}
+{{< task title="how to deal with tailwind css" note="6d" >}}
+{{< task title="read the source code of deepsearch demo" note="6d" >}}
+{{< task title="write how to solve a math problem together" note="4d" >}}
+{{< task title="write a reflection on quantum computing" note="3d" >}}
 {{< task title="write university problem of common space and study group" note="6mo" >}}
-{{< task title="code lua script for track and graph" note="5d" >}}
+{{< task title="code lua script for track and graph" note="6d" >}}
 {{< task title="design a layout for linear algebra game" note="2w" >}}
 {{< task title="write why dewey decimal fail vs filetags" note="2w" >}}
 {{< task title="add a link page to my blog" note="7mo" >}}
@@ -60,5 +60,5 @@ comments: true
 {{< task title="set up local habitica server" note="7mo" >}}
 {{< task title="awesomewm touchpad fix" note="3mo" >}}
 {{< task title="obsidian plugin incremental reading" note="7mo" >}}
-{{< task title="find out why food order menu cannot load" note="5d" >}}
+{{< task title="find out why food order menu cannot load" note="6d" >}}
 48 tasks

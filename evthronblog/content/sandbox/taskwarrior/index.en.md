@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-05-30T20:58:05+08:00
+lastmod: 2025-05-31T18:54:04+08:00
 image: 
 categories: 
 tags: 
@@ -19,11 +19,11 @@ Age   Description
 ----- -----------------------------------------------------------------------
  5mo  find source code of habitica pomodoro
  5mo  code copy post to multiple language when more than one language tag
- 3d   create a demo for social life tracker
+ 4d   create a demo for social life tracker
  4mo  skim a book about vue framework
  4mo  search which stock api good
  3mo  search python quantum kit library
- 3d   manage contact information
+ 4d   manage contact information
  5mo  write how a make the painter progress bar
  5mo  add tag search feature to blog
  2w   code learn how to store chatbot history in streamlit
@@ -34,13 +34,13 @@ Age   Description
  4w   write how picking meals related to machine learning
  2w   search how kde input method works
  2w   code design the layout a pvz like demo game
-13d   write past paper overfitting analogy
- 5d   how to deal with tailwind css
- 5d   read the source code of deepsearch demo
- 3d   write how to solve a math problem together
- 2d   write a reflection on quantum computing
+ 2w   write past paper overfitting analogy
+ 6d   how to deal with tailwind css
+ 6d   read the source code of deepsearch demo
+ 4d   write how to solve a math problem together
+ 3d   write a reflection on quantum computing
  6mo  write university problem of common space and study group
- 5d   code lua script for track and graph
+ 6d   code lua script for track and graph
  2w   design a layout for linear algebra game
  2w   write why dewey decimal fail vs filetags
  7mo  add a link page to my blog
@@ -64,7 +64,7 @@ Age   Description
  7mo  set up local habitica server
  3mo  awesomewm touchpad fix
  7mo  obsidian plugin incremental reading
- 5d   find out why food order menu cannot load
+ 6d   find out why food order menu cannot load
 
 48 tasks
 
