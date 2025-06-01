@@ -14,7 +14,7 @@ comments: true
 
 該有的功能都實現了。Grok 一步步神奇地變出我想要的功能。
 
-真的能用下去嗎？自己的數據庫好像很靠不住。
+真的能用下去嗎？自己的數據庫好像很靠不住。不過既然可以導入數據，繼續用原本的方法記錄也沒關係。
 
 https://github.com/Evthron/RelationshipTracker
 
