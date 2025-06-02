@@ -59,14 +59,17 @@ https://github.com/Evthron/RelationshipTracker
     - Non-entity data class (fast access without creating redundancy)
 
 - suspend
+    - used whenever a query is performed, all subsequent function is required to be suspend.
     - suspend fun insert()
     - must be called from a *coroutine*?
+    - cannot freely called
 - flow
     - Flow\<List\<Person\>\>
     - auto update when data changes
 - annotations
     - @Insert, @Update, @Delete
     - @Query
+- 
 
 ## LaunchEffect not executed
 In MainScreen.kt:
