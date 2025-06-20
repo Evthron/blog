@@ -111,3 +111,8 @@ need to make seperate commits.
 
 ## CI/CD Pipeline (Github Action)
 Continuous Integration, Continuous Delivery
+
+## When will automerge fail?
+- You pushed some mistake to the remote branch and you want to undo it, so you go back a few commits and branch off to work on new features.
+- However, if the mistake does not conflict with the new feature, the mistake will be reintroduced to the code when automerging.
+- Solution: Be careful when you merge, or use `push --force` if the branch is your private branch.
