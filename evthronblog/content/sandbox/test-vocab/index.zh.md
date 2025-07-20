@@ -416,7 +416,7 @@ Perhaps my tongue is tied by the recollection of their mockery.<br><br>FORMAL  <
 {{< vocab-item-container tags="aware v">}}
 {{< vocab-item word="acknowledge" tags="aware v" >}}
 <div>
-I acknowledge that there’s a challenge to adapting Steins;Gate in general because many of its jokes and references have a lot to do with Japanese otaku culture.<br><br>acknowledge (having) +ingALT: 確認收悉  <br>
+I acknowledge that there’s a challenge to adapting Steins;Gate in general because many of its jokes and references have a lot to do with Japanese otaku culture.<br><br>acknowledge (having) +ing<br><br>ALT: 確認收悉
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="decide opinion v info money">}}
@@ -464,7 +464,7 @@ Hello Kitty lives with her feline family in the suburbs of London.<br><br>It is 
 {{< vocab-item-container tags="make v">}}
 {{< vocab-item word="twine" tags="make v" >}}
 <div>
-Twine the different coloured threads together.<br><br>twine together  <br>intertwine with  <br>entwine  <br>
+Twine the different coloured threads together.<br><br>twine together  <br>intertwine with  <br>entwine
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="aware v">}}
@@ -536,7 +536,7 @@ Delirium at the New Generation Madness has permeated every section of&nbsp;the s
 {{< vocab-item-container tags="adj activity future">}}
 {{< vocab-item word="imminent" tags="adj activity future" >}}
 <div>
-Steins;Gate: My Darling’s Embrace localization seemingly imminent<br><br>forthcoming (but more negative)  <br>pressing  <br>impending  <br>
+Steins;Gate: My Darling’s Embrace localization seemingly imminent<br><br>forthcoming (but more negative)  <br>pressing  <br><br>impending
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj start">}}
@@ -812,7 +812,7 @@ Localizations of Chaos Head Noah and Robotics Notes Elite are not beyond the rea
 {{< vocab-item-container tags="effort v">}}
 {{< vocab-item word="strive to" tags="effort v" >}}
 <div>
-As always, we will strive to keep you updated as more information arises.<br><br>strive to   <br>strive for  <br>strove striven
+As always, we will strive to keep you updated as more information arises.<br><br>strive to   <br>strive for<br><br>strove striven
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="decide explain v">}}
@@ -1028,7 +1028,7 @@ It’s great to see that UDON Entertainment has acknowledged the need for a rere
 {{< vocab-item-container tags="unchange v">}}
 {{< vocab-item word="leave" tags="unchange v" >}}
 <div>
-Such surreal circumstances would leave many questioning their sanity.<br><br>leave + adjThe family were left (= became and continued to be) homeless.  <br>You can leave the window open.  <br>Leave him alone!
+Such surreal circumstances would leave many questioning their sanity.<br><br>leave + adj<br><br>The family were left (= became and continued to be) homeless.  <br>You can leave the window open.  <br>Leave him alone!
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="interest adj personality bad">}}
@@ -1064,7 +1064,7 @@ Equipped with a new gaming chair from Craigslist, as well as a new, relatively s
 {{< vocab-item-container tags="similar">}}
 {{< vocab-item word="as was" tags="similar" >}}
 <div>
-As was the case with the Revue Starlight collaboration teasers...<br><br>as did  <br>as isg
+As was the case with the Revue Starlight collaboration teasers...<br><br>as did<br><br>as isg
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="decide plan n">}}
@@ -1640,7 +1640,7 @@ Both of these mechanisms are in turn attributed to people’s underlying desire 
 {{< vocab-item-container tags="v result">}}
 {{< vocab-item word="come to" tags="v result" >}}
 <div>
-In last year’s anniversary article, I talked about how Kiri Kiri Basara came to be.<br><br>come to nothing (in vain)come to fruition  <br>
+In last year’s anniversary article, I talked about how Kiri Kiri Basara came to be.<br><br>come to nothing (in vain)<br><br>come to fruition
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="need adj important">}}
@@ -1742,7 +1742,7 @@ Y&#39;know, clue you in, give you some pointers, help you survive<br><br>
 {{< vocab-item-container tags="adj more">}}
 {{< vocab-item word="ample" tags="adj more" >}}
 <div>
-Finer Diner has given residents ample reasons to dine out for lunch or dinner.<br><br>aplenty  <br>abound  <br>
+Finer Diner has given residents ample reasons to dine out for lunch or dinner.<br><br>aplenty  <br>abound  
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="n activity memory">}}
@@ -1934,7 +1934,7 @@ The confirmation bias influences people’s judgment and decision-making in many
 {{< vocab-item-container tags="adj future">}}
 {{< vocab-item word="forthcoming" tags="adj future" >}}
 <div>
-There will also be discussion about important IPs, such as Steins;Gate and the forthcoming Anonymous;Code.<br><br>= upcoming (US)  <br>ALT: after verb, 提供，產生further information is forthcoming
+There will also be discussion about important IPs, such as Steins;Gate and the forthcoming Anonymous;Code.<br><br>= upcoming (US)<br><br>ALT: after verb, 提供，產生<br><br>further information is forthcoming
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj personality good">}}
@@ -2402,7 +2402,7 @@ Answer 2: We don’t foresee many issues. It might have been hard to tell from t
 {{< vocab-item-container tags="change n story writing">}}
 {{< vocab-item word="abridgement" tags="change n story writing" >}}
 <div>
-The manga adaptation is also generally criticized for its abridgement.<br><br>verb: abridgeX adj?
+The manga adaptation is also generally criticized for its abridgement.<br><br>verb: abridge<br><br>X adj?
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj fashion past good">}}
@@ -2612,7 +2612,7 @@ While a planned release date for Robotics;Notes DaSH is still not confirmed, it 
 {{< vocab-item-container tags="think n memory">}}
 {{< vocab-item word="reminiscence" tags="think n memory" >}}
 <div>
-Reminiscence ~ True Evening of Grief<br><br>reminisce about  <br>  <br>reminiscent of sth 使人想起的  <br>recollection   <br>
+Reminiscence ~ True Evening of Grief<br><br>reminisce about  <br>  <br><br>reminiscent of sth 使人想起的<br><br>recollection
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="change n">}}
@@ -2732,7 +2732,7 @@ If you die, your SOUL sticks around. Any monster could grab it!<br><br>stay arou
 {{< vocab-item-container tags="sad n bad">}}
 {{< vocab-item word="grief" tags="sad n bad" >}}
 <div>
-CHAOS;CHILD OST - MORE GRIEF<br><br>grief-strickencome to grief (fail)  <br>
+CHAOS;CHILD OST - MORE GRIEF<br><br>grief-stricken<br><br>come to grief (fail)
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="prevent oblivious v">}}
@@ -2804,7 +2804,7 @@ Wrong-siders have an insatiable desire for information, but never verify their v
 {{< vocab-item-container tags="n argument">}}
 {{< vocab-item word="premise" tags="n argument" >}}
 <div>
-Notably, all releases of Part One will include Steins Gate episode 23β, an alternate version of the original anime’s episode 23 that is essential to understanding Steins Gate 0’s premise.<br><br>based on the premisea premise that  <br>prerequisite
+Notably, all releases of Part One will include Steins Gate episode 23β, an alternate version of the original anime’s episode 23 that is essential to understanding Steins Gate 0’s premise.<br><br>based on the premise<br><br>a premise that  <br>prerequisite
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="v activity memory">}}
@@ -2930,7 +2930,7 @@ As noted by the official announcement, it is taking staff longer than expected t
 {{< vocab-item-container tags="n">}}
 {{< vocab-item word="franchise" tags="n" >}}
 <div>
-UDON Entertainment has previously worked with the Steins;Gate franchise.<br><br>特許經銷權  <br>用自己的名義銷售其他公司商品的權利
+UDON Entertainment has previously worked with the Steins;Gate franchise.<br><br>特許經銷權<br><br>用自己的名義銷售其他公司商品的權利
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="n bad">}}
@@ -3320,7 +3320,7 @@ Its price is set at 7800 yen, which equates to about 70 US dollars for a physica
 {{< vocab-item-container tags="emphasis idiom">}}
 {{< vocab-item word="much less" tags="emphasis idiom" >}}
 <div>
-Until you install the patch, the game will likely not function properly, much less display in English.<br><br>much less + same as continue last sentance end  <br>still less  <br>needless to say?
+Until you install the patch, the game will likely not function properly, much less display in English.<br><br>much less + same as continue last sentance end<br><br>still less  <br>needless to say?
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="comfort believe v">}}
@@ -3668,7 +3668,7 @@ Kiri Kiri Basara will be working with the folks behind the project to promote it
 {{< vocab-item-container tags="n less info">}}
 {{< vocab-item word="snippet" tags="n less info" >}}
 <div>
-Watch the short snippet below for the announcement.<br><br>一則factoid  <br>
+Watch the short snippet below for the announcement.<br><br>一則<br><br>factoid
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="connect adj similar">}}
@@ -3920,7 +3920,7 @@ I like your haircut - it&#39;s very chic.<br><br>sleek
 {{< vocab-item-container tags="find v">}}
 {{< vocab-item word="happen upon" tags="find v" >}}
 <div>
-He commented that he recently happened upon a video titled “Top 5 God-tier Games”, and he was overjoyed to see that Chaos;Child was among the ranks.<br><br>literary  <br>accidently find vs stumble into (Accidently do)  <br>normal ver: stumble upon  <br>
+He commented that he recently happened upon a video titled “Top 5 God-tier Games”, and he was overjoyed to see that Chaos;Child was among the ranks.<br><br>literary  <br>accidently find vs stumble into (Accidently do)<br><br>normal ver: stumble upon
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="v result">}}
@@ -4064,7 +4064,7 @@ These methods generally revolve around trying to counteract the cognitive mechan
 {{< vocab-item-container tags="adv bad">}}
 {{< vocab-item word="in vain" tags="adv bad" >}}
 <div>
-All my efforts will never be in vain.<br><br>= unsucessfully(verb) in vain  <br>
+All my efforts will never be in vain.<br><br>= unsucessfully<br><br>(verb) in vain  
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="create adj different good">}}
@@ -4136,7 +4136,7 @@ In the beginning, the team had about ten people go out for location scouting.<br
 {{< vocab-item-container tags="adj story">}}
 {{< vocab-item word="cameo" tags="adj story" >}}
 <div>
-Notably, this title will feature cameo appearances from the Upa and Gero Froggy mascots, who originate from Steins Gate and Chaos Head respectively.<br><br>cameo role  <br>
+Notably, this title will feature cameo appearances from the Upa and Gero Froggy mascots, who originate from Steins Gate and Chaos Head respectively.<br><br>cameo role  
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="n shop object">}}
@@ -4352,7 +4352,7 @@ Be sure to tune in next month for the next instalment!<br><br>
 {{< vocab-item-container tags="improve v more strong">}}
 {{< vocab-item word="Augment" tags="improve v more strong" >}}
 <div>
-“Augmented Place is very dear to my heart,” he responded.<br><br>FORMALverb
+“Augmented Place is very dear to my heart,” he responded.<br><br>FORMAL<br><br>verb
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="v activity">}}
@@ -4484,7 +4484,7 @@ foreshadowing interspersed throughout the entire experience<br><br>
 {{< vocab-item-container tags="idiom">}}
 {{< vocab-item word="in regard to" tags="idiom" >}}
 <div>
-Aside from this teaser, nothing is known about SCRAP Corporation’s plans in regard to Steins;Gate.<br><br>FORMAL  <br>with regard toas to  <br>in relation to  <br>
+Aside from this teaser, nothing is known about SCRAP Corporation’s plans in regard to Steins;Gate.<br><br>FORMAL  <br>with regard to<br><br>as to  <br>in relation to
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="fix n">}}
@@ -4778,7 +4778,7 @@ Having a designer baby sounds enticing to parents as they think they’ll be abl
 {{< vocab-item-container tags="prep">}}
 {{< vocab-item word="as to" tags="prep" >}}
 <div>
-We do not have any official confirmation as to what these teasers are for yet, so we can only speculate right now.<br><br>+ Wh word  <br>FORMAL= aboutin regard to
+We do not have any official confirmation as to what these teasers are for yet, so we can only speculate right now.<br><br>+ Wh word  <br>FORMAL<br><br>= about<br><br>in regard to
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="v story place">}}
@@ -4814,7 +4814,7 @@ Designer babies are newborns whose genetic make-up has been customised during th
 {{< vocab-item-container tags="give v">}}
 {{< vocab-item word="bestow" tags="give v" >}}
 <div>
-Just in time for the big finale of the recently concluded Steins Gate 0 anime, Niku_Senpai bestowed this breathtaking piece of artwork upon the community.<br><br>FORMALusually passivebe bestow upon
+Just in time for the big finale of the recently concluded Steins Gate 0 anime, Niku_Senpai bestowed this breathtaking piece of artwork upon the community.<br><br>FORMAL<br><br>usually passive<br><br>be bestow upon
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="harm v">}}
@@ -4844,7 +4844,7 @@ Designer babies would undermine genetic diversity and the longevity of the human
 {{< vocab-item-container tags="n difficult bad">}}
 {{< vocab-item word="peril" tags="n difficult bad" >}}
 <div>
-The story explores themes of time travel and the existence of world lines, along with the perils of trying to alter the past.<br><br>~= danger, riskin perilat your peril  <br>languish
+The story explores themes of time travel and the existence of world lines, along with the perils of trying to alter the past.<br><br>~= danger, risk<br><br>in peril<br><br>at your peril  <br>languish
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="prep">}}
@@ -5078,7 +5078,7 @@ The experience of nearly died in a sailing accident had a huge impact on his out
 {{< vocab-item-container tags="n less info">}}
 {{< vocab-item word="titbit" tags="n less info" >}}
 <div>
-He discussed a number of regular topics with his viewers while also offering some tidbits of information on the state of the Science Adventure series.<br><br>titbit about somethingfactoid
+He discussed a number of regular topics with his viewers while also offering some tidbits of information on the state of the Science Adventure series.<br><br>titbit about something<br><br>factoid
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="support v">}}
@@ -5444,7 +5444,7 @@ The only creature comforts you have are a television.<br><br>
 {{< vocab-item-container tags="support n relationship">}}
 {{< vocab-item word="complement" tags="support n relationship" >}}
 <div>
-I’m looking to take the next steps in finding a theatrical agent to complement my commercial one.<br><br>A and B complement each other  <br>A complements B(NOT COMPL**I**MENT (pra**i**se))
+I’m looking to take the next steps in finding a theatrical agent to complement my commercial one.<br><br>A and B complement each other  <br>A complements B<br><br>(NOT COMPL**I**MENT (pra**i**se))
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="adj good">}}
@@ -5570,7 +5570,7 @@ He mentioned some of the difficulties in adapting Steins Gate into a 23 episode 
 {{< vocab-item-container tags="fix give v money shop">}}
 {{< vocab-item word="redeem" tags="fix give v money shop" >}}
 <div>
-Additionally, those who purchase this release will be able to redeem a digital copy of the show<br><br>ALT：彌補；贖回make up for sth  <br>complement  <br>
+Additionally, those who purchase this release will be able to redeem a digital copy of the show<br><br>ALT：彌補；贖回<br><br>make up for sth  <br>complement
 </div>
 {{< /vocab-item-container >}}
 {{< vocab-item-container tags="talk n">}}
