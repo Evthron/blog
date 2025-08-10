@@ -18,5 +18,9 @@
                 box-shadow: var(--shadow-l2);
             }
         }
+        button.active{
+            background-color: #141D56;
+            color: white;
+        }
     }
 }

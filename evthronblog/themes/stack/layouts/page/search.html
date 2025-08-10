@@ -32,5 +32,8 @@
 {{- $searchScript := resources.Get "ts/search.tsx" | js.Build $opts -}}
 <script type="text/javascript" src="{{ $searchScript.RelPermalink }}" defer></script>
 
+{{- $tagSearchScript := resources.Get "ts/tagSearch.ts" | js.Build -}}
+<script type="text/javascript" src="{{ $tagSearchScript.RelPermalink }}" defer></script>
+
 {{ partialCached "footer" . }}
 {{ end }}

@@ -43,7 +43,7 @@ class Search {
     private data: pageData[];
     private form: HTMLFormElement;
     private input: HTMLInputElement;
-    private tags: string[];
+    private tags: HTMLElement;
     private list: HTMLDivElement;
     private resultTitle: HTMLHeadElement;
     private resultTitleTemplate: string;
@@ -55,7 +55,6 @@ class Search {
         this.tags = tags
         this.resultTitle = resultTitle;
         this.resultTitleTemplate = resultTitleTemplate;
-
 
         this.handleQueryString();
         this.bindQueryStringChange();
@@ -189,8 +188,10 @@ class Search {
 
     private async doSearch(keywords: string[], tags: string[]) {
         const startTime = performance.now();
-
-        const results = await this.searchKeywords(keywords);
+        let results = await this.searchKeywords(keywords);
+        if (!keywords?.length){
+           results = await this.getData();
+        }
         const tag_filtered_results = results.filter((result) => {
             return tags?.every((tag) => {
                 return result.tags?.includes(tag);
@@ -228,27 +229,35 @@ class Search {
 
     private bindSearchForm() {
         let lastSearch = '';
+        let lastTag = [];
 
         const eventHandler = (e) => {
             e.preventDefault();
             const keywords = this.input.value.trim();
-            const tags = this.tags
+            const tags = this.tags.searchTags;
 
             Search.updateQueryString(keywords, tags, true);
 
-            if (keywords === '') {
+            if (keywords === '' && !tags?.length) {
                 lastSearch = '';
                 return this.clear();
             }
 
-            if (lastSearch === keywords) return;
+            if (lastSearch === keywords && tags === lastTag) return;
             lastSearch = keywords;
 
             this.doSearch(keywords.split(' '), tags);
         }
-
         this.input.addEventListener('input', eventHandler);
         this.input.addEventListener('compositionend', eventHandler);
+
+        // Check if any buttons are clicked
+        this.tags.addEventListener('click', (event) => {
+            const target = event.target as HTMLElement;
+            if (target.classList.contains("tag-button")) {
+                eventHandler.call(this, event);
+            }
+        })
     }
 
     private clear() {
@@ -287,7 +296,7 @@ class Search {
         }
 
         pageURL.searchParams.delete('tag')
-        if (tags?.length && keywords !== '') {
+        if (tags?.length) {
             tags.forEach((tag) => { pageURL.searchParams.append('tag', tag) });
         }
 
@@ -320,13 +329,16 @@ declare global {
     interface Window {
         searchResultTitleTemplate: string;
     }
+    interface HTMLElement {
+        searchTags: string[];
+    }
 }
 
 window.addEventListener('load', () => {
     setTimeout(function () {
         const searchForm = document.querySelector('.search-form') as HTMLFormElement,
             searchInput = searchForm.querySelector('input') as HTMLInputElement,
-            searchTags = ['music'],
+            searchTags = document.querySelector(".tagSearch-tags") as HTMLElement,
             searchResultList = document.querySelector('.search-result--list') as HTMLDivElement,
             searchResultTitle = document.querySelector('.search-result--title') as HTMLHeadingElement;
 
