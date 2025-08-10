@@ -3,6 +3,7 @@ interface pageData {
     date: string,
     permalink: string,
     content: string,
+    tags: string[],
     image?: string,
     preview: string,
     matchCount: number
@@ -42,16 +43,19 @@ class Search {
     private data: pageData[];
     private form: HTMLFormElement;
     private input: HTMLInputElement;
+    private tags: string[];
     private list: HTMLDivElement;
     private resultTitle: HTMLHeadElement;
     private resultTitleTemplate: string;
 
-    constructor({ form, input, list, resultTitle, resultTitleTemplate }) {
+    constructor({ form, input, tags, list, resultTitle, resultTitleTemplate }) {
         this.form = form;
         this.input = input;
         this.list = list;
+        this.tags = tags
         this.resultTitle = resultTitle;
         this.resultTitleTemplate = resultTitleTemplate;
+
 
         this.handleQueryString();
         this.bindQueryStringChange();
@@ -183,19 +187,24 @@ class Search {
         });
     }
 
-    private async doSearch(keywords: string[]) {
+    private async doSearch(keywords: string[], tags: string[]) {
         const startTime = performance.now();
 
         const results = await this.searchKeywords(keywords);
+        const tag_filtered_results = results.filter((result) => {
+            return tags?.every((tag) => {
+                return result.tags?.includes(tag);
+            });
+        });
         this.clear();
 
-        for (const item of results) {
+        for (const item of tag_filtered_results) {
             this.list.append(Search.render(item));
         }
 
         const endTime = performance.now();
 
-        this.resultTitle.innerText = this.generateResultTitle(results.length, ((endTime - startTime) / 1000).toPrecision(1));
+        this.resultTitle.innerText = this.generateResultTitle(tag_filtered_results.length, ((endTime - startTime) / 1000).toPrecision(1));
     }
 
     private generateResultTitle(resultLen, time) {
@@ -223,8 +232,9 @@ class Search {
         const eventHandler = (e) => {
             e.preventDefault();
             const keywords = this.input.value.trim();
+            const tags = this.tags
 
-            Search.updateQueryString(keywords, true);
+            Search.updateQueryString(keywords, tags, true);
 
             if (keywords === '') {
                 lastSearch = '';
@@ -234,7 +244,7 @@ class Search {
             if (lastSearch === keywords) return;
             lastSearch = keywords;
 
-            this.doSearch(keywords.split(' '));
+            this.doSearch(keywords.split(' '), tags);
         }
 
         this.input.addEventListener('input', eventHandler);
@@ -255,17 +265,18 @@ class Search {
     private handleQueryString() {
         const pageURL = new URL(window.location.toString());
         const keywords = pageURL.searchParams.get('keyword');
+        const tags = pageURL.searchParams.getAll('tag');
         this.input.value = keywords;
 
         if (keywords) {
-            this.doSearch(keywords.split(' '));
+            this.doSearch(keywords.split(' '), tags);
         }
         else {
             this.clear()
         }
     }
 
-    private static updateQueryString(keywords: string, replaceState = false) {
+    private static updateQueryString(keywords: string, tags: string[], replaceState = false) {
         const pageURL = new URL(window.location.toString());
 
         if (keywords === '') {
@@ -273,6 +284,11 @@ class Search {
         }
         else {
             pageURL.searchParams.set('keyword', keywords);
+        }
+
+        pageURL.searchParams.delete('tag')
+        if (tags?.length && keywords !== '') {
+            tags.forEach((tag) => { pageURL.searchParams.append('tag', tag) });
         }
 
         if (replaceState) {
@@ -310,6 +326,7 @@ window.addEventListener('load', () => {
     setTimeout(function () {
         const searchForm = document.querySelector('.search-form') as HTMLFormElement,
             searchInput = searchForm.querySelector('input') as HTMLInputElement,
+            searchTags = ['music'],
             searchResultList = document.querySelector('.search-result--list') as HTMLDivElement,
             searchResultTitle = document.querySelector('.search-result--title') as HTMLHeadingElement;
 
@@ -317,6 +334,7 @@ window.addEventListener('load', () => {
             form: searchForm,
             input: searchInput,
             list: searchResultList,
+            tags: searchTags,
             resultTitle: searchResultTitle,
             resultTitleTemplate: window.searchResultTitleTemplate
         });

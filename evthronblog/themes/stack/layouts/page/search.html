@@ -16,10 +16,13 @@
     </button>
 </form>
 
+ {{ partial "tag-search" . }}
+
 <div class="search-result">
     <h3 class="search-result--title section-title"></h3>
     <div class="search-result--list article-list--compact"></div>
 </div>
+
 
 <script>
     window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"

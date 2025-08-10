@@ -1,0 +1,22 @@
+.tagSearch {
+    .tagSearch-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        button  {
+            background: var(--card-background);
+            box-shadow: var(--shadow-l1);
+            border-radius: var(--tag-border-radius);
+            border: 0;
+            padding: 8px 20px;
+            color: var(--card-text-color-main);
+            font-size: 1.4rem;
+            transition: box-shadow 0.3s ease;
+
+            &:hover {
+                box-shadow: var(--shadow-l2);
+            }
+        }
+    }
+}
