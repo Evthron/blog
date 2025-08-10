@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-08-10T20:10:28+08:00
+lastmod: 2025-08-10T20:19:35+08:00
 image: 
 categories: 
 tags: 
@@ -17,9 +17,7 @@ My task list, I add everything I can think of in it.
 
 Age   Description
 ----- ----------------------------------------------------------------
- 7mo  add tag search feature to blog
-12w   code learn how to store chatbot history in streamlit
- 4h   fix ueberzug image preview for konsole
+ 5h   fix ueberzug image preview for konsole
  3mo  find one interesting physics concept to explain without math
 11w   write conflict of technology and romance
  5mo  write useless productivity skill
@@ -32,6 +30,7 @@ Age   Description
 11w   read the source code of deepsearch demo
 10w   write how to solve a math problem together
 10w   write a reflection on quantum computing
+12w   code learn how to store chatbot history in streamlit
  8mo  write university problem of common space and study group
 11w   code lua script for track and graph
 12w   design a layout for linear algebra game
@@ -59,6 +58,6 @@ Age   Description
 10mo  obsidian plugin incremental reading
 11w   find out why food order menu cannot load
 
-41 tasks
+40 tasks
 
 ```

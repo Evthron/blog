@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-08-10T20:10:28+08:00
+lastmod: 2025-08-10T20:19:35+08:00
 image: 
 categories: 
 tags: 
@@ -13,9 +13,7 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="add tag search feature to blog" note="7mo" >}}
-{{< task title="code learn how to store chatbot history in streamlit" note="12w" >}}
-{{< task title="fix ueberzug image preview for konsole" note="4h" >}}
+{{< task title="fix ueberzug image preview for konsole" note="5h" >}}
 {{< task title="find one interesting physics concept to explain without math" note="3mo" >}}
 {{< task title="write conflict of technology and romance" note="11w" >}}
 {{< task title="write useless productivity skill" note="5mo" >}}
@@ -28,6 +26,7 @@ comments: true
 {{< task title="read the source code of deepsearch demo" note="11w" >}}
 {{< task title="write how to solve a math problem together" note="10w" >}}
 {{< task title="write a reflection on quantum computing" note="10w" >}}
+{{< task title="code learn how to store chatbot history in streamlit" note="12w" >}}
 {{< task title="write university problem of common space and study group" note="8mo" >}}
 {{< task title="code lua script for track and graph" note="11w" >}}
 {{< task title="design a layout for linear algebra game" note="12w" >}}
@@ -54,4 +53,4 @@ comments: true
 {{< task title="awesomewm touchpad fix" note="5mo" >}}
 {{< task title="obsidian plugin incremental reading" note="10mo" >}}
 {{< task title="find out why food order menu cannot load" note="11w" >}}
-41 tasks
+40 tasks
