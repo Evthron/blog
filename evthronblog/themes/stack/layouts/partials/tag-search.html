@@ -1,7 +1,6 @@
-{{- $limit := default 10 .Params.limit -}}
 <section class="tagSearch">
     <div class="tagSearch-tags">
-        {{ range first $limit .Site.Taxonomies.tags.ByCount }}
+        {{ range .Site.Taxonomies.tags.ByCount }}
             <button href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }} tag-button">
                 {{ .Page.Title }}
             </button>
