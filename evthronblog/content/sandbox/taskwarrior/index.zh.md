@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-08-10T20:19:35+08:00
+lastmod: 2025-09-04T15:42:06+08:00
 image: 
 categories: 
 tags: 
@@ -13,44 +13,43 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="fix ueberzug image preview for konsole" note="5h" >}}
-{{< task title="find one interesting physics concept to explain without math" note="3mo" >}}
-{{< task title="write conflict of technology and romance" note="11w" >}}
-{{< task title="write useless productivity skill" note="5mo" >}}
-{{< task title="search for current financial calculator" note="4mo" >}}
-{{< task title="write how picking meals related to machine learning" note="3mo" >}}
-{{< task title="search how kde input method works" note="12w" >}}
-{{< task title="code design the layout a pvz like demo game" note="12w" >}}
-{{< task title="write past paper overfitting analogy" note="12w" >}}
-{{< task title="how to deal with tailwind css" note="11w" >}}
-{{< task title="read the source code of deepsearch demo" note="11w" >}}
-{{< task title="write how to solve a math problem together" note="10w" >}}
-{{< task title="write a reflection on quantum computing" note="10w" >}}
-{{< task title="code learn how to store chatbot history in streamlit" note="12w" >}}
-{{< task title="write university problem of common space and study group" note="8mo" >}}
-{{< task title="code lua script for track and graph" note="11w" >}}
-{{< task title="design a layout for linear algebra game" note="12w" >}}
-{{< task title="write why dewey decimal fail vs filetags" note="12w" >}}
-{{< task title="add a link page to my blog" note="9mo" >}}
-{{< task title="code taskwarrior blog show completed tasks" note="6mo" >}}
-{{< task title="write invent culture" note="5mo" >}}
-{{< task title="code fix blog background bug" note="3mo" >}}
-{{< task title="write how a make the painter progress bar" note="7mo" >}}
-{{< task title="write why I dislike travelling" note="3mo" >}}
-{{< task title="code blog to translate to simplied chinese" note="5mo" >}}
-{{< task title="code a youtube download credit system" note="8mo" >}}
-{{< task title="write what cant science method do" note="6mo" >}}
-{{< task title="update blog book list" note="3mo" >}}
-{{< task title="add japanese as blog language" note="5mo" >}}
-{{< task title="draw new blog background from postcard" note="7mo" >}}
-{{< task title="redraw ai-generated-image" note="7mo" >}}
-{{< task title="search how to set default key press rate" note="3mo" >}}
-{{< task title="find lua script for statistics" note="3mo" >}}
+{{< task title="run obsidian incremental reading plugin code" note="11mo" >}}
+{{< task title="search for games related to maths" note="3mo" >}}
+{{< task title="write past paper overfitting analogy" note="3mo" >}}
+{{< task title="write how to solve a math problem together" note="3mo" >}}
+{{< task title="find what is kwin" note="2w" >}}
+{{< task title="write sleep theory" note="2w" >}}
+{{< task title="code fix blog right-sider tracker" note="1d" >}}
+{{< task title="check notebookLM" note="1d" >}}
+{{< task title="refine write scales" note="23h" >}}
+{{< task title="write university problem of common space and study group" note="9mo" >}}
+{{< task title="sketch blog library UI" note="4mo" >}}
+{{< task title="write learn from art" note="2w" >}}
 {{< task title="check haskell tutorial" note="6mo" >}}
-{{< task title="solve convolve output edge size by cardinal theory" note="12w" >}}
+{{< task title="write conflict of technology and romance" note="3mo" >}}
+{{< task title="write how picking meals related to machine learning" note="4mo" >}}
+{{< task title="write why dewey decimal fail vs filetags" note="3mo" >}}
+{{< task title="update relationship category design" note="1d" >}}
+{{< task title="find one interesting physics concept to explain without math" note="4mo" >}}
+{{< task title="find out why food order menu cannot load" note="3mo" >}}
+{{< task title="add a link page to my blog" note="10mo" >}}
+{{< task title="draw new blog background from postcard" note="8mo" >}}
+{{< task title="code taskwarrior blog show completed tasks" note="7mo" >}}
+{{< task title="write invent culture" note="5mo" >}}
+{{< task title="code fix blog background bug" note="4mo" >}}
+{{< task title="code fix lf copy path" note="1d" >}}
+{{< task title="write useless productivity skill" note="6mo" >}}
+{{< task title="write how a make the painter progress bar" note="8mo" >}}
+{{< task title="code learn how to store chatbot history in streamlit" note="3mo" >}}
+{{< task title="redraw ai-generated-image" note="8mo" >}}
+{{< task title="write why I dislike travelling" note="4mo" >}}
+{{< task title="add japanese as blog language" note="6mo" >}}
+{{< task title="code blog to translate to simplied chinese" note="5mo" >}}
+{{< task title="code a youtube download credit system" note="9mo" >}}
+{{< task title="write what cant science method do" note="7mo" >}}
+{{< task title="find lua script for statistics" note="4mo" >}}
+{{< task title="solve convolve output edge size by cardinal theory" note="3mo" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="7mo" >}}
-{{< task title="set up local habitica server" note="9mo" >}}
-{{< task title="awesomewm touchpad fix" note="5mo" >}}
-{{< task title="obsidian plugin incremental reading" note="10mo" >}}
-{{< task title="find out why food order menu cannot load" note="11w" >}}
-40 tasks
+{{< task title="set up local habitica server" note="10mo" >}}
+{{< task title="awesomewm touchpad fix" note="6mo" >}}
+39 tasks
