@@ -1,8 +1,8 @@
 ---
-title: "音階"
+title: "音階一共有多少種？"
 description: 
 date: 2024-06-10T12:52:49+08:00
-lastmod: 2025-06-14T16:45:53+08:00
+lastmod: 2025-09-05T14:01:37+08:00
 image: 
 categories: posts
 tags: ['maths', 'music']
