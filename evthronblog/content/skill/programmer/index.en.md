@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-09-04T15:42:01+08:00
+lastmod: 2025-09-10T00:13:33+08:00
 image: 
 categories: 
 tags: 
@@ -51,7 +51,7 @@ comments: true
 
 ## Write Code
 
-    Python function (script): 18860 --- Lv56 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+    Python function (script): 18987 --- Lv56 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
 
     Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 

@@ -12,7 +12,6 @@ hidden: false
 comments: true
 ---
 
-
 `docker ps`
 
 `docker compose up`
@@ -25,10 +24,15 @@ comments: true
 
 interact with a container in terminal
 
-
-How to delete data in a docker container?
+## How to delete data in a docker container?
 - data (like database) is stored in *volume*
 - will not be deleted when the container is deleted
 
 `docker volume rm volume-name`
 volume-name is defined in compose.yaml
+
+## Test internet connection inside docker
+`docker run busybox ping google.com`
+
+## how to stop docker container from auto starting
+`docker update --restart=no container_name`
