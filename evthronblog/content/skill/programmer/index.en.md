@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2025-09-10T00:13:33+08:00
+lastmod: 2025-09-14T02:53:59+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 ## Coding
 
-                          Js:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                          Js:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
 
                       Python:  30 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
 
@@ -23,11 +23,13 @@ comments: true
 
                      Android:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
+                        Node:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
 ## Logic
 
-                   Algorithm:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                   Algorithm:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-              Data-structure:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
+              Data-structure:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
 
 ## Test
 
@@ -41,7 +43,7 @@ comments: true
 
 ## Dev
 
-                       Tools:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+                         Vim:   1 --- Lv1 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 ## Specific
 
@@ -51,11 +53,11 @@ comments: true
 
 ## Write Code
 
-    Python function (script): 18987 --- Lv56 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱
+    Python function (script): 187 --- Lv6 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
     Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
 
-                Shell script:  21 --- Lv2 ▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+                Shell script:  23 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Here are my notes on the code I read.
 

@@ -39,3 +39,13 @@ doc_tags = ['A', 'B', 'C']
 if (requried_tags.every((tag) => doc_tags.includes(tag)))
 
 ```
+
+## Custom attribute
+HTML element are all just javascript objects, we can add custom attributes on it if needed.
+
+The convention is to add 'data-' prefix on the attribute name.
+
+```
+let tagButtonsContainer = document.getElementsByClassName("tagSearch-tags");
+tagButtonsContainer.searchTags = [];
+```
