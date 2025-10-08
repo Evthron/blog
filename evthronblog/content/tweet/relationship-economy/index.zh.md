@@ -12,7 +12,7 @@ hidden: false
 comments: true
 ---
 
-[Getting Relationships Right](zh/skill/right-sider/#melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work) 提到，人和人會感覺親近的因素，也就是人和人之間的聯繫，可以分成七類：
+[Getting Relationships Right](/zh/skill/right-sider/#melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work) 提到，人和人會感覺親近的因素，也就是人和人之間的聯繫，可以分成七類：
 
 1. Physical，身體接觸，例如擁抱，和身處相同的空間
 2. Emotional，對事情產生相同的情感
