@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-10-20T16:16:14+08:00
+lastmod: 2025-10-20T17:26:28+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="npm sqlite basics" note="8s" >}}
+{{< task title="npm sqlite basics" note="1h" >}}
 {{< task title="write internship reflection" note="5w" >}}
 {{< task title="find one interesting physics concept to explain without math" note="5mo" >}}
 {{< task title="search for games related to maths" note="5mo" >}}
@@ -21,7 +21,6 @@ comments: true
 {{< task title="write how to solve a math problem together" note="4mo" >}}
 {{< task title="find what is kwin" note="9w" >}}
 {{< task title="write sleep theory" note="8w" >}}
-{{< task title="code fix blog right-sider tracker" note="6w" >}}
 {{< task title="redesign programming gamification counts" note="6w" >}}
 {{< task title="write null check and complexity" note="6w" >}}
 {{< task title="fix bluetooth mouse button mapping" note="5w" >}}
@@ -64,4 +63,4 @@ comments: true
 {{< task title="rime dictionary change chuang tradition chinese" note="9mo" >}}
 {{< task title="set up local habitica server" note="12mo" >}}
 {{< task title="awesomewm touchpad fix" note="8mo" >}}
-51 tasks
+50 tasks
