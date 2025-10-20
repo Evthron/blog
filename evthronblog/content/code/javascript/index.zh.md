@@ -49,3 +49,6 @@ The convention is to add 'data-' prefix on the attribute name.
 let tagButtonsContainer = document.getElementsByClassName("tagSearch-tags");
 tagButtonsContainer.searchTags = [];
 ```
+
+# Javascript object vs JSON
+Unlike JSON, in JS, we don't need to wrap object keys in double quotes.

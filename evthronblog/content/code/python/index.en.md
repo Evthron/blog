@@ -14,6 +14,7 @@ comments: true
 
 ## enumerate(items, start=1)
 Use the `start` argument to control the start index of the enumeration
+change from 0 index to 1 index
 ```python
 items = ['a', 'b', 'c']
 for index, item in enumerate(items, 1):
@@ -47,6 +48,10 @@ conda activate myenv
 conda env list
 ```
 
-
 ## zip(\*[...])
 - auto crop to the length of the shortest list
+
+## use zip as sliding window
+
+for first, second, third in zip(string, string[1:], string[2:]):
+    print(first + second + third)
