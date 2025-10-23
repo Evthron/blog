@@ -1,8 +1,8 @@
 ---
 title: "shell"
 description: 
-date: 2025-05-05T01:31:21+08:00
-lastmod: 2025-05-05T01:31:21+08:00
+date: 2025-09-14T03:15:05+08:00
+lastmod: 2025-09-14T03:15:05+08:00
 image: 
 categories: 
 tags: 
@@ -19,6 +19,7 @@ In linux config files, sometimes it's required to input argument in the form of 
 #makepkg.conf
 #-- Command used to run pacman as root, instead of trying sudo and su
 PACMAN_AUTH=(sudo delayed %c)
-
 '''
+
+Use parenthesis to create a shell array, which can be appended before other commands.
 Don't put the arguments in quotes, otherwise they will be treated as a single argument.
