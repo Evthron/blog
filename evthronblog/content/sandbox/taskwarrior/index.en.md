@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-10-24T02:36:37+08:00
+lastmod: 2025-10-24T02:49:40+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,6 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
-  3h   investigate ai coding tools
   3d   npm sqlite basics
   5w   write internship reflection
   5mo  find one interesting physics concept to explain without math
@@ -26,7 +25,6 @@ Age    Description
   5mo  write how to solve a math problem together
   9w   find what is kwin
   9w   write sleep theory
-  6w   redesign programming gamification counts
   6w   write null check and complexity
   6w   fix bluetooth mouse button mapping
   6w   investigate memnote
@@ -69,6 +67,6 @@ Age    Description
 1.0y   set up local habitica server
   8mo  awesomewm touchpad fix
 
-51 tasks
+49 tasks
 
 ```
