@@ -2,7 +2,7 @@
 title: "關係經濟學"
 description: 
 date: 2025-04-07T20:08:36+08:00
-lastmod: 2025-06-14T16:10:47+08:00
+lastmod: 2025-10-08T11:49:53+08:00
 image: 
 categories: tweet
 tags: ['relationship', 'society']
