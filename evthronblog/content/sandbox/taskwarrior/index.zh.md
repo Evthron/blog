@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-11-01T00:11:39+08:00
+lastmod: 2025-11-01T03:17:37+08:00
 image: 
 categories: 
 tags: 
@@ -23,7 +23,6 @@ comments: true
 {{< task title="write sleep theory" note="10w" >}}
 {{< task title="write null check and complexity" note="8w" >}}
 {{< task title="fix bluetooth mouse button mapping" note="7w" >}}
-{{< task title="investigate memnote" note="7w" >}}
 {{< task title="investigate roam research" note="7w" >}}
 {{< task title="code fix qr only browser" note="7w" >}}
 {{< task title="write university problem of common space and study group" note="11mo" >}}
@@ -46,6 +45,7 @@ comments: true
 {{< task title="code remove related article" note="8w" >}}
 {{< task title="reactivate vimwiki" note="7w" >}}
 {{< task title="get back my own idea from AI chat" note="5w" >}}
+{{< task title="write analyse remnote" note="2s" >}}
 {{< task title="write useless productivity skill" note="8mo" >}}
 {{< task title="write how a make the painter progress bar" note="10mo" >}}
 {{< task title="code learn how to store chatbot history in streamlit" note="5mo" >}}

@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2025-11-01T00:11:39+08:00
+lastmod: 2025-11-01T03:17:37+08:00
 image: 
 categories: 
 tags: 
@@ -27,7 +27,6 @@ Age    Description
  10w   write sleep theory
   8w   write null check and complexity
   7w   fix bluetooth mouse button mapping
-  7w   investigate memnote
   7w   investigate roam research
   7w   code fix qr only browser
  11mo  write university problem of common space and study group
@@ -50,6 +49,7 @@ Age    Description
   8w   code remove related article
   7w   reactivate vimwiki
   5w   get back my own idea from AI chat
+  2s   write analyse remnote
   8mo  write useless productivity skill
  10mo  write how a make the painter progress bar
   5mo  code learn how to store chatbot history in streamlit
