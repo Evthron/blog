@@ -1,8 +1,8 @@
 ---
 title: "javascript"
 description: 
-date: 2025-03-07T14:39:56+08:00
-lastmod: 2025-03-07T14:39:56+08:00
+date: 2025-08-10T18:41:48+08:00
+lastmod: 2025-08-10T18:41:48+08:00
 image: 
 categories: 
 tags: 
@@ -14,10 +14,10 @@ comments: true
 
 # Array
 ## Check whether array empty
-- No need to check whether array is undefind anymore, just use null conditional operator.
 ```javascript
 if (array !=== undefined && array.length != 0){}
 ```
+- Or, no need to check whether array is undefined, just use null conditional operator.
 ```javascript
 if (array?.length){}
 ```
@@ -27,6 +27,7 @@ if (array?.length){}
 array.forEach( () => {} )
 ```
 ## filter
+remove element that fits the criteria marked in {}
 ```javascript
 array.filter( () => {} )
 ```
@@ -40,14 +41,12 @@ if (requried_tags.every((tag) => doc_tags.includes(tag)))
 
 ```
 
-## Custom attribute
-HTML element are all just javascript objects, we can add custom attributes on it if needed.
-
-The convention is to add 'data-' prefix on the attribute name.
-
-```
-let tagButtonsContainer = document.getElementsByClassName("tagSearch-tags");
-tagButtonsContainer.searchTags = [];
+## sort
+return negative value if a comes before b
+```javascript
+array.sort((a, b) => {
+    return a - b
+}
 ```
 
 # Javascript object vs JSON

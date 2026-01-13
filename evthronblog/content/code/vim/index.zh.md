@@ -1,8 +1,8 @@
 ---
 title: "vim"
 description: 
-date: 2025-09-14T02:28:00+08:00
-lastmod: 2025-09-14T02:28:00+08:00
+date: 2026-01-01T16:38:57+08:00
+lastmod: 2026-01-01T16:38:57+08:00
 image: 
 categories: 
 tags: 
@@ -20,3 +20,6 @@ press `*`
 - q /
 - p
 - Enter
+
+## Open URL
+- gx

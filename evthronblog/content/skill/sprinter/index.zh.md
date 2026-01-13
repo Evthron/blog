@@ -2,7 +2,7 @@
 title: "class Sprinter"
 description: 
 date: 2025-01-16
-lastmod: 2025-10-28T14:19:19+08:00
+lastmod: 2026-01-14T00:19:19+08:00
 image: 
 categories: 
 tags: 
@@ -16,13 +16,13 @@ comments: true
   <div class="title">Weekly step count</div>
   <div class="grid">
     <div class="bottom"> 0 step </div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-22"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-23"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-24"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-25"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-26"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-27"></div>
-    <div class="bar" style="--bar-value:0%;" data-name="0" title="10-28"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-08"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-09"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-10"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-11"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-12"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-13"></div>
+    <div class="bar" style="--bar-value:0%;" data-name="0" title="01-14"></div>
 <div class="top"> 7000 steps </div>
   </div>
 </div>
