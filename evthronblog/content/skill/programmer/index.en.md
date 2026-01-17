@@ -2,7 +2,7 @@
 title: "class Programmer"
 description: 
 date: 2024-03-25T12:05:21+08:00
-lastmod: 2026-01-14T00:19:18+08:00
+lastmod: 2026-01-17T22:25:28+08:00
 image: 
 categories: 
 tags: 
