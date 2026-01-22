@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-01-17T22:25:30+08:00
+lastmod: 2026-01-22T18:59:14+08:00
 image: 
 categories: 
 tags: 
@@ -13,21 +13,20 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="sqlite basics" note="12w" >}}
 {{< task title="write internship reflection" note="4mo" >}}
 {{< task title="find one interesting physics concept to explain without math" note="8mo" >}}
 {{< task title="search for games related to maths" note="8mo" >}}
 {{< task title="solve convolve output edge size by cardinal theory" note="8mo" >}}
 {{< task title="write past paper overfitting analogy" note="8mo" >}}
-{{< task title="write how to solve a math problem together" note="7mo" >}}
+{{< task title="write how to solve a math problem together" note="8mo" >}}
 {{< task title="find what is kwin" note="5mo" >}}
 {{< task title="write sleep theory" note="5mo" >}}
 {{< task title="write null check and complexity" note="4mo" >}}
 {{< task title="fix bluetooth mouse button mapping" note="4mo" >}}
 {{< task title="investigate roam research" note="4mo" >}}
 {{< task title="code fix qr only browser" note="4mo" >}}
-{{< task title="find syntax highlighter for english" note="9w" >}}
-{{< task title="fix libinput orientation of tablet" note="4w" >}}
+{{< task title="find syntax highlighter for english" note="10w" >}}
+{{< task title="fix libinput orientation of tablet" note="5w" >}}
 {{< task title="write university problem of common space and study group" note="1.1y" >}}
 {{< task title="sketch blog library UI" note="9mo" >}}
 {{< task title="write learn from art" note="5mo" >}}
@@ -37,11 +36,12 @@ comments: true
 {{< task title="write why dewey decimal fail vs filetags" note="8mo" >}}
 {{< task title="update relationship category design" note="4mo" >}}
 {{< task title="code add sync to pedometer" note="4w" >}}
-{{< task title="find out why food order menu cannot load" note="7mo" >}}
+{{< task title="find out why food order menu cannot load" note="8mo" >}}
 {{< task title="write tutorial to set default mime type open with" note="4mo" >}}
-{{< task title="add a link page to my blog" note="1.2y" >}}
+{{< task title="write higher dimension space" note="3min" >}}
+{{< task title="add a link page to my blog" note="1.3y" >}}
 {{< task title="draw new blog background from postcard" note="1.1y" >}}
-{{< task title="code taskwarrior blog show completed tasks" note="12mo" >}}
+{{< task title="code taskwarrior blog show completed tasks" note="1.0y" >}}
 {{< task title="check haskell tutorial" note="11mo" >}}
 {{< task title="write invent culture" note="10mo" >}}
 {{< task title="code fix blog background bug" note="8mo" >}}
@@ -61,8 +61,8 @@ comments: true
 {{< task title="add japanese as blog language" note="11mo" >}}
 {{< task title="code blog to translate to simplied chinese" note="10mo" >}}
 {{< task title="debug xset process" note="4mo" >}}
-{{< task title="code a youtube download credit system" note="1.1y" >}}
+{{< task title="code a youtube download credit system" note="1.2y" >}}
 {{< task title="write what cant science method do" note="11mo" >}}
-{{< task title="set up local habitica server" note="1.2y" >}}
+{{< task title="set up local habitica server" note="1.3y" >}}
 {{< task title="awesomewm touchpad fix" note="11mo" >}}
 52 tasks

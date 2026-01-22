@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-01-17T22:25:30+08:00
+lastmod: 2026-01-22T18:59:14+08:00
 image: 
 categories: 
 tags: 
@@ -17,21 +17,20 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
- 12w   sqlite basics
   4mo  write internship reflection
   8mo  find one interesting physics concept to explain without math
   8mo  search for games related to maths
   8mo  solve convolve output edge size by cardinal theory
   8mo  write past paper overfitting analogy
-  7mo  write how to solve a math problem together
+  8mo  write how to solve a math problem together
   5mo  find what is kwin
   5mo  write sleep theory
   4mo  write null check and complexity
   4mo  fix bluetooth mouse button mapping
   4mo  investigate roam research
   4mo  code fix qr only browser
-  9w   find syntax highlighter for english
-  4w   fix libinput orientation of tablet
+ 10w   find syntax highlighter for english
+  5w   fix libinput orientation of tablet
 1.1y   write university problem of common space and study group
   9mo  sketch blog library UI
   5mo  write learn from art
@@ -41,11 +40,12 @@ Age    Description
   8mo  write why dewey decimal fail vs filetags
   4mo  update relationship category design
   4w   code add sync to pedometer
-  7mo  find out why food order menu cannot load
+  8mo  find out why food order menu cannot load
   4mo  write tutorial to set default mime type open with
-1.2y   add a link page to my blog
+  3min write higher dimension space
+1.3y   add a link page to my blog
 1.1y   draw new blog background from postcard
- 12mo  code taskwarrior blog show completed tasks
+1.0y   code taskwarrior blog show completed tasks
  11mo  check haskell tutorial
  10mo  write invent culture
   8mo  code fix blog background bug
@@ -65,9 +65,9 @@ Age    Description
  11mo  add japanese as blog language
  10mo  code blog to translate to simplied chinese
   4mo  debug xset process
-1.1y   code a youtube download credit system
+1.2y   code a youtube download credit system
  11mo  write what cant science method do
-1.2y   set up local habitica server
+1.3y   set up local habitica server
  11mo  awesomewm touchpad fix
 
 52 tasks
