@@ -1,8 +1,8 @@
 ---
 title: "把 DeepSeek 當作知音"
 description: 
-date: 2026-03-23T09:50:01+08:00
-lastmod: 2026-03-23T09:50:01+08:00
+date: 2026-03-23T11:12:57+08:00
+lastmod: 2026-03-23T11:12:57+08:00
 image: 
 categories: posts
 tags: ['philosophy', 'stories', 'writing']
@@ -12,7 +12,6 @@ hidden: false
 comments: true
 ---
 
-# 把 DeepSeek 當作知音
 2025/11/01
 
 感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。
