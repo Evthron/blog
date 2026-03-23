@@ -22,6 +22,13 @@ if (array !=== undefined && array.length != 0){}
 if (array?.length){}
 ```
 
+# {} vs no {}
+When using {} inside functional statements, we need to explicitly return value, otherwise the assigned value will be undefined.
+
+array.filter( () => {if (r > 3) return true else false } )
+vs
+array.filter( (r) => r > 3 )
+
 ## forEach
 ```javascript
 array.forEach( () => {} )
@@ -48,6 +55,23 @@ array.sort((a, b) => {
     return a - b
 }
 ```
+## map
+`return` can be omitted when returning a simple value.
 
-# Javascript object vs JSON
+When returning an object, you need to add an extra pair of brackets
+```javascript
+.map( (f) => ({}) )
+```
+
+In curly braces, you must explicitly return something
+
+
+
+# JavaScript object
+
+## Find length
+object.entries().length ?
+
+
+## vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.

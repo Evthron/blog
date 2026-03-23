@@ -1,8 +1,8 @@
 ---
 title: "vim"
 description: 
-date: 2026-01-01T16:38:57+08:00
-lastmod: 2026-01-01T16:38:57+08:00
+date: 2026-01-30T00:26:00+08:00
+lastmod: 2026-01-30T00:26:00+08:00
 image: 
 categories: 
 tags: 
@@ -23,3 +23,9 @@ press `*`
 
 ## Open URL
 - gx
+
+## replace word with yanked word
+- in visual mode, select the word that you want to replace, then press p to paste. The problem is you cannot reuse this operation, because it updates the paste buffer with the replaced word. If you try to repeat this operation, it pastes the word you have just replaced, not the original word you yanked.
+- any better solution?
+
+https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode

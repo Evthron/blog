@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-01-22T18:59:14+08:00
+lastmod: 2026-03-23T08:40:38+08:00
 image: 
 categories: 
 tags: 
@@ -17,59 +17,58 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
-  4mo  write internship reflection
-  8mo  find one interesting physics concept to explain without math
-  8mo  search for games related to maths
-  8mo  solve convolve output edge size by cardinal theory
-  8mo  write past paper overfitting analogy
-  8mo  write how to solve a math problem together
-  5mo  find what is kwin
-  5mo  write sleep theory
-  4mo  write null check and complexity
-  4mo  fix bluetooth mouse button mapping
-  4mo  investigate roam research
-  4mo  code fix qr only browser
- 10w   find syntax highlighter for english
-  5w   fix libinput orientation of tablet
-1.1y   write university problem of common space and study group
-  9mo  sketch blog library UI
-  5mo  write learn from art
-  4mo  update resume
-  8mo  write conflict of technology and romance
-  8mo  write how picking meals related to machine learning
-  8mo  write why dewey decimal fail vs filetags
-  4mo  update relationship category design
-  4w   code add sync to pedometer
-  8mo  find out why food order menu cannot load
-  4mo  write tutorial to set default mime type open with
-  3min write higher dimension space
-1.3y   add a link page to my blog
-1.1y   draw new blog background from postcard
-1.0y   code taskwarrior blog show completed tasks
- 11mo  check haskell tutorial
- 10mo  write invent culture
-  8mo  code fix blog background bug
-1.0y   rime dictionary change chuang tradition chinese
-  4mo  code fix lf copy path
-  4mo  code remove related article
-  4mo  reactivate vimwiki
-  3mo  get back my own idea from AI chat
- 11w   write analyse remnote
-  4w   write how exam twist peopls's mind
- 11mo  write useless productivity skill
-1.1y   write how a make the painter progress bar
-  8mo  code learn how to store chatbot history in streamlit
-1.1y   redraw ai-generated-image
-  9mo  write why I dislike travelling
-  4mo  automate blog pubilication
- 11mo  add japanese as blog language
- 10mo  code blog to translate to simplied chinese
-  4mo  debug xset process
-1.2y   code a youtube download credit system
- 11mo  write what cant science method do
-1.3y   set up local habitica server
- 11mo  awesomewm touchpad fix
+  6mo  write internship reflection
+ 10mo  find one interesting physics concept to explain without math
+ 10mo  search for games related to maths
+ 10mo  solve convolve output edge size by cardinal theory
+ 10mo  write past paper overfitting analogy
+ 10mo  write how to solve a math problem together
+  7mo  find what is kwin
+  7mo  write sleep theory
+  6mo  write null check and complexity
+  6mo  investigate roam research
+  6mo  code fix qr only browser
+  4mo  find syntax highlighter for english
+  3mo  fix libinput orientation of tablet
+1.3y   write university problem of common space and study group
+ 11mo  sketch blog library UI
+  7mo  learn from art course
+  6mo  update resume
+ 10mo  write conflict of technology and romance
+ 10mo  write how picking meals related to machine learning
+ 10mo  write why dewey decimal fail vs filetags
+  6mo  update relationship category design
+  3mo  code add sync to pedometer
+ 10mo  find out why food order menu cannot load
+  6mo  write tutorial to set default mime type open with
+  8w   write higher dimension space
+1.4y   add a link page to my blog
+1.2y   draw new blog background from postcard
+1.2y   code taskwarrior blog show completed tasks
+1.1y   check haskell tutorial
+1.0y   write invent culture
+ 10mo  code fix blog background bug
+1.2y   rime dictionary change chuang tradition chinese
+  6mo  code fix lf copy path
+  6mo  code remove related article
+  6mo  reactivate vimwiki
+  5mo  get back my own idea from AI chat
+  4mo  write analyse remnote
+  3mo  write how exam twist peopls's mind
+1.1y   write useless productivity skill
+1.2y   write how a make the painter progress bar
+ 10mo  code learn how to store chatbot history in streamlit
+1.2y   redraw ai-generated-image
+ 11mo  write why I dislike travelling
+  6mo  automate blog pubilication
+1.1y   add japanese as blog language
+1.0y   code blog to translate to simplied chinese
+  6mo  debug xset process
+1.3y   code a youtube download credit system
+1.1y   write what cant science method do
+1.4y   set up local habitica server
+1.1y   awesomewm touchpad fix
 
-52 tasks
+51 tasks
 
 ```
