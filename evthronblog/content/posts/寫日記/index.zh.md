@@ -1,8 +1,8 @@
 ---
 title: "寫日記"
 description: 
-date: 2026-03-23T07:45:27+08:00
-lastmod: 2026-03-23T07:45:27+08:00
+date: 2026-03-23T11:10:42+08:00
+lastmod: 2026-03-23T11:10:42+08:00
 image: 
 categories: posts
 tags: ['stories']
@@ -10,11 +10,6 @@ math: true
 license: 
 hidden: false
 comments: true
----
-
----
-title : '寫日記'
-date : 2023-11-26T08:58:15+08:00
 ---
 
 中學的時候，文學社的老師給我們送了一本日記。
