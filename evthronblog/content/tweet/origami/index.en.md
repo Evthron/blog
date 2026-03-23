@@ -1,11 +1,11 @@
 ---
 title: "origami"
 description: 
-date: 2024-06-18T01:10:39+08:00
-lastmod: 2025-04-09T15:42:31+08:00
+date: 2026-03-23T11:48:41+08:00
+lastmod: 2026-03-23T11:48:41+08:00
 image: 
 categories: tweet
-tags: ['stories', 'maths']
+tags: ['maths']
 math: true
 license: 
 hidden: false
@@ -21,4 +21,3 @@ The answer is stupidly simple: Just fold the line in half two times and cut out 
 But I still wanted a technical answer. Surprisingly, there weren't many videos talking about the maths behind origami. Oddly, I could easily learn how to trisect angles by folding paper, but not for trisecting lines, which should be a much easier task.
 
 So I tried that out myself. When using ruler and compass, the knack of that problem is to cast an already trisected line onto the new line using parallel lines. But how to make parallel lines in origami? Just remember that the perpendicular line of a perpendicular line is a parallel line. Let me share my experience: To get a more accurate result, the angle between the already trisected line and the new line should be small to make it easier to fold the perpendicular lines.
-
