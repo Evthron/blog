@@ -5,7 +5,7 @@ date: 2026-03-23T22:48:33+08:00
 lastmod: 2026-03-23T22:48:21+08:00
 image: 
 categories: tweet
-tags: []
+tags: ['writing']
 math: true
 license: 
 hidden: false

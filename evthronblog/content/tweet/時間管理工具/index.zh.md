@@ -1,11 +1,11 @@
 ---
 title: "時間管理工具"
 description: 
-date: 2026-03-23T23:53:40+08:00
-lastmod: 2026-03-23T23:53:40+08:00
+date: 2026-03-23T23:59:34+08:00
+lastmod: 2026-03-23T23:59:34+08:00
 image: 
 categories: tweet
-tags: ['software']
+tags: ['software', 'productivity']
 math: true
 license: 
 hidden: false
