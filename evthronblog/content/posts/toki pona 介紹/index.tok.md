@@ -1,8 +1,8 @@
 ---
 title: "toki pona 介紹"
 description: 
-date: 2025-01-12T08:40:54+08:00
-lastmod: 2025-01-12T08:40:54+08:00
+date: 2026-03-23T11:14:05+08:00
+lastmod: 2026-03-23T11:14:05+08:00
 image: 
 categories: posts
 tags: ['language']
@@ -11,8 +11,6 @@ license:
 hidden: false
 comments: true
 ---
-
-# toki pona 介紹
 
 toki pona 是一種人造語言，反映了一種看待世界的方式：我們並沒有必要不斷發明詞語描述新概念，而是只要用一組很小的概念就能描述世界。
 

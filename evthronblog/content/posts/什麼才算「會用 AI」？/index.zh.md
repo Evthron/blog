@@ -1,8 +1,8 @@
 ---
 title: "什麼才算「會用 AI」？"
 description: 
-date: 2026-03-23T09:55:17+08:00
-lastmod: 2026-03-23T09:55:17+08:00
+date: 2026-03-23T11:14:26+08:00
+lastmod: 2026-03-23T11:14:26+08:00
 image: 
 categories: posts
 tags: ['ai']
@@ -11,8 +11,6 @@ license:
 hidden: false
 comments: true
 ---
-
-# 什麼才算「會用 AI」？
 
 「AI 不會取代人類，但會用AI的人會取代不用 AI 的人」。但什麼才算「會用 AI」？真的是精通 AI 工具的操作技巧嗎？或許目前 AI 的質量還不夠好，仍然需要找人修正，但本質上，這些工作是不是已經失去由人來做的價值了呢？
 

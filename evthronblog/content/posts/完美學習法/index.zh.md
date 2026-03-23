@@ -1,8 +1,8 @@
 ---
 title: "完美學習法"
 description: 
-date: 2026-03-23T04:05:09+08:00
-lastmod: 2026-03-23T04:05:09+08:00
+date: 2026-03-23T11:14:54+08:00
+lastmod: 2026-03-23T11:14:54+08:00
 image: 
 categories: posts
 tags: ['philosophy', 'productivity', 'education', 'society']
@@ -11,8 +11,6 @@ license:
 hidden: false
 comments: true
 ---
-
-# 完美學習法
 
 [增量閲讀（supermemo.guru）](https://supermemo.guru/wiki/Incremental_reading)能讓我用最好的效率學會一切事物。但是有了記下一切的能力之後，要花時間記什麼就成了問題。
 

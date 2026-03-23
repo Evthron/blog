@@ -1,8 +1,8 @@
 ---
 title: "時區"
 description: 
-date: 2024-07-27T20:21:14+08:00
-lastmod: 2024-07-27T20:21:14+08:00
+date: 2026-03-23T11:14:39+08:00
+lastmod: 2026-03-23T11:14:39+08:00
 image: 
 categories: posts
 tags: ['stories']
@@ -12,10 +12,6 @@ hidden: false
 comments: true
 ---
 
-+++
-title = '時區'
-date = 2023-12-02T08:13:39+08:00
-+++
 2022/12/29 09:36
 
 要是按照時區算的話，現在我正準備橫渡太平洋。

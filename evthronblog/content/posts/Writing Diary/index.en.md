@@ -1,8 +1,8 @@
 ---
 title: "Writing Diary"
 description: 
-date: 2024-07-27T20:21:14+08:00
-lastmod: 2024-07-27T20:21:14+08:00
+date: 2026-03-23T11:14:44+08:00
+lastmod: 2026-03-23T11:14:44+08:00
 image: 
 categories: posts
 tags: ['stories']
@@ -11,11 +11,6 @@ license:
 hidden: false
 comments: true
 ---
-
-+++
-title = 'Writing Diary'
-date = 2023-11-26T08:58:15+08:00
-+++
 
 When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.
 
