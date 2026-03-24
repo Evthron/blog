@@ -1,8 +1,8 @@
 ---
 title: "文章發佈流程"
 description: 
-date: 2026-03-24T00:12:05+08:00
-lastmod: 2026-03-24T00:12:05+08:00
+date: 2026-03-24T13:10:28+08:00
+lastmod: 2026-03-24T12:39:53+08:00
 image: 
 categories: toolbox
 tags: ['software', 'blog']
@@ -199,5 +199,7 @@ if __name__ == '__main__':
 
 寫作動機被 AI 大幅削弱了，就算只是多一道工序，我也已經發不出去了。寫作的位置必須直連發佈才可以。
 繞開 joplin，直接把檔案複製一份到 hugo 的 content 檔案，用 filetags 分類。
+
+在手機上直接用 markor 寫，用 syncthing 同步。
 
 

@@ -12,6 +12,19 @@ hidden: false
 comments: true
 ---
 
+# division //
+if any of the number is float, the result will be float
+need int() conversion to get int. (How is it done?)
+
+
+
+## defaultdict vs setdefault
+
+setdefault is a bad name, it should be named 'get or set'
+
+key = "list_a"
+dict.setdefault(key, []).append('element')
+
 ## enumerate(items, start=1)
 Use the `start` argument to control the start index of the enumeration
 change from 0 index to 1 index
@@ -26,6 +39,17 @@ for index, item in enumerate(items, 1):
 2 b
 3 c
 ```
+
+
+## split()
+- what is the default behaviour of split()?
+- split(' ') vs split()
+
+
+## raw-f-string
+
+rf""
+需要注意什麼？
 
 
 error: externally-managed-environment
