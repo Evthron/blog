@@ -20,10 +20,19 @@ need int() conversion to get int. (How is it done?)
 
 ## defaultdict vs setdefault
 
-setdefault is a bad name, it should be named 'get or set'
+setdefault is a bad name, the accurate name should be 'get_or_set'
 
+```
 key = "list_a"
 dict.setdefault(key, []).append('element')
+```
+
+For defaultdicts, merely check whether a key exists unexpectedly creates the key. 
+
+how does a defaultdict interact with .get()? Safe, it doesn't creates a new value.
+
+## 2D array or tuple key?
+- sparse index -> tuple key
 
 ## enumerate(items, start=1)
 Use the `start` argument to control the start index of the enumeration
@@ -40,6 +49,12 @@ for index, item in enumerate(items, 1):
 3 c
 ```
 
+
+在 python 裏面構建索引，搞錯寫法的話，讀取索引反而花時間。例如為了讓代碼更好讀，每一個數據點創建物件的做法，在 python 裏面是顧此失彼。
+
+Python 沒有編譯，沒法優化創建物件的開銷。想要寫得快，就要用接近 C 語言的寫法，用沒有名字的數組。
+
+所以算法根本不適合用 python 教。算法的本質就是過早優化。在慢的語言裏面追求速度是本末倒置。
 
 ## split()
 - what is the default behaviour of split()?

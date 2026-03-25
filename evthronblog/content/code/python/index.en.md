@@ -20,10 +20,19 @@ need int() conversion to get int. (How is it done?)
 
 ## defaultdict vs setdefault
 
-setdefault is a bad name, it should be named 'get or set'
+setdefault is a bad name, the accurate name should be 'get_or_set'
 
+```
 key = "list_a"
 dict.setdefault(key, []).append('element')
+```
+
+For defaultdicts, merely check whether a key exists unexpectedly creates the key. 
+
+how does a defaultdict interact with .get()? Safe, it doesn't creates a new value.
+
+## 2D array or tuple key?
+- sparse index -> tuple key
 
 ## enumerate(items, start=1)
 Use the `start` argument to control the start index of the enumeration
