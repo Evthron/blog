@@ -1,8 +1,8 @@
 ---
 title: "vim"
 description: 
-date: 2026-03-27T05:43:42+08:00
-lastmod: 2026-03-27T05:43:42+08:00
+date: 2026-03-29T10:54:05+08:00
+lastmod: 2026-03-29T10:54:05+08:00
 image: 
 categories: 
 tags: 
@@ -68,5 +68,10 @@ https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-
 - share copied content between vim and system keyboards, does this automatically when the intent is clear.
 
 ## Plugin: vim-exchange
-- `cxiw`: exchange the position of two words
+
+
+
+## tips on paste
+- when the yanked content contains newline at the end, when you paste the content, vim will not paste at the cursor, instead, vim pastes the content at the line below the cursor. If you want to paste inline, don't use `DD` to yank the line, use `d$` instead.
+
 
