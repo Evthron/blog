@@ -67,6 +67,11 @@ In curly braces, you must explicitly return something
 
 
 
+# Query selector
+`getElementByClassName` returns a `HTMLElementCollection`.
+
+If you want to use array methods like `forEach` on a `HTMLElementCollection`, you have to convert it to array by `Array.from()`
+
 # JavaScript object
 
 ## Find length
