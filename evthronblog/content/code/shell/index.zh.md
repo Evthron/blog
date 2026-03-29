@@ -24,6 +24,10 @@ uniq -c text.txt | awk '$1 > 5' | sort | uniq
 
 - what about the '\'? why \- is required for both single and double quotes?
 
+# sed
+use multiple `-e` arguments to sed the same string multiple times
+
+
 ## Shell array
 If you want to store multiple arguments in a variable, you can make them a shell array.
 

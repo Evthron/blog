@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-03-23T08:40:38+08:00
+lastmod: 2026-03-29T21:19:21+08:00
 image: 
 categories: 
 tags: 
@@ -31,24 +31,24 @@ comments: true
 {{< task title="learn from art course" note="7mo" >}}
 {{< task title="update resume" note="6mo" >}}
 {{< task title="write conflict of technology and romance" note="10mo" >}}
-{{< task title="write how picking meals related to machine learning" note="10mo" >}}
+{{< task title="write how picking meals related to machine learning" note="11mo" >}}
 {{< task title="write why dewey decimal fail vs filetags" note="10mo" >}}
 {{< task title="update relationship category design" note="6mo" >}}
 {{< task title="code add sync to pedometer" note="3mo" >}}
 {{< task title="find out why food order menu cannot load" note="10mo" >}}
 {{< task title="write tutorial to set default mime type open with" note="6mo" >}}
-{{< task title="write higher dimension space" note="8w" >}}
+{{< task title="write higher dimension space" note="9w" >}}
 {{< task title="add a link page to my blog" note="1.4y" >}}
 {{< task title="draw new blog background from postcard" note="1.2y" >}}
 {{< task title="code taskwarrior blog show completed tasks" note="1.2y" >}}
 {{< task title="check haskell tutorial" note="1.1y" >}}
-{{< task title="write invent culture" note="1.0y" >}}
+{{< task title="write invent culture" note="1.1y" >}}
 {{< task title="code fix blog background bug" note="10mo" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="1.2y" >}}
 {{< task title="code fix lf copy path" note="6mo" >}}
 {{< task title="code remove related article" note="6mo" >}}
 {{< task title="reactivate vimwiki" note="6mo" >}}
-{{< task title="get back my own idea from AI chat" note="5mo" >}}
+{{< task title="get back my own idea from AI chat" note="6mo" >}}
 {{< task title="write analyse remnote" note="4mo" >}}
 {{< task title="write how exam twist peopls's mind" note="3mo" >}}
 {{< task title="write useless productivity skill" note="1.1y" >}}
@@ -61,7 +61,7 @@ comments: true
 {{< task title="code blog to translate to simplied chinese" note="1.0y" >}}
 {{< task title="debug xset process" note="6mo" >}}
 {{< task title="code a youtube download credit system" note="1.3y" >}}
-{{< task title="write what cant science method do" note="1.1y" >}}
+{{< task title="write what cant science method do" note="1.2y" >}}
 {{< task title="set up local habitica server" note="1.4y" >}}
 {{< task title="awesomewm touchpad fix" note="1.1y" >}}
 51 tasks
