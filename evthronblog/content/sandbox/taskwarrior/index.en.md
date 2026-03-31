@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-03-29T21:19:21+08:00
+lastmod: 2026-03-30T17:57:55+08:00
 image: 
 categories: 
 tags: 
@@ -18,7 +18,7 @@ My task list, I add everything I can think of in it.
 Age    Description
 ------ ----------------------------------------------------------------
   6mo  write internship reflection
- 10mo  find one interesting physics concept to explain without math
+ 11mo  find one interesting physics concept to explain without math
  10mo  search for games related to maths
  10mo  solve convolve output edge size by cardinal theory
  10mo  write past paper overfitting analogy
@@ -43,7 +43,7 @@ Age    Description
   6mo  write tutorial to set default mime type open with
   9w   write higher dimension space
 1.4y   add a link page to my blog
-1.2y   draw new blog background from postcard
+1.3y   draw new blog background from postcard
 1.2y   code taskwarrior blog show completed tasks
 1.1y   check haskell tutorial
 1.1y   write invent culture
@@ -56,13 +56,13 @@ Age    Description
   4mo  write analyse remnote
   3mo  write how exam twist peopls's mind
 1.1y   write useless productivity skill
-1.2y   write how a make the painter progress bar
+1.3y   write how a make the painter progress bar
  10mo  code learn how to store chatbot history in streamlit
-1.2y   redraw ai-generated-image
+1.3y   redraw ai-generated-image
  11mo  write why I dislike travelling
   6mo  automate blog pubilication
 1.1y   add japanese as blog language
-1.0y   code blog to translate to simplied chinese
+1.1y   code blog to translate to simplied chinese
   6mo  debug xset process
 1.3y   code a youtube download credit system
 1.2y   write what cant science method do
