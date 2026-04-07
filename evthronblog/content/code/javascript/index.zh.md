@@ -67,6 +67,11 @@ In curly braces, you must explicitly return something
 
 
 
+# event listener
+get the element from the event
+
+(e) => {e.target}
+
 # Query selector
 `getElementByClassName` returns a `HTMLElementCollection`.
 
