@@ -72,6 +72,10 @@ get the element from the event
 
 (e) => {e.target}
 
+## Event delagtion
+- don't add the event listener to all the child element
+- bubble up and handle in the parent element
+
 # Query selector
 `getElementByClassName` returns a `HTMLElementCollection`.
 
