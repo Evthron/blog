@@ -1,8 +1,8 @@
 ---
 title: "意志消磨了"
 description: 
-date: 2026-05-06T05:15:21+08:00
-lastmod: 2026-05-06T05:15:21+08:00
+date: 2026-05-06T05:18:59+08:00
+lastmod: 2026-05-06T05:18:59+08:00
 image: 
 categories: tweet
 tags: []
@@ -18,3 +18,4 @@ comments: true
 
 - AI 延遲了危機感。
 
+但是沒有不逼迫自己的心態和條件，失掉了唯一的武器
