@@ -18,6 +18,10 @@ comments: true
 uniq -c text.txt | awk '$1 > 5' | sort | uniq 
 ```
 
+## flag terminator
+If your argument starts with `-`, like `yt-dlp -14t6_yu-7w`, it may be treated as a invalid flag. Add `--` before to marks the end of flags, like `yt-dlp -- -14t6_yugw`.
+
+
 # single quote vs double quote
 - single quotes is literal string, shell won't identify the special shell symbols like `$` and `\` in the string.
 - e.g. `echo '$1'` will not work, you have to use `echo "$1"`
