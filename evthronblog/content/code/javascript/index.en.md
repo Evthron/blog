@@ -89,3 +89,5 @@ object.entries().length ?
 
 ## vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
+
+`async` works exactly like Haskell's do-notaiton, turning chained function call into imperative code.
