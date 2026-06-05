@@ -109,6 +109,22 @@ git push origin main
 make a repo as a node inside another repo, treating the whole folder as one file.
 need to make seperate commits.
 
+
+### 下載 Sub-module 
+```
+git submodule init
+git submodule update
+```
+
+## 修改 sub-module 地址
+在 .gitmodules 裡修改 URL
+```
+[submodule "evthronblog/public"]
+	path = evthronblog/public
+	url = git@github.com:Evthron/evthron.github.io
+	branch = main
+```
+
 ## CI/CD Pipeline (Github Action)
 Continuous Integration, Continuous Delivery
 
