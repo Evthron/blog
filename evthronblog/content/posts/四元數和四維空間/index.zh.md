@@ -1,8 +1,8 @@
 ---
 title: "四元數和四維空間"
 description: 
-date: 2026-06-05T17:18:14+08:00
-lastmod: 2026-06-08T04:29:02+08:00
+date: 2026-06-08T04:38:19+08:00
+lastmod: 2026-06-08T04:38:19+08:00
 image: 
 categories: posts
 tags: ['maths', 'philosophy']
@@ -12,7 +12,6 @@ hidden: false
 comments: true
 ---
 
-# 四元數和四維空間
 在四維空間裏面，就連普通的物件移動，在我們看來都伴隨着隔空取物、大小變化的異常現象。
 
 這是因為我們缺乏理解四維世界的感官，會把四維旋轉看成穿透、擠壓和變形，把四維移動誤認成憑空出現和消失，才會覺得神奇。
@@ -50,3 +49,10 @@ comments: true
 我還是想把第四個參數理解成一個臨時的資訊儲存位，這個參數保存的是移動過程的資訊，根據出發的位置，定義用什麼方式描述奇異點。四元數乘法就是把這個資訊在第四個參數打包和解碼的過程。這樣就不用動用，不動用四維空間的概念。
 
 雖然這像做是為了應付人類有限的認知，強行拆散完整的數學概念，但我不想為自己看不見世界之外的維度而嘆息，不想用徒勞的方式把握超乎想象的概念。如果這些概念註定是只能以碎片形式呈現的話，這些碎片就是我們能擁有的全部。
+
+### 參考資料
+[Visualizing quaternions (eater.net)](https://eater.net/quaternions)
+
+[Visualizing the 4d numbers Quaternions (youtube.com)](https://youtu.be/d4EgbgTm0Bg)
+
+[Quaternions and Rotations (stanford.edu)](https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf)
