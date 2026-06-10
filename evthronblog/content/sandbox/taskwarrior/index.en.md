@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-08T04:42:41+08:00
+lastmod: 2026-06-11T02:52:21+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,7 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
-  8mo  write internship reflection
+  9mo  write internship reflection
 1.1y   find one interesting physics concept to explain without math
 1.1y   search for games related to maths
 1.1y   solve convolve output edge size by cardinal theory
@@ -28,13 +28,13 @@ Age    Description
   9mo  write null check and complexity
   9mo  investigate roam research
   9mo  code fix qr only browser
-  6mo  find syntax highlighter for english
+  7mo  find syntax highlighter for english
   5mo  fix libinput orientation of tablet
 1.5y   write university problem of common space and study group
-1.1y   sketch blog library UI
+1.2y   sketch blog library UI
   9mo  learn from art course
   9mo  update resume
-1.0y   write conflict of technology and romance
+1.1y   write conflict of technology and romance
 1.1y   write how picking meals related to machine learning
 1.1y   write why dewey decimal fail vs filetags
   9mo  update relationship category design
@@ -45,7 +45,7 @@ Age    Description
 1.4y   draw new blog background from postcard
 1.4y   code taskwarrior blog show completed tasks
 1.3y   check haskell tutorial
-1.2y   write invent culture
+1.3y   write invent culture
 1.1y   code fix blog background bug
 1.4y   rime dictionary change chuang tradition chinese
   9mo  code fix lf copy path
@@ -61,7 +61,7 @@ Age    Description
 1.1y   write why I dislike travelling
   8mo  automate blog pubilication
 1.3y   add japanese as blog language
-1.2y   code blog to translate to simplied chinese
+1.3y   code blog to translate to simplied chinese
   8mo  debug xset process
 1.5y   code a youtube download credit system
 1.4y   write what cant science method do

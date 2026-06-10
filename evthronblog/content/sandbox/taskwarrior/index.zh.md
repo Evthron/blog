@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-08T04:42:41+08:00
+lastmod: 2026-06-11T02:52:21+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,7 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="write internship reflection" note="8mo" >}}
+{{< task title="write internship reflection" note="9mo" >}}
 {{< task title="find one interesting physics concept to explain without math" note="1.1y" >}}
 {{< task title="search for games related to maths" note="1.1y" >}}
 {{< task title="solve convolve output edge size by cardinal theory" note="1.1y" >}}
@@ -24,13 +24,13 @@ comments: true
 {{< task title="write null check and complexity" note="9mo" >}}
 {{< task title="investigate roam research" note="9mo" >}}
 {{< task title="code fix qr only browser" note="9mo" >}}
-{{< task title="find syntax highlighter for english" note="6mo" >}}
+{{< task title="find syntax highlighter for english" note="7mo" >}}
 {{< task title="fix libinput orientation of tablet" note="5mo" >}}
 {{< task title="write university problem of common space and study group" note="1.5y" >}}
-{{< task title="sketch blog library UI" note="1.1y" >}}
+{{< task title="sketch blog library UI" note="1.2y" >}}
 {{< task title="learn from art course" note="9mo" >}}
 {{< task title="update resume" note="9mo" >}}
-{{< task title="write conflict of technology and romance" note="1.0y" >}}
+{{< task title="write conflict of technology and romance" note="1.1y" >}}
 {{< task title="write how picking meals related to machine learning" note="1.1y" >}}
 {{< task title="write why dewey decimal fail vs filetags" note="1.1y" >}}
 {{< task title="update relationship category design" note="9mo" >}}
@@ -41,7 +41,7 @@ comments: true
 {{< task title="draw new blog background from postcard" note="1.4y" >}}
 {{< task title="code taskwarrior blog show completed tasks" note="1.4y" >}}
 {{< task title="check haskell tutorial" note="1.3y" >}}
-{{< task title="write invent culture" note="1.2y" >}}
+{{< task title="write invent culture" note="1.3y" >}}
 {{< task title="code fix blog background bug" note="1.1y" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="1.4y" >}}
 {{< task title="code fix lf copy path" note="9mo" >}}
@@ -57,7 +57,7 @@ comments: true
 {{< task title="write why I dislike travelling" note="1.1y" >}}
 {{< task title="automate blog pubilication" note="8mo" >}}
 {{< task title="add japanese as blog language" note="1.3y" >}}
-{{< task title="code blog to translate to simplied chinese" note="1.2y" >}}
+{{< task title="code blog to translate to simplied chinese" note="1.3y" >}}
 {{< task title="debug xset process" note="8mo" >}}
 {{< task title="code a youtube download credit system" note="1.5y" >}}
 {{< task title="write what cant science method do" note="1.4y" >}}
