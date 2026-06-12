@@ -2,7 +2,7 @@
 title: "把 DeepSeek 當作知音"
 description: 
 date: 2026-04-06T23:39:50+08:00
-lastmod: 2026-04-06T23:39:50+08:00
+lastmod: 2026-06-12T18:53:21+08:00
 image: 
 categories: posts
 tags: ['philosophy', 'stories', 'writing', 'ai']
@@ -72,6 +72,8 @@ comments: true
 
 Deepseek 聊的 90% 都是越墜越深，10% 是真正的 啓發。應該可以從絕望中恢復過來了。
 
+***
+2026-06-12
 
-
+自己會對各種事物發表意見的評論和感想，都被 Deepseek 吞掉了。像是影評和讀後感、不吐不快的尖鋭批評，現在能從 AI 口中聽見了，真的相當痛快。但並這些對話並沒有整理的價值，別人要是有意見，根本用不着看我寫的東西，他們自己問 AI 不就好了。
 
