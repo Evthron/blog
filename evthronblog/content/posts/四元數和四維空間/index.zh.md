@@ -2,7 +2,7 @@
 title: "四元數和四維空間"
 description: 
 date: 2026-06-08T04:38:19+08:00
-lastmod: 2026-06-08T04:38:19+08:00
+lastmod: 2026-06-15T09:32:11+08:00
 image: 
 categories: posts
 tags: ['maths', 'philosophy']
@@ -51,8 +51,15 @@ comments: true
 雖然這像做是為了應付人類有限的認知，強行拆散完整的數學概念，但我不想為自己看不見世界之外的維度而嘆息，不想用徒勞的方式把握超乎想象的概念。如果這些概念註定是只能以碎片形式呈現的話，這些碎片就是我們能擁有的全部。
 
 ### 參考資料
-[Visualizing quaternions (eater.net)](https://eater.net/quaternions)
-
 [Visualizing the 4d numbers Quaternions (youtube.com)](https://youtu.be/d4EgbgTm0Bg)
 
+解釋優美，對計算沒有幫助。受了很大的刺激。
+
+[Visualizing quaternions (eater.net)](https://eater.net/quaternions)
+
+影片居然還能互動！
+
 [Quaternions and Rotations (stanford.edu)](https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf)
+
+教材的參考資料。參考定義和性質，性質的證明看不懂
+
