@@ -90,4 +90,5 @@ object.entries().length ?
 ## vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
 
-`async` 的原理和 Haskell 的 do-notion 完全一樣。
+## Promsie
+`async` 的原理和 Haskell 的 do-notion 完全一樣，都是把鏈式函數變成更容易理解的指令式代碼。

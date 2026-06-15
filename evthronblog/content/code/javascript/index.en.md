@@ -90,4 +90,20 @@ object.entries().length ?
 ## vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
 
+### Promise
 `async` works exactly like Haskell's do-notaiton, turning chained function call into imperative code.
+
+Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code
+
+```
+pdf = await loadingTask
+{...}
+
+```
+is the syntatic sugar of
+```
+loadingTask.promise.then( (pdf) => {...} )
+```
+
+all the code after the await statement is actually wrapping in a nested function.
+
