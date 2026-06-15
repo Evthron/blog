@@ -2,7 +2,7 @@
 title: "Higher order operation"
 description: 
 date: 2026-03-23T08:08:25+08:00
-lastmod: 2026-03-23T08:08:25+08:00
+lastmod: 2026-06-16T06:01:14+08:00
 image: 
 categories: posts
 tags: ['maths']
@@ -12,7 +12,7 @@ hidden: false
 comments: true
 ---
 
-The reason why *e* is natural is because the exponential function with base *e* grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number *e* just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how *π* achieves the perfect radius-1 curvature.  
+The reason why $e$ is natural is that $e^x$ grows exactly at the rate of its own value. This may seem $e$ has some special place in maths, but in fact, every exponential function grows proportionally to its own value. The number $e$ just happens to be the only one to achieve the perfect coefficient-1 with the help of its infinitely-many fine-tuned digits, just like how $\pi$ achieves the perfect radius-1 curvature.  
 
 It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.  
 

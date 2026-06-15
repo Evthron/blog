@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-15T05:21:59+08:00
+lastmod: 2026-06-16T05:21:43+08:00
 image: 
 categories: 
 tags: 
@@ -30,6 +30,7 @@ Age    Description
   9mo  code fix qr only browser
   7mo  find syntax highlighter for english
   6mo  fix libinput orientation of tablet
+  1s   vim dont update yank space if only newline
 1.5y   write university problem of common space and study group
 1.2y   sketch blog library UI
  10mo  learn from art course
@@ -41,10 +42,10 @@ Age    Description
   5mo  code add sync to pedometer
 1.1y   find out why food order menu cannot load
   9mo  write tutorial to set default mime type open with
-1.6y   add a link page to my blog
+1.7y   add a link page to my blog
 1.5y   draw new blog background from postcard
 1.4y   code taskwarrior blog show completed tasks
-1.3y   check haskell tutorial
+1.4y   check haskell tutorial
 1.3y   write invent culture
 1.1y   code fix blog background bug
 1.4y   rime dictionary change chuang tradition chinese
@@ -65,10 +66,10 @@ Age    Description
   8mo  debug xset process
 1.6y   code a youtube download credit system
 1.4y   write what cant science method do
-1.6y   set up local habitica server
+1.7y   set up local habitica server
 1.3y   awesomewm touchpad fix
   7w   code direct post chatbot history.monthly
 
-51 tasks
+52 tasks
 
 ```

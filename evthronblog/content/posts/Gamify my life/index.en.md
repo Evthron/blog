@@ -2,7 +2,7 @@
 title: "Gamify my life"
 description: 
 date: 2026-03-23T10:29:16+08:00
-lastmod: 2026-03-23T10:29:16+08:00
+lastmod: 2026-06-16T04:51:00+08:00
 image: 
 categories: posts
 tags: ['gamification']
@@ -14,7 +14,7 @@ comments: true
 
 Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters. 
 
-I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. Now my avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don't remember because the system don't keep track of individual record.
+I have been using Habitica for a years and I really love this concept. However, as my level grows, the EXP and coins has becoming less and less meaningful. One major reason is system don't keep track of individual records. The EXP could be earned from learning, exercising, or some other activities that I don't remember.
 
 Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design and may defeat the purpose of gamification. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.
 
