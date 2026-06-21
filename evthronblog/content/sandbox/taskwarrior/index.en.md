@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-16T05:21:43+08:00
+lastmod: 2026-06-21T04:40:50+08:00
 image: 
 categories: 
 tags: 
@@ -30,8 +30,8 @@ Age    Description
   9mo  code fix qr only browser
   7mo  find syntax highlighter for english
   6mo  fix libinput orientation of tablet
-  1s   vim dont update yank space if only newline
-1.5y   write university problem of common space and study group
+  4d   vim dont update yank space if only newline
+1.6y   write university problem of common space and study group
 1.2y   sketch blog library UI
  10mo  learn from art course
   9mo  update resume
@@ -39,7 +39,7 @@ Age    Description
 1.1y   write how picking meals related to machine learning
 1.1y   write why dewey decimal fail vs filetags
   9mo  update relationship category design
-  5mo  code add sync to pedometer
+  6mo  code add sync to pedometer
 1.1y   find out why food order menu cannot load
   9mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
@@ -54,7 +54,7 @@ Age    Description
   9mo  reactivate vimwiki
   8mo  get back my own idea from AI chat
   7mo  write analyse remnote
-  5mo  write how exam twist peopls's mind
+  6mo  write how exam twist peopls's mind
 1.3y   write useless productivity skill
 1.5y   write how a make the painter progress bar
 1.1y   code learn how to store chatbot history in streamlit
@@ -63,13 +63,14 @@ Age    Description
   9mo  automate blog pubilication
 1.3y   add japanese as blog language
 1.3y   code blog to translate to simplied chinese
-  8mo  debug xset process
+  9mo  debug xset process
 1.6y   code a youtube download credit system
 1.4y   write what cant science method do
+  3d   syntax highlight for preposition in nvim
 1.7y   set up local habitica server
 1.3y   awesomewm touchpad fix
-  7w   code direct post chatbot history.monthly
+  8w   code direct post chatbot history.monthly
 
-52 tasks
+53 tasks
 
 ```

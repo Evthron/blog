@@ -2,7 +2,7 @@
 title: "從 CLI 到 GUI"
 description: 
 date: 2025-01-18T02:20:58+08:00
-lastmod: 2026-06-16T18:54:19+08:00
+lastmod: 2026-06-17T14:23:25+08:00
 image: 
 categories: tweet
 tags: ['coding']
@@ -27,6 +27,6 @@ UI 也算是數據可視化的一種吧？
 
 ***
 
-UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了最基礎的狀態轉移圖(State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。
+UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了，最基礎的狀態轉移圖 (State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。
 
-我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體按鍵，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。
+我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。
