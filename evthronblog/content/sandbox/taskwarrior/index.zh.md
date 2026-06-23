@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-21T04:40:50+08:00
+lastmod: 2026-06-24T01:43:56+08:00
 image: 
 categories: 
 tags: 
@@ -26,13 +26,14 @@ comments: true
 {{< task title="code fix qr only browser" note="9mo" >}}
 {{< task title="find syntax highlighter for english" note="7mo" >}}
 {{< task title="fix libinput orientation of tablet" note="6mo" >}}
-{{< task title="vim dont update yank space if only newline" note="4d" >}}
+{{< task title="vim dont update yank space if only newline" note="7d" >}}
+{{< task title="come up with a scheduler for review queue" note="1s" >}}
 {{< task title="write university problem of common space and study group" note="1.6y" >}}
 {{< task title="sketch blog library UI" note="1.2y" >}}
 {{< task title="learn from art course" note="10mo" >}}
 {{< task title="update resume" note="9mo" >}}
 {{< task title="write conflict of technology and romance" note="1.1y" >}}
-{{< task title="write how picking meals related to machine learning" note="1.1y" >}}
+{{< task title="write how picking meals related to machine learning" note="1.2y" >}}
 {{< task title="write why dewey decimal fail vs filetags" note="1.1y" >}}
 {{< task title="update relationship category design" note="9mo" >}}
 {{< task title="code add sync to pedometer" note="6mo" >}}
@@ -48,10 +49,10 @@ comments: true
 {{< task title="code fix lf copy path" note="9mo" >}}
 {{< task title="code remove related article" note="9mo" >}}
 {{< task title="reactivate vimwiki" note="9mo" >}}
-{{< task title="get back my own idea from AI chat" note="8mo" >}}
+{{< task title="get back my own idea from AI chat" note="9mo" >}}
 {{< task title="write analyse remnote" note="7mo" >}}
 {{< task title="write how exam twist peopls's mind" note="6mo" >}}
-{{< task title="write useless productivity skill" note="1.3y" >}}
+{{< task title="write useless productivity skill" note="1.4y" >}}
 {{< task title="write how a make the painter progress bar" note="1.5y" >}}
 {{< task title="code learn how to store chatbot history in streamlit" note="1.1y" >}}
 {{< task title="redraw ai-generated-image" note="1.5y" >}}
@@ -62,8 +63,8 @@ comments: true
 {{< task title="debug xset process" note="9mo" >}}
 {{< task title="code a youtube download credit system" note="1.6y" >}}
 {{< task title="write what cant science method do" note="1.4y" >}}
-{{< task title="syntax highlight for preposition in nvim" note="3d" >}}
+{{< task title="syntax highlight for preposition in nvim" note="6d" >}}
 {{< task title="set up local habitica server" note="1.7y" >}}
 {{< task title="awesomewm touchpad fix" note="1.3y" >}}
 {{< task title="code direct post chatbot history.monthly" note="8w" >}}
-53 tasks
+54 tasks
