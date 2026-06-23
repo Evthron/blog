@@ -2,7 +2,7 @@
 title: "How many scales are there?"
 description: 
 date: 2025-11-26T17:56:54+08:00
-lastmod: 2025-11-26T17:56:54+08:00
+lastmod: 2026-06-24T02:41:09+08:00
 image: 
 categories: posts
 tags: ['music']
@@ -12,9 +12,9 @@ hidden: false
 comments: true
 ---
 
-If you play piano, you must know about sharps and flats. They are the fingerprints of a specific key. For example, people like to play music on C major and A minor because they don't have sharps and flats. On the other hand, F sharp major and  E flat minor are horrible to look at because they are running on
+If you play piano, you must know about sharps and flats. They are the fingerprints of a specific key. For example, people like to play music on C major and A minor because they don't have any sharps or flats. On the other hand, F sharp major and E flat minor are horrible to look at.
 
-I always think those notes are evenly spaced, like they are the seven members of a scale and adding accidentals.
+I always thought those notes are evenly spaced, like they are the seven members main notes in a scale and five possible accidentals. this is actually a huge misunderstanding to the nature of music.
 
 Noticed that I used the relative note names instead of the absolute ones, like C, D, E, F, G, because the starting pitch of the music does not affect the nature of a music piece.
 
