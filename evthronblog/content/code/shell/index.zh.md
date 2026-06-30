@@ -28,6 +28,9 @@ If your argument starts with `-`, like `yt-dlp -14t6_yu-7w`, it may be treated a
 
 - what about the '\'? why \- is required for both single and double quotes?
 
+## characters that needs to be escaped in double quotes 
+regex?
+
 # sed
 use multiple `-e` arguments to sed the same string multiple times
 
