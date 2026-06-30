@@ -323,3 +323,7 @@ enabled = true
 
 [markup.goldmark.parser.attribute]
 block = true # default is false
+
+[markup.goldmark.renderer]
+  hardWraps = true
+
