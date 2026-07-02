@@ -2,7 +2,7 @@
 title: "How many scales are there?"
 description: 
 date: 2025-11-26T17:56:54+08:00
-lastmod: 2026-06-24T02:41:09+08:00
+lastmod: 2026-07-02T01:32:52+08:00
 image: 
 categories: posts
 tags: ['music']
@@ -14,13 +14,12 @@ comments: true
 
 If you play piano, you must know about sharps and flats. They are the fingerprints of a specific key. For example, people like to play music on C major and A minor because they don't have any sharps or flats. On the other hand, F sharp major and E flat minor are horrible to look at.
 
-I always thought those notes are evenly spaced, like they are the seven members main notes in a scale and five possible accidentals. this is actually a huge misunderstanding to the nature of music.
+I always thought those notes are evenly spaced, like they are the seven members main notes in a scale and five possible accidentals. I know there's no such thing as E-sharp and F-flat, since E-sharp is F and F-flat is E, but I never thought deeply enough. This is actually a huge misunderstanding to the nature of music.
 
-Noticed that I used the relative note names instead of the absolute ones, like C, D, E, F, G, because the starting pitch of the music does not affect the nature of a music piece.
+Noticed that, in the following investigation, I will use the relative note numbering instead of the absolute ones, like C, D, E, F, G, because the starting pitch of a music piece does not affect its nature.
 
 An octave is the most natural way to divide sounds. Notes that are octaves apart sounds like the higher or lower version of the same note.
 
-***
 In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece. 
 
 Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and Chinese music.

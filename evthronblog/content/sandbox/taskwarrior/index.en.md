@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-06-30T14:03:51+08:00
+lastmod: 2026-07-02T20:44:51+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,6 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
- 13h   nvim exit set to english when exit
   9mo  write internship reflection
 1.2y   find one interesting physics concept to explain without math
 1.1y   search for games related to maths
@@ -26,24 +25,25 @@ Age    Description
 1.1y   write how to solve a math problem together
  10mo  find what is kwin
  10mo  write sleep theory
-  9mo  write null check and complexity
+ 10mo  write null check and complexity
   9mo  investigate roam research
   9mo  code fix qr only browser
   6mo  fix libinput orientation of tablet
   2w   vim dont update yank space if only newline
-  6d   come up with a scheduler for review queue
-  6s   think be transparent
+  8d   come up with a scheduler for review queue
+  2d   think be transparent
+  1d   code disable prettier in other people's repo
 1.6y   write university problem of common space and study group
 1.2y   sketch blog library UI
  10mo  learn from art course
-  9mo  update resume
+ 10mo  update resume
 1.1y   write conflict of technology and romance
 1.2y   write how picking meals related to machine learning
 1.1y   write why dewey decimal fail vs filetags
  10mo  update relationship category design
   6mo  code add sync to pedometer
 1.1y   find out why food order menu cannot load
-  9mo  write tutorial to set default mime type open with
+ 10mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
 1.5y   draw new blog background from postcard
 1.4y   code taskwarrior blog show completed tasks
@@ -51,7 +51,7 @@ Age    Description
 1.3y   write invent culture
 1.2y   code fix blog background bug
 1.5y   rime dictionary change chuang tradition chinese
-  9mo  code remove related article
+ 10mo  code remove related article
   8mo  write analyse remnote
   6mo  write how exam twist peopls's mind
 1.4y   write useless productivity skill
@@ -65,9 +65,9 @@ Age    Description
   7mo  find syntax highlighter for english
 1.6y   code a youtube download credit system
 1.4y   write what cant science method do
- 12d   syntax highlight for preposition in nvim
+  2w   syntax highlight for preposition in nvim
 1.7y   set up local habitica server
-  9w   code direct post chatbot history.monthly
+ 10w   code direct post chatbot history.monthly
 
 51 tasks
 
