@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-02T20:44:51+08:00
+lastmod: 2026-07-06T00:36:56+08:00
 image: 
 categories: 
 tags: 
@@ -30,9 +30,9 @@ Age    Description
   9mo  code fix qr only browser
   6mo  fix libinput orientation of tablet
   2w   vim dont update yank space if only newline
-  8d   come up with a scheduler for review queue
-  2d   think be transparent
-  1d   code disable prettier in other people's repo
+ 11d   come up with a scheduler for review queue
+  5d   think be transparent
+  4d   code disable prettier in other people's repo
 1.6y   write university problem of common space and study group
 1.2y   sketch blog library UI
  10mo  learn from art course
@@ -46,7 +46,7 @@ Age    Description
  10mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
 1.5y   draw new blog background from postcard
-1.4y   code taskwarrior blog show completed tasks
+1.5y   code taskwarrior blog show completed tasks
 1.4y   check haskell tutorial
 1.3y   write invent culture
 1.2y   code fix blog background bug

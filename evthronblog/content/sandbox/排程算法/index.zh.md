@@ -2,7 +2,7 @@
 title: "排程算法"
 description: 
 date: 2026-07-02T20:00:13+08:00
-lastmod: 2026-07-06T00:16:14+08:00
+lastmod: 2026-07-06T00:32:16+08:00
 image: 
 categories: sandbox
 tags: ['maths', 'coding']
@@ -281,7 +281,6 @@ Days = 32, no clash fill
 
 幾乎可以肯定只要學過一次，無論過了多久，都能變回第二次學的狀態
 
-
 超過的四種解決方法
 
 超過就超過
@@ -290,4 +289,5 @@ Days = 32, no clash fill
 延長這個的間隔
 
 總量是固定，有期限的的東西，只要延長時間就能統統學會
+
 

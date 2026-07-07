@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-02T20:44:51+08:00
+lastmod: 2026-07-06T00:36:56+08:00
 image: 
 categories: 
 tags: 
@@ -26,9 +26,9 @@ comments: true
 {{< task title="code fix qr only browser" note="9mo" >}}
 {{< task title="fix libinput orientation of tablet" note="6mo" >}}
 {{< task title="vim dont update yank space if only newline" note="2w" >}}
-{{< task title="come up with a scheduler for review queue" note="8d" >}}
-{{< task title="think be transparent" note="2d" >}}
-{{< task title="code disable prettier in other people's repo" note="1d" >}}
+{{< task title="come up with a scheduler for review queue" note="11d" >}}
+{{< task title="think be transparent" note="5d" >}}
+{{< task title="code disable prettier in other people's repo" note="4d" >}}
 {{< task title="write university problem of common space and study group" note="1.6y" >}}
 {{< task title="sketch blog library UI" note="1.2y" >}}
 {{< task title="learn from art course" note="10mo" >}}
@@ -42,7 +42,7 @@ comments: true
 {{< task title="write tutorial to set default mime type open with" note="10mo" >}}
 {{< task title="add a link page to my blog" note="1.7y" >}}
 {{< task title="draw new blog background from postcard" note="1.5y" >}}
-{{< task title="code taskwarrior blog show completed tasks" note="1.4y" >}}
+{{< task title="code taskwarrior blog show completed tasks" note="1.5y" >}}
 {{< task title="check haskell tutorial" note="1.4y" >}}
 {{< task title="write invent culture" note="1.3y" >}}
 {{< task title="code fix blog background bug" note="1.2y" >}}
