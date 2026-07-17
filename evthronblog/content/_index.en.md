@@ -6,7 +6,7 @@ lastmod: '2025-01-18T03:56:30+08:00'
 Hello there! I hope you can know more about me through reading this blog, so I don't need to have a social media account. I go all out and write down every thought I've got here. 
 
 - [📝 Posts](/en/posts) stores my writings.
-    - [The limitations of instant messaging](/en/posts/instant-messaging) talks about my thoughts towards the flaws of online messaging.
+    - [The limitations of instant messaging](/en/posts/limitations-of-instant-messaging) talks about my thoughts towards the flaws of online messaging.
 
 - [🖼️ Gallery](/en/gallery) showcases my drawings.
     - [Accurate colour wheel](/en/gallery/accurate-colour-wheel) explains some facts about colour.
