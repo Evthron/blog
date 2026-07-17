@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-17T00:00:48+08:00
+lastmod: 2026-07-17T21:57:30+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,6 @@ My task list, I add everything I can think of in it.
 
 Age    Description
 ------ ----------------------------------------------------------------
- 10mo  write internship reflection
 1.2y   find one interesting physics concept to explain without math
 1.2y   search for games related to maths
 1.2y   solve convolve output edge size by cardinal theory
@@ -42,6 +41,7 @@ Age    Description
 1.2y   write why dewey decimal fail vs filetags
  10mo  update relationship category design
   6mo  code add sync to pedometer
+  2h   fix linux boot
 1.1y   find out why food order menu cannot load
  10mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
@@ -61,14 +61,14 @@ Age    Description
 1.2y   write why I dislike travelling
  10mo  automate blog pubilication
 1.4y   add japanese as blog language
-1.3y   code blog to translate to simplied chinese
+1.4y   code blog to translate to simplied chinese
   8mo  find syntax highlighter for english
 1.6y   code a youtube download credit system
 1.5y   write what cant science method do
   4w   syntax highlight for preposition in nvim
 1.7y   set up local habitica server
  12w   code direct post chatbot history.monthly
-  1s   schduling algorithm
+ 21h   schduling algorithm
 
 52 tasks
 

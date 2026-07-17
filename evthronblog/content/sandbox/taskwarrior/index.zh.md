@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-17T00:00:48+08:00
+lastmod: 2026-07-17T21:57:30+08:00
 image: 
 categories: 
 tags: 
@@ -13,7 +13,6 @@ comments: true
 ---
 
 我的待辦清單，想到什麼就加進去。
-{{< task title="write internship reflection" note="10mo" >}}
 {{< task title="find one interesting physics concept to explain without math" note="1.2y" >}}
 {{< task title="search for games related to maths" note="1.2y" >}}
 {{< task title="solve convolve output edge size by cardinal theory" note="1.2y" >}}
@@ -38,6 +37,7 @@ comments: true
 {{< task title="write why dewey decimal fail vs filetags" note="1.2y" >}}
 {{< task title="update relationship category design" note="10mo" >}}
 {{< task title="code add sync to pedometer" note="6mo" >}}
+{{< task title="fix linux boot" note="2h" >}}
 {{< task title="find out why food order menu cannot load" note="1.1y" >}}
 {{< task title="write tutorial to set default mime type open with" note="10mo" >}}
 {{< task title="add a link page to my blog" note="1.7y" >}}
@@ -57,12 +57,12 @@ comments: true
 {{< task title="write why I dislike travelling" note="1.2y" >}}
 {{< task title="automate blog pubilication" note="10mo" >}}
 {{< task title="add japanese as blog language" note="1.4y" >}}
-{{< task title="code blog to translate to simplied chinese" note="1.3y" >}}
+{{< task title="code blog to translate to simplied chinese" note="1.4y" >}}
 {{< task title="find syntax highlighter for english" note="8mo" >}}
 {{< task title="code a youtube download credit system" note="1.6y" >}}
 {{< task title="write what cant science method do" note="1.5y" >}}
 {{< task title="syntax highlight for preposition in nvim" note="4w" >}}
 {{< task title="set up local habitica server" note="1.7y" >}}
 {{< task title="code direct post chatbot history.monthly" note="12w" >}}
-{{< task title="schduling algorithm" note="1s" >}}
+{{< task title="schduling algorithm" note="21h" >}}
 52 tasks
