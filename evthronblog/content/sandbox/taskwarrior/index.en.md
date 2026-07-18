@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-17T21:57:30+08:00
+lastmod: 2026-07-18T17:05:11+08:00
 image: 
 categories: 
 tags: 
@@ -40,12 +40,11 @@ Age    Description
 1.2y   write how picking meals related to machine learning
 1.2y   write why dewey decimal fail vs filetags
  10mo  update relationship category design
-  6mo  code add sync to pedometer
-  2h   fix linux boot
+  7mo  code add sync to pedometer
 1.1y   find out why food order menu cannot load
  10mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
-1.5y   draw new blog background from postcard
+1.6y   draw new blog background from postcard
 1.5y   code taskwarrior blog show completed tasks
 1.4y   check haskell tutorial
 1.4y   write invent culture
@@ -53,11 +52,11 @@ Age    Description
 1.5y   rime dictionary change chuang tradition chinese
  10mo  code remove related article
   8mo  write analyse remnote
-  6mo  write how exam twist peopls's mind
+  7mo  write how exam twist peopls's mind
 1.4y   write useless productivity skill
-1.5y   write how a make the painter progress bar
+1.6y   write how a make the painter progress bar
 1.2y   code learn how to store chatbot history in streamlit
-1.5y   redraw ai-generated-image
+1.6y   redraw ai-generated-image
 1.2y   write why I dislike travelling
  10mo  automate blog pubilication
 1.4y   add japanese as blog language
@@ -68,8 +67,8 @@ Age    Description
   4w   syntax highlight for preposition in nvim
 1.7y   set up local habitica server
  12w   code direct post chatbot history.monthly
- 21h   schduling algorithm
+  1d   schduling algorithm
 
-52 tasks
+51 tasks
 
 ```
