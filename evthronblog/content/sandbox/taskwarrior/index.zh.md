@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-18T17:05:11+08:00
+lastmod: 2026-07-20T23:55:08+08:00
 image: 
 categories: 
 tags: 
@@ -17,7 +17,7 @@ comments: true
 {{< task title="search for games related to maths" note="1.2y" >}}
 {{< task title="solve convolve output edge size by cardinal theory" note="1.2y" >}}
 {{< task title="write past paper overfitting analogy" note="1.2y" >}}
-{{< task title="write how to solve a math problem together" note="1.1y" >}}
+{{< task title="write how to solve a math problem together" note="1.2y" >}}
 {{< task title="find what is kwin" note="11mo" >}}
 {{< task title="write sleep theory" note="11mo" >}}
 {{< task title="write null check and complexity" note="10mo" >}}
@@ -28,6 +28,7 @@ comments: true
 {{< task title="come up with a scheduler for review queue" note="3w" >}}
 {{< task title="think be transparent" note="2w" >}}
 {{< task title="code disable prettier in other people's repo" note="2w" >}}
+{{< task title="code parse line one date" note="1s" >}}
 {{< task title="write university problem of common space and study group" note="1.6y" >}}
 {{< task title="sketch blog library UI" note="1.3y" >}}
 {{< task title="learn from art course" note="11mo" >}}
@@ -37,7 +38,7 @@ comments: true
 {{< task title="write why dewey decimal fail vs filetags" note="1.2y" >}}
 {{< task title="update relationship category design" note="10mo" >}}
 {{< task title="code add sync to pedometer" note="7mo" >}}
-{{< task title="find out why food order menu cannot load" note="1.1y" >}}
+{{< task title="find out why food order menu cannot load" note="1.2y" >}}
 {{< task title="write tutorial to set default mime type open with" note="10mo" >}}
 {{< task title="add a link page to my blog" note="1.7y" >}}
 {{< task title="draw new blog background from postcard" note="1.6y" >}}
@@ -53,15 +54,15 @@ comments: true
 {{< task title="write how a make the painter progress bar" note="1.6y" >}}
 {{< task title="code learn how to store chatbot history in streamlit" note="1.2y" >}}
 {{< task title="redraw ai-generated-image" note="1.6y" >}}
-{{< task title="write why I dislike travelling" note="1.2y" >}}
+{{< task title="write why I dislike travelling" note="1.3y" >}}
 {{< task title="automate blog pubilication" note="10mo" >}}
 {{< task title="add japanese as blog language" note="1.4y" >}}
 {{< task title="code blog to translate to simplied chinese" note="1.4y" >}}
 {{< task title="find syntax highlighter for english" note="8mo" >}}
-{{< task title="code a youtube download credit system" note="1.6y" >}}
+{{< task title="code a youtube download credit system" note="1.7y" >}}
 {{< task title="write what cant science method do" note="1.5y" >}}
 {{< task title="syntax highlight for preposition in nvim" note="4w" >}}
 {{< task title="set up local habitica server" note="1.7y" >}}
 {{< task title="code direct post chatbot history.monthly" note="12w" >}}
-{{< task title="schduling algorithm" note="1d" >}}
-51 tasks
+{{< task title="schduling algorithm" note="3d" >}}
+52 tasks

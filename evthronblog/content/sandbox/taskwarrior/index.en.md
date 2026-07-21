@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-18T17:05:11+08:00
+lastmod: 2026-07-20T23:55:08+08:00
 image: 
 categories: 
 tags: 
@@ -21,7 +21,7 @@ Age    Description
 1.2y   search for games related to maths
 1.2y   solve convolve output edge size by cardinal theory
 1.2y   write past paper overfitting analogy
-1.1y   write how to solve a math problem together
+1.2y   write how to solve a math problem together
  11mo  find what is kwin
  11mo  write sleep theory
  10mo  write null check and complexity
@@ -32,6 +32,7 @@ Age    Description
   3w   come up with a scheduler for review queue
   2w   think be transparent
   2w   code disable prettier in other people's repo
+  1s   code parse line one date
 1.6y   write university problem of common space and study group
 1.3y   sketch blog library UI
  11mo  learn from art course
@@ -41,7 +42,7 @@ Age    Description
 1.2y   write why dewey decimal fail vs filetags
  10mo  update relationship category design
   7mo  code add sync to pedometer
-1.1y   find out why food order menu cannot load
+1.2y   find out why food order menu cannot load
  10mo  write tutorial to set default mime type open with
 1.7y   add a link page to my blog
 1.6y   draw new blog background from postcard
@@ -57,18 +58,18 @@ Age    Description
 1.6y   write how a make the painter progress bar
 1.2y   code learn how to store chatbot history in streamlit
 1.6y   redraw ai-generated-image
-1.2y   write why I dislike travelling
+1.3y   write why I dislike travelling
  10mo  automate blog pubilication
 1.4y   add japanese as blog language
 1.4y   code blog to translate to simplied chinese
   8mo  find syntax highlighter for english
-1.6y   code a youtube download credit system
+1.7y   code a youtube download credit system
 1.5y   write what cant science method do
   4w   syntax highlight for preposition in nvim
 1.7y   set up local habitica server
  12w   code direct post chatbot history.monthly
-  1d   schduling algorithm
+  3d   schduling algorithm
 
-51 tasks
+52 tasks
 
 ```

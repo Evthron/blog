@@ -35,6 +35,9 @@ regex?
 use multiple `-e` arguments to sed the same string multiple times
 
 
+## Mute beeper
+setterm -blength 0
+
 ## Shell array
 If you want to store multiple arguments in a variable, you can make them a shell array.
 
