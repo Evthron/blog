@@ -2,7 +2,7 @@
 title: "排程算法"
 description: 
 date: 2026-07-02T20:00:13+08:00
-lastmod: 2026-07-21T18:11:19+08:00
+lastmod: 2026-07-22T02:36:26+08:00
 image: 
 categories: sandbox
 tags: ['maths', 'coding']
@@ -397,4 +397,13 @@ $$reviewDay = startDay + baseInterval ( \frac{multiplier^{reviewCount} - 1}{mult
 
 能不能證明在最高點之後就只會下降？感覺像是。應該是正確的。
 因為一定比每天都增加更少。
+
+## 過期問題
+排程算法差不多就好，大量的過期項目應該怎麼處理才是最麻煩的。
+
+Intermediate Queue 的目標不是保持記憶，而是保持印象，所以更加寬鬆
+
+胡亂猜測的印象遺忘率：7 天削減一半印象
+
+$$retention = 0.5 ^ \frac{dayPassed}{halvingPeriod} $$
 
