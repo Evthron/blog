@@ -2,7 +2,7 @@
 title: "排程算法"
 description: 
 date: 2026-07-02T20:00:13+08:00
-lastmod: 2026-07-22T02:39:02+08:00
+lastmod: 2026-07-22T04:15:12+08:00
 image: 
 categories: sandbox
 tags: ['maths', 'coding']
@@ -403,6 +403,9 @@ $$reviewDay = startDay + baseInterval ( \frac{multiplier^{reviewCount} - 1}{mult
 
 Intermediate Queue 的目標不是保持記憶，而是保持印象，所以更加寬鬆
 
+直覺湊出了這個玩意，但應該不是，記錄一下
+$$-\frac{\log\left(\frac{x}{7}+0.01\right)}{4}+0.5 $$
+
 胡亂猜測的印象遺忘率：7 天削減一半印象
 
 $$retention = 0.5 ^ \frac{dayPassed}{halvingPeriod} $$
@@ -410,3 +413,61 @@ $$retention = 0.5 ^ \frac{dayPassed}{halvingPeriod} $$
 每次複習，halvingPeriod 就會增加
 
 $$retention = 0.5 ^ \frac{dayPassed}{basehalvingPeriod \times  reviewCount} $$
+
+在準確的時間複習，halvingPeriod 就會增加得最多，太早複習的話，halvingPeriod 不會改變多少，錯過複習的話，halvingPeriod 也會接近重置。
+
+用有最高點的二次方程嗎？
+
+距離時間
+0 = 不變
+7天 = 乘2
+超過很長時間 = 重置到第二次複習後的狀態 ( x basePeriod x 2 / current Period)
+麻煩，設做 1/ baseperiod 算了，沒什麼道理的。
+
+y = a + bx + cx^2
+
+y-intercept = 1, a = 1
+x-intercept，reviewPeriod = 0 是什麼意思？當作重置吧
+
+
+0 = 1 + bx +cx^2
+
+頂點在 (7,2)，
+
+0 = b + 2cx
+代入 x = 7
+0 = b + 14c
+0 = b + 14c
+
+2 = 1 + 7b + 49c
+
+(1/2)^6 = 0.01，當作忘記了
+x-intercept = basePeriod * 6 = 7 * 6 = 42
+0 = 1 + 42b + 1764c
+
+
+b = 1/84
+c = -1/1176
+
+不能同時滿足這麼多條件
+b = 2/7
+c = 1/49
+
+$$\frac{2}{7}x-\frac{1}{49}x^{2}+1$$
+
+x-intercept = 16.89949
+2.4 倍就當作忘記
+
+泛化一下：
+
+0 = b + 2 * basePeriod c
+
+multiplier = 1 + basePeriod b + basePeriod^2 c
+
+basePeriod^2 c = 1 - multiplier
+
+c = 1-multiplier / basePeriod^2
+
+b = - 2 ( 1-multiplier / P )
+
+$$newMultiplier = -\frac{2(1-multiplier)}{basePeriod}x+\frac{1-multiplier}{basePeriod^2}x^{2}+1$$
