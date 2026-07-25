@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-20T23:55:08+08:00
+lastmod: 2026-07-24T02:03:45+08:00
 image: 
 categories: 
 tags: 
@@ -24,11 +24,11 @@ comments: true
 {{< task title="investigate roam research" note="10mo" >}}
 {{< task title="code fix qr only browser" note="10mo" >}}
 {{< task title="fix libinput orientation of tablet" note="7mo" >}}
-{{< task title="vim dont update yank space if only newline" note="4w" >}}
-{{< task title="come up with a scheduler for review queue" note="3w" >}}
-{{< task title="think be transparent" note="2w" >}}
-{{< task title="code disable prettier in other people's repo" note="2w" >}}
-{{< task title="code parse line one date" note="1s" >}}
+{{< task title="vim dont update yank space if only newline" note="5w" >}}
+{{< task title="come up with a scheduler for review queue" note="4w" >}}
+{{< task title="think be transparent" note="3w" >}}
+{{< task title="code disable prettier in other people's repo" note="3w" >}}
+{{< task title="code parse line one date" note="3d" >}}
 {{< task title="write university problem of common space and study group" note="1.6y" >}}
 {{< task title="sketch blog library UI" note="1.3y" >}}
 {{< task title="learn from art course" note="11mo" >}}
@@ -40,10 +40,10 @@ comments: true
 {{< task title="code add sync to pedometer" note="7mo" >}}
 {{< task title="find out why food order menu cannot load" note="1.2y" >}}
 {{< task title="write tutorial to set default mime type open with" note="10mo" >}}
-{{< task title="add a link page to my blog" note="1.7y" >}}
+{{< task title="add a link page to my blog" note="1.8y" >}}
 {{< task title="draw new blog background from postcard" note="1.6y" >}}
 {{< task title="code taskwarrior blog show completed tasks" note="1.5y" >}}
-{{< task title="check haskell tutorial" note="1.4y" >}}
+{{< task title="check haskell tutorial" note="1.5y" >}}
 {{< task title="write invent culture" note="1.4y" >}}
 {{< task title="code fix blog background bug" note="1.2y" >}}
 {{< task title="rime dictionary change chuang tradition chinese" note="1.5y" >}}
@@ -61,8 +61,8 @@ comments: true
 {{< task title="find syntax highlighter for english" note="8mo" >}}
 {{< task title="code a youtube download credit system" note="1.7y" >}}
 {{< task title="write what cant science method do" note="1.5y" >}}
-{{< task title="syntax highlight for preposition in nvim" note="4w" >}}
-{{< task title="set up local habitica server" note="1.7y" >}}
-{{< task title="code direct post chatbot history.monthly" note="12w" >}}
-{{< task title="schduling algorithm" note="3d" >}}
+{{< task title="syntax highlight for preposition in nvim" note="5w" >}}
+{{< task title="set up local habitica server" note="1.8y" >}}
+{{< task title="code direct post chatbot history.monthly" note="3mo" >}}
+{{< task title="schduling algorithm" note="7d" >}}
 52 tasks

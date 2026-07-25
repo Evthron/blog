@@ -2,7 +2,7 @@
 title: "排程算法"
 description: 
 date: 2026-07-02T20:00:13+08:00
-lastmod: 2026-07-22T04:15:12+08:00
+lastmod: 2026-07-25T01:26:14+08:00
 image: 
 categories: sandbox
 tags: ['maths', 'coding']
@@ -398,6 +398,9 @@ $$reviewDay = startDay + baseInterval ( \frac{multiplier^{reviewCount} - 1}{mult
 能不能證明在最高點之後就只會下降？感覺像是。應該是正確的。
 因為一定比每天都增加更少。
 
+等比數列的相差同樣是等比數列
+
+(x^2 - x) * x = (x^3 - x^2)
 ## 過期問題
 排程算法差不多就好，大量的過期項目應該怎麼處理才是最麻煩的。
 
@@ -470,4 +473,10 @@ c = 1-multiplier / basePeriod^2
 
 b = - 2 ( 1-multiplier / P )
 
-$$newMultiplier = -\frac{2(1-multiplier)}{basePeriod}x+\frac{1-multiplier}{basePeriod^2}x^{2}+1$$
+$$newMultiplier = -\frac{2(1-multiplier)}{basePeriod}time+\frac{1-multiplier}{basePeriod^2}time^{2}+1$$
+
+有了計算過期內容的乘數之後，就不需要把過期的視作需要特殊處理的內容了。
+
+不需要一複習就更新間隔，收集當天複習過的文件再統一排程。
+
+

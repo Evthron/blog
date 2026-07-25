@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-07-20T23:55:08+08:00
+lastmod: 2026-07-24T02:03:45+08:00
 image: 
 categories: 
 tags: 
@@ -28,11 +28,11 @@ Age    Description
  10mo  investigate roam research
  10mo  code fix qr only browser
   7mo  fix libinput orientation of tablet
-  4w   vim dont update yank space if only newline
-  3w   come up with a scheduler for review queue
-  2w   think be transparent
-  2w   code disable prettier in other people's repo
-  1s   code parse line one date
+  5w   vim dont update yank space if only newline
+  4w   come up with a scheduler for review queue
+  3w   think be transparent
+  3w   code disable prettier in other people's repo
+  3d   code parse line one date
 1.6y   write university problem of common space and study group
 1.3y   sketch blog library UI
  11mo  learn from art course
@@ -44,10 +44,10 @@ Age    Description
   7mo  code add sync to pedometer
 1.2y   find out why food order menu cannot load
  10mo  write tutorial to set default mime type open with
-1.7y   add a link page to my blog
+1.8y   add a link page to my blog
 1.6y   draw new blog background from postcard
 1.5y   code taskwarrior blog show completed tasks
-1.4y   check haskell tutorial
+1.5y   check haskell tutorial
 1.4y   write invent culture
 1.2y   code fix blog background bug
 1.5y   rime dictionary change chuang tradition chinese
@@ -65,10 +65,10 @@ Age    Description
   8mo  find syntax highlighter for english
 1.7y   code a youtube download credit system
 1.5y   write what cant science method do
-  4w   syntax highlight for preposition in nvim
-1.7y   set up local habitica server
- 12w   code direct post chatbot history.monthly
-  3d   schduling algorithm
+  5w   syntax highlight for preposition in nvim
+1.8y   set up local habitica server
+  3mo  code direct post chatbot history.monthly
+  7d   schduling algorithm
 
 52 tasks
 
