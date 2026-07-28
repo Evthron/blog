@@ -12,6 +12,30 @@ hidden: false
 comments: true
 ---
 
+2026-07-27
+
+# Date
+
+although it's considered outdated , the support for the modern temporal class is just getting supported in browsers , so it's still better to learn it, 
+
+## month index 
+month starts from zero , ends at eleven
+
+### GMT
+greenwich mean time (= UTC+0)
+
+
+##
+when passing an ISO date string to date constructor , if there is no ending Z, string is treated as local time , if there is an ending Z , string is treated as GMT time.
+
+```
+> new Date("2026-07-27T08:00:00")
+2026-07-27T00:00:00.000Z
+> new Date("2026-07-27T08:00:00Z")
+2026-07-27T08:00:00.000Z
+```
+
+
 # Array
 ## Check whether array empty
 ```javascript
