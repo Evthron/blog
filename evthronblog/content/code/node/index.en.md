@@ -16,6 +16,7 @@ comments: true
 # package.json
 
 `npm upgrade` will upgrade to the highest possible version that matches the range specified in `package.json`. 
+
 ## Ranges
 `^`: only upgrade minor and patch versions (when >= 1.0.0)
 `~`: only upgrade patch versions (when minor version is specified)
