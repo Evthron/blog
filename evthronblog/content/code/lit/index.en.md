@@ -79,6 +79,20 @@ CustomEvent('file-selected', {
       })
 ```
 
+2026-08-03
+# pdf-js
+1. lit logic, page number changes, triggers re-rendering
+2. pdf-js logic , add a lock to prevent simultaneous access to the canvas 
+
+How to achieve lock in lit components ?
+
+What happens when the updated function is called multiple times ? lit life cycle. 
+
+
+https://lit.dev/docs/components/lifecycle/#haschanged
+
+changed properties 
+
 # ts vs js
 ## Typescript
 In typescript lit, decorator can be used

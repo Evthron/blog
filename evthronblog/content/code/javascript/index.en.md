@@ -120,14 +120,29 @@ Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
 Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code
 
 ```
-pdf = await loadingTask
+result = await loadingTask()
 {...}
 
 ```
-is the syntatic sugar of
+is the syntactic sugar of
 ```
+let promise = loadingTask()
 loadingTask.promise.then( (pdf) => {...} )
 ```
+All the code after the await statement is actually wrapping in a nested function.
 
-all the code after the await statement is actually wrapping in a nested function.
+***
+The example of pdf js still use the old promise syntax, we can translate that to the modern async syntax.
 
+https://mozilla.github.io/pdf.js/examples/
+```
+var loadingTask = pdfjsLib.getDocument({ url: "helloworld.pdf" });
+loadingTask.promise.then(function(pdf) {
+  // you can now use *pdf* here
+});
+```
+
+```
+let pdf = await pdfjsLib.getDocument({ url: "helloworld.pdf" }).promise;
+// you can now use *pdf* here
+```

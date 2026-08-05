@@ -2,7 +2,7 @@
 title: "How many scales are there?"
 description: 
 date: 2025-11-26T17:56:54+08:00
-lastmod: 2026-08-02T20:33:54+08:00
+lastmod: 2026-08-02T21:34:54+08:00
 image: 
 categories: posts
 tags: ['music']
@@ -14,9 +14,7 @@ comments: true
 
 Sharps and flats are the fingerprints of a specific key. Somehow, people believe sharps and flats change the feeling of a music piece. I would say one reason may lie the progression of history, since the piano is designed around C major scale, composers like to write music pieces on C major for beginners. While keys only, simple as that. When C major becomes the newbie major, composers tried to write songs on other scales to give different feelings. As time passes, pianists can eventually handle more complex pieces with dozens of sharps､ flats and accidentals, like F sharp major.
 
-For kids who learn an instrument, of course they hate seeing sharps and flats. This means they need to put extra effort to keep tracks of the notes on the score.
-
-The mental model divides the notes in a scale into two classes: seven main notes in a scale and the five accidentals. And this gives some weird gaps like there's no such thing as E-sharp and F-flat, since E-sharp is F and F-flat is E.
+For kids who learn instruments, of course they hate seeing sharps and flats. This means they need to put extra effort to read the score. My mental model divides the notes into two classes: seven main notes in a scale and the five accidentals. This separation gives some weird gaps like there's no such thing as E-sharp and F-flat, since E-sharp is F and F-flat is E.
 
 I never thought deeply enough about this. I always thought those notes are evenly spaced but this is actually a huge misunderstanding to the nature of music. Only when you consider the white and black keys as a whole, the frequency of the notes are physically evenly spaced.
 
