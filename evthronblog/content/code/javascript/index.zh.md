@@ -12,6 +12,62 @@ hidden: false
 comments: true
 ---
 
+2026-07-27
+
+# Date
+
+Although it's considered outdated , the support for the modern temporal class is just getting supported in browsers , so it's better learn it.
+
+## month index 
+month starts from zero , ends at eleven
+
+### GMT
+Greenwich mean time (= UTC+0)
+
+## timezone handling 
+Z in the time stamp means Zero.
+When passing an ISO date string to date constructor:
+- if there is no ending Z, treated as local time
+- if there is an ending Z , treated as GMT time.
+- if only the date is given , treated a GMT time midnight . 
+
+```
+> new Date("2026-07-27T08:00:00")
+2026-07-27T00:00:00.000Z
+> new Date("2026-07-27T08:00:00Z")
+2026-07-27T08:00:00.000Z
+> new Date("2026-07-27")
+2026-07-27T00:00:00.000Z
+```
+
+
+# Map
+const fileMap = new Map()
+
+## Map.set
+fileMap.set(A, B)
+
+- Adds a new entry with a specified key and value to this Map, or updates an existing entry
+
+## Map.has
+check if certain key exists in
+***
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set
+
+# Math
+Math.max(...extractedPages)
+
+max of a empty list returns -Infinity
+
+2026-07-27
+# String
+
+## String to number
+
+parseInt: get the first number string it saw , discard the remaining.
+If the first character is not a number , return NaN.
+
+
 # Array
 ## Check whether array empty
 ```javascript
@@ -81,6 +137,21 @@ get the element from the event
 
 If you want to use array methods like `forEach` on a `HTMLElementCollection`, you have to convert it to array by `Array.from()`
 
+2026-08-09
+
+# null, undefined and {}
+
+Null should only be used to represent a empty field 
+
+Undefined should be used as return value when the search result is empty 
+
+Empty object should not be used as return value 
+
+Accessing the properties of a empty object gives undefined without throwing error , which may seem convenient because evaluating undefined yields false in conditional checking , but usually we need to access more then one layers and accessing the properties of undefined gives error , so you have to check anyway .
+
+example : .get() returns undefined when no match 
+https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#getbindparameters---row
+
 # JavaScript object
 
 ## Find length
@@ -89,6 +160,39 @@ object.entries().length ?
 
 ## vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
+
+### Promise
+`async` works exactly like Haskell's do-notaiton, turning chained function call into imperative code.
+
+Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code
+
+```
+result = await loadingTask()
+{...}
+
+```
+is the syntactic sugar of
+```
+let promise = loadingTask()
+loadingTask.promise.then( (pdf) => {...} )
+```
+All the code after the await statement is actually wrapping in a nested function.
+
+***
+The example of pdf js still use the old promise syntax, we can translate that to the modern async syntax.
+
+https://mozilla.github.io/pdf.js/examples/
+```
+var loadingTask = pdfjsLib.getDocument({ url: "helloworld.pdf" });
+loadingTask.promise.then(function(pdf) {
+  // you can now use *pdf* here
+});
+```
+
+```
+let pdf = await pdfjsLib.getDocument({ url: "helloworld.pdf" }).promise;
+// you can now use *pdf* here
+```
 
 ## Promise
 `async` 的原理和 Haskell 的 do-notion 完全一樣，都是把鏈式函數變成更容易理解的指令式代碼。
