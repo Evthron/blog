@@ -1,8 +1,8 @@
 ---
 title: "vim"
 description: 
-date: 2026-06-11T03:26:31+08:00
-lastmod: 2026-06-11T03:26:31+08:00
+date: 2026-06-11T03:35:36+08:00
+lastmod: 2026-06-11T03:35:36+08:00
 image: 
 categories: 
 tags: 
@@ -81,3 +81,11 @@ https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-
 vim defaults uses `backupcopy=auto`. It may creates a new file when saving, which makes birthtime equals to time
 
 set backupcopy=yes to avoid this.
+
+## Edit macro directly
+
+https://vimtricks.wiki/posts/set-macro-with-let-command
+
+:let @q = 'yyp\<C-a>'
+
+Vim gives 26 registers and don't let us remember what we've done. But the more the better.

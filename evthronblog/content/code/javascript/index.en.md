@@ -16,24 +16,38 @@ comments: true
 
 # Date
 
-although it's considered outdated , the support for the modern temporal class is just getting supported in browsers , so it's still better to learn it, 
+Although it's considered outdated , the support for the modern temporal class is just getting supported in browsers , so it's better learn it.
 
 ## month index 
 month starts from zero , ends at eleven
 
 ### GMT
-greenwich mean time (= UTC+0)
+Greenwich mean time (= UTC+0)
 
-
-##
-when passing an ISO date string to date constructor , if there is no ending Z, string is treated as local time , if there is an ending Z , string is treated as GMT time.
+## timezone handling 
+Z in the time stamp means Zero.
+When passing an ISO date string to date constructor:
+- if there is no ending Z, treated as local time
+- if there is an ending Z , treated as GMT time.
+- if only the date is given , treated a GMT time midnight . 
 
 ```
 > new Date("2026-07-27T08:00:00")
 2026-07-27T00:00:00.000Z
 > new Date("2026-07-27T08:00:00Z")
 2026-07-27T08:00:00.000Z
+> new Date("2026-07-27")
+2026-07-27T00:00:00.000Z
 ```
+
+
+2026-07-27
+# String
+
+## String to number
+
+parseInt: get the first number string it saw , discard the remaining.
+If the first character is not a number , return NaN.
 
 
 # Array
@@ -104,6 +118,21 @@ get the element from the event
 `getElementByClassName` returns a `HTMLElementCollection`.
 
 If you want to use array methods like `forEach` on a `HTMLElementCollection`, you have to convert it to array by `Array.from()`
+
+2026-08-09
+
+# null, undefined and {}
+
+Null should only be used to represent a empty field 
+
+Undefined should be used as return value when the search result is empty 
+
+Empty object should not be used as return value 
+
+Accessing the properties of a empty object gives undefined without throwing error , which may seem convenient because evaluating undefined yields false in conditional checking , but usually we need to access more then one layers and accessing the properties of undefined gives error , so you have to check anyway .
+
+example : .get() returns undefined when no match 
+https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#getbindparameters---row
 
 # JavaScript object
 

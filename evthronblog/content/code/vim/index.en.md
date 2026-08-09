@@ -1,8 +1,8 @@
 ---
 title: "vim"
 description: 
-date: 2026-06-11T03:26:31+08:00
-lastmod: 2026-06-11T03:26:31+08:00
+date: 2026-06-11T03:35:36+08:00
+lastmod: 2026-06-11T03:35:36+08:00
 image: 
 categories: 
 tags: 
@@ -81,3 +81,52 @@ https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-
 vim defaults uses `backupcopy=auto`. It may creates a new file when saving, which makes birthtime equals to time
 
 set backupcopy=yes to avoid this.
+
+## Edit macro directly
+
+https://vimtricks.wiki/posts/set-macro-with-let-command
+
+:let @q = 'yyp\<C-a>'
+
+Vim gives 26 registers and don't let us remember what we've done. But the more the better.
+
+2026-08-08
+# 3. Chinese
+I usually use b and w for text navigation, since there's no space between chinese words , vim can only jump around clauses instead of individual words 
+
+There is a jieba vim plugin for parsing Chinese words in vim but it is not the real problem. most Chinese words are at most 4 characters long , jumping between clause is actually very effective.
+
+the real problem is editing, vim treats punctuation as a word, I need to frequently use d2w to delete a clause. 
+
+and now I rethink about it , jumping using b and w is not effective enough, I don't ever need to jump on a comma or a period , they should be deleted together with the clause
+
+use kana/vim-textobj-user to define custom text object, to let vim know about Chinese punctuation. 
+
+- make b and w skip Chinese punctuation end land on words directly.
+- delete the Chinese clause under the cursor, including the following punctuation
+- delete the Chinese clause under the cursor, including the previous punctuation
+
+```vim
+vim.cmd([[
+  call textobj#user#plugin('chinese', {
+  \   'part': {
+  \     'pattern': '\<.\{-}\([，。！、？：；,.!?;:]\|$\)',
+  \     'select': ['c'],
+  \   },
+  \   'previousPart': {
+  \     'pattern': '\([，。！、？：；,.!?;:]\|^\).\{-}\ze\([，、。！？：.,:!?{}()]\|$\)',
+  \     'select': ['p'],
+  \   },
+  \   'cword': {
+  \     'pattern': '\<.\{-}\([，。！、？：； ,.!?;:()]\|$\)',
+  \     'move-n': 'w',
+  \     'move-p': 'b',
+  \   },
+  \ })
+]])
+```
+define a new object c and p, its used like dc and dp
+
+only the movement with w and b is changed , editing with them is not affected.
+
+this even benefits English text editing , no one wants to often jumps on those punctuations.
