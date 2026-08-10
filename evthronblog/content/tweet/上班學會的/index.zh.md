@@ -1,7 +1,7 @@
 ---
 title: "上班學會的"
 description: 
-date: 2026-08-06T20:28:25+08:00
+date: 2026-08-06
 lastmod: 2026-08-07T21:24:02+08:00
 image: 
 categories: tweet

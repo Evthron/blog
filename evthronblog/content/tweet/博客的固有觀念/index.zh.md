@@ -1,7 +1,7 @@
 ---
 title: "博客的固有觀念"
 description: 
-date: 2026-03-23T22:48:33+08:00
+date: 2026-03-23
 lastmod: 2026-03-23T22:48:21+08:00
 image: 
 categories: tweet

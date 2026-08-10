@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-08-08T12:56:38+08:00
+lastmod: 2026-08-11T00:13:00+08:00
 image: 
 categories: 
 tags: 
@@ -32,7 +32,7 @@ Age    Description
   6w   come up with a scheduler for review queue
   5w   think be transparent
   5w   code disable prettier in other people's repo
-  2w   code parse line one date
+  3w   code parse line one date
 1.7y   write university problem of common space and study group
 1.3y   sketch blog library UI
  11mo  learn from art course
@@ -46,7 +46,7 @@ Age    Description
  11mo  write tutorial to set default mime type open with
 1.8y   add a link page to my blog
 1.6y   draw new blog background from postcard
-1.5y   code taskwarrior blog show completed tasks
+1.6y   code taskwarrior blog show completed tasks
 1.5y   check haskell tutorial
 1.4y   write invent culture
 1.3y   code fix blog background bug
@@ -62,7 +62,7 @@ Age    Description
  10mo  automate blog pubilication
 1.5y   add japanese as blog language
 1.4y   code blog to translate to simplied chinese
-  8mo  find syntax highlighter for english
+  9mo  find syntax highlighter for english
 1.7y   code a youtube download credit system
 1.5y   write what cant science method do
   7w   syntax highlight for preposition in nvim

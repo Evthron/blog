@@ -1,7 +1,7 @@
 ---
 title: "折紙的公理"
 description: 
-date: 2026-08-10T20:22:49+08:00
+date: 2024-07-27
 lastmod: 2026-08-10T21:51:00+08:00
 image: 
 categories: posts

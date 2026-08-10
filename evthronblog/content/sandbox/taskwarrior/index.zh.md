@@ -2,7 +2,7 @@
 title: "taskwarrior"
 description: 
 date: 2024-12-31T08:01:55+08:00
-lastmod: 2026-08-08T12:56:38+08:00
+lastmod: 2026-08-11T00:13:00+08:00
 image: 
 categories: 
 tags: 
@@ -28,7 +28,7 @@ comments: true
 {{< task title="come up with a scheduler for review queue" note="6w" >}}
 {{< task title="think be transparent" note="5w" >}}
 {{< task title="code disable prettier in other people's repo" note="5w" >}}
-{{< task title="code parse line one date" note="2w" >}}
+{{< task title="code parse line one date" note="3w" >}}
 {{< task title="write university problem of common space and study group" note="1.7y" >}}
 {{< task title="sketch blog library UI" note="1.3y" >}}
 {{< task title="learn from art course" note="11mo" >}}
@@ -42,7 +42,7 @@ comments: true
 {{< task title="write tutorial to set default mime type open with" note="11mo" >}}
 {{< task title="add a link page to my blog" note="1.8y" >}}
 {{< task title="draw new blog background from postcard" note="1.6y" >}}
-{{< task title="code taskwarrior blog show completed tasks" note="1.5y" >}}
+{{< task title="code taskwarrior blog show completed tasks" note="1.6y" >}}
 {{< task title="check haskell tutorial" note="1.5y" >}}
 {{< task title="write invent culture" note="1.4y" >}}
 {{< task title="code fix blog background bug" note="1.3y" >}}
@@ -58,7 +58,7 @@ comments: true
 {{< task title="automate blog pubilication" note="10mo" >}}
 {{< task title="add japanese as blog language" note="1.5y" >}}
 {{< task title="code blog to translate to simplied chinese" note="1.4y" >}}
-{{< task title="find syntax highlighter for english" note="8mo" >}}
+{{< task title="find syntax highlighter for english" note="9mo" >}}
 {{< task title="code a youtube download credit system" note="1.7y" >}}
 {{< task title="write what cant science method do" note="1.5y" >}}
 {{< task title="syntax highlight for preposition in nvim" note="7w" >}}
