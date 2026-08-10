@@ -140,8 +140,15 @@ https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#getbindparame
 object.entries().length ?
 
 
-## vs JSON
+## JObject vs JSON
 Unlike JSON, in JS, we don't need to wrap object keys in double quotes.
+
+```javascript
+{ "fruits": 3 }
+```
+```json
+{ fruits: 3 }
+```
 
 ### Promise
 `async` works exactly like Haskell's do-notaiton, turning chained function call into imperative code.
