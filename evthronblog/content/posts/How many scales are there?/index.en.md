@@ -1,8 +1,8 @@
 ---
 title: "How many scales are there?"
 description: 
-date: 2025-11-26T17:56:54+08:00
-lastmod: 2026-08-02T21:34:54+08:00
+date: 2026-07-02
+lastmod: 2026-08-12T23:04:53+08:00
 image: 
 categories: posts
 tags: ['music']
@@ -12,25 +12,26 @@ hidden: false
 comments: true
 ---
 
-Sharps and flats are the fingerprints of a specific key. Somehow, people believe sharps and flats change the feeling of a music piece. I would say one reason may lie the progression of history, since the piano is designed around C major scale, composers like to write music pieces on C major for beginners. While keys only, simple as that. When C major becomes the newbie major, composers tried to write songs on other scales to give different feelings. As time passes, pianists can eventually handle more complex pieces with dozens of sharps､ flats and accidentals, like F sharp major.
 
 For kids who learn instruments, of course they hate seeing sharps and flats. This means they need to put extra effort to read the score. My mental model divides the notes into two classes: seven main notes in a scale and the five accidentals. This separation gives some weird gaps like there's no such thing as E-sharp and F-flat, since E-sharp is F and F-flat is E.
 
 I never thought deeply enough about this. I always thought those notes are evenly spaced but this is actually a huge misunderstanding to the nature of music. Only when you consider the white and black keys as a whole, the frequency of the notes are physically evenly spaced.
 
-Noticed that, in the following investigation, I will use the relative note order numbering, instead of the absolute note names like C, D, E, F, G, because the starting pitch of a music piece does not affect its nature.
+Sharps and flats may seem to be fingerprints of a specific key, but unlike most people would thought, they don't determine the feeling of a music piece. I would say this misconception may came from the progression of music: since the piano is designed around C major scale, composers like to write music pieces on C major for beginners. While keys only, simple as that. When C major becomes the newbie major, composers tried to write songs on other scales to give different feelings. As time passes, pianists can eventually handle more complex pieces with dozens of sharps､ flats and accidentals, like F sharp major.
 
-An octave is the most natural way to divide sounds. Notes that are octaves apart sounds like the higher or lower version of the same note.
-
-In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece. 
+While there are 12 keys to pick on the keyboard, composers only uses only a handful of them, which form a specific scale. When the scale is chosen, the possible intervals that can be played are also fixed. This is the actual factor that gives a character to a music piece.
 
 Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and Chinese music.
 
-People only pick those tried and tested, good-sounding scales, if we ignore this limitation, in theory, how many scales could have possibly exist? To better understand our question, let me give a very brief explanation to music notes. 
+People only pick those tried and tested, good-sounding scales, what if we ignore this limitation? In theory, how many scales could have possibly exist? To better understand our question, let me give a very brief explanation to music notes.
 
 To write music, we start from one note and travel to other notes by changing pitch, the pitch distance between notes is called interval. Notes that are octaves apart are in perfect harmony, making octave the most natural interval in music. To create more varieties in music, musicians further divide an octave to 12 equal intervals, each of the 1/12 portion is called a semitone. Remember, like line segments, an interval consists of two notes, so there are 13 notes in a octave.
 
-Counting the step sizes of major scale in semitones, it is 2-2-1-2-2-2-1, for minor scale, that sequence is 2-1-2-2-1-2-2. For each scales, we can write such sequence based on the numbers of semitones travels at each step. 
+Since only the relative interval between the notes matter, in the following investigation, I will use the note distance numboring to name the notes, instead of using absolute note names (C, D, E, F, G...).
+
+An octave is the most natural way to divide sounds. Notes that are octaves apart sounds like the higher or lower version of the same note.
+
+Counting the step sizes of major scale in semitones, it is 2-2-1-2-2-2-1, for minor scale, that sequence is 2-1-2-2-1-2-2. For each scales, we can write such sequence based on the numbers of semitones travels at each step.
 
 ```
 Major:           2212221
@@ -79,7 +80,7 @@ Therefore, there are in total 927 scales.
 
 If we think deeper, many scales in the 927 combinations are somewhat similar. For example, major and minor actually uses the same set of notes, just different in starting position. C major and A minor both only uses the white keys, but they sound different just because the starting position is different.
 
-For any sequence, we can pick any key inside that sequence as the starting position to create a new sequence. Modes are derived in this way. 
+For any sequence, we can pick any key inside that sequence as the starting position to create a new sequence. Modes are derived in this way.
 
 ```
 Phygian:    1222122
