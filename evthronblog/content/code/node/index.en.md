@@ -1,8 +1,8 @@
 ---
 title: "node"
 description: 
-date: 2025-12-25T14:00:28+08:00
-lastmod: 2025-12-25T14:00:28+08:00
+date: 2025-12-27T15:03:39+08:00
+lastmod: 2025-12-27T15:03:39+08:00
 image: 
 categories: 
 tags: 
@@ -29,3 +29,11 @@ Unfortunately, semantic versioning may be deceiving. A patch version could still
 
 ## special config
 `"peer": true`
+
+## check outdated package 
+`npm outdated`
+
+## update package
+`npm install {package name}@latest`
+add `--save` flag to write the version number to package.json, otherwise the older version specified in package.json will be reinstalled in when running the next `npm install` command.
+
