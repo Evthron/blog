@@ -201,5 +201,15 @@ let pdf = await pdfjsLib.getDocument({ url: "helloworld.pdf" }).promise;
 // you can now use *pdf* here
 ```
 
+***
+
+A try-catch block cannot catch errors from a async function with await keyword
+
+```javascript
+const {default: fs} = await import('node:fs/promises')
+try { fs.readFile('') } catch (error) {}
+Uncaught Error: ENOENT: no such file or directory, open ''
+```
+
 ## Promise
 `async` 的原理和 Haskell 的 do-notion 完全一樣，都是把鏈式函數變成更容易理解的指令式代碼。
